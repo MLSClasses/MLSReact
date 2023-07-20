@@ -6,7 +6,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 //pages
 import Home from './pages/home';
-import Contact from './components/contact_component';
+import Contact from './pages/contact_component';
 import Pricing from './pages/pricing';
 import Programs from './pages/programs';
 import StudentJob from './pages/studentJob';
