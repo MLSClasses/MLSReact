@@ -1,11 +1,15 @@
 .width-line-space {
     margin-top: 50px;
+    white-space: nowrap;
+}
+.white{
+    margin-left: 30px;
 }
 .white>.container>.rows>.random{
     margin-top:40px;
 }
-container-desc{
-    background-color: #FF8A00; 
+.container-desc{
+    background-color: #FF8A00;
     border-radius: 20px; 
     padding: 6px 100px; 
     font-weight: 800; 
@@ -57,3 +61,19 @@ container-desc{
     font-size: 16px; 
     line-height: 19.36px;
 }
+.pos{
+    position: absolute;
+top: 310px;
+right: 503px;
+
+}
+/* h4{
+    background-color: #FF8A00;
+border-radius: 20px;
+padding: 6px 100px;
+font-weight: 800;
+font-size: 48px;
+line-height: 56.03px;
+font-family: 'Abhaya Libre', serif;
+
+} */
