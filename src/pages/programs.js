@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+
+import { Container, Row, Col } from 'react-bootstrap';
 //images
 import img1 from '../assets/img/temp4.png';
 import logo from '../assets/img/mlslogo.png';
@@ -14,34 +16,6 @@ const Programs = () => {
         <div>
             <Navbar />
             <h1>Programs</h1>
-            <div className="bg-white">
-                <div className="container-fluid">
-                    <nav style="display: center-block;">
-
-                        <div className="rows">
-                            <div className="col-md-3">
-                                <img src={logo} alt="mls logo" />
-                            </div>
-
-
-                            <div className="col-md-9">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="programs.html" className="active">Programs</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="#">Student Corner</a></li>
-                                    <li><a href="contact_us">Contact Us</a></li>
-                                    <li>
-                                        <div className="nav-login-btn"><a href="#">Log In</a></div>
-                                    </li>
-                                </ul>
-
-
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
             <div class="f-template-contact">
                 <img src={img1} alt="first Template" />
             </div>
@@ -53,10 +27,8 @@ const Programs = () => {
                     <div className="rows">
                         <div className="col-md-12 col-sm-12 col-xs-12">
                             <div className="find-live">
-                                <div className="width-line-space" style="margin-top: 50px;">
-                                    <h4
-                                        style="background-color: #FF8A00; border-radius: 20px; padding: 6px 100px; font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
-                                        2-12</h4>
+                                <div className="width-line-space">
+                                    <h4 className="container-desc">2-12</h4>
                                 </div>
                             </div>
                         </div>
@@ -67,20 +39,17 @@ const Programs = () => {
                 <div className="container">
                     <div className="rows">
                         <div className="col-md-8">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> High School/Middle School
                             </h3>
                         </div>
                         <div className="col-md-4">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc">
                                 <span> <img src={gr} className="img-fluid" width="40" /></span> Elementary
                             </h3>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>Pre-Algebra</li>
                                 <li>Algebra 1</li>
                                 <li>Algebra 2</li>
@@ -95,8 +64,7 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>Integrated Math 3</li>
                                 <li>Biology</li>
                                 <li>Chemistry</li>
@@ -111,8 +79,7 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>Math</li>
                                 <li>Science</li>
                                 <li>Grammar and Writing</li>
@@ -120,36 +87,32 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4 mt-5">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> Test Prep
                             </h3>
                         </div>
                         <div className="col-md-4 mt-5">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc">
                                 <span> <img src={gr} className="img-fluid" width="40" /></span> IT
                             </h3>
                         </div>
                         <div className="col-md-4 mt-5">
-                            <h3
-                                style=" font-weight: 800; font-size: 44px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc1">
                                 <span> <img src={gr} className="img-fluid" width="40" /></span> Other Test Prep
                             </h3>
                         </div>
                         <div className="col-md-4 ">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
-                                <li style="color: blue; font-weight: bold;">SAT</li>
+                            <ul className="Desc">
+                                <li className="subDesc">SAT</li>
                                 <li>SAT</li>
                                 <li>SAT Math</li>
                                 <li>SAT Reading & Writing</li>
-                                <li style="color: blue; font-weight: bold;">PSAT</li>
+                                <li className="subDesc">PSAT</li>
                                 <li>PSAT/NMSQT</li>
                                 <li>PSAT Math</li>
                                 <li>PSAT Evidence-Based</li>
                                 <li>Reading & Writing</li>
-                                <li style="color: blue; font-weight: bold;">ACT</li>
+                                <li className="subDesc">ACT</li>
                                 <li>ACT Complete</li>
                                 <li>ACT Math</li>
                                 <li>ACT English</li>
@@ -157,8 +120,7 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>C# Programming</li>
                                 <li>C++ Programming</li>
                                 <li>HTML and Web</li>
@@ -170,8 +132,7 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>AMC 10</li>
                                 <li>AMC 8</li>
                                 <li>CAASPP</li>
@@ -188,19 +149,15 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-8 mt-5">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> High School/Middle School
                             </h3>
                         </div>
                         <div className="col-md-4">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
-                            </h3>
+                            <h3 className="rowsDesc"></h3>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>Pre-Algebra</li>
                                 <li>AP Macroeconomics</li>
                                 <li>AP English Literature</li>
@@ -223,8 +180,7 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>IB Math HL & SL</li>
                                 <li>IB Biology HL & SL</li>
                                 <li>IB Chemistry HL & SL</li>
@@ -235,19 +191,15 @@ const Programs = () => {
                         </div>
                         <div className="col-md-4"></div>
                         <div className="col-md-8 mt-5">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
+                            <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> College
                             </h3>
                         </div>
                         <div className="col-md-4">
-                            <h3
-                                style=" font-weight: 800; font-size: 48px; line-height: 56.03px; font-family: 'Abhaya Libre', serif;">
-                            </h3>
+                            <h3 className="Desc"></h3>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>College Math</li>
                                 <li>Differential Equations</li>
                                 <li>Discrete Math</li>
@@ -258,8 +210,7 @@ const Programs = () => {
                             </ul>
                         </div>
                         <div className="col-md-4">
-                            <ul
-                                style="text-decoration: none; list-style: none; font-size: 22px; line-height: 38.03px; font-weight: 400;">
+                            <ul className="Desc">
                                 <li>Molecular Biology</li>
                                 <li>College Genetics</li>
                                 <li>Anatomy and Physiology</li>
@@ -275,20 +226,20 @@ const Programs = () => {
             </div>
             <div className="white">
                 <div className="container">
-                    <div className="rows " style="margin-top: 40px;">
-                        <div className="col-md-12 col-sm-12 col-xs-12">
-                            <h3
-                                style="text-align:  center; color:#007BFF; font-size: 48px; line-height: 56.63px;font-family: 'Abhaya Libre', serif;">
-                                Why is MLS Classes the preferred choice
-                                for effective learning and academic success?</h3>
+                    <div className="rows">
+                        <div className="random">
+                            <div className="col-md-12 col-sm-12 col-xs-12">
+                                <h3 className="cont-desc">
+                                    Why is MLS Classes the preferred choice
+                                    for effective learning and academic success?</h3>
+                            </div>
                         </div>
                         <div className="col-md-4 col-sm-11 col-xs-11 text-center mt-5">
                             <div className="box">
                                 <img src={b1} className="img-fluid" />
-                                <h3
-                                    style="text-align: center; font-size: 24px; line-height: 28.31px;font-family: 'Abhaya Libre', serif; color: #FF8A00; font-weight: 800; padding-top: 20px;">
+                                <h3 className="Ind-learn">
                                     Individualized Learning</h3>
-                                <p style="text-align: center; font-size: 16px; line-height: 19.36px;">Flexible learning at MLS
+                                <p className="Flex-learn">Flexible learning at MLS
                                     Classes allows students to practice at their own pace, addressing knowledge gaps before
                                     advancing their learning journey.</p><br />
                             </div>
@@ -296,10 +247,10 @@ const Programs = () => {
                         <div className="col-md-4 col-sm-11 col-xs-11 text-center mt-5">
                             <div className="box">
                                 <img src={b2} className="img-fluid" />
-                                <h3
-                                    style="text-align: center; font-size: 24px; line-height: 28.31px;font-family: 'Abhaya Libre', serif; color: #FF8A00; font-weight: 800; padding-top: 20px;">
-                                    Reliable Resources</h3>
-                                <p style="text-align: center; font-size: 16px; line-height: 19.36px;">MLS Classes offers a
+                                <h3 className="Ind-learn">
+                                    Reliable Resources
+                                </h3>
+                                <p className="Flex-learn">MLS Classes offers a
                                     comprehensive library of expert-created content, carefully aligned with educational
                                     standards. Our collection includes a wide range of subjects such as math, science, English,
                                     coding, test preparation, and more. All of our resources are meticulously crafted and
@@ -310,10 +261,8 @@ const Programs = () => {
                         <div className="col-md-4 col-sm-11 col-xs-11 text-center mt-5">
                             <div className="box">
                                 <img src={b3} className="img-fluid" />
-                                <h3
-                                    style="text-align: center; font-size: 24px; line-height: 28.31px;font-family: 'Abhaya Libre', serif; color: #FF8A00; font-weight: 800; padding-top: 20px;">
-                                    Empowering Educators</h3>
-                                <p style="text-align: center; font-size: 16px; line-height: 19.36px;">MLS Classes empowers
+                                <h3 className="Ind-learn">Empowering Educators</h3>
+                                <p className="Flex-learn">MLS Classes empowers
                                     teachers to identify and address gaps in their students' understanding, providing them with
                                     the tools and resources needed to personalize instruction and meet the unique needs of each
                                     learner. By leveraging our platform, teachers can effectively tailor their teaching

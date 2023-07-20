@@ -22,7 +22,7 @@
     padding: 183px 2px;
 }
 .box{
-    margin-left: 120px; 
+    /* margin-left: 120px;  */
     font-size: 22px; 
     line-height: 48px;
 }
@@ -685,3 +685,6 @@
     box-shadow: 0px 50px 100px 0px rgba(1, 33, 26, 0.08), 0px -20px 50px 0px rgba(1, 33, 26, 0.04);
 
         }
+h4{
+    transform: rotate(-90deg);
+}

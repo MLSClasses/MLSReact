@@ -1,0 +1,59 @@
+.width-line-space {
+    margin-top: 50px;
+}
+.white>.container>.rows>.random{
+    margin-top:40px;
+}
+container-desc{
+    background-color: #FF8A00; 
+    border-radius: 20px; 
+    padding: 6px 100px; 
+    font-weight: 800; 
+    font-size: 48px; 
+    line-height: 56.03px; 
+    font-family: 'Abhaya Libre', serif;
+}
+.rowsDesc{
+    font-weight: 800; 
+    font-size: 48px; 
+    line-height: 56.03px; 
+    font-family: 'Abhaya Libre', serif;
+}
+.rowsDesc1{
+    font-weight: 800; 
+    font-size: 44px; 
+    line-height: 56.03px; 
+    font-family: 'Abhaya Libre', serif;
+}
+.Desc{
+    text-decoration: none; 
+    list-style: none; 
+    font-size: 22px; 
+    line-height: 38.03px; 
+    font-weight: 400;
+}
+.subDesc{
+    color: blue; 
+    font-weight: bold;
+}
+.cont-desc{
+    text-align:  center; 
+    color:#007BFF; 
+    font-size: 48px; 
+    line-height: 56.63px;
+    font-family: 'Abhaya Libre', serif;
+}
+.Ind-learn{
+    text-align: center; 
+    font-size: 24px; 
+    line-height: 28.31px;
+    font-family: 'Abhaya Libre', serif; 
+    color: #FF8A00; 
+    font-weight: 800; 
+    padding-top: 20px;
+}
+.Flex-learn{
+    text-align: center; 
+    font-size: 16px; 
+    line-height: 19.36px;
+}
