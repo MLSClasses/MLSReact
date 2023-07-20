@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import '../assets/css/pricing.css'
+import '../assets/css/pricing.css';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import AOS from 'aos';
+import {Container,Row,Col} from 'react-bootstrap';
 //images
 import img1 from '../assets/img/temp4.png';
 import logo from '../assets/img/mlslogo.png';
@@ -24,9 +25,9 @@ const Pricing = () => {
 
             </div>
             <div className="white">
-                <div className="container-fluid">
-                    <div className="rows">
-                        <div className="col-md-12 col-sm-12 col-xs-12">
+                <Container fluid>
+                    <Row>
+                        <Col  md="12" sm="12" xs="12">
                             <div className="find-live">
                                 <div><a href="#">Join us at MLS Classes and unlock your child's true potential. <br />
                                     Enroll today and witness their academic journey soar to new heights.</a></div>
@@ -41,22 +42,22 @@ const Pricing = () => {
                                     Preparation!
                                 </h3>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
             <div className="white">
-                <div className="container">
-                    <div className="rows1">
-                        <div className="col-md-1 col-sm-1 col-xs-1">
+                <Container>
+                    <Row>
+                        <Col sm="1" md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $750/50hrs<br />
-                                    $15/hr
+                                     $15/hr
                                 </h4>
                             </div>
-                        </div>
-                        <div className="col-md-11 col-sm-11 col-xs-11">
+                        </Col>
+                        <Col md="11" xs="12" sm="11">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -71,17 +72,17 @@ const Pricing = () => {
                                     <li>Utilize AI-powered platforms to monitor and assess your progress effectively.</li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div className="rows">
-                        <div className="col-md-1 col-sm-1 col-xs-1">
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm="1" md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $1350/100hrs<br />
                                     $.13.5/hr</h4>
                             </div>
-                        </div>
-                        <div className="col-md-11 col-sm-11 col-xs-11">
+                        </Col>
+                        <Col sm="11" md="11" xs="12">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -96,17 +97,17 @@ const Pricing = () => {
                                     <li>Utilize AI-powered platforms to monitor and assess your progress effectively.</li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div className="rows">
-                        <div className="col-md-1 col-sm-1 col-xs-1">
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm="1" md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $2500/200hrs<br />
                                     $.12.5/hr</h4>
                             </div>
-                        </div>
-                        <div className="col-md-11 col-sm-11 col-xs-11">
+                        </Col>
+                        <Col sm="11" md="11" xs="12">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -121,9 +122,9 @@ const Pricing = () => {
                                     <li>Utilize AI-powered platforms to monitor and assess your progress effectively.</li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
             <Footer />
         </div>
