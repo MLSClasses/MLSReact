@@ -49,7 +49,7 @@ const Pricing = () => {
             <div className="white">
                 <Container>
                     <Row>
-                        <Col sm="2" md="2" xs="12">
+                        <Col sm="1" md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $750/50hrs<br />
@@ -75,7 +75,7 @@ const Pricing = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm="2" md="2" xs="12">
+                        <Col sm="1" md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $1350/100hrs<br />
@@ -100,7 +100,7 @@ const Pricing = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm="2"  md="2" xs="12">
+                        <Col sm="1"  md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $2500/200hrs<br />

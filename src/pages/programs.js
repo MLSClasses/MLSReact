@@ -25,8 +25,8 @@ const Programs = () => {
                 <Container fluid>
                     <Row >
                         <Col md="1" sm="1" xs="1">
-                            <div className="find-live">
-                                <div className="width-line-space">
+                            <div style={{margin: "0.8vw",padding:"0vw 20vw",lineHeight: "2.3vw"}}>
+                                <div className="width-line-space" style={{marginLeft:"30vw",padding:"0px 50px"}}>
                                     <h5 className="container-desc">2-12</h5>
                                 </div>
                             </div>
