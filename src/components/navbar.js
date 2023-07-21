@@ -24,13 +24,13 @@ const NavBarComponent = (props) => {
           <Col sm="9">
             <nav>
               <ul>
-                <li><Link to="/" class={active === "" ? 'active' : ''}>Home</Link></li>
-                <li><Link to="/programs" class={active === "programs"?"active ": ""}>Programs</Link></li>
-                <li><Link to="/pricing" className={active === "pricing"?"active":""}>Pricing</Link></li>
-                <li><Link to="/studentjob" className={active === "studentjob"?"active":""}>Student Corner</Link></li>
-                <li><Link to="/contact" class={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
+                <li><Link to="/home" className={active === "" ? 'active' : ''}>Home</Link></li>
+                <li><Link to="/programs" className={active === "programs" ? "active " : ""}>Programs</Link></li>
+                <li><Link to="/pricing" classNameName={active === "pricing" ? "active" : ""}>Pricing</Link></li>
+                <li><Link to="/studentjob" classNameName={active === "studentjob" ? "active" : ""}>Student Corner</Link></li>
+                <li><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
-                  <div class="nav-login-btn"><a href="#">Log In</a></div>
+                  <div className="nav-login-btn"><a href="/">Log Out</a></div>
                 </li>
               </ul>
             </nav>
