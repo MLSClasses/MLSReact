@@ -10,12 +10,16 @@ import Contact from './pages/contact_component';
 import Pricing from './pages/pricing';
 import Programs from './pages/programs';
 import StudentJob from './pages/studentJob';
+import Login from './pages/loginpage';
+import Signup from './pages/Signuppage';
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/programs" element={<Programs />}></Route>
           <Route path="/pricing" element={<Pricing />}></Route>
           <Route path="/studentjob" element={<StudentJob />}></Route>
