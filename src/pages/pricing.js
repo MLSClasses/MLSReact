@@ -3,7 +3,7 @@ import '../assets/css/pricing.css';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import AOS from 'aos';
-import { Container, Row, Col } from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
 //images
 import img1 from '../assets/img/temp4.png';
 import logo from '../assets/img/mlslogo.png';
@@ -27,7 +27,7 @@ const Pricing = () => {
             <div className="white">
                 <Container fluid>
                     <Row>
-                        <Col md="12" sm="12" xs="12">
+                        <Col  md="12" sm="12" xs="12">
                             <div className="find-live">
                                 <div><a href="#">Join us at MLS Classes and unlock your child's true potential. <br />
                                     Enroll today and witness their academic journey soar to new heights.</a></div>
@@ -53,11 +53,11 @@ const Pricing = () => {
                             <div className="random1">
                                 <h4>
                                     $750/50hrs<br />
-                                    $15/hr
+                                     $15/hr
                                 </h4>
                             </div>
                         </Col>
-                        <Col md="11" xs="12" sm="11">
+                        <Col md="10" xs="12" sm="10">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -82,7 +82,7 @@ const Pricing = () => {
                                     $.13.5/hr</h4>
                             </div>
                         </Col>
-                        <Col sm="11" md="11" xs="12">
+                        <Col sm="10" md="10" xs="12">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -100,14 +100,14 @@ const Pricing = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm="1" md="1" xs="12">
+                        <Col sm="1"  md="1" xs="12">
                             <div className="random1">
                                 <h4>
                                     $2500/200hrs<br />
                                     $.12.5/hr</h4>
                             </div>
                         </Col>
-                        <Col sm="11" md="11" xs="12">
+                        <Col sm="10" md="10" xs="12">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>

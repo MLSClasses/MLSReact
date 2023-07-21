@@ -4,7 +4,7 @@ import FooterComponent from '../components/footer';
 import NavBarComponent from '../components/navbar';
 const ContactComponent = (props) => {
     return (
-        <>
+        <div className="flex-wrapper">
             <NavBarComponent />
             <div class="f-template-contact">
                 <img src={first_img} alt="first Template" />
@@ -64,8 +64,7 @@ const ContactComponent = (props) => {
             </div>
 
             <FooterComponent />
-
-        </>
+        </div>
     );
 }
 export default ContactComponent;
