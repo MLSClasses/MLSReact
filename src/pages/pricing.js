@@ -49,7 +49,7 @@ const Pricing = () => {
             <div className="white">
                 <Container>
                     <Row>
-                        <Col sm="1" md="1" xs="12">
+                        <Col sm="2" md="2" xs="12">
                             <div className="random1">
                                 <h4>
                                     $750/50hrs<br />
@@ -57,7 +57,7 @@ const Pricing = () => {
                                 </h4>
                             </div>
                         </Col>
-                        <Col md="11" xs="12" sm="11">
+                        <Col md="10" xs="12" sm="10">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -75,14 +75,14 @@ const Pricing = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm="1" md="1" xs="12">
+                        <Col sm="2" md="2" xs="12">
                             <div className="random1">
                                 <h4>
                                     $1350/100hrs<br />
                                     $.13.5/hr</h4>
                             </div>
                         </Col>
-                        <Col sm="11" md="11" xs="12">
+                        <Col sm="10" md="10" xs="12">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
@@ -100,14 +100,14 @@ const Pricing = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm="1" md="1" xs="12">
+                        <Col sm="2"  md="2" xs="12">
                             <div className="random1">
                                 <h4>
                                     $2500/200hrs<br />
                                     $.12.5/hr</h4>
                             </div>
                         </Col>
-                        <Col sm="11" md="11" xs="12">
+                        <Col sm="10" md="10" xs="12">
                             <div className="box">
                                 <ul>
                                     <li>1:1 highly interactive and personalized sessions</li>
