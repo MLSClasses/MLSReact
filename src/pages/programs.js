@@ -14,7 +14,7 @@ const Programs = () => {
     return (
         <div>
             <Navbar />
-            <h1>Programs</h1>
+      
             <div class="f-template-contact">
                 <img src={img1} alt="first Template" />
             </div>
