@@ -25,9 +25,9 @@ const NavBarComponent = (props) => {
             <nav>
               <ul>
                 <li><Link to="/" class={active === "" ? 'active' : ''}>Home</Link></li>
-                <li><Link to="/programs">Programs</Link></li>
-                <li><Link to="/pricing">Pricing</Link></li>
-                <li><Link to="/studentjob">Student Corner</Link></li>
+                <li><Link to="/programs" class={active === "programs"?"active ": ""}>Programs</Link></li>
+                <li><Link to="/pricing" className={active === "pricing"?"active":""}>Pricing</Link></li>
+                <li><Link to="/studentjob" className={active === "studentjob"?"active":""}>Student Corner</Link></li>
                 <li><Link to="/contact" class={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
                   <div class="nav-login-btn"><a href="#">Log In</a></div>
