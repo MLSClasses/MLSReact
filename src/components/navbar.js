@@ -30,7 +30,7 @@ const NavBarComponent = (props) => {
                 <li><Link to="/studentjob" classNameName={active === "studentjob" ? "active" : ""}>Student Corner</Link></li>
                 <li><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
-                  <div className="nav-login-btn"><a href="/">Log Out</a></div>
+                  <div className="nav-login-btn"><a href="/login">Log Out</a></div>
                 </li>
               </ul>
             </nav>
