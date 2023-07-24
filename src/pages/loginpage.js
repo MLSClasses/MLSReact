@@ -41,29 +41,33 @@ function Loginpage() {
       })
       .catch((err) => {
         setSubmitButtonDisabled(true);
-        setErrorMsg(err.message);
-        console.log("Error-", err);
-      });
-  };
-  const goto = () => {
-    navigate("/Signup");
-  };
-  const [num, setNum] = useState("");
-  const handleClick = () => {
-    signInWithPopup(auth, provider).then((data) => {
-      setNum(data.user.email);
-      localStorage.setItem("email", data.user.email);
-      navigate("/home");
-    });
-  };
-  return (
-    <div className="bg-gray-50 min-h-screen flex items-center justify-center">
-      <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-2xl p-5">
-        <div className="sm:w-1/2 px-16">
-          <h2 className="text-[#002D74] font-bold text-2xl">Login</h2>
-          <p className="text-[#002D74] text-sm mt-4">
-            If you already a member, Log in!
-          </p>
+        signInWithEmailAndPassword(auth, values.email, values.pass).then(async (res) => {
+            setSubmitButtonDisabled(false);
+            sessionStorage.setItem("email",values.email)
+            navigate("/");
+        }).catch((err) => {
+            setSubmitButtonDisabled(true);
+            setErrorMsg(err.message);
+            console.log("Error-", err)
+        });
+    };
+    const goto = () => {
+        navigate("/Signup");
+    }
+    const [num, setNum] = useState('')
+    const handleClick = () => {
+        signInWithPopup(auth, provider).then((data) => {
+            setNum(data.user.email)
+            sessionStorage.setItem("email", data.user.email)
+            navigate("/");
+        })
+    }
+    return (
+        <div className="bg-gray-50 min-h-screen flex items-center justify-center">
+            <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-2xl p-5">
+                <div className='sm:w-1/2 px-16'>
+                    <h2 className='text-[#002D74] font-bold text-2xl'>Login</h2>
+                    <p className='text-[#002D74] text-sm mt-4'>If you already a member, Log in!</p>
 
           <form className="flex flex-col gap-4" action="">
             <input

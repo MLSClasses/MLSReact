@@ -43,7 +43,7 @@ function Loginpage() {
     const handleClick = () => {
         signInWithPopup(auth, provider).then((data) => {
             setNum(data.user.email)
-            localStorage.setItem("email", data.user.email)
+            sessionStorage.setItem("email", data.user.email)
             navigate("/home");
         })
     }
