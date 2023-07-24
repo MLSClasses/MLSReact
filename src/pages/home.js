@@ -14,8 +14,9 @@ import image13 from "../assets/img/temp2.png";
 import image14 from "../assets/img/temp3.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import whatsapp_icon from "../assets/img/whatsapp_icon.png";
 function Index() {
   useEffect(() => {
     AOS.init({
@@ -23,9 +24,12 @@ function Index() {
       duration: 600,
     });
   }, []);
-
+  const ChatWithUs = () => {
+    window.open("https://wa.me/message/XMS5KMWBGQZLG1", "_blank");
+  };
   return (
     <div>
+      <img src={whatsapp_icon} id="whatsapp_icon" onClick={ChatWithUs} />
       <Navbar />
       <div class="f-template">
         <img src={image14} alt="first Template" />
@@ -220,7 +224,7 @@ function Index() {
         <div class="benefits-container">
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div>Quickened Learning Trajectory</div>
+            <div>Personalized Attention</div>
           </div>
 
           <div data-aos="zoom-in">
@@ -230,37 +234,34 @@ function Index() {
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Improved Academic Performance</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Confidence Boost</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Clearing Doubts</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Advanced Learning</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Exam Preparation</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Subject Specialization</div>
           </div>
         </div>
-      </div>
-      <div class="review">
-        <div class="review-h">Our Student Review</div>
       </div>
       <Footer />
     </div>
