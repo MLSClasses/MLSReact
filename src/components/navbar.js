@@ -34,8 +34,8 @@ const NavBarComponent = (props) => {
               <ul>
                 <li><Link to="/home" className={active === "" ? 'active' : ''}>Home</Link></li>
                 <li><Link to="/programs" className={active === "programs" ? "active " : ""}>Programs</Link></li>
-                <li><Link to="/pricing" classNameName={active === "pricing" ? "active" : ""}>Pricing</Link></li>
-                <li><Link to="/studentjob" classNameName={active === "studentjob" ? "active" : ""}>Student Corner</Link></li>
+                <li><Link to="/pricing" className={active === "pricing" ? "active" : ""}>Pricing</Link></li>
+                <li><Link to="/studentjob" className={active === "studentjob" ? "active" : ""}>Student Corner</Link></li>
                 <li><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
                   {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>LogOut</a></div>}
