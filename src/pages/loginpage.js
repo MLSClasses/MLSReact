@@ -50,7 +50,7 @@ function Loginpage() {
             setErrorMsg(err.message);
             console.log("Error-", err)
         });
-    };
+      });
     const goto = () => {
         navigate("/Signup");
     }
@@ -156,4 +156,4 @@ function Loginpage() {
   );
 }
 
-export default Loginpage;
+export default Loginpage
