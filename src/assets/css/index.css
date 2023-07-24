@@ -636,3 +636,15 @@ nav ul li {
   width: 80%;
   margin-left: 10%;
 }
+#whatsapp_icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 4rem;
+  aspect-ratio: 1;
+}
+
+#whatsapp_icon:hover {
+  cursor: pointer;
+  width: 5rem;
+}
