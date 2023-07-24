@@ -38,7 +38,8 @@ function Loginpage() {
         setSubmitButtonDisabled(true);
         signInWithEmailAndPassword(auth, values.email, values.pass).then(async (res) => {
             setSubmitButtonDisabled(false);
-            navigate("/landing");
+            sessionStorage.setItem("email",values.email)
+            navigate("/");
         }).catch((err) => {
             setSubmitButtonDisabled(true);
             setErrorMsg(err.message);
@@ -52,8 +53,8 @@ function Loginpage() {
     const handleClick = () => {
         signInWithPopup(auth, provider).then((data) => {
             setNum(data.user.email)
-            localStorage.setItem("email", data.user.email)
-            navigate("/home");
+            sessionStorage.setItem("email", data.user.email)
+            navigate("/");
         })
     }
     return (

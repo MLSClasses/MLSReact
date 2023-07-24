@@ -34,7 +34,7 @@ const StudentJob = () => {
             {/* 2nd */}
             <div class="our-programs-text main-content" style={{background:"white"}} >
               <div class="our-programs-subtext">
-              <div className="f-template-contact" style={{width:"250px",marginLeft:"100%"}}>
+              <div className="f-template-contact" style={{width:"200px",marginLeft:"80%"}}>
                 <img src={star_img}  alt="Star Template" />
             </div>
             <br/>
@@ -48,7 +48,7 @@ const StudentJob = () => {
             <div class="" data-aos="flip-up">
             <div class="our-programs-text main-content" >
               <div class="our-programs-subtext">
-              <div className="f-template-contact" style={{width:"250px",marginLeft:"100%"}}>
+              <div className="f-template-contact" style={{width:"200px",marginLeft:"80%"}}>
                 <img src={star_img}  alt="Star Template" />
             </div>
             <br/>
@@ -59,7 +59,7 @@ const StudentJob = () => {
 
             <div class="our-programs-text main-content" style={{background:"white"}}  >
               <div class="our-programs-subtext">
-              <div className="f-template-contact" style={{width:"250px",marginLeft:"100%"}}>
+              <div className="f-template-contact" style={{width:"200px",marginLeft:"80%"}}>
                 <img src={star_img}  alt="Star Template" />
             </div>
             <br/>
@@ -72,7 +72,7 @@ const StudentJob = () => {
             <div class="" data-aos="flip-up">
             <div class="our-programs-text main-content" >
               <div class="our-programs-subtext">
-              <div className="f-template-contact" style={{width:"250px",marginLeft:"100%"}}>
+              <div className="f-template-contact" style={{width:"200px",marginLeft:"80%"}}>
                 <img src={star_img}  alt="Star Template" />
             </div>
             <br/>
