@@ -3,6 +3,7 @@ import first_img from "../assets/img/temp4.png";
 import FooterComponent from "../components/footer";
 import NavBarComponent from "../components/navbar";
 import moment from "moment-timezone";
+import Whatsapp_icon from "../components/whatsapp_icon";
 const ContactComponent = (props) => {
   const [userData, setUserData] = useState({
     firstname: "",
@@ -90,6 +91,7 @@ const ContactComponent = (props) => {
 
   return (
     <div className="flex-wrapper">
+      <Whatsapp_icon />
       <NavBarComponent />
       <div class="f-template-contact">
         <img src={first_img} alt="first Template" />

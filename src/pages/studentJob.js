@@ -5,6 +5,7 @@ import star_img from "../assets/img/star.png";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { Container, Row, Col } from "react-bootstrap";
+import Whatsapp_icon from "../components/whatsapp_icon";
 const stars = (num) => {
   const stars_arr = [];
   for (let i = 0; i < num; i++) {
@@ -32,6 +33,7 @@ const StudentJob = () => {
   });
   return (
     <div>
+      <Whatsapp_icon />
       <Navbar />
 
       <div class="f-template-contact">

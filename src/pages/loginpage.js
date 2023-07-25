@@ -4,6 +4,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth, provider } from "./firebase";
 import { useNavigate } from "react-router-dom";
 import { signInWithPopup } from "firebase/auth";
+import Whatsapp_icon from "../components/whatsapp_icon";
 import "../assets/css/Login.css";
 function Loginpage() {
   const navigate = useNavigate();
@@ -60,6 +61,7 @@ function Loginpage() {
   };
   return (
     <div className="bg-gray-50 min-h-screen flex items-center justify-center">
+      <Whatsapp_icon />
       <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-2xl p-5">
         <div className="sm:w-1/2 px-16">
           <h2 className="text-[#002D74] font-bold text-2xl">Login</h2>

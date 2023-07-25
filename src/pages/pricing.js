@@ -12,6 +12,7 @@ import b2 from "../assets/img/b2.png";
 import b3 from "../assets/img/b3.png";
 import gr from "../assets/img/gr.png";
 import pos from "../assets/img/ppostion.png";
+import Whatsapp_icon from "../components/whatsapp_icon";
 const Pricing = () => {
   AOS.init({
     offset: 200,
@@ -19,6 +20,7 @@ const Pricing = () => {
   });
   return (
     <div>
+      <Whatsapp_icon />
       <Navbar />
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />

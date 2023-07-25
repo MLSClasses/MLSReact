@@ -97,7 +97,7 @@
 
 .our-programs-h {
   text-align: center;
-  font-size: 2vw;
+  font-size: 2.5rem;
   color: #002144;
   font-family: "Acme", sans-serif;
   font-weight: 600;
@@ -106,13 +106,13 @@
 .our-programs-div {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 3vw;
 }
 
 .our-programs-sub-div {
-  margin: 2vw;
-  position: relative;
-  width: 22vw;
+  margin: 20px;
+  width: 20vw;
 }
 
 .our-programs-round {
@@ -156,7 +156,7 @@
 .features-h {
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 2vw;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -218,12 +218,13 @@
 
 .popular-head {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .popular-h {
   font-family: "Inter", sans-serif;
-  font-size: 2vw;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -323,7 +324,7 @@
 }
 
 .benefits-h {
-  font-size: 2vw;
+  font-size: 2.5rem;
   font-weight: 900;
   text-align: center;
 }

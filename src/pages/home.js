@@ -16,7 +16,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import whatsapp_icon from "../assets/img/whatsapp_icon.png";
+import Whatsapp_icon from "../components/whatsapp_icon";
+import Courses from "./courses.js";
 function Index() {
   useEffect(() => {
     AOS.init({
@@ -24,12 +25,10 @@ function Index() {
       duration: 600,
     });
   }, []);
-  const ChatWithUs = () => {
-    window.open("https://wa.me/message/XMS5KMWBGQZLG1", "_blank");
-  };
+  const home_video = "https://www.youtube.com/watch?v=atOfb83gU-w";
   return (
     <div>
-      <img src={whatsapp_icon} id="whatsapp_icon" onClick={ChatWithUs} />
+      <Whatsapp_icon />
       <Navbar />
       <div class="f-template">
         <img src={image14} alt="first Template" />
@@ -145,7 +144,7 @@ function Index() {
       <div class="popular">
         <div class="popular-head">
           <div class="popular-h">Popular Courses</div>
-          <div class="popular-btn">
+          {/* <div class="popular-btn">
             <div>
               <a href="#" class="popular-btn-active">
                 All
@@ -160,63 +159,21 @@ function Index() {
             <div>
               <a href="#">Feature</a>
             </div>
-          </div>
+          </div> */}
         </div>
-
-        <div class="popular-div">
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image5} alt="img" />
-            </div>
-            <div>
-              <a href="#">Web Development</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image6} alt="img" />
-            </div>
-            <div>
-              <a href="#">SAT Preparation</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image7} alt="img" />
-            </div>
-            <div>
-              <a href="#">Python Programming</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image6} alt="img" />
-            </div>
-            <div>
-              <a href="#">SAT Preparation</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image7} alt="img" />
-            </div>
-            <div>
-              <a href="#">Python Programming</a>
-            </div>
-          </div>
-        </div>
+        <Courses />
       </div>
 
-      <div class="brand-moto">
+      <div className="brand-moto">
         <h1>OUR BRAND</h1>
-        {/* <video width="600" height="400" controls poster={image11}>
-          <source src={home_video} type="video/mp4" />
+        <video width="640" height="360" controls poster={image11}>
+          {/* Replace 'https://example.com/path/to/your/online-video.mp4' with the URL of your online video */}
+          <source
+            src="https://www.youtube.com/watch?v=atOfb83gU-w"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
       </div>
       <div class="benefits">
         <div class="benefits-h">OUR BENEFITS</div>
