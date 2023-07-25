@@ -20,12 +20,15 @@ const ContactComponent = (props) => {
     value = event.target.value;
     setUserData({ ...userData, [name]: value });
   };
-  const getAllTimeZones = () => {
-    const timeZones = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    console.log(timeZones.split(", "));
-    return timeZones.split(", ");
-  };
-
+  const allTimeZones = [
+    "America/New_York",
+    "America/Chicago",
+    "America/Denver",
+    "America/Los_Angeles",
+    "America/Anchorage",
+    "Pacific/Honolulu",
+    "Asia/Kolkata", // IST
+  ];
   const submitData = async (event) => {
     event.preventDefault();
     const { firstname, lastname, email, phone, program, timezone, message } =
@@ -77,13 +80,11 @@ const ContactComponent = (props) => {
       alert("Please fill the data properly");
     }
   };
-  const allTimeZones = moment.tz.names();
   useEffect(() => {
     // Fetch the list of time zones and update the userData with the first time zone from the list
-    const timeZones = getAllTimeZones();
     setUserData((prevUserData) => ({
       ...prevUserData,
-      timezone: timeZones[0], // Set the first time zone as the default selected value
+      timezone: allTimeZones[0], // Set the first time zone as the default selected value
     }));
   }, []);
 
