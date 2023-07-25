@@ -9,6 +9,8 @@ import b1 from '../assets/img/b1.png';
 import b2 from '../assets/img/b2.png';
 import b3 from '../assets/img/b3.png';
 import gr from '../assets/img/gr.png';
+import logo from '../assets/img/images.png';
+
 import pos from '../assets/img/ppostion.png';
 const Programs = () => {
     return (
@@ -40,11 +42,13 @@ const Programs = () => {
                         <Col md="8">
                             <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> High School/Middle School
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
                             </h3>
                         </Col>
                         <Col md="4">
                             <h3 className="rowsDesc">
                                 <span> <img src={gr} className="img-fluid" width="40" /></span> Elementary
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
                             </h3>
                         </Col>
                         <Col md="4">
@@ -61,6 +65,7 @@ const Programs = () => {
                                 <li>Integrated Math 1</li>
                                 <li>Integrated Math 2</li>
                             </ul>
+                            <hr/>
                         </Col>
                         <Col md="4">
                             <ul className="Desc">
@@ -76,6 +81,7 @@ const Programs = () => {
                                 <li>Grammar</li>
                                 <li>Writing</li>
                             </ul>
+                            <hr/>
                         </Col>
                         <div className="col-md-4">
                             <ul className="Desc">
@@ -84,41 +90,12 @@ const Programs = () => {
                                 <li>Grammar and Writing</li>
                                 <li>Reading Comprehension</li>
                             </ul>
-                        </div>
-                        <Col md="4" mt="5">
-                            <h3 className="rowsDesc">
-                                <span><img src={gr} className="img-fluid" width="40" /></span> Test Prep
-                            </h3>
-                        </Col>
-                        <Col md="4" mt="5">
+                            <hr/>
+                            <div style={{marginTop:"10%"}}></div>
                             <h3 className="rowsDesc">
                                 <span> <img src={gr} className="img-fluid" width="40" /></span> IT
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
                             </h3>
-                        </Col>
-                        <Col md="4" mt="5">
-                            <h3 className="rowsDesc1">
-                                <span> <img src={gr} className="img-fluid" width="40" /></span> Other Test Prep
-                            </h3>
-                        </Col>
-                        <Col md="4">
-                            <ul className="Desc">
-                                <li className="subDesc">SAT</li>
-                                <li>SAT</li>
-                                <li>SAT Math</li>
-                                <li>SAT Reading & Writing</li>
-                                <li className="subDesc">PSAT</li>
-                                <li>PSAT/NMSQT</li>
-                                <li>PSAT Math</li>
-                                <li>PSAT Evidence-Based</li>
-                                <li>Reading & Writing</li>
-                                <li className="subDesc">ACT</li>
-                                <li>ACT Complete</li>
-                                <li>ACT Math</li>
-                                <li>ACT English</li>
-                                <li>ACT Science</li>
-                            </ul>
-                        </Col>
-                        <Col md="4" mt="5">
                             <ul className="Desc">
                                 <li>C# Programming</li>
                                 <li>C++ Programming</li>
@@ -129,6 +106,46 @@ const Programs = () => {
                                 <li>Scratch</li>
                                 <li>Robotics</li>
                             </ul>
+                            <hr/>
+                        </div>
+                        <Col md="4" mt="5">
+                            <h3 className="rowsDesc">
+                                <span><img src={gr} className="img-fluid" width="40" /></span> Test Prep
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
+                            </h3>
+                        </Col>
+                        <Col md="4" mt="5">
+                        </Col>
+                        <Col md="4" mt="5">
+                            <h3 className="rowsDesc1">
+                                <span> <img src={gr} className="img-fluid" width="40" /></span> Other Test Prep
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
+                            </h3>
+                        </Col>
+                        <Col md="4">
+                            <ul className="Desc">
+                                <li className="subDesc">SAT <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span></li>
+                                <li>SAT</li>
+                                <li>SAT Math</li>
+                                <li>SAT Reading & Writing</li>
+                                
+                                <li className="subDesc">PSAT <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span></li>
+                                <li>PSAT/NMSQT</li>
+                                <li>PSAT Math</li>
+                                <li>PSAT Evidence-Based</li>
+                                <li>Reading & Writing</li>
+                                <hr/>
+                            </ul>
+                        </Col>
+                        <Col md="4" mt="5">
+                            <ul className="Desc">
+                            <li className="subDesc">ACT <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span></li>
+                                <li>ACT Complete</li>
+                                <li>ACT Math</li>
+                                <li>ACT English</li>
+                                <li>ACT Science</li>
+                            </ul>
+                            <hr/>
                         </Col>
                         <Col md="4" mt="5">
                             <ul className="Desc">
@@ -146,10 +163,12 @@ const Programs = () => {
                                 <li>TERRANOVA</li>
                                 <li>TOEFL</li>
                             </ul>
+                            <hr/>
                         </Col>
                         <Col md="8" mt="5">
                             <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> High School/Middle School
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
                             </h3>
                         </Col>
                         <Col md="4" mt="5">
@@ -177,6 +196,7 @@ const Programs = () => {
                                 <li>AP Spanish</li>
                                 <li>IBMYP</li>
                             </ul>
+                            <hr/>
                         </Col>
                         <Col md="4" >
                             <ul className="Desc">
@@ -187,17 +207,19 @@ const Programs = () => {
                                 <li>IB English HL & SL</li>
                                 <li>IBMYP</li>
                             </ul>
+                            <hr/>
                         </Col>
                         <Col md="4" ></Col>
                         <Col md="8" mt="5" >
                             <h3 className="rowsDesc">
                                 <span><img src={gr} className="img-fluid" width="40" /></span> College
+                                <span><img src={logo} className='img-fluid' width="20" style={{marginLeft:"50px"}}/></span>
                             </h3>
                         </Col>
                         <Col md="84">
                             <h3 className="Desc"></h3>
                         </Col>
-                        <Col md="8" mt="5" >
+                        <Col md="4" mt="5" >
                             <ul className="Desc">
                                 <li>College Math</li>
                                 <li>Differential Equations</li>
@@ -207,8 +229,10 @@ const Programs = () => {
                                 <li>Linear Algebra</li>
                                 <li>College Biology</li>
                             </ul>
+                            <hr/>
                         </Col>
-                        <Col md="8" mt="5" >
+                        
+                        <Col md="4" mt="5" >
                             <ul className="Desc">
                                 <li>Molecular Biology</li>
                                 <li>College Genetics</li>
@@ -218,6 +242,7 @@ const Programs = () => {
                                 <li>College Physics</li>
                                 <li>College English</li>
                             </ul>
+                        <hr/>
                         </Col>
                         <Col md="4" mt="5" ></Col>
                     </Row>
@@ -234,7 +259,7 @@ const Programs = () => {
                             </Col>
                         </div>
                         <Col md="4" sm="11" xs="11" text-center mt="5">
-                            <div className="box">
+                            <div className="">
                                 <img src={b1} className="img-fluid" />
                                 <h3 className="Ind-learn">
                                     Individualized Learning</h3>
@@ -244,7 +269,7 @@ const Programs = () => {
                             </div>
                         </Col>
                         <Col>
-                            <div className="box">
+                            <div className="">
                                 <img src={b2} className="img-fluid" />
                                 <h3 className="Ind-learn">
                                     Reliable Resources
@@ -258,7 +283,7 @@ const Programs = () => {
                             </div>
                         </Col>
                         <Col>
-                            <div className="box">
+                            <div className="">
                                 <img src={b3} className="img-fluid" />
                                 <h3 className="Ind-learn">Empowering Educators</h3>
                                 <p className="Flex-learn">MLS Classes empowers

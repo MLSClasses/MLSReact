@@ -649,3 +649,10 @@ nav ul li {
   cursor: pointer;
   width: 5rem;
 }
+
+hr{
+  height: 2px;
+color: black;
+background-color: black;
+opacity: 1;
+}
