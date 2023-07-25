@@ -616,7 +616,8 @@ nav ul li {
 }
 .brand-moto h1 {
   color: #007bff;
-  font-size: 5rem;
+  font-size: 4rem;
+  text-align: center;
   font-family: "Inter", sans-serif;
 }
 
@@ -681,4 +682,9 @@ nav ul li {
 .course a {
   font-family: "Abhaya Libre", serif;
   font-size: 2rem;
+}
+iframe {
+  border-radius: 30px;
+  width: 40%;
+  aspect-ratio: 1;
 }

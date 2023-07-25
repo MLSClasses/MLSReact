@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../assets/css/index.css";
 import image1 from "../assets/img/icon1.png";
 import image2 from "../assets/img/icon2.png";
@@ -25,7 +25,8 @@ function Index() {
       duration: 600,
     });
   }, []);
-  const home_video = "https://www.youtube.com/watch?v=atOfb83gU-w";
+  const [youtubeID] = useState("atOfb83gU-w");
+  console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
       <Whatsapp_icon />
@@ -166,14 +167,15 @@ function Index() {
 
       <div className="brand-moto">
         <h1>OUR BRAND</h1>
-        <video width="640" height="360" controls poster={image11}>
-          {/* Replace 'https://example.com/path/to/your/online-video.mp4' with the URL of your online video */}
-          <source
-            src="https://www.youtube.com/watch?v=atOfb83gU-w"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
+        <iframe
+          poster={image11}
+          src={`https://www.youtube.com/embed/${youtubeID}`}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          crossOrigin="anonymous"
+        ></iframe>
       </div>
       <div class="benefits">
         <div class="benefits-h">OUR BENEFITS</div>
