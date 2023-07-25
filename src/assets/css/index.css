@@ -648,7 +648,6 @@ nav ul li {
   cursor: pointer;
   width: 5rem;
 }
-
 .courses {
   display: flex;
   flex-direction: row;
@@ -687,4 +686,17 @@ iframe {
   border-radius: 30px;
   width: 40%;
   aspect-ratio: 1;
+}
+hr{
+  height: 2px;
+color: black;
+background-color: black;
+opacity: 1;
+}
+
+hr{
+  height: 2px;
+color: black;
+background-color: black;
+opacity: 1;
 }

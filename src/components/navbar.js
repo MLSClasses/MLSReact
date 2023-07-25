@@ -30,7 +30,7 @@ const NavBarComponent = (props) => {
             <img src={logo} alt="mls logo" />
           </Col>
           <Col sm="9" xs="9" md="9">
-            <nav>
+            <nav> 
               <ul>
                 <li><Link to="/home" className={active === "" ? 'active' : ''}>Home</Link></li>
                 <li><Link to="/programs" className={active === "programs" ? "active " : ""}>Programs</Link></li>
