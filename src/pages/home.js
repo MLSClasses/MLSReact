@@ -174,7 +174,15 @@ function Index() {
       </div>
 
       <div className="brand-moto">
-        <h1>OUR BRAND</h1>
+        <span Style="--i:1">O</span>
+        <span Style="--i:2">U</span>
+        <span Style="--i:3">R</span>
+        <span Style="--i:4"></span>
+        <span Style="--i:5">B</span>
+        <span Style="--i:6">R</span>
+        <span Style="--i:7">A</span>
+        <span Style="--i:8">N</span>
+        <span Style="--i:9">D</span>
         <iframe
           poster={image11}
           src={`https://www.youtube.com/embed/${youtubeID}`}
