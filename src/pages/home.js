@@ -18,6 +18,14 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Courses from "./courses.js";
+import ChallengingEnv from "../assets/img/ChallengingEnvironment.png";
+import Comp_Programs from "../assets/img/Comprehensive_Programs.png";
+import Confidence_Building from "../assets/img/Confidence_Building.png";
+import ExpertInstructors from "../assets/img/ExpertInstructors.png";
+import Flexible from "../assets/img/Flexible_Scheduling.png";
+import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
+import Per_learning from "../assets/img/PeronsonilzedLearning.png";
+import Proven_results from "../assets/img/Proven_Results.png";
 function Index() {
   useEffect(() => {
     AOS.init({
@@ -182,43 +190,74 @@ function Index() {
 
         <div class="benefits-container">
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Personalized Attention</div>
+            <img src={ExpertInstructors} alt="img" />
+            <div>
+              Expert
+              <br />
+              Instructors
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Quickened Learning Trajectory</div>
+            <img src={Per_learning} alt="img" />
+            <div>
+              Personalized
+              <br />
+              Learning
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Improved Academic Performance</div>
+            <img src={Comp_Programs} alt="img" />
+            <div>
+              Comprehensive
+              <br />
+              Programs
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Confidence Boost</div>
+            <img src={Proven_results} alt="img" />
+            <div>
+              Proven
+              <br />
+              Results
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Clearing Doubts</div>
+            <img src={Flexible} alt="img" />
+            <div>
+              Flexible
+              <br />
+              Scheduling
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Advanced Learning</div>
+            <img src={ChallengingEnv} alt="img" />
+            <div>
+              Challenging
+              <br />
+              Environment
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Exam Preparation</div>
+            <img src={Confidence_Building} alt="img" />
+            <div>
+              Confidence
+              <br />
+              Building
+            </div>
           </div>
-
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Subject Specialization</div>
+            <img src={Lifelong_Skills} alt="img" />
+            <div>
+              Lifelong
+              <br />
+              Skills
+            </div>
           </div>
         </div>
       </div>

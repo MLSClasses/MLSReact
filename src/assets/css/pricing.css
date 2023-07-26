@@ -1,8 +1,3 @@
-.width-line-space {
-  background-color: #ff8a00;
-  border-radius: 20px;
-  padding: 6px 20px;
-}
 .container-desc {
   text-align: center;
   font-size: 48px;
@@ -79,18 +74,11 @@
   border-radius: 0.5vw;
 }
 
-.width-line-space {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
 .width-line {
   width: 45vw;
   height: 0.3vw;
   background-color: #ff9500;
 }
-
 .our-programs {
   margin-top: 3.5vw;
 }

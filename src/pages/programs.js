@@ -19,9 +19,7 @@ const Programs = () => {
 
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
-      </div>
-      <div className="pos">
-        <img src={pos} alt="first Template" className="img-fluid" />
+        <h1 class="our-program-h">Our Program</h1>
       </div>
       <div className="white">
         <Container fluid>
@@ -33,14 +31,7 @@ const Programs = () => {
                   padding: "0vw 20vw",
                   lineHeight: "2.3vw",
                 }}
-              >
-                <div
-                  className="width-line-space"
-                  style={{ marginLeft: "30vw", padding: "0px 50px" }}
-                >
-                  <h5 className="container-desc">2-12</h5>
-                </div>
-              </div>
+              ></div>
             </Col>
           </Row>
         </Container>

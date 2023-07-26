@@ -12,6 +12,7 @@ import b2 from "../assets/img/b2.png";
 import b3 from "../assets/img/b3.png";
 import gr from "../assets/img/gr.png";
 import pos from "../assets/img/ppostion.png";
+import { Link } from "react-router-dom";
 import Whatsapp_icon from "../components/whatsapp_icon";
 const Pricing = () => {
   AOS.init({
@@ -38,9 +39,11 @@ const Pricing = () => {
                     heights.
                   </a>
                 </div>
-                <div className="width-line-space">
-                  <h3>Book 1 Week Free Trial</h3>
-                </div>
+                <Link to="/contact">
+                  <div className="width-line-space">
+                    <h3>Book 1 Week Free Trial</h3>
+                  </div>  
+                </Link>
               </div>
               <div>
                 <h3 className="container-desc">

@@ -64,6 +64,7 @@ nav ul li {
 }
 
 .f-template {
+  position: relative;
   width: 100%;
   padding: 1vw;
 }
@@ -100,11 +101,16 @@ nav ul li {
 }
 
 .width-line-space {
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  background-color: #ff8a00;
+  border-radius: 20px;
 }
-
+.width-line-space:hover {
+  cursor: pointer;
+}
+.width-line-space h3 {
+  font-size: 2rem;
+  padding: 5px 10px;
+}
 .width-line {
   width: 45vw;
   height: 0.3vw;
@@ -399,6 +405,7 @@ nav ul li {
 }
 
 .f-template-contact {
+  position: relative;
   width: 100%;
 }
 
@@ -687,16 +694,26 @@ iframe {
   width: 40%;
   aspect-ratio: 1;
 }
-hr{
+hr {
   height: 2px;
-color: black;
-background-color: black;
-opacity: 1;
+  color: black;
+  background-color: black;
+  opacity: 1;
 }
 
-hr{
+hr {
   height: 2px;
-color: black;
-background-color: black;
-opacity: 1;
+  color: black;
+  background-color: black;
+  opacity: 1;
+}
+.our-program-h {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Adjust the text color as needed */
+  font-size: 4rem; /* Adjust the font size as needed */
+  z-index: 1;
+  text-align: center;
 }
