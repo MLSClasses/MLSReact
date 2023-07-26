@@ -6,6 +6,7 @@ margin-left: 6vw;
 }
 .white>.container>.rows>.random{
     margin-top:40px;
+    background-image: url("../img/bg-7.png");
 }
 container-desc{
     background-color: #FF8A00; 
@@ -34,6 +35,7 @@ container-desc{
     font-size: 22px; 
     line-height: 38.03px; 
     font-weight: 400;
+    margin-top: 20px;
 }
 .subDesc{
     color: blue; 

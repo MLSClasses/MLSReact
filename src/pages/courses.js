@@ -8,27 +8,29 @@ import mls_logo from "../assets/img/mlslogo.png";
 import image14 from "../assets/img/temp3.png";
 import "../assets/css/index.css";
 function render(name, poster, link) {
-    const className = "course " + name;
-    const image = poster;
-    return (
-        <div class={className}>
-            <img src={image} alt={className} href={link}></img>
-            <a href={link}>{name}</a>
-        </div>
-    );
+  const className = "course " + name;
+  const image = poster;
+  return (
+    <div class={className}>
+      <img src={image} alt={className} href={link}></img>
+      <a href={link}>{name}</a>
+    </div>
+  );
 }
 function Courses() {
-    return (
-        <div class="courses">
-            {render("Python", python)}
-            {render("Web Developement", web_dev)}
-            {render("Python Programming", web_dev)}
-            {render("Sat Preparation", sat_prep)}
-            {render("Science", web_dev)}
-            {render("Science", web_dev)}
-            {render("Science", web_dev)}
-            {render("Science", web_dev)}
-        </div>
-    );
+  return (
+    <div class="courses">
+      <div class="slide slide-wrapper">
+        {render("SAT", python)}
+        {render("ACT", web_dev)}
+        {render("AP", web_dev)}
+        {render("AMC", web_dev)}
+        {render("Math", web_dev)}
+        {render("Science", web_dev)}
+        {render("ELA", web_dev)}
+        {render("Coding", web_dev)}
+      </div>
+    </div>
+  );
 }
 export default Courses;

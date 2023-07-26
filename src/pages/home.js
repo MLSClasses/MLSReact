@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../assets/css/index.css";
+import bg from "../assets/img/bg.jpg";
 import image1 from "../assets/img/icon1.png";
 import image2 from "../assets/img/icon2.png";
 import image3 from "../assets/img/icon3.png";
@@ -12,21 +13,49 @@ import image9 from "../assets/img/icon7.png";
 import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
 import image14 from "../assets/img/temp3.png";
+import temp4 from "../assets/img/temp4.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import Whatsapp_icon from "../components/whatsapp_icon";
+import Courses from "./courses.js";
 function Index() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Number of slides to show at once
+    slidesToScroll: 1, // Number of slides to scroll per swipe
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
   useEffect(() => {
     AOS.init({
       offset: 200,
       duration: 600,
     });
   }, []);
-
+  const [youtubeID] = useState("XpScgwRKpgs");
+  console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
+      <Whatsapp_icon />
       <Navbar />
+
       <div class="f-template">
         <img src={image14} alt="first Template" />
       </div>
@@ -141,7 +170,7 @@ function Index() {
       <div class="popular">
         <div class="popular-head">
           <div class="popular-h">Popular Courses</div>
-          <div class="popular-btn">
+          {/* <div class="popular-btn">
             <div>
               <a href="#" class="popular-btn-active">
                 All
@@ -156,63 +185,22 @@ function Index() {
             <div>
               <a href="#">Feature</a>
             </div>
-          </div>
+          </div> */}
         </div>
-
-        <div class="popular-div">
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image5} alt="img" />
-            </div>
-            <div>
-              <a href="#">Web Development</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image6} alt="img" />
-            </div>
-            <div>
-              <a href="#">SAT Preparation</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image7} alt="img" />
-            </div>
-            <div>
-              <a href="#">Python Programming</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image6} alt="img" />
-            </div>
-            <div>
-              <a href="#">SAT Preparation</a>
-            </div>
-          </div>
-
-          <div class="popular-sub-div" data-aos="flip-left">
-            <div>
-              <img src={image7} alt="img" />
-            </div>
-            <div>
-              <a href="#">Python Programming</a>
-            </div>
-          </div>
-        </div>
+        <Courses />
       </div>
 
-      <div class="brand-moto">
+      <div className="brand-moto">
         <h1>OUR BRAND</h1>
-        {/* <video width="600" height="400" controls poster={image11}>
-          <source src={home_video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video> */}
+        <iframe
+          poster={image11}
+          src={`https://www.youtube.com/embed/${youtubeID}`}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          crossOrigin="anonymous"
+        ></iframe>
       </div>
       <div class="benefits">
         <div class="benefits-h">OUR BENEFITS</div>
@@ -220,7 +208,7 @@ function Index() {
         <div class="benefits-container">
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div>Quickened Learning Trajectory</div>
+            <div>Personalized Attention</div>
           </div>
 
           <div data-aos="zoom-in">
@@ -230,37 +218,34 @@ function Index() {
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Improved Academic Performance</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Confidence Boost</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Clearing Doubts</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Advanced Learning</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Exam Preparation</div>
           </div>
 
           <div data-aos="zoom-in">
             <img src={image4} alt="img" />
-            <div></div>
+            <div>Subject Specialization</div>
           </div>
         </div>
-      </div>
-      <div class="review">
-        <div class="review-h">Our Student Review</div>
       </div>
       <Footer />
     </div>
