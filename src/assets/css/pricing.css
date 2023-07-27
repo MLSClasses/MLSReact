@@ -16,6 +16,7 @@
   color: #fff;
   padding: 183px 2px;
 }
+
 .box {
   /* margin-left: 120px;  */
   font-size: 22px;
@@ -49,7 +50,7 @@
 
 .find-live {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-weight: 700;
   margin-top: 1vw;
   font-family: "Abhaya Libre", serif;
@@ -57,7 +58,7 @@
 
 .find-live div {
   margin: 0.8vw;
-  padding: 0vw 20vw;
+  padding: 0vw 18vw;
   line-height: 2.3vw;
 }
 
@@ -82,7 +83,16 @@
 .our-programs {
   margin-top: 3.5vw;
 }
-
+.our-programs-p{
+  position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    z-index: 1;
+    text-align: center;
+    color: black;
+}
 .our-programs-h {
   text-align: center;
   font-size: 2.5rem;
@@ -480,7 +490,7 @@
 }
 
 .footer2-sub div {
-  width: 20vw;
+  width: 18vw;
   /* border: 1px solid black; */
 }
 

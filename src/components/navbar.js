@@ -27,7 +27,7 @@ const NavBarComponent = (props) => {
       <Container fluid>
         <Row>
           <Col sm="3" xs="3" md="3">
-            <img src={logo} alt="mls logo" />
+            <a href='/' ><img src={logo} alt="mls logo" /></a>
           </Col>
           <Col sm="9" xs="9" md="9">
             <nav> 

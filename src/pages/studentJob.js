@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AOS from "aos";
-import first_img from "../assets/img/temp10.png";
+import first_img from "../assets/img/High Definition Videos (7).png";
 import star_img from "../assets/img/star.png";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";

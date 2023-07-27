@@ -7,7 +7,7 @@ const FooterComponent = () => {
       <div class="footer2-sub">
         <div>
           <div class="footer-img">
-            <img src={logo} alt="mls logo" />
+          <a href='/' ><img src={logo} alt="mls logo" /></a>
           </div>
           <div class="footer-share">
             <div>

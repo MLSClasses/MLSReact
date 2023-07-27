@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 import AOS from "aos";
 import { Container, Row, Col } from "react-bootstrap";
 //images
-import img1 from "../assets/img/temp4.png";
+import img1 from "../assets/img/temp5.png";
 import logo from "../assets/img/mlslogo.png";
 import b1 from "../assets/img/b1.png";
 import b2 from "../assets/img/b2.png";
@@ -25,6 +25,18 @@ const Pricing = () => {
       <Navbar />
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />
+        <h1 className="our-program-p" 
+        style={{
+          "position": "absolute",
+          "top": "50%",
+          "left": '75%',
+          "transform": "translate(-50%, -50%)",
+          "font-size": '4rem',
+          "z-index": "1",
+          "textAlign": "center",
+          "color":" black"
+        }}
+        >Book Free Trail Now</h1>
       </div>
       <div className="white">
         <Container fluid>

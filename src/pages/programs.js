@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 import "../assets/css/program.css";
 import { Container, Row, Col } from "react-bootstrap";
 //images
-import img1 from "../assets/img/temp4.png";
+import img1 from "../assets/img/8.jpg";
 import b1 from "../assets/img/b1.png";
 import b2 from "../assets/img/b2.png";
 import b3 from "../assets/img/b3.png";

@@ -1,5 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
-import first_img from "../assets/img/temp4.png";
+import first_img from "../assets/img/temp6.png";
 import FooterComponent from "../components/footer";
 import NavBarComponent from "../components/navbar";
 import moment from "moment-timezone";
