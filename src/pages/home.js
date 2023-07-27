@@ -26,6 +26,7 @@ import Flexible from "../assets/img/Flexible_Scheduling.png";
 import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
 import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
+import CommentsSlide from "../components/comments_slide";
 function Index() {
   useEffect(() => {
     AOS.init({
@@ -174,15 +175,16 @@ function Index() {
       </div>
 
       <div className="brand-moto">
-        <span Style="--i:1">O</span>
-        <span Style="--i:2">U</span>
-        <span Style="--i:3">R</span>
-        <span Style="--i:4"></span>
-        <span Style="--i:5">B</span>
-        <span Style="--i:6">R</span>
-        <span Style="--i:7">A</span>
-        <span Style="--i:8">N</span>
-        <span Style="--i:9">D</span>
+        <div class="brand-moto-message">
+          <h1>Why the 98th Percentile?</h1>
+          <p>
+            MLS Classes: Where Personalized Learning Meets Excellence! Our
+            highly qualified teachers use expertly crafted curricula tailored to
+            individual students, ensuring a perfect fit for their needs. With
+            flexible online programs, your child will flourish academically and
+            carry that success beyond the classroom.
+          </p>
+        </div>
         <iframe
           poster={image11}
           src={`https://www.youtube.com/embed/${youtubeID}`}
@@ -268,6 +270,9 @@ function Index() {
             </div>
           </div>
         </div>
+      </div>
+      <div class="parents-love">
+        <CommentsSlide />
       </div>
       <Footer />
     </div>

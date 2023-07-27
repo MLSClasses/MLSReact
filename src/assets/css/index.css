@@ -166,7 +166,7 @@ nav ul li {
 }
 
 .our-programs-text-h {
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 900;
 }
 
@@ -614,20 +614,27 @@ nav ul li {
 }
 .brand-moto {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 80px;
 }
 .brand-moto h1 {
   color: #007bff;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   font-family: "Inter", sans-serif;
 }
-
+.brand-moto p {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 100px;
+}
+.brand-moto-message {
+  width: 85%;
+}
 .brand-moto video {
   border: 2px solid black;
 }
@@ -649,6 +656,7 @@ nav ul li {
   right: 10px;
   width: 4rem;
   aspect-ratio: 1;
+  z-index: 100;
 }
 
 #whatsapp_icon:hover {
@@ -690,9 +698,9 @@ nav ul li {
   font-size: 2rem;
 }
 iframe {
-  border-radius: 30px;
-  width: 40%;
-  aspect-ratio: 1;
+  border-radius: 10px;
+  width: 70%;
+  height: 450px;
 }
 hr {
   height: 2px;
@@ -717,28 +725,52 @@ hr {
   z-index: 1;
   text-align: center;
 }
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-.brand-moto {
-  position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
-  font-size: 60px;
+.carousell {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 70%;
+  padding: 50px 50px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 20px 10px 20px 10px black;
+  /* border: 1px solid black; */
+  height: fit-content;
 }
-.brand-moto span {
-  font-family: "Alfa Slab One", cursive;
-  position: relative;
-  display: inline-block;
+.carousell h1 {
+  color: red;
+  margin-bottom: 1rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  color: red;
+  background-color: rgba(128, 128, 128, 0.374);
+  border-radius: 10px;
+  margin: auto 0;
+  width: fit-content;
+  height: min-content;
+}
+.carousel-indicators {
+  display: none;
+}
+.comment-body {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   color: black;
-  text-transform: uppercase;
-  animation: waviy 1s infinite;
-  animation-delay: calc(0.1s * var(--i));
+  font-size: 1.5rem;
 }
-@keyframes waviy {
-  0%,
-  40%,
-  100% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateY(-20px);
-  }
+.parents-love h1 {
+  padding-bottom: 40px;
+}
+
+.comment-content {
+  align-self: center;
+}
+.commenter {
+  font-size: 1.7rem;
+  font-weight: bold;
 }
