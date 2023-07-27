@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from "../assets/img/mlslogo.png";
+import img_mail from '../assets/img/em1.png'
 
 const FooterComponent = () => {
   return (
@@ -73,9 +74,12 @@ const FooterComponent = () => {
         <div class="footer2-sub-h">
           <div class="footer2-h">Reach us</div>
           <div>
+            <img src={img_mail} alt="email" /> &nbsp;&nbsp;
             <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a>
+             
           </div>
           <div>
+          <img src={img_mail} alt="email" /> &nbsp;&nbsp;
             <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a>
           </div>
           

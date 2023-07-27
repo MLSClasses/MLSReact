@@ -541,6 +541,16 @@ nav ul li {
 .footer2-sub-h {
   margin-top: 5vw;
 }
+.hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+  
+
 
 .footer-share a {
   border: 1px solid black;
