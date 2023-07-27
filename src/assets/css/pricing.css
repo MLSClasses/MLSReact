@@ -1,6 +1,6 @@
 .container-desc {
   text-align: center;
-  font-size: 48px;
+  font-size: auto;
   line-height: 56.63px;
   font-family: "Abhaya Libre", serif;
 }
@@ -16,6 +16,7 @@
   color: #fff;
   padding: 183px 2px;
 }
+
 .box {
   /* margin-left: 120px;  */
   font-size: 22px;
@@ -49,7 +50,7 @@
 
 .find-live {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: auto;
   font-weight: 700;
   margin-top: 1vw;
   font-family: "Abhaya Libre", serif;
@@ -57,7 +58,7 @@
 
 .find-live div {
   margin: 0.8vw;
-  padding: 0vw 20vw;
+  padding: 0vw 18vw;
   line-height: 2.3vw;
 }
 
@@ -70,7 +71,7 @@
   background-color: #ff8a00;
   color: black;
   padding: 0.5vw 2vw;
-  font-size: 1.2vw;
+  font-size: auto;
   border-radius: 0.5vw;
 }
 
@@ -82,10 +83,19 @@
 .our-programs {
   margin-top: 3.5vw;
 }
-
+.our-programs-p{
+  position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: auto;
+    z-index: 1;
+    text-align: center;
+    color: black;
+}
 .our-programs-h {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: auto;
   color: #002144;
   font-family: "Acme", sans-serif;
   font-weight: 600;
@@ -141,7 +151,7 @@
   }
 }
 .our-programs-subtext {
-  font-size: 1.2rem;
+  font-size: auto;
 }
 
 .features {
@@ -152,7 +162,7 @@
 .features-h {
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 2.5rem;
+  font-size: auto;
   font-weight: 800;
 }
 
@@ -488,7 +498,7 @@
 }
 
 .footer2-sub div {
-  width: 20vw;
+  width: 18vw;
   /* border: 1px solid black; */
 }
 
@@ -614,7 +624,7 @@ h4 {
 
 .commenter-name {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: auto;
 }
 
 .star-rating {
@@ -628,5 +638,5 @@ h4 {
 
 .comment-content p {
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: auto;
 }

@@ -11,7 +11,7 @@ import image8 from "../assets/img/icon7 (1).png";
 import image9 from "../assets/img/icon7.png";
 import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
-import image14 from "../assets/img/temp3.png";
+import image14 from "../assets/img/1.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../components/navbar";

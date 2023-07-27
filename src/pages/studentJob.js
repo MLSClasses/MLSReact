@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AOS from "aos";
-import first_img from "../assets/img/temp10.png";
+import first_img from "../assets/img/High Definition Videos (7).png";
 import star_img from "../assets/img/star.png";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
@@ -82,7 +82,7 @@ const StudentJob = () => {
                 style={{
                   textAlign: "center",
                   color: "#007BFF",
-                  fontSize: "48px",
+                  fontSize: "auto",
                   lineHeight: "56.63px",
                   fontFamily: "Abhaya Libre, serif",
                 }}

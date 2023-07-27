@@ -26,10 +26,10 @@ const NavBarComponent = (props) => {
     <React.Fragment>
       <Container fluid>
         <Row>
-          <Col sm="3" xs="3" md="3">
-            <img src={logo} alt="mls logo" />
+          <Col sm="3" xs="12" md="3">
+            <a href='/' ><img src={logo} alt="mls logo" /></a>
           </Col>
-          <Col sm="9" xs="9" md="9">
+          <Col sm="9" xs="12" md="9">
             <nav> 
               <ul>
                 <li><Link to="/home" className={active === "" ? 'active' : ''}>Home</Link></li>
