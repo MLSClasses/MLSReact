@@ -70,6 +70,17 @@ const FooterComponent = () => {
             <a href="#">Privacy Policy</a>
           </div>
         </div>
+        <div class="footer2-sub-h">
+          <div class="footer2-h">Reach us</div>
+          <div>
+            <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a>
+          </div>
+          <div>
+            <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a>
+          </div>
+          
+        </div>
+        
 
         <div class="footer2-sub-h">
           <div class="footer2-h">Parent Resources</div>
