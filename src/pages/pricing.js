@@ -31,7 +31,7 @@ const Pricing = () => {
           "top": "50%",
           "left": '75%',
           "transform": "translate(-50%, -50%)",
-          "font-size": '4rem',
+          "font-size": 'auto',
           "z-index": "1",
           "textAlign": "center",
           "color":" black"

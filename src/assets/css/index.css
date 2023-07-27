@@ -108,7 +108,7 @@ nav ul li {
   cursor: pointer;
 }
 .width-line-space h3 {
-  font-size: 2rem;
+  font-size: auto;
   padding: 5px 10px;
 }
 .width-line {
@@ -123,7 +123,7 @@ nav ul li {
 
 .our-programs-h {
   text-align: center;
-  font-size: 2vw;
+  font-size: auto;
   color: #002144;
   font-family: "Acme", sans-serif;
   font-weight: 600;
@@ -136,7 +136,7 @@ nav ul li {
 }
 
 .our-programs-sub-div {
-  margin: 2vw;
+  margin: auto;
   position: relative;
   width: 80%;
   margin-left: 9%;
@@ -166,12 +166,12 @@ nav ul li {
 }
 
 .our-programs-text-h {
-  font-size: 2vw;
+  font-size: auto;
   font-weight: 900;
 }
 
 .our-programs-subtext {
-  font-size: 1.2vw;
+  font-size: auto;
 }
 
 .features {
@@ -713,7 +713,7 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff; /* Adjust the text color as needed */
-  font-size: 4rem; /* Adjust the font size as needed */
+  font-size: auto; /* Adjust the font size as needed */
   z-index: 1;
   text-align: center;
 }

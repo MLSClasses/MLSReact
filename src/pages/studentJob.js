@@ -82,7 +82,7 @@ const StudentJob = () => {
                 style={{
                   textAlign: "center",
                   color: "#007BFF",
-                  fontSize: "48px",
+                  fontSize: "auto",
                   lineHeight: "56.63px",
                   fontFamily: "Abhaya Libre, serif",
                 }}
