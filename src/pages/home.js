@@ -72,9 +72,6 @@ function Index() {
           </div>
         </Slider>
       </div>
-      <div class="f-template">
-        <img src={image14} alt="first Template" />
-      </div>
       <div class="find-live">
         <div>
           <a href="#">

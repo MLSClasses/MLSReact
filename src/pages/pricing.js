@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 import AOS from "aos";
 import { Container, Row, Col } from "react-bootstrap";
 //images
-import img1 from "../assets/img/temp4.png";
+import img1 from "../assets/img/temp5.png";
 import logo from "../assets/img/mlslogo.png";
 import b1 from "../assets/img/b1.png";
 import b2 from "../assets/img/b2.png";
@@ -25,12 +25,15 @@ const Pricing = () => {
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />
       </div>
+      <div className="bookFree">
+        <h1>Book free Trial Now</h1>
+      </div>
       <div className="white">
         <Container fluid>
           <Row>
             <Col md="12" sm="12" xs="12">
               <div className="find-live">
-                <div>
+                <div className="joinMLS">
                   <a href="#">
                     Join us at MLS Classes and unlock your child's true
                     potential. <br />
@@ -38,8 +41,10 @@ const Pricing = () => {
                     heights.
                   </a>
                 </div>
-                <div className="width-line-space">
-                  <h3>Book 1 Week Free Trial</h3>
+                <div className="boxx1">
+                  <div className="width-line-space">
+                    <h3>Book 1 Week Free Trial</h3>
+                  </div>
                 </div>
               </div>
               <div>
@@ -86,6 +91,12 @@ const Pricing = () => {
               </div>
             </Col>
           </Row>
+          <div className="boxx">
+            <div className="width-line-space">
+              <h3>Book 1 Week Free Trial</h3>
+            </div>
+          </div>
+          <br /><br />
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
@@ -118,6 +129,12 @@ const Pricing = () => {
               </div>
             </Col>
           </Row>
+          <div className="boxx">
+            <div className="width-line-space">
+              <h3>Book 1 Week Free Trial</h3>
+            </div>
+          </div>
+          <br /><br />
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
@@ -150,6 +167,11 @@ const Pricing = () => {
               </div>
             </Col>
           </Row>
+          <div className="boxx">
+            <div className="width-line-space">
+              <h3>Book 1 Week Free Trial</h3>
+            </div>
+          </div>
         </Container>
       </div>
       <Footer />
