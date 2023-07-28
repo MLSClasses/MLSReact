@@ -34,6 +34,14 @@ function Index() {
       duration: 600,
     });
   }, []);
+  const ProgramBox = (props) => {
+    return (
+      <div class="box" data-aos="flip-up">
+        <h1>{props.subject}</h1>
+        <p>{props.content}</p>
+      </div>
+    );
+  };
   const [youtubeID] = useState("atOfb83gU-w");
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
@@ -56,61 +64,34 @@ function Index() {
           <div class="width-line">&nbsp;</div>
         </div>
       </div>
-      <div class="our-programs">
-        <div class="our-programs-h">Our Programs For 2-12 </div>
-
-        <div class="our-programs-div">
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">MATH</div>
-              <div class="our-programs-subtext">
-                We provide unique learning experiences that go above and beyond
+      <div class="program-boxes">
+        <ProgramBox
+          subject="MATH"
+          content="We provide unique learning experiences that go above and beyond
                 standard math instruction, fostering a deeper understanding of
-                mathematical concepts and encouraging critical thinking.
-              </div>
-            </div>
-          </div>
-
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">SCIENCE</div>
-              <div class="our-programs-subtext">
-                Our science programs empower children to explore various
-                scientific disciplines, develop problem-solving skills, and
-                deepen their understanding of scientific concepts, setting them
-                on a path of scientific excellence.
-              </div>
-            </div>
-          </div>
-
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">CODING</div>
-              <div class="our-programs-subtext">
-                Through our interactive curriculum, students gain hands-on
-                experience with coding languages, algorithmic thinking, and
-                problem-solving techniques, setting them on a path to becoming
-                skilled and creative coders.
-              </div>
-            </div>
-          </div>
-
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">TEST - PREP</div>
-              <div class="our-programs-subtext">
-                Through our interactive curriculum, students gain hands-on
-                experience with coding languages, algorithmic thinking, and
-                problem-solving techniques, setting them on a path to becoming
-                skilled and creative coders.
-              </div>
-            </div>
-          </div>
-        </div>
+                mathematical concepts and encouraging critical thinking."
+        />
+        <ProgramBox
+          subject="SCIENCE"
+          content=" Our science programs empower children to explore various
+          scientific disciplines, develop problem-solving skills, and
+          deepen their understanding of scientific concepts, setting them
+          on a path of scientific excellence."
+        />
+        <ProgramBox
+          subject="CODING"
+          content="Through our interactive curriculum, students gain hands-on
+          experience with coding languages, algorithmic thinking, and
+          problem-solving techniques, setting them on a path to becoming
+          skilled and creative coders."
+        />
+        <ProgramBox
+          subject="TEST-PREP"
+          content="Through our interactive curriculum, students gain hands-on
+          experience with coding languages, algorithmic thinking, and
+          problem-solving techniques, setting them on a path to becoming
+          skilled and creative coders."
+        />
       </div>
 
       <div class="features">
