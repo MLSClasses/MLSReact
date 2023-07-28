@@ -308,7 +308,6 @@ function Index() {
             </div>
           </div>
         </div>
-        <Courses />
       </div>
       <div className="parents-love">
         <CommentsSlide />

@@ -1,9 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
-<<<<<<< HEAD
 import first_img from "../assets/img/temp4.png";
-=======
-import first_img from "../assets/img/temp6.png";
->>>>>>> main
 import FooterComponent from "../components/footer";
 import NavBarComponent from "../components/navbar";
 import moment from "moment-timezone";
@@ -26,7 +22,6 @@ const ContactComponent = (props) => {
     setUserData({ ...userData, [name]: value });
   };
   const allTimeZones = [
-<<<<<<< HEAD
     "America/New York(EST)",
     "America/Chicago(CST)",
     "America/Denver(MST)",
@@ -35,15 +30,6 @@ const ContactComponent = (props) => {
     "America/Phoenix(MST)",
     "Pacific/Honolulu(HAST)",
     "Asia/Kolkata(IST)", // IST
-=======
-    "America/New_York",
-    "America/Chicago",
-    "America/Denver",
-    "America/Los_Angeles",
-    "America/Anchorage",
-    "Pacific/Honolulu",
-    "Asia/Kolkata", // IST
->>>>>>> main
   ];
   const submitData = async (event) => {
     event.preventDefault();

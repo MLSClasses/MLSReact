@@ -11,16 +11,8 @@
     "bootstrap": "^5.3.0",
     "firebase": "^10.1.0",
     "font-awesome": "^4.7.0",
-<<<<<<< HEAD
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
-=======
-    "install": "^0.13.0",
-    "jquery": "^3.7.0",
-    "moment": "^2.29.4",
-    "moment-timezone": "^0.5.43",
-    "npm": "^9.8.1",
->>>>>>> main
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
