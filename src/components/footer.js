@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../assets/img/mlslogo.png";
-import img_mail from '../assets/img/em1.png'
+import img_mail from '../assets/img/em1.webp'
 
 const FooterComponent = () => {
   return (
@@ -16,7 +16,7 @@ const FooterComponent = () => {
                 href="https://www.facebook.com/mlsclasses?mibextid=ZbWKwL"
                 target="_blank"
               >
-                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-facebook-f" style={{alignItems: "center",justifyContent: "center",minWidth: "1em"}}></i>
               </a>
             </div>
             <div>
@@ -53,7 +53,7 @@ const FooterComponent = () => {
             </div>
             <div>
               <a href="https://wa.me/message/XMS5KMWBGQZLG1" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-whatsapp" style={{alignItems: "center",justifyContent: "center",minWidth: "1em"}}></i>
               </a>
             </div>
           </div>
@@ -74,12 +74,12 @@ const FooterComponent = () => {
         <div class="footer2-sub-h">
           <div class="footer2-h">Reach us</div>
           <div>
-            <img src={img_mail} alt="email" /> &nbsp;&nbsp;
+            <img src={img_mail} alt="email" width="10%" /> &nbsp;
             <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a>
              
           </div>
           <div>
-          <img src={img_mail} alt="email" /> &nbsp;&nbsp;
+          <img src={img_mail} alt="email" width="10%" /> &nbsp;
             <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a>
           </div>
           
