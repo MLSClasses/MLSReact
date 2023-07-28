@@ -491,6 +491,13 @@
 
 .footer2-sub div {
   width: 18vw;
+  width: 18vw;
+  /* border: 1px solid black; */
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: #555; */
+  min-width: 1em;
   /* border: 1px solid black; */
 }
 
