@@ -41,7 +41,7 @@ const NavBarComponent = (props) => {
                 <li><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
                   {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>LogOut</a></div>}
-                  {!checkUser && <div className="nav-login-btn"><a href="/login" >LogIn</a></div>}
+                  {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">LogIn</a></div>}
 
                 </li>
               </ul>

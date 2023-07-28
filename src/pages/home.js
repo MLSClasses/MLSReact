@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../assets/css/index.css";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import bg from "../assets/img/bg.jpg";
 import image1 from "../assets/img/icon1.png";
 import image2 from "../assets/img/icon2.png";
@@ -14,6 +17,9 @@ import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
 import image14 from "../assets/img/temp3.png";
 import temp4 from "../assets/img/temp4.png";
+import slider1 from '../assets/img/slider1.jpg'
+import slider2 from '../assets/img/slider2.jpg'
+import slider3 from '../assets/img/slider3.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../components/navbar";
@@ -21,27 +27,19 @@ import Footer from "../components/footer";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Courses from "./courses.js";
 function Index() {
+  const myInlineStyle = {
+    fontSize: '16px',
+    color: 'blue',
+    fontWeight: 'bold',
+    size: '100px'
+    // Add more CSS properties as needed
+  };
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides to show at once
-    slidesToScroll: 1, // Number of slides to scroll per swipe
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
+    slidesToShow: 1,
+    slidesToScroll: 1
   };
   useEffect(() => {
     AOS.init({
@@ -55,7 +53,25 @@ function Index() {
     <div>
       <Whatsapp_icon />
       <Navbar />
-
+      <div className="Slideshow">
+        <Slider {...settings}>
+          <div class="f-template" style={myInlineStyle}>
+            <img src={slider1} alt="first Template" />
+          </div>
+          <div class="f-template">
+            <img src={slider2} alt="first Template" />
+          </div>
+          <div class="f-template">
+            <img src={slider3} alt="first Template" />
+          </div>
+          <div class="f-template">
+            <img src={slider1} alt="first Template" />
+          </div>
+          <div class="f-template">
+            <img src={slider2} alt="first Template" />
+          </div>
+        </Slider>
+      </div>
       <div class="f-template">
         <img src={image14} alt="first Template" />
       </div>
