@@ -9,13 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
-.find-live>.width-line-space {
-  text-align: center;
-  display: flex;
-  justify-content: center; 
-  margin-left: 30%;
-  max-height: 5px;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -48,27 +42,30 @@ nav ul li a {
 
 /* nav .nav-login-btn {
   margin-top: 2.2vw;
-  margin-right: 4vw;
+  margin-right: 4w;
 } */
-
 nav .nav-login-btn a {
   text-decoration: none;
   background-color: orange;
   color: white;
   padding: 0.4vw 3vw;
   border-radius: 0.5vw;
-  font-size: 1.2vw;
+  font-size: 1.5rem !important;
 }
 
+nav {
+  margin-top: 20px;
+}
 nav ul li {
   margin: 1vw 2vw;
-  font-size: 1.7vw;
+  font-size: 1.5rem;
 }
 .active {
   color: blue !important;
 }
 
 .f-template {
+  position: relative;
   width: 100%;
   padding: 1vw;
 }
@@ -117,12 +114,17 @@ nav ul li {
 
 .our-programs-h {
   text-align: center;
-  font-size: 2vw;
+  font-size: auto;
   color: #002144;
   font-family: "Acme", sans-serif;
   font-weight: 600;
 }
-
+.orange-line {
+  width: 40%;
+  background-color: orange;
+  margin: 50px auto !important;
+  height: 2px;
+}
 .our-programs-div {
   display: flex;
   justify-content: space-around;
@@ -130,7 +132,7 @@ nav ul li {
 }
 
 .our-programs-sub-div {
-  margin: 2vw;
+  margin: auto;
   position: relative;
   width: 80%;
   margin-left: 9%;
@@ -156,16 +158,18 @@ nav ul li {
   padding-top: 5vw;
   font-family: "Inter", sans-serif;
   text-align: center;
+  height: 20vw;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 
 .our-programs-text-h {
-  font-size: 2vw;
+  font-size: auto;
   font-weight: 900;
 }
 
 .our-programs-subtext {
-  font-size: 1.2vw;
+  font-size: auto;
 }
 
 .features {
@@ -176,7 +180,8 @@ nav ul li {
 .features-h {
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 2vw;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
   font-weight: 800;
 }
 
@@ -400,6 +405,7 @@ nav ul li {
 }
 
 .f-template-contact {
+  position: relative;
   width: 100%;
 }
 
@@ -575,7 +581,7 @@ nav ul li {
 }
 
 .footer2-sub div {
-  width: 20vw;
+  width: 18vw;
   /* border: 1px solid black; */
 }
 
@@ -600,6 +606,14 @@ nav ul li {
 .footer2-sub-h {
   margin-top: 5vw;
 }
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
 
 .footer-share a {
   border: 1px solid black;
@@ -623,7 +637,16 @@ nav ul li {
   padding: 2vw 4vw;
   font-size: 1.2vw;
 }
+@media (max-width: 325) {
+  nav ul li {
+    margin: 1.5vw 2vw;
+    font-size: 0.4rem;
+  }
 
+  nav .nav-login-btn a {
+    font-size: 0.4rem !important;
+  }
+}
 @media (max-width: 768px) {
   nav .nav-login-btn {
     margin-top: 0.1vw;
@@ -631,12 +654,16 @@ nav ul li {
 
   nav ul li {
     margin: 1.5vw 2vw;
+    font-size: 0.7rem;
   }
 
   nav .nav-login-btn a {
-    font-size: 1.6vw;
+    font-size: 0.7rem !important;
   }
-
+  .row {
+    align-items: center;
+    justify-content: center;
+  }
   .features-content-2 {
     margin-bottom: 2vw;
   }
@@ -686,7 +713,16 @@ nav ul li {
   text-align: center;
   font-family: "Inter", sans-serif;
 }
-
+.brand-moto p {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 100px;
+}
+.brand-moto-message {
+  width: 85%;
+}
 .brand-moto video {
   border: 2px solid black;
 }
