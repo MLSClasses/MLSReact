@@ -9,10 +9,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
-.find-live>.width-line-space {
+.find-live > .width-line-space {
   text-align: center;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-left: 30%;
   max-height: 5px;
 }
@@ -104,7 +104,6 @@ nav ul li {
   font-size: 1.2vw;
   border-radius: 0.5vw;
 }
-
 
 .width-line {
   width: 45vw;
@@ -630,145 +629,146 @@ nav ul li {
     font-size: 0.4rem;
   }
 
-@media (max-width: 768px) {
-  nav .nav-login-btn {
-    margin-top: 0.1vw;
+  @media (max-width: 768px) {
+    nav .nav-login-btn {
+      margin-top: 0.1vw;
+    }
+
+    nav ul li {
+      margin: 1.5vw 2vw;
+    }
+
+    nav .nav-login-btn a {
+      font-size: 1.6vw;
+    }
+
+    .features-content-2 {
+      margin-bottom: 2vw;
+    }
+
+    .features-content-text {
+      line-height: 1vw;
+    }
+
+    .popular-sub-div div a {
+      display: block;
+      line-height: 2.9vw !important;
+    }
+
+    .contact-sub-input label {
+      font-size: 1.7vw;
+    }
+
+    .contact-sub-input input {
+      font-size: 1.5vw;
+    }
+
+    .contact-sub-input select {
+      font-size: 1.5vw;
+    }
+
+    .contact-sub-input textarea {
+      font-size: 1.5vw;
+    }
+
+    .contact-btn button {
+      padding: 0.8vw 1.5vw;
+      font-size: 3vw;
+    }
+  }
+  .brand-moto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  .brand-moto h1 {
+    color: #007bff;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
   }
 
-  nav ul li {
-    margin: 1.5vw 2vw;
+  .brand-moto video {
+    border: 2px solid black;
   }
 
-  nav .nav-login-btn a {
-    font-size: 1.6vw;
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  .features-content-2 {
-    margin-bottom: 2vw;
+  .main-content {
+    display: flex;
+    width: 100%;
+  }
+  #whatsapp_icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 4rem;
+    aspect-ratio: 1;
   }
 
-  .features-content-text {
-    line-height: 1vw;
+  #whatsapp_icon:hover {
+    cursor: pointer;
+    width: 5rem;
+  }
+  .courses {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .slide-wrapper {
+    display: flex;
+    width: 150%; /* Width will expand based on the number of slides */
   }
 
-  .popular-sub-div div a {
-    display: block;
-    line-height: 2.9vw !important;
+  .slide {
+    flex: 0 0 20%; /* For 5 slides, use 20%; for 4 slides, use 25%, etc. */
+    margin-right: 10px; /* Adjust the spacing between slides */
   }
 
-  .contact-sub-input label {
-    font-size: 1.7vw;
+  .course img {
+    margin: 10px 10px;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 12rem;
+    aspect-ratio: 1;
+  }
+  .course a {
+    font-family: "Abhaya Libre", serif;
+    font-size: 2rem;
+  }
+  iframe {
+    border-radius: 30px;
+    width: 40%;
+    aspect-ratio: 1;
+  }
+  hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+    opacity: 1;
   }
 
-  .contact-sub-input input {
-    font-size: 1.5vw;
+  hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+    opacity: 1;
   }
-
-  .contact-sub-input select {
-    font-size: 1.5vw;
-  }
-
-  .contact-sub-input textarea {
-    font-size: 1.5vw;
-  }
-
-  .contact-btn button {
-    padding: 0.8vw 1.5vw;
-    font-size: 3vw;
-  }
-}
-.brand-moto {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 80px;
-}
-.brand-moto h1 {
-  color: #007bff;
-  font-size: 4rem;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-}
-
-.brand-moto video {
-  border: 2px solid black;
-}
-
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.main-content {
-  display: flex;
-  width: 100%;
-}
-#whatsapp_icon {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 4rem;
-  aspect-ratio: 1;
-}
-
-#whatsapp_icon:hover {
-  cursor: pointer;
-  width: 5rem;
-}
-.courses {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  overflow-x: scroll;
-}
-.course {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-}
-.slide-wrapper {
-  display: flex;
-  width: 150%; /* Width will expand based on the number of slides */
-}
-
-.slide {
-  flex: 0 0 20%; /* For 5 slides, use 20%; for 4 slides, use 25%, etc. */
-  margin-right: 10px; /* Adjust the spacing between slides */
-}
-
-.course img {
-  margin: 10px 10px;
-  border: 3px solid black;
-  border-radius: 30px;
-  width: 12rem;
-  aspect-ratio: 1;
-}
-.course a {
-  font-family: "Abhaya Libre", serif;
-  font-size: 2rem;
-}
-iframe {
-  border-radius: 30px;
-  width: 40%;
-  aspect-ratio: 1;
-}
-hr{
-  height: 2px;
-color: black;
-background-color: black;
-opacity: 1;
-}
-
-hr{
-  height: 2px;
-color: black;
-background-color: black;
-opacity: 1;
 }
