@@ -10,7 +10,7 @@ margin-left: 6vw;
     font-size: 48px;
     line-height: 56.03px;
     font-family: 'Abhaya Libre', serif;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 .arrow_down{
     width: 1.5vw;

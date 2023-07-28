@@ -20,17 +20,19 @@ const Programs = () => {
 
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
-        <h1 class="our-program-h">Our Program</h1>
+        <h1 class="our-program-h" style={{color:"black"}}>Our Program</h1>
       </div>
       <div className="main-prg">
       <div className="mt-10 nav-login-btn" style={{
 
 textDecoration: "none",
 backgroundColor: "orange",
+whiteSpace:"nowrap",
 color: "black",
 padding: "0.4vw 3vw",
 borderRadius: "0.5vw",
-width: "14%",
+textAlign:"center",
+width: "15vw",
 lineHeight:"0.80",
     marginLeft: "45%"
       }}>2 - 12</div>
@@ -52,7 +54,7 @@ lineHeight:"0.80",
       <div className="white">
         <Container>
           <Row>
-            <Col md="10" sm="10" xs="12">
+            <Col md="8" sm="8" xs="12">
               <h3 className="rowsDesc">
                 <span>
                   <img src={gr} className="img-fluid" width="40" />
@@ -61,7 +63,7 @@ lineHeight:"0.80",
               <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="2" sm="2" xs="12">
+            <Col md="4" sm="4" xs="12">
               <h3 className="rowsDesc">
                 <span>
                   {" "}
@@ -71,7 +73,7 @@ lineHeight:"0.80",
                 <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="5" sm="5">
+            <Col md="4" sm="4">
               <ul className="Desc">
                 <li>Pre-Algebra</li>
                 <li>Algebra 1</li>
@@ -86,8 +88,30 @@ lineHeight:"0.80",
                 <li>Integrated Math 2</li>
               </ul>
               <hr/>
+
+              <h3 className="rowsDesc">
+                <span>
+                  <img src={gr} className="img-fluid" width="40" />
+                </span>{" "}
+                Test Prep
+                <img src={arrow_img} className="arrow_down" />
+              </h3>
+              
+              <ul className="Desc">
+                <li className="subDesc">SAT <img src={arrow_img} className="arrow_down" /></li>
+                <li>SAT</li>
+                <li>SAT Math</li>
+                <li>SAT Reading & Writing</li>
+                <li className="subDesc">PSAT <img src={arrow_img} className="arrow_down" /></li>
+                <li>PSAT/NMSQT</li>
+                <li>PSAT Math</li>
+                <li>PSAT Evidence-Based</li>
+                <li>Reading & Writing</li>
+               
+              </ul>
+              <hr/>
             </Col>
-            <Col md="5" sm="5">
+            <Col md="4" sm="4">
               <ul className="Desc">
                 <li>Integrated Math 3</li>
                 <li>Biology</li>
@@ -102,7 +126,19 @@ lineHeight:"0.80",
                 <li>Writing</li>
               </ul>
               <hr/>
+
+             
+            
+            
+              <ul className="Desc">
+              <li className="subDesc">ACT <img src={arrow_img} className="arrow_down" /></li>
+                <li>ACT Complete</li>
+                <li>ACT Math</li>
+                <li>ACT English</li>
+                <li>ACT Science</li>
+              </ul>
             </Col>
+            
             
           
             
@@ -138,7 +174,7 @@ lineHeight:"0.80",
             
             </Row>
             <Row className="second2">
-            <Col md="4" mt="5">
+            {/* <Col md="4" mt="5">
               <h3 className="rowsDesc">
                 <span>
                   <img src={gr} className="img-fluid" width="40" />
@@ -146,11 +182,11 @@ lineHeight:"0.80",
                 Test Prep
                 <img src={arrow_img} className="arrow_down" />
               </h3>
-            </Col>
+            </Col> */}
             <Col md="4" mt="5">
              
             </Col>
-            <Col md="4" mt="5">
+            <Col md="12" mt="5">
               <h3 className="rowsDesc1">
                 <span>
                   {" "}
@@ -160,7 +196,7 @@ lineHeight:"0.80",
                 <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="4">
+            {/* <Col md="4">
               <ul className="Desc">
                 <li className="subDesc">SAT <img src={arrow_img} className="arrow_down" /></li>
                 <li>SAT</li>
@@ -183,8 +219,9 @@ lineHeight:"0.80",
                 <li>ACT English</li>
                 <li>ACT Science</li>
               </ul>
-            </Col>
-            <Col md="4" mt="5">
+            </Col> */}
+            <Row>
+            <Col md="6" mt="5">
               <ul className="Desc">
                 <li>AMC 10</li>
                 <li>AMC 8</li>
@@ -192,6 +229,12 @@ lineHeight:"0.80",
                 <li>FSA</li>
                 <li>HSPT</li>
                 <li>MATHCOUNTS</li>
+                
+              </ul>
+              <hr/>
+            </Col>
+            <Col md="6" mt="5">
+              <ul className="Desc">
                 <li>MCAT</li>
                 <li>PARCC</li>
                 <li>Regents</li>
@@ -202,7 +245,8 @@ lineHeight:"0.80",
               </ul>
               <hr/>
             </Col>
-            <Col md="8" mt="5">
+            </Row>
+            <Col md="6" mt="5">
               <h3 className="rowsDesc">
                 <span>
                   <img src={gr} className="img-fluid" width="40" />
@@ -210,10 +254,10 @@ lineHeight:"0.80",
                 High School/Middle School <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="4" mt="5">
+            <Col md="5" mt="5">
               <h3 className="rowsDesc"></h3>
             </Col>
-            <Col md="4" mt="5">
+            <Col md="6" mt="5">
               <ul className="Desc">
                 <li>Pre-Algebra</li>
                 <li>AP Macroeconomics</li>
@@ -237,7 +281,7 @@ lineHeight:"0.80",
               </ul>
               <hr/>
             </Col>
-            <Col md="4">
+            <Col md="6">
               <ul className="Desc">
                 <li>IB Math HL & SL</li>
                 <li>IB Biology HL & SL</li>
@@ -249,7 +293,7 @@ lineHeight:"0.80",
               <hr/>
             </Col>
             
-            <Col md="4"></Col>
+            <Col md="6"></Col>
             <Col md="8" mt="5">
               <h3 className="rowsDesc">
                 <span>
