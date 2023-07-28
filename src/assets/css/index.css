@@ -9,7 +9,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
-
+.find-live>.width-line-space {
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  margin-left: 30%;
+  max-height: 5px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,11 +104,6 @@ nav ul li {
   border-radius: 0.5vw;
 }
 
-.width-line-space {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
 
 .width-line {
   width: 45vw;
@@ -476,7 +477,72 @@ nav ul li {
   background-color: #d9d9d9;
   font-size: 1.1vw;
 }
+.brand-moto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.brand-moto h1 {
+  color: #007bff;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.brand-moto p {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 100px;
+}
+.brand-moto-message {
+  width: 85%;
+}
+.brand-moto video {
+  border: 2px solid black;
+}
 
+.carousell {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 70%;
+  padding: 50px 50px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 20px 10px 20px 10px black;
+  /* border: 1px solid black; */
+  height: fit-content;
+}
+.carousell h1 {
+  color: red;
+  margin-bottom: 1rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  color: red;
+  background-color: rgba(128, 128, 128, 0.374);
+  border-radius: 10px;
+  margin: auto 0;
+  width: fit-content;
+  height: min-content;
+}
+.carousel-indicators {
+  display: none;
+}
+.comment-body {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: black;
+  font-size: 1.5rem;
+}
 .star-cl-red {
   color: #ff0000;
 }

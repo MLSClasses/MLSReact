@@ -26,6 +26,15 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Courses from "./courses.js";
+import ChallengingEnv from "../assets/img/ChallengingEnvironment.png";
+import Comp_Programs from "../assets/img/Comprehensive_Programs.png";
+import Confidence_Building from "../assets/img/Confidence_Building.png";
+import ExpertInstructors from "../assets/img/ExpertInstructors.png";
+import Flexible from "../assets/img/Flexible_Scheduling.png";
+import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
+import Per_learning from "../assets/img/PeronsonilzedLearning.png";
+import Proven_results from "../assets/img/Proven_Results.png";
+import CommentsSlide from "../components/comments_slide";
 function Index() {
   const myInlineStyle = {
     fontSize: '16px',
@@ -55,24 +64,24 @@ function Index() {
       <Navbar />
       <div className="Slideshow">
         <Slider {...settings}>
-          <div class="f-template" style={myInlineStyle}>
+          <div className="f-template" style={myInlineStyle}>
             <img src={slider1} alt="first Template" />
           </div>
-          <div class="f-template">
+          <div className="f-template">
             <img src={slider2} alt="first Template" />
           </div>
-          <div class="f-template">
+          <div className="f-template">
             <img src={slider3} alt="first Template" />
           </div>
-          <div class="f-template">
+          <div className="f-template">
             <img src={slider1} alt="first Template" />
           </div>
-          <div class="f-template">
+          <div className="f-template">
             <img src={slider2} alt="first Template" />
           </div>
         </Slider>
       </div>
-      <div class="find-live">
+      <div className="find-live">
         <div>
           <a href="#">
             MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
@@ -81,19 +90,19 @@ function Index() {
             programs , GUARANTEED.
           </a>
         </div>
-        <div class="width-line-space">
-          <div class="width-line">&nbsp;</div>
+        <div className="width-line-space">
+          <div className="yellowBtn">&nbsp;</div>
         </div>
       </div>
-      <div class="our-programs">
-        <div class="our-programs-h">Our Programs For 2-12 </div>
+      <div className="our-programs">
+        <div className="our-programs-h">Our Programs For 2-12 </div>
 
-        <div class="our-programs-div">
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">MATH</div>
-              <div class="our-programs-subtext">
+        <div className="our-programs-div">
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">MATH</div>
+              <div className="our-programs-subtext">
                 We provide unique learning experiences that go above and beyond
                 standard math instruction, fostering a deeper understanding of
                 mathematical concepts and encouraging critical thinking.
@@ -101,11 +110,11 @@ function Index() {
             </div>
           </div>
 
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">SCIENCE</div>
-              <div class="our-programs-subtext">
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">SCIENCE</div>
+              <div className="our-programs-subtext">
                 Our science programs empower children to explore various
                 scientific disciplines, develop problem-solving skills, and
                 deepen their understanding of scientific concepts, setting them
@@ -114,11 +123,11 @@ function Index() {
             </div>
           </div>
 
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">CODING</div>
-              <div class="our-programs-subtext">
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">CODING</div>
+              <div className="our-programs-subtext">
                 Through our interactive curriculum, students gain hands-on
                 experience with coding languages, algorithmic thinking, and
                 problem-solving techniques, setting them on a path to becoming
@@ -127,11 +136,11 @@ function Index() {
             </div>
           </div>
 
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">TEST - PREP</div>
-              <div class="our-programs-subtext">
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">TEST - PREP</div>
+              <div className="our-programs-subtext">
                 Through our interactive curriculum, students gain hands-on
                 experience with coding languages, algorithmic thinking, and
                 problem-solving techniques, setting them on a path to becoming
@@ -142,37 +151,37 @@ function Index() {
         </div>
       </div>
 
-      <div class="features">
-        <div class="features-h">Main Features</div>
+      <div className="features">
+        <div className="features-h">Main Features</div>
 
-        <div class="features-sub">
-          <div class="features-img" data-aos="fade-right">
+        <div className="features-sub">
+          <div className="features-img" data-aos="fade-right">
             <img src={image13} alt="features img" />
           </div>
-          <div class="features-content">
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+          <div className="features-content">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image1} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">1:1 Dedicated Classes</a>
               </div>
             </div>
 
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image2} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">Lowest Class $ per cost</a>
               </div>
             </div>
 
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image3} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">Master Teachers </a>
               </div>
             </div>
@@ -180,12 +189,12 @@ function Index() {
         </div>
       </div>
 
-      <div class="popular">
-        <div class="popular-head">
-          <div class="popular-h">Popular Courses</div>
-          {/* <div class="popular-btn">
+      <div className="popular">
+        <div className="popular-head">
+          <div className="popular-h">Popular Courses</div>
+          {/* <div className="popular-btn">
             <div>
-              <a href="#" class="popular-btn-active">
+              <a href="#" className="popular-btn-active">
                 All
               </a>
             </div>
@@ -204,7 +213,16 @@ function Index() {
       </div>
 
       <div className="brand-moto">
-        <h1>OUR BRAND</h1>
+        <div className="brand-moto-message">
+          <h1>Why the MLS CLasses?</h1>
+          <p>
+            MLS Classes: Where Personalized Learning Meets Excellence! Our
+            highly qualified teachers use expertly crafted curricula tailored to
+            individual students, ensuring a perfect fit for their needs. With
+            flexible online programs, your child will flourish academically and
+            carry that success beyond the classroom.
+          </p>
+        </div>
         <iframe
           poster={image11}
           src={`https://www.youtube.com/embed/${youtubeID}`}
@@ -215,50 +233,84 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
-      <div class="benefits">
-        <div class="benefits-h">OUR BENEFITS</div>
+      <div className="benefits">
+        <div className="benefits-h">OUR BENEFITS</div>
 
-        <div class="benefits-container">
+        <div className="benefits-container">
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Personalized Attention</div>
+            <img src={ExpertInstructors} alt="img" />
+            <div>
+              Expert
+              <br />
+              Instructors
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Quickened Learning Trajectory</div>
+            <img src={Per_learning} alt="img" />
+            <div>
+              Personalized
+              <br />
+              Learning
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Improved Academic Performance</div>
+            <img src={Comp_Programs} alt="img" />
+            <div>
+              Comprehensive
+              <br />
+              Programs
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Confidence Boost</div>
+            <img src={Proven_results} alt="img" />
+            <div>
+              Proven
+              <br />
+              Results
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Clearing Doubts</div>
+            <img src={Flexible} alt="img" />
+            <div>
+              Flexible
+              <br />
+              Scheduling
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Advanced Learning</div>
+            <img src={ChallengingEnv} alt="img" />
+            <div>
+              Challenging
+              <br />
+              Environment
+            </div>
           </div>
 
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Exam Preparation</div>
+            <img src={Confidence_Building} alt="img" />
+            <div>
+              Confidence
+              <br />
+              Building
+            </div>
           </div>
-
           <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Subject Specialization</div>
+            <img src={Lifelong_Skills} alt="img" />
+            <div>
+              Lifelong
+              <br />
+              Skills
+            </div>
           </div>
         </div>
+      </div>
+      <div className="parents-love">
+        <CommentsSlide />
       </div>
       <Footer />
     </div>
