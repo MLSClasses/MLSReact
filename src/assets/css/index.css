@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Abhaya Libre", serif;
 }
@@ -578,7 +579,11 @@ nav ul li {
   padding: 2vw 4vw;
   font-size: 1.2vw;
 }
-@media (max-width: 325) {
+ol,
+ul {
+  padding-left: 0 !important;
+}
+@media (max-swidth: 375) {
   nav ul li {
     margin: 1.5vw 2vw;
     font-size: 0.4rem;
