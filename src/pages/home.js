@@ -52,17 +52,14 @@ function Index() {
         <img src={image14} alt="first Template" />
       </div>
       <div class="find-live">
-        <div>
-          <a href="#">
-            MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
-            SSAT, STAAR, and AMC for students in grades 2-12. These programs are
-            specifically designed to accelerate your child's academic progress,
-            programs , GUARANTEED.
-          </a>
-        </div>
-        <div class="width-line-space">
-          <div class="width-line">&nbsp;</div>
-        </div>
+        <p>
+          MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
+          SSAT, STAAR, and AMC for students in grades 2-12. These programs are
+          specifically designed to accelerate your child's academic progress,
+          programs , GUARANTEED.
+        </p>
+
+        <div class="orange-line" />
       </div>
       <div class="program-boxes">
         <ProgramBox

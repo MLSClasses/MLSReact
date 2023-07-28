@@ -9,7 +9,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -115,11 +114,6 @@ nav ul li {
   font-size: auto;
   padding: 5px 10px;
 }
-.width-line {
-  width: 45vw;
-  height: 0.3vw;
-  background-color: #ff9500;
-}
 
 .our-programs {
   margin-top: 3.5vw;
@@ -132,7 +126,12 @@ nav ul li {
   font-family: "Acme", sans-serif;
   font-weight: 600;
 }
-
+.orange-line {
+  width: 40%;
+  background-color: orange;
+  margin: 50px auto !important;
+  height: 2px;
+}
 .our-programs-div {
   display: flex;
   justify-content: space-around;
@@ -186,7 +185,8 @@ nav ul li {
 .features-h {
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 2vw;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
   font-weight: 800;
 }
 
@@ -350,6 +350,8 @@ nav ul li {
 
 .benefits {
   font-family: "Inter", sans-serif;
+  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .benefits-h {
@@ -643,6 +645,7 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 .brand-moto h1 {
   color: #007bff;

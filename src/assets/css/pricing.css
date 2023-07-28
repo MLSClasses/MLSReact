@@ -75,23 +75,18 @@
   border-radius: 0.5vw;
 }
 
-.width-line {
-  width: 45vw;
-  height: 0.3vw;
-  background-color: #ff9500;
-}
 .our-programs {
   margin-top: 3.5vw;
 }
-.our-programs-p{
+.our-programs-p {
   position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    font-size: auto;
-    z-index: 1;
-    text-align: center;
-    color: black;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-size: auto;
+  z-index: 1;
+  text-align: center;
+  color: black;
 }
 .our-programs-h {
   text-align: center;
@@ -639,4 +634,7 @@ h4 {
 .comment-content p {
   margin-top: 10px;
   font-size: auto;
+}
+.orange-line{
+  
 }
