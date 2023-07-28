@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../assets/css/index.css";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import bg from "../assets/img/bg.jpg";
 import image1 from "../assets/img/icon1.png";
 import image2 from "../assets/img/icon2.png";
 import image3 from "../assets/img/icon3.png";
@@ -11,7 +15,11 @@ import image8 from "../assets/img/icon7 (1).png";
 import image9 from "../assets/img/icon7.png";
 import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
-import image14 from "../assets/img/1.jpg";
+import image14 from "../assets/img/temp3.png";
+import temp4 from "../assets/img/temp4.png";
+import slider1 from '../assets/img/slider1.jpg'
+import slider2 from '../assets/img/slider2.jpg'
+import slider3 from '../assets/img/slider3.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../components/navbar";
@@ -28,100 +36,152 @@ import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
 function Index() {
+  const myInlineStyle = {
+    fontSize: '16px',
+    color: 'blue',
+    fontWeight: 'bold',
+    size: '100px'
+    // Add more CSS properties as needed
+  };
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   useEffect(() => {
     AOS.init({
       offset: 200,
       duration: 600,
     });
   }, []);
-  const ProgramBox = (props) => {
-    return (
-      <div class="box" data-aos="flip-up">
-        <h1>{props.subject}</h1>
-        <p>{props.content}</p>
-      </div>
-    );
-  };
-  const [youtubeID] = useState("atOfb83gU-w");
+  const [youtubeID] = useState("XpScgwRKpgs");
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
       <Whatsapp_icon />
       <Navbar />
-      <div class="f-template">
-        <img src={image14} alt="first Template" />
+      <div className="Slideshow">
+        <Slider {...settings}>
+          <div className="f-template" style={myInlineStyle}>
+            <img src={slider1} alt="first Template" />
+          </div>
+          <div className="f-template">
+            <img src={slider2} alt="first Template" />
+          </div>
+          <div className="f-template">
+            <img src={slider3} alt="first Template" />
+          </div>
+          <div className="f-template">
+            <img src={slider1} alt="first Template" />
+          </div>
+          <div className="f-template">
+            <img src={slider2} alt="first Template" />
+          </div>
+        </Slider>
       </div>
-      <div class="find-live">
-        <p>
-          MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
-          SSAT, STAAR, and AMC for students in grades 2-12. These programs are
-          specifically designed to accelerate your child's academic progress,
-          programs , GUARANTEED.
-        </p>
+      <div className="find-live">
+        <div>
+          <a href="#">
+            MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
+            SSAT, STAAR, and AMC for students in grades 2-12. These programs are
+            specifically designed to accelerate your child's academic progress,
+            programs , GUARANTEED.
+          </a>
+        </div>
+        <div className="width-line-space">
+          <div className="yellowBtn">&nbsp;</div>
+        </div>
+      </div>
+      <div className="our-programs">
+        <div className="our-programs-h">Our Programs For 2-12 </div>
 
-        <div class="orange-line" />
-      </div>
-      <div class="program-boxes">
-        <ProgramBox
-          subject="MATH"
-          content="We provide unique learning experiences that go above and beyond
+        <div className="our-programs-div">
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">MATH</div>
+              <div className="our-programs-subtext">
+                We provide unique learning experiences that go above and beyond
                 standard math instruction, fostering a deeper understanding of
-                mathematical concepts and encouraging critical thinking."
-        />
-        <ProgramBox
-          subject="SCIENCE"
-          content=" Our science programs empower children to explore various
-          scientific disciplines, develop problem-solving skills, and
-          deepen their understanding of scientific concepts, setting them
-          on a path of scientific excellence."
-        />
-        <ProgramBox
-          subject="CODING"
-          content="Through our interactive curriculum, students gain hands-on
-          experience with coding languages, algorithmic thinking, and
-          problem-solving techniques, setting them on a path to becoming
-          skilled and creative coders."
-        />
-        <ProgramBox
-          subject="TEST-PREP"
-          content="Through our interactive curriculum, students gain hands-on
-          experience with coding languages, algorithmic thinking, and
-          problem-solving techniques, setting them on a path to becoming
-          skilled and creative coders."
-        />
+                mathematical concepts and encouraging critical thinking.
+              </div>
+            </div>
+          </div>
+
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">SCIENCE</div>
+              <div className="our-programs-subtext">
+                Our science programs empower children to explore various
+                scientific disciplines, develop problem-solving skills, and
+                deepen their understanding of scientific concepts, setting them
+                on a path of scientific excellence.
+              </div>
+            </div>
+          </div>
+
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">CODING</div>
+              <div className="our-programs-subtext">
+                Through our interactive curriculum, students gain hands-on
+                experience with coding languages, algorithmic thinking, and
+                problem-solving techniques, setting them on a path to becoming
+                skilled and creative coders.
+              </div>
+            </div>
+          </div>
+
+          <div className="our-programs-sub-div" data-aos="flip-up">
+            <div className="our-programs-round"></div>
+            <div className="our-programs-text">
+              <div className="our-programs-text-h">TEST - PREP</div>
+              <div className="our-programs-subtext">
+                Through our interactive curriculum, students gain hands-on
+                experience with coding languages, algorithmic thinking, and
+                problem-solving techniques, setting them on a path to becoming
+                skilled and creative coders.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="features">
-        <div class="features-h">Main Features</div>
+      <div className="features">
+        <div className="features-h">Main Features</div>
 
-        <div class="features-sub">
-          <div class="features-img" data-aos="fade-right">
+        <div className="features-sub">
+          <div className="features-img" data-aos="fade-right">
             <img src={image13} alt="features img" />
           </div>
-          <div class="features-content">
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+          <div className="features-content">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image1} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">1:1 Dedicated Classes</a>
               </div>
             </div>
 
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image2} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">Lowest Class $ per cost</a>
               </div>
             </div>
 
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image3} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">Master Teachers </a>
               </div>
             </div>
@@ -129,12 +189,12 @@ function Index() {
         </div>
       </div>
 
-      <div class="popular">
-        <div class="popular-head">
-          <div class="popular-h">Popular Courses</div>
-          {/* <div class="popular-btn">
+      <div className="popular">
+        <div className="popular-head">
+          <div className="popular-h">Popular Courses</div>
+          {/* <div className="popular-btn">
             <div>
-              <a href="#" class="popular-btn-active">
+              <a href="#" className="popular-btn-active">
                 All
               </a>
             </div>
@@ -153,8 +213,8 @@ function Index() {
       </div>
 
       <div className="brand-moto">
-        <div class="brand-moto-message">
-          <h1>Why the 98th Percentile?</h1>
+        <div className="brand-moto-message">
+          <h1>Why the MLS CLasses?</h1>
           <p>
             MLS Classes: Where Personalized Learning Meets Excellence! Our
             highly qualified teachers use expertly crafted curricula tailored to
@@ -173,10 +233,10 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
-      <div class="benefits">
-        <div class="benefits-h">OUR BENEFITS</div>
+      <div className="benefits">
+        <div className="benefits-h">OUR BENEFITS</div>
 
-        <div class="benefits-container">
+        <div className="benefits-container">
           <div data-aos="zoom-in">
             <img src={ExpertInstructors} alt="img" />
             <div>
@@ -249,7 +309,7 @@ function Index() {
           </div>
         </div>
       </div>
-      <div class="parents-love">
+      <div className="parents-love">
         <CommentsSlide />
       </div>
       <Footer />

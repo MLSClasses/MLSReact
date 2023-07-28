@@ -22,11 +22,12 @@ function Courses() {
     <div class="courses">
       <div class="slide slide-wrapper">
         {render("SAT", python)}
-        {render("Web Developement", web_dev)}
-        {render("Python Programming", web_dev)}
         {render("ACT", web_dev)}
+        {render("AP", web_dev)}
+        {render("AMC", web_dev)}
         {render("Math", web_dev)}
-        {render("English", web_dev)}
+        {render("Science", web_dev)}
+        {render("ELA", web_dev)}
         {render("Coding", web_dev)}
       </div>
     </div>

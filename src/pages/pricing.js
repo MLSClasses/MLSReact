@@ -12,7 +12,6 @@ import b2 from "../assets/img/b2.png";
 import b3 from "../assets/img/b3.png";
 import gr from "../assets/img/gr.png";
 import pos from "../assets/img/ppostion.png";
-import { Link } from "react-router-dom";
 import Whatsapp_icon from "../components/whatsapp_icon";
 const Pricing = () => {
   AOS.init({
@@ -25,25 +24,16 @@ const Pricing = () => {
       <Navbar />
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />
-        <h1 className="our-program-p" 
-        style={{
-          "position": "absolute",
-          "top": "50%",
-          "left": '75%',
-          "transform": "translate(-50%, -50%)",
-          "font-size": 'auto',
-          "z-index": "1",
-          "textAlign": "center",
-          "color":" black"
-        }}
-        >Book Free Trail Now</h1>
+      </div>
+      <div className="bookFree">
+        <h1>Book free Trial Now</h1>
       </div>
       <div className="white">
         <Container fluid>
           <Row>
             <Col md="12" sm="12" xs="12">
               <div className="find-live">
-                <div>
+                <div className="joinMLS">
                   <a href="#">
                     Join us at MLS Classes and unlock your child's true
                     potential. <br />
@@ -51,11 +41,11 @@ const Pricing = () => {
                     heights.
                   </a>
                 </div>
-                <Link to="/contact">
+                <div className="boxx1">
                   <div className="width-line-space">
                     <h3>Book 1 Week Free Trial</h3>
-                  </div>  
-                </Link>
+                  </div>
+                </div>
               </div>
               <div>
                 <h3 className="container-desc">
@@ -101,6 +91,12 @@ const Pricing = () => {
               </div>
             </Col>
           </Row>
+          <div className="boxx">
+            <div className="width-line-space">
+              <h3>Book 1 Week Free Trial</h3>
+            </div>
+          </div>
+          <br /><br />
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
@@ -133,6 +129,12 @@ const Pricing = () => {
               </div>
             </Col>
           </Row>
+          <div className="boxx">
+            <div className="width-line-space">
+              <h3>Book 1 Week Free Trial</h3>
+            </div>
+          </div>
+          <br /><br />
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
@@ -165,6 +167,11 @@ const Pricing = () => {
               </div>
             </Col>
           </Row>
+          <div className="boxx">
+            <div className="width-line-space">
+              <h3>Book 1 Week Free Trial</h3>
+            </div>
+          </div>
         </Container>
       </div>
       <Footer />
