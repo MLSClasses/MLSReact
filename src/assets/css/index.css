@@ -629,6 +629,7 @@ nav ul li {
     margin: 1.5vw 2vw;
     font-size: 0.4rem;
   }
+}
 
 @media (max-width: 768px) {
   nav .nav-login-btn {
