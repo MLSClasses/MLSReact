@@ -553,6 +553,10 @@
   font-size: 1.2vw;
 }
 @media (max-width: 768px) {
+  .random1{
+    max-height: 10px;
+    max-width: 10px;
+  }
   nav .nav-login-btn {
     margin-top: 0.1vw;
   }
