@@ -1,22 +1,35 @@
+.width-line-space {
+  background-color: #ff8a00;
+  border-radius: 20px;
+  padding: 0.5% 20%;
+  max-width: 30%;
+}
+.bookFree{
+  margin-top: -25%;
+  margin-left: 60%;
+  margin-bottom: 20%;
+}
+.boxx{
+  margin-left: 30%;
+}
+.boxx1>.width-line-space{
+  margin-left: 30%;
+  padding: 0.5% 20%;
+  max-width: 30%;
+}
 .container-desc {
   text-align: center;
-  font-size: auto;
+  font-size: 48px;
   line-height: 56.63px;
   font-family: "Abhaya Libre", serif;
-}
-.random {
-  text-align: center;
-  background: #007bff;
-  color: #fff;
-  padding: 170px 2px;
 }
 .random1 {
   text-align: center;
   background: #007bff;
   color: #fff;
   padding: 183px 2px;
+  min-width: 70px;
 }
-
 .box {
   /* margin-left: 120px;  */
   font-size: 22px;
@@ -50,7 +63,7 @@
 
 .find-live {
   text-align: center;
-  font-size: auto;
+  font-size: 1.5vw;
   font-weight: 700;
   margin-top: 1vw;
   font-family: "Abhaya Libre", serif;
@@ -58,7 +71,7 @@
 
 .find-live div {
   margin: 0.8vw;
-  padding: 0vw 18vw;
+  padding: 0vw 20vw;
   line-height: 2.3vw;
 }
 
@@ -71,8 +84,14 @@
   background-color: #ff8a00;
   color: black;
   padding: 0.5vw 2vw;
-  font-size: auto;
+  font-size: 1.2vw;
   border-radius: 0.5vw;
+}
+
+.width-line-space {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .width-line {
@@ -80,22 +99,14 @@
   height: 0.3vw;
   background-color: #ff9500;
 }
+
 .our-programs {
   margin-top: 3.5vw;
 }
-.our-programs-p{
-  position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    font-size: auto;
-    z-index: 1;
-    text-align: center;
-    color: black;
-}
+
 .our-programs-h {
   text-align: center;
-  font-size: auto;
+  font-size: 2.5rem;
   color: #002144;
   font-family: "Acme", sans-serif;
   font-weight: 600;
@@ -103,9 +114,7 @@
 
 .our-programs-div {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
   margin-top: 3vw;
 }
@@ -135,23 +144,17 @@
   padding-top: 5vw;
   font-family: "Inter", sans-serif;
   text-align: center;
-  /* width: ; */
-  width: fit-content;
+  height: fit-content;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .our-programs-text-h {
-  font-size: 1.5rem;
+  font-size: 2vw;
   font-weight: 900;
 }
-@media (max-width: 768px) {
-  .our-programs-sub-div {
-    width: 300px;
-    height: fit-content;
-  }
-}
+
 .our-programs-subtext {
-  font-size: auto;
+  font-size: 1.2vw;
 }
 
 .features {
@@ -162,7 +165,7 @@
 .features-h {
   text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: auto;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -498,7 +501,7 @@
 }
 
 .footer2-sub div {
-  width: 18vw;
+  width: 20vw;
   /* border: 1px solid black; */
 }
 
@@ -550,7 +553,17 @@
   nav .nav-login-btn {
     margin-top: 0.1vw;
   }
-
+.boxx{
+  min-width: 160%;
+  margin-left:12%;
+}
+.boxx1>.width-line-space{
+  margin-left: -10%;
+  min-width: 110%;
+}
+.joinMLS{
+  font-size: 10px;
+}
   nav ul li {
     margin: 1.5vw 2vw;
   }
@@ -624,7 +637,7 @@ h4 {
 
 .commenter-name {
   font-weight: bold;
-  font-size: auto;
+  font-size: 2.5rem;
 }
 
 .star-rating {
@@ -638,5 +651,5 @@ h4 {
 
 .comment-content p {
   margin-top: 10px;
-  font-size: auto;
+  font-size: 1.5rem;
 }

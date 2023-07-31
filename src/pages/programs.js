@@ -9,6 +9,7 @@ import b1 from "../assets/img/b1.png";
 import b2 from "../assets/img/b2.png";
 import b3 from "../assets/img/b3.png";
 import gr from "../assets/img/gr.png";
+import arrow_img from "../assets/img/images.png"
 import pos from "../assets/img/ppostion.png";
 import Whatsapp_icon from "../components/whatsapp_icon";
 const Programs = () => {
@@ -21,7 +22,19 @@ const Programs = () => {
         <img src={img1} alt="first Template" />
         <h1 class="our-program-h">Our Program</h1>
       </div>
-      <div className="white">
+      <div className="main-prg">
+      <div className="mt-10 nav-login-btn" style={{
+
+textDecoration: "none",
+backgroundColor: "orange",
+color: "black",
+padding: "0.4vw 3vw",
+borderRadius: "0.5vw",
+width: "14%",
+lineHeight:"0.80",
+    marginLeft: "45%"
+      }}>2 - 12</div>
+      <div className="white m-6">
         <Container fluid>
           <Row>
             <Col md="1" sm="1" xs="1">
@@ -39,24 +52,26 @@ const Programs = () => {
       <div className="white">
         <Container>
           <Row>
-            <Col md="8">
+            <Col md="10" sm="10" xs="12">
               <h3 className="rowsDesc">
                 <span>
                   <img src={gr} className="img-fluid" width="40" />
                 </span>{" "}
                 High School/Middle School
+              <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="4">
+            <Col md="2" sm="2" xs="12">
               <h3 className="rowsDesc">
                 <span>
                   {" "}
                   <img src={gr} className="img-fluid" width="40" />
                 </span>{" "}
                 Elementary
+                <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="4">
+            <Col md="5" sm="5">
               <ul className="Desc">
                 <li>Pre-Algebra</li>
                 <li>Algebra 1</li>
@@ -70,8 +85,9 @@ const Programs = () => {
                 <li>Integrated Math 1</li>
                 <li>Integrated Math 2</li>
               </ul>
+              <hr/>
             </Col>
-            <Col md="4">
+            <Col md="5" sm="5">
               <ul className="Desc">
                 <li>Integrated Math 3</li>
                 <li>Biology</li>
@@ -85,65 +101,29 @@ const Programs = () => {
                 <li>Grammar</li>
                 <li>Writing</li>
               </ul>
+              <hr/>
             </Col>
+            
           
             
             
-            
-            <div className="col-md-4">
+            <div className="col-md-2">
               <ul className="Desc">
                 <li>Math</li>
                 <li>Science</li>
                 <li>Grammar and Writing</li>
                 <li>Reading Comprehension</li>
               </ul>
-            </div>
-            <Col md="4" mt="5">
-              <h3 className="rowsDesc">
-                <span>
-                  <img src={gr} className="img-fluid" width="40" />
-                </span>{" "}
-                Test Prep
-              </h3>
-            </Col>
-            <Col md="4" mt="5">
+              <hr/>
               <h3 className="rowsDesc">
                 <span>
                   {" "}
                   <img src={gr} className="img-fluid" width="40" />
                 </span>{" "}
                 IT
+                <img src={arrow_img} className="arrow_down" />
               </h3>
-            </Col>
-            <Col md="4" mt="5">
-              <h3 className="rowsDesc1">
-                <span>
-                  {" "}
-                  <img src={gr} className="img-fluid" width="40" />
-                </span>{" "}
-                Other Test Prep
-              </h3>
-            </Col>
-            <Col md="4">
-              <ul className="Desc">
-                <li className="subDesc">SAT</li>
-                <li>SAT</li>
-                <li>SAT Math</li>
-                <li>SAT Reading & Writing</li>
-                <li className="subDesc">PSAT</li>
-                <li>PSAT/NMSQT</li>
-                <li>PSAT Math</li>
-                <li>PSAT Evidence-Based</li>
-                <li>Reading & Writing</li>
-                <li className="subDesc">ACT</li>
-                <li>ACT Complete</li>
-                <li>ACT Math</li>
-                <li>ACT English</li>
-                <li>ACT Science</li>
-              </ul>
-            </Col>
-            <Col md="4" mt="5">
-              <ul className="Desc">
+            <ul className="Desc">
                 <li>C# Programming</li>
                 <li>C++ Programming</li>
                 <li>HTML and Web</li>
@@ -152,6 +132,56 @@ const Programs = () => {
                 <li>Python</li>
                 <li>Scratch</li>
                 <li>Robotics</li>
+              </ul>
+              <hr/>
+            </div>
+            
+            </Row>
+            <Row className="second2">
+            <Col md="4" mt="5">
+              <h3 className="rowsDesc">
+                <span>
+                  <img src={gr} className="img-fluid" width="40" />
+                </span>{" "}
+                Test Prep
+                <img src={arrow_img} className="arrow_down" />
+              </h3>
+            </Col>
+            <Col md="4" mt="5">
+             
+            </Col>
+            <Col md="4" mt="5">
+              <h3 className="rowsDesc1">
+                <span>
+                  {" "}
+                  <img src={gr} className="img-fluid" width="40" />
+                </span>{" "}
+                Other Test Prep
+                <img src={arrow_img} className="arrow_down" />
+              </h3>
+            </Col>
+            <Col md="4">
+              <ul className="Desc">
+                <li className="subDesc">SAT <img src={arrow_img} className="arrow_down" /></li>
+                <li>SAT</li>
+                <li>SAT Math</li>
+                <li>SAT Reading & Writing</li>
+                <li className="subDesc">PSAT <img src={arrow_img} className="arrow_down" /></li>
+                <li>PSAT/NMSQT</li>
+                <li>PSAT Math</li>
+                <li>PSAT Evidence-Based</li>
+                <li>Reading & Writing</li>
+               
+              </ul>
+              <hr/>
+            </Col>
+            <Col md="4" mt="5">
+              <ul className="Desc">
+              <li className="subDesc">ACT <img src={arrow_img} className="arrow_down" /></li>
+                <li>ACT Complete</li>
+                <li>ACT Math</li>
+                <li>ACT English</li>
+                <li>ACT Science</li>
               </ul>
             </Col>
             <Col md="4" mt="5">
@@ -170,13 +200,14 @@ const Programs = () => {
                 <li>TERRANOVA</li>
                 <li>TOEFL</li>
               </ul>
+              <hr/>
             </Col>
             <Col md="8" mt="5">
               <h3 className="rowsDesc">
                 <span>
                   <img src={gr} className="img-fluid" width="40" />
                 </span>{" "}
-                High School/Middle School
+                High School/Middle School <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
             <Col md="4" mt="5">
@@ -204,6 +235,7 @@ const Programs = () => {
                 <li>AP Spanish</li>
                 <li>IBMYP</li>
               </ul>
+              <hr/>
             </Col>
             <Col md="4">
               <ul className="Desc">
@@ -214,20 +246,22 @@ const Programs = () => {
                 <li>IB English HL & SL</li>
                 <li>IBMYP</li>
               </ul>
+              <hr/>
             </Col>
+            
             <Col md="4"></Col>
             <Col md="8" mt="5">
               <h3 className="rowsDesc">
                 <span>
                   <img src={gr} className="img-fluid" width="40" />
                 </span>{" "}
-                College
+                College <img src={arrow_img} className="arrow_down" />
               </h3>
             </Col>
-            <Col md="84">
+            <Col md="4">
               <h3 className="Desc"></h3>
             </Col>
-            <Col md="8" mt="5">
+            <Col md="4" sm="4" mt="5">
               <ul className="Desc">
                 <li>College Math</li>
                 <li>Differential Equations</li>
@@ -238,7 +272,7 @@ const Programs = () => {
                 <li>College Biology</li>
               </ul>
             </Col>
-            <Col md="8" mt="5">
+            <Col md="4" sm="4" mt="5">
               <ul className="Desc">
                 <li>Molecular Biology</li>
                 <li>College Genetics</li>
@@ -249,6 +283,7 @@ const Programs = () => {
                 <li>College English</li>
               </ul>
             </Col>
+            <hr/>
             <Col md="4" mt="5"></Col>
           </Row>
         </Container>
@@ -267,14 +302,16 @@ const Programs = () => {
                     fontFamily: "Abhaya Libre, serif",
                   }}
                 >
-                  Why is MLS Classes the preferred choice for effective learning
+                  Why is MLS Classes the preferred choice<br/>
+                  for effective learning
                   and academic success?
                 </h3>
               </Col>
             </div>
-            <Col md="4" sm="11" xs="11" text-center mt="5">
-              <div className="box">
-                <img src={b1} className="img-fluid" />
+           
+            <Col md="4" sm="11" xs="11" text-center mt="5" style={{marginTop:"10vh"}}>
+              <div >
+                <img src={b1} className="img-fluid" style={{marginLeft:"9vw"}} />
                 <h3 className="Ind-learn">Individualized Learning</h3>
                 <p className="Flex-learn">
                   Flexible learning at MLS Classes allows students to practice
@@ -284,9 +321,9 @@ const Programs = () => {
                 <br />
               </div>
             </Col>
-            <Col>
-              <div className="box">
-                <img src={b2} className="img-fluid" />
+            <Col md="4" sm="11" xs="11" style={{marginTop:"10vh"}}>
+              <div>
+                <img src={b2} className="img-fluid" style={{marginLeft:"9vw"}} />
                 <h3 className="Ind-learn">Reliable Resources</h3>
                 <p className="Flex-learn">
                   MLS Classes offers a comprehensive library of expert-created
@@ -301,9 +338,9 @@ const Programs = () => {
                 <br />
               </div>
             </Col>
-            <Col>
-              <div className="box">
-                <img src={b3} className="img-fluid" />
+            <Col md="4" sm="11" xs="11" style={{marginTop:"10vh"}}>
+              <div >
+                <img src={b3} className="img-fluid"  style={{marginLeft:"9vw"}} />
                 <h3 className="Ind-learn">Empowering Educators</h3>
                 <p className="Flex-learn">
                   MLS Classes empowers teachers to identify and address gaps in
@@ -317,8 +354,10 @@ const Programs = () => {
                 <br />
               </div>
             </Col>
+           
           </Row>
         </Container>
+      </div>
       </div>
       <Footer />
     </div>
