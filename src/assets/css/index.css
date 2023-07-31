@@ -360,6 +360,8 @@ nav ul li {
 .benefits-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .benefits-container div {
