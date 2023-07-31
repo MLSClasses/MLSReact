@@ -29,11 +29,14 @@
   color: #fff;
   padding: 183px 2px;
   min-width: 70px;
+  margin-top: 35%;
+  margin-right: -17%;
 }
 .box {
   /* margin-left: 120px;  */
   font-size: 22px;
   line-height: 48px;
+  margin-left: -1%;
 }
 .rows {
   margin-top: 120px;
@@ -550,6 +553,10 @@
   font-size: 1.2vw;
 }
 @media (max-width: 768px) {
+  .random1{
+    max-height: 10px;
+    max-width: 10px;
+  }
   nav .nav-login-btn {
     margin-top: 0.1vw;
   }
