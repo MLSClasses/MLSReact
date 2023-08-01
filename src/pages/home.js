@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../assets/css/index.css";
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import bg from "../assets/img/bg.jpg";
 import image1 from "../assets/img/icon1.png";
 import image2 from "../assets/img/icon2.png";
@@ -17,9 +17,9 @@ import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
 import image14 from "../assets/img/temp3.png";
 import temp4 from "../assets/img/temp4.png";
-import slider1 from '../assets/img/slider1.jpg'
-import slider2 from '../assets/img/slider2.jpg'
-import slider3 from '../assets/img/slider3.png'
+import slider1 from "../assets/img/slider1.jpg";
+import slider2 from "../assets/img/slider2.jpg";
+import slider3 from "../assets/img/slider3.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../components/navbar";
@@ -35,12 +35,14 @@ import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
 import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
+import Box from "../components/Box";
+import Mobile_Navbar from "../components/mobile_navbar";
 function Index() {
   const myInlineStyle = {
-    fontSize: '16px',
-    color: 'blue',
-    fontWeight: 'bold',
-    size: '100px'
+    fontSize: "16px",
+    color: "blue",
+    fontWeight: "bold",
+    size: "100px",
     // Add more CSS properties as needed
   };
   const settings = {
@@ -48,7 +50,7 @@ function Index() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
   };
   useEffect(() => {
     AOS.init({
@@ -56,12 +58,26 @@ function Index() {
       duration: 600,
     });
   }, []);
+  const A_benefit = (props) => {
+    const labelling = props.label.split(" ");
+    return (
+      <div data-aos="zoom-in" class="benefit">
+        <img src={props.image} />
+        <p>
+          {labelling[0]}
+          <br />
+          {labelling[1]}
+        </p>
+      </div>
+    );
+  };
   const [youtubeID] = useState("XpScgwRKpgs");
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
-      <Whatsapp_icon />
-      <Navbar />
+      {/* <Navsbar /> */}
+      {<Whatsapp_icon/>}
+      {<Mobile_Navbar />}
       <div className="Slideshow">
         <Slider {...settings}>
           <div className="f-template" style={myInlineStyle}>
@@ -94,63 +110,24 @@ function Index() {
           <div className="yellowBtn">&nbsp;</div>
         </div>
       </div>
-      <div className="our-programs">
-        <div className="our-programs-h">Our Programs For 2-12 </div>
-
-        <div className="our-programs-div">
-          <div className="our-programs-sub-div" data-aos="flip-up">
-            <div className="our-programs-round"></div>
-            <div className="our-programs-text">
-              <div className="our-programs-text-h">MATH</div>
-              <div className="our-programs-subtext">
-                We provide unique learning experiences that go above and beyond
-                standard math instruction, fostering a deeper understanding of
-                mathematical concepts and encouraging critical thinking.
-              </div>
-            </div>
-          </div>
-
-          <div className="our-programs-sub-div" data-aos="flip-up">
-            <div className="our-programs-round"></div>
-            <div className="our-programs-text">
-              <div className="our-programs-text-h">SCIENCE</div>
-              <div className="our-programs-subtext">
-                Our science programs empower children to explore various
-                scientific disciplines, develop problem-solving skills, and
-                deepen their understanding of scientific concepts, setting them
-                on a path of scientific excellence.
-              </div>
-            </div>
-          </div>
-
-          <div className="our-programs-sub-div" data-aos="flip-up">
-            <div className="our-programs-round"></div>
-            <div className="our-programs-text">
-              <div className="our-programs-text-h">CODING</div>
-              <div className="our-programs-subtext">
-                Through our interactive curriculum, students gain hands-on
-                experience with coding languages, algorithmic thinking, and
-                problem-solving techniques, setting them on a path to becoming
-                skilled and creative coders.
-              </div>
-            </div>
-          </div>
-
-          <div className="our-programs-sub-div" data-aos="flip-up">
-            <div className="our-programs-round"></div>
-            <div className="our-programs-text">
-              <div className="our-programs-text-h">TEST - PREP</div>
-              <div className="our-programs-subtext">
-                Through our interactive curriculum, students gain hands-on
-                experience with coding languages, algorithmic thinking, and
-                problem-solving techniques, setting them on a path to becoming
-                skilled and creative coders.
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="boxes">
+        <Box
+          content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
+          subject="MATH"
+        />
+        <Box
+          content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
+          subject="SCIENCE"
+        />
+        <Box
+          content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
+          subject="CODING"
+        />
+        <Box
+          content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
+          subject="TEST-PREP"
+        />
       </div>
-
       <div className="features">
         <div className="features-h">Main Features</div>
 
@@ -192,29 +169,13 @@ function Index() {
       <div className="popular">
         <div className="popular-head">
           <div className="popular-h">Popular Courses</div>
-          {/* <div className="popular-btn">
-            <div>
-              <a href="#" className="popular-btn-active">
-                All
-              </a>
-            </div>
-            <div>
-              <a href="#">Popularity</a>
-            </div>
-            <div>
-              <a href="#">Trending</a>
-            </div>
-            <div>
-              <a href="#">Feature</a>
-            </div>
-          </div> */}
         </div>
         <Courses />
       </div>
 
       <div className="brand-moto">
         <div className="brand-moto-message">
-          <h1>Why the MLS CLasses?</h1>
+          <h1>Why the MLS Classes?</h1>
           <p>
             MLS Classes: Where Personalized Learning Meets Excellence! Our
             highly qualified teachers use expertly crafted curricula tailored to
@@ -233,80 +194,17 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
-      <div className="benefits">
-        <div className="benefits-h">OUR BENEFITS</div>
-
-        <div className="benefits-container">
-          <div data-aos="zoom-in">
-            <img src={ExpertInstructors} alt="img" />
-            <div>
-              Expert
-              <br />
-              Instructors
-            </div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={Per_learning} alt="img" />
-            <div>
-              Personalized
-              <br />
-              Learning
-            </div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={Comp_Programs} alt="img" />
-            <div>
-              Comprehensive
-              <br />
-              Programs
-            </div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={Proven_results} alt="img" />
-            <div>
-              Proven
-              <br />
-              Results
-            </div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={Flexible} alt="img" />
-            <div>
-              Flexible
-              <br />
-              Scheduling
-            </div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={ChallengingEnv} alt="img" />
-            <div>
-              Challenging
-              <br />
-              Environment
-            </div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={Confidence_Building} alt="img" />
-            <div>
-              Confidence
-              <br />
-              Building
-            </div>
-          </div>
-          <div data-aos="zoom-in">
-            <img src={Lifelong_Skills} alt="img" />
-            <div>
-              Lifelong
-              <br />
-              Skills
-            </div>
-          </div>
+      <div class="benefits-container">
+        <h1>Our Benefits</h1>
+        <div class="benefits">
+          <A_benefit image={ExpertInstructors} label="Expert Instructors" />
+          <A_benefit image={Per_learning} label="Personalized Learning" />
+          <A_benefit image={Comp_Programs} label="Comprehensive Programs" />
+          <A_benefit image={Proven_results} label="Proven Results" />
+          <A_benefit image={Flexible} label="Flexible Scheduling" />
+          <A_benefit image={ChallengingEnv} label="Challenging Enviornment" />
+          <A_benefit image={Confidence_Building} label="Confidence Building" />
+          <A_benefit image={Lifelong_Skills} label="Lifelong Skills" />
         </div>
       </div>
       <div className="parents-love">

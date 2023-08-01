@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { Container, Row, Col } from "react-bootstrap";
 import Whatsapp_icon from "../components/whatsapp_icon";
+import Mobile_Navbar from "../components/mobile_navbar";
 const stars = (num) => {
   const stars_arr = [];
   for (let i = 0; i < num; i++) {
