@@ -13,11 +13,13 @@ import StudentJob from "./pages/studentJob";
 import Login from "./pages/loginpage";
 import Signup from "./pages/Signuppage";
 import Whatsapp_icon from "./components/whatsapp_icon";
+import Mobile_Navbar from "./components/mobile_navbar";
 function App() {
   return (
-    <div>
+    <div class="body">
       <Whatsapp_icon />
       <BrowserRouter>
+        <Mobile_Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

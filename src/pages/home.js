@@ -76,8 +76,8 @@ function Index() {
   return (
     <div>
       {/* <Navsbar /> */}
-      {<Whatsapp_icon />}
-      {<Mobile_Navbar />}
+      {/* {<Whatsapp_icon />}
+      {<Mobile_Navbar />} */}
       <div className="Slideshow">
         <Slider {...settings}>
           <div className="f-template" style={myInlineStyle}>
