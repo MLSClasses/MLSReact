@@ -5,7 +5,12 @@ const ChatWithUs = () => {
 const Whatsapp_icon = () => {
   return (
     <div>
-      <img src={whatsapp_icon} id="whatsapp_icon" alt="whatsapp icon" onClick={ChatWithUs} />
+      <img
+        src={whatsapp_icon}
+        id="whatsapp_icon"
+        alt="whatsapp icon"
+        onClick={ChatWithUs}
+      />
     </div>
   );
 };

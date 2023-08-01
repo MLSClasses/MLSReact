@@ -6,6 +6,7 @@ import { signInWithPopup } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import "../assets/css/Login.css";
 import Whatsapp_icon from "../components/whatsapp_icon";
+import Mobile_Navbar from "../components/mobile_navbar";
 function Loginpage() {
   const navigate = useNavigate();
   const [values, setValues] = useState({

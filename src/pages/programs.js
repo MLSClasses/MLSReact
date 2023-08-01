@@ -25,12 +25,12 @@ import ab from "../assets/img/edu7.jpeg";
 import arrow_img from "../assets/img/images.png"
 import pos from "../assets/img/ppostion.png";
 import Whatsapp_icon from "../components/whatsapp_icon";
+import Mobile_Navbar from "../components/mobile_navbar";
 const Programs = () => {
   return (
     <div>
+      {<Mobile_Navbar />}
       <Whatsapp_icon />
-      <Navbar />
-
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
         {/* <h1 class="our-program-h">Our Program</h1> */}
