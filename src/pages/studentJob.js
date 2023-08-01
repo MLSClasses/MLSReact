@@ -34,9 +34,6 @@ const StudentJob = () => {
   });
   return (
     <div>
-      <Whatsapp_icon />
-      <Navbar />
-
       <div class="f-template-contact">
         <img src={first_img} alt="first Template" />
       </div>

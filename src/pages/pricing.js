@@ -21,8 +21,8 @@ const Pricing = () => {
   });
   return (
     <div>
-      {<Mobile_Navbar />}
-      <Whatsapp_icon />
+      {/* {<Mobile_Navbar />}
+      <Whatsapp_icon /> */}
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />
       </div>
