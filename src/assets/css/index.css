@@ -628,6 +628,7 @@ nav ul li {
     margin: 1.5vw 2vw;
     font-size: 0.4rem;
   }
+}
 
   @media (max-width: 768px) {
     nav .nav-login-btn {
@@ -765,10 +766,15 @@ nav ul li {
     opacity: 1;
   }
 
-  hr {
-    height: 2px;
-    color: black;
-    background-color: black;
-    opacity: 1;
-  }
+hr{
+  height: 2px;
+color: black;
+background-color: black;
+opacity: 1;
+}
+
+.fa-brands, .fab {
+  width: 1.2em;
+  line-height: 1em;
+  font-weight: 400;
 }
