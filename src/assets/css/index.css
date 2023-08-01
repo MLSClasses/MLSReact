@@ -635,79 +635,79 @@ nav ul li {
   }
 }
 
-  @media (max-width: 768px) {
-    nav .nav-login-btn {
-      margin-top: 0.1vw;
-    }
-
-    nav ul li {
-      margin: 1.5vw 2vw;
-    }
-
-    nav .nav-login-btn a {
-      font-size: 1.6vw;
-    }
-
-    .features-content-2 {
-      margin-bottom: 2vw;
-    }
-
-    .features-content-text {
-      line-height: 1vw;
-    }
-
-    .popular-sub-div div a {
-      display: block;
-      line-height: 2.9vw !important;
-    }
-
-    .contact-sub-input label {
-      font-size: 1.7vw;
-    }
-
-    .contact-sub-input input {
-      font-size: 1.5vw;
-    }
-
-    .contact-sub-input select {
-      font-size: 1.5vw;
-    }
-
-    .contact-sub-input textarea {
-      font-size: 1.5vw;
-    }
-
-    .contact-btn button {
-      padding: 0.8vw 1.5vw;
-      font-size: 3vw;
-    }
-  }
-  .brand-moto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 80px;
-  }
-  .brand-moto h1 {
-    color: #007bff;
-    font-size: 4rem;
-    text-align: center;
-    font-family: "Inter", sans-serif;
+@media (max-width: 768px) {
+  nav .nav-login-btn {
+    margin-top: 0.1vw;
   }
 
-  .brand-moto video {
-    border: 2px solid black;
+  nav ul li {
+    margin: 1.5vw 2vw;
   }
 
-  .flex-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
+  nav .nav-login-btn a {
+    font-size: 1.6vw;
   }
+
+  .features-content-2 {
+    margin-bottom: 2vw;
+  }
+
+  .features-content-text {
+    line-height: 1vw;
+  }
+
+  .popular-sub-div div a {
+    display: block;
+    line-height: 2.9vw !important;
+  }
+
+  .contact-sub-input label {
+    font-size: 1.7vw;
+  }
+
+  .contact-sub-input input {
+    font-size: 1.5vw;
+  }
+
+  .contact-sub-input select {
+    font-size: 1.5vw;
+  }
+
+  .contact-sub-input textarea {
+    font-size: 1.5vw;
+  }
+
+  .contact-btn button {
+    padding: 0.8vw 1.5vw;
+    font-size: 3vw;
+  }
+}
+.brand-moto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.brand-moto h1 {
+  color: #007bff;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.brand-moto video {
+  border: 2px solid black;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .main-content {
   display: flex;
@@ -722,32 +722,32 @@ nav ul li {
   background-blend-mode: multiply;
 }
 
-  #whatsapp_icon:hover {
-    cursor: pointer;
-    width: 5rem;
-  }
-  .courses {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    overflow-x: scroll;
-  }
-  .course {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  .slide-wrapper {
-    display: flex;
-    width: 150%; /* Width will expand based on the number of slides */
-  }
+#whatsapp_icon:hover {
+  cursor: pointer;
+  width: 5rem;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: scroll;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.slide-wrapper {
+  display: flex;
+  width: 150%; /* Width will expand based on the number of slides */
+}
 
-  .slide {
-    flex: 0 0 20%; /* For 5 slides, use 20%; for 4 slides, use 25%, etc. */
-    margin-right: 10px; /* Adjust the spacing between slides */
-  }
+.slide {
+  flex: 0 0 20%; /* For 5 slides, use 20%; for 4 slides, use 25%, etc. */
+  margin-right: 10px; /* Adjust the spacing between slides */
+}
 
 .course img {
   margin: 10px 10px;
@@ -888,7 +888,7 @@ hr {
     width: 50%;
     transition: left 0.3s ease-in-out;
     z-index: 10000;
-    height: 100vh;
+    height: 100%;
   }
 
   .navbar.active {
@@ -906,7 +906,7 @@ hr {
   }
   .logo a img {
     /* width:px; */
-    width: 200px;
+    width: 50%;
     height: auto;
   }
   .hamburger-icon {
@@ -932,8 +932,8 @@ hr {
   } */
 }
 
-
-.fa-brands, .fab {
+.fa-brands,
+.fab {
   width: 1.2em;
   line-height: 1em;
   font-weight: 400;

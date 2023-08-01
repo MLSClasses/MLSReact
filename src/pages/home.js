@@ -76,7 +76,7 @@ function Index() {
   return (
     <div>
       {/* <Navsbar /> */}
-      {<Whatsapp_icon/>}
+      {<Whatsapp_icon />}
       {<Mobile_Navbar />}
       <div className="Slideshow">
         <Slider {...settings}>
