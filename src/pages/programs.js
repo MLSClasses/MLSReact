@@ -81,6 +81,7 @@ lineHeight:"0.80",
                 <li>Writing</li>
               </ul>
           </Col>
+          <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
@@ -146,6 +147,7 @@ lineHeight:"0.80",
               
             
           </Col>
+          <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
@@ -199,6 +201,7 @@ lineHeight:"0.80",
               </ul>
             
           </Col>
+          <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
@@ -243,6 +246,7 @@ lineHeight:"0.80",
               </ul>
             
           </Col>
+          <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
@@ -270,6 +274,7 @@ lineHeight:"0.80",
                 <li>Reading Comprehension</li>
               </ul>
           </Col>
+          <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
@@ -298,7 +303,9 @@ lineHeight:"0.80",
                 <li>Python</li>
                 <li>Scratch</li>
                 <li>Robotics</li>
-              </ul>          </Col>
+              </ul>          
+              </Col>
+              <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
@@ -334,6 +341,7 @@ lineHeight:"0.80",
                 <li>TOEFL</li>
               </ul>
                   </Col>
+                  <hr/>
         </Row>
         </Accordion.Body>
       </Accordion.Item>
