@@ -773,3 +773,9 @@ color: black;
 background-color: black;
 opacity: 1;
 }
+
+.fa-brands, .fab {
+  width: 1.2em;
+  line-height: 1em;
+  font-weight: 400;
+}

@@ -90,7 +90,8 @@ lineHeight:"0.80",
       {/* 2nd */}
       <Accordion defaultActiveKey="1">
       <Accordion.Item eventKey="1">
-        <Accordion.Header>              <h3 className="rowsDesc">
+        <Accordion.Header>              
+          <h3 className="rowsDesc">
                 <span>
                   <img src={gr} alt="img" className="img-fluid" width="40" />
                 </span>{" "}
@@ -104,7 +105,7 @@ lineHeight:"0.80",
           
           <Accordion defaultActiveKey="1">
       <Accordion.Item eventKey="1"></Accordion.Item>
-        <Accordion.Header><p className="subDesc">SAT <img alt="" src={arrow_img} className="arrow_down" /></p> </Accordion.Header>
+        <Accordion.Header><p className="rowsDesc">SAT <img alt="" src={arrow_img} className="arrow_down" /></p> </Accordion.Header>
         <Accordion.Body>
         <ul className="Desc">
                 
@@ -117,7 +118,7 @@ lineHeight:"0.80",
 
         <Accordion defaultActiveKey="1">
       <Accordion.Item eventKey="1"></Accordion.Item>
-        <Accordion.Header><p className="subDesc">PSAT <img alt="" src={arrow_img} className="arrow_down" /></p> </Accordion.Header>
+        <Accordion.Header><p className="rowsDesc">PSAT <img alt="" src={arrow_img} className="arrow_down" /></p> </Accordion.Header>
         <Accordion.Body>
         <ul className="Desc">
                 <li>PSAT/NMSQT</li>
@@ -132,7 +133,7 @@ lineHeight:"0.80",
           <Col md={6}>
           <Accordion defaultActiveKey="1">
       <Accordion.Item eventKey="1"></Accordion.Item>
-        <Accordion.Header><p className="subDesc">ACT <img alt="" src={arrow_img} className="arrow_down" /></p> </Accordion.Header>
+        <Accordion.Header><p className="rowsDesc">ACT <img alt="" src={arrow_img} className="arrow_down" /></p> </Accordion.Header>
         <Accordion.Body>
        <ul className="Desc">
                 <li>ACT Complete</li>
