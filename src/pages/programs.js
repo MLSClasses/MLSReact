@@ -10,6 +10,18 @@ import b1 from "../assets/img/b1.png";
 import b2 from "../assets/img/b2.png";
 import b3 from "../assets/img/b3.png";
 import gr from "../assets/img/gr.png";
+import hgs from "../assets/img/edu3.jpeg";
+import ele from "../assets/img/edu4.jpeg";
+import it_img from "../assets/img/edu5.jpeg";
+import clgg from "../assets/img/edu2.jpeg";
+import ab from "../assets/img/edu7.jpeg";
+
+
+
+
+
+
+
 import arrow_img from "../assets/img/images.png"
 import pos from "../assets/img/ppostion.png";
 import Whatsapp_icon from "../components/whatsapp_icon";
@@ -43,7 +55,7 @@ lineHeight:"0.80",
       <Accordion.Item eventKey="0">
         <Accordion.Header style={{background:"white"}}>              <h3 className="rowsDesc">
                 <span>
-                  <Image  src={gr} alt="img" className="img-fluid" width="40" fluid/>
+                  <Image  src={hgs} alt="img" className="img-fluid" width="40" style={{marginTop:"-20px"}} fluid/>
                 </span>{" "}
                 High School/Middle School
               { <Image src={arrow_img} alt="img" className="arrow_down" fluid /> }
@@ -94,7 +106,7 @@ lineHeight:"0.80",
         <Accordion.Header>              
           <h3 className="rowsDesc">
                 <span>
-                  <img src={gr} alt="img" className="img-fluid" width="40" />
+                  <img src={b2} alt="img" className="img-fluid" width="40" style={{marginTop:"-20px"}} />
                 </span>{" "}
                 Test Prep
               { <img src={arrow_img} alt="img" className="arrow_down" /> }
@@ -158,7 +170,7 @@ lineHeight:"0.80",
       <Accordion.Item eventKey="2">
         <Accordion.Header>              <h3 className="rowsDesc">
                 <span>
-                  <img src={gr} alt="img" className="img-fluid" width="40" />
+                  <img src={ab} alt="img" className="img-fluid" width="40" style={{marginTop:"-20px"}} />
                 </span>{" "}
                 AP/IB
               { <img src={arrow_img} alt="img" className="arrow_down" /> }
@@ -212,7 +224,7 @@ lineHeight:"0.80",
       <Accordion.Item eventKey="3">
         <Accordion.Header>              <h3 className="rowsDesc">
                 <span>
-                  <img src={gr} alt="img" className="img-fluid" width="40" />
+                  <img src={clgg} alt="img" className="img-fluid" width="40" style={{marginTop:"-20px"}} />
                 </span>{" "}
                 Collage
               { <img src={arrow_img} alt="img" className="arrow_down" /> }
@@ -258,7 +270,7 @@ lineHeight:"0.80",
       <Accordion.Item eventKey="4">
         <Accordion.Header>              <h3 className="rowsDesc">
                 <span>
-                  <img src={gr} alt="img" className="img-fluid" width="40" />
+                  <img src={ele} alt="img" className="img-fluid" style={{marginTop:"-20px"}} width="40" />
                 </span>{" "}
                 Elementary
               { <img src={arrow_img} alt="img" className="arrow_down" /> }
@@ -285,7 +297,7 @@ lineHeight:"0.80",
       <Accordion.Item eventKey="5">
         <Accordion.Header>              <h3 className="rowsDesc">
                 <span>
-                  <img src={gr} alt="img" className="img-fluid" width="40" />
+                  <img src={it_img} alt="img" className="img-fluid" width="40" style={{marginTop:"-20px"}} />
                 </span>{" "}
                 IT
               { <img src={arrow_img} alt="img" className="arrow_down" /> }
@@ -316,7 +328,7 @@ lineHeight:"0.80",
       <Accordion.Item eventKey="5">
         <Accordion.Header>              <h3 className="rowsDesc">
                 <span>
-                  <img src={gr} alt="img" className="img-fluid" width="40" />
+                  <img src={b2} alt="img" className="img-fluid" width="40" style={{marginTop:"-20px"}} />
                 </span>{" "}
                 Other Test Prep
               { <img src={arrow_img} alt="img" className="arrow_down" /> }
