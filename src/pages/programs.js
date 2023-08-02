@@ -34,11 +34,12 @@ const Programs = () => {
             textDecoration: "none",
             backgroundColor: "orange",
             color: "black",
-            padding: "0.4vw 3vw",
+            padding: "0.4vw 6vw",
             borderRadius: "0.5vw",
-            width: "14%",
+            width: "17%",
+            whiteSpace: "nowrap",
             lineHeight: "0.80",
-            marginLeft: "45%",
+            marginLeft: "43%",
           }}
         >
           2 - 12
@@ -46,7 +47,7 @@ const Programs = () => {
         <div style={{ marginTop: "5%" }}>
           <Container fluid>
             <Row>
-              <Col md={8} sm={8} xs={8}>
+              <Col md={7} sm={7} xs={8}>
                 <Accordion defaultActiveKey="0">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header style={{ background: "white" }}>
@@ -333,7 +334,7 @@ const Programs = () => {
                 </Accordion>
               </Col>
 
-              <Col md={4} sm={4} xs={4}>
+              <Col md={5} sm={5} xs={4}>
                 <Accordion defaultActiveKey="4">
                   <Accordion.Item eventKey="4">
                     <Accordion.Header>
