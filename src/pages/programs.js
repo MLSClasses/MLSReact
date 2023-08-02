@@ -34,7 +34,7 @@ const Programs = () => {
             textDecoration: "none",
             backgroundColor: "orange",
             color: "black",
-            padding: "0.4vw 6vw",
+            padding: "0.4vw 2vw",
             borderRadius: "0.5vw",
             width: "17%",
             whiteSpace: "nowrap",
@@ -45,7 +45,7 @@ const Programs = () => {
           2 - 12
         </div>
         <div style={{ marginTop: "5%" }}>
-          <Container fluid>
+          <>
             <Row>
               <Col md={7} sm={7} xs={8}>
                 <Accordion defaultActiveKey="0">
@@ -564,7 +564,7 @@ const Programs = () => {
                 </Row>
               </Container>
             </div>
-          </Container>
+          </>
         </div>
       </div>
       <Footer />
