@@ -40,8 +40,8 @@ const NavBarComponent = (props) => {
                 <li><Link to="/studentjob" className={active === "studentjob" ? "active" : ""}>Student Corner</Link></li>
                 <li><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
-                  {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>LogOut</a></div>}
-                  {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">LogIn</a></div>}
+                  {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div>}
+                  {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}
 
                 </li>
               </ul>

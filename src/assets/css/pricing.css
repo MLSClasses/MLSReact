@@ -8,6 +8,7 @@
   margin-top: -25%;
   margin-left: 60%;
   margin-bottom: 20%;
+  font-family: 'Inder', sans-serif;
 }
 .boxx {
   margin-left: 30%;
@@ -28,15 +29,22 @@
   background: #007bff;
   color: #fff;
   padding: 183px 2px;
-  min-width: 70px;
+  min-width: 90px;
   margin-top: 35%;
-  margin-right: -17%;
+  margin-left: 211%;
 }
-.box {
+.deets>.box{
   /* margin-left: 120px;  */
-  font-size: 22px;
+  font-size: 21px;
   line-height: 48px;
-  margin-left: -1%;
+  margin-left: 15%;
+  min-width: 80%;
+}
+.box>ul{
+  margin-left: 10%;
+}
+.box>ul>li{
+  text-align: left;
 }
 .rows {
   margin-top: 120px;
@@ -44,7 +52,7 @@
 .rows1 {
   margin-top: 70px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");

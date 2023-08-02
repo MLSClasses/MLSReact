@@ -29,6 +29,7 @@ const Pricing = () => {
       <div className="bookFree">
         <h1>Book free Trial Now</h1>
       </div>
+      <br /><br /><br />
       <div className="white">
         <Container fluid>
           <Row>
@@ -42,10 +43,12 @@ const Pricing = () => {
                     heights.
                   </a>
                 </div>
+                <br />
                 <div className="boxx1">
                   <div className="width-line-space">
                     <h3>Book 1 Week Free Trial</h3>
                   </div>
+                  <br />
                 </div>
               </div>
               <div>
@@ -54,6 +57,7 @@ const Pricing = () => {
                   Subscription – Including Test Preparation!
                 </h3>
               </div>
+              <br /><br />
             </Col>
           </Row>
         </Container>
@@ -71,24 +75,26 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md="10" xs="12" sm="10">
-              <div className="box">
-                <ul>
-                  <li>1:1 highly interactive and personalized sessions</li>
-                  <li>Homework and assignments after every session</li>
-                  <li>Monthly quizzes and tests</li>
-                  <li>Parent-Teacher Meetings (PTMs) every month</li>
-                  <li>Class notes provided after every session</li>
-                  <li>Class recording available for review</li>
-                  <li>Flexible class schedule to accommodate your needs</li>
-                  <li>Extra classes offered during exam times</li>
-                  <li>
-                    24x7 doubt support available for continuous assistance
-                  </li>
-                  <li>
-                    Utilize AI-powered platforms to monitor and assess your
-                    progress effectively.
-                  </li>
-                </ul>
+              <div className="deets">
+                <div className="box">
+                  <ul>
+                    <li>1:1 highly interactive and personalized sessions</li>
+                    <li>Homework and assignments after every session</li>
+                    <li>Monthly quizzes and tests</li>
+                    <li>Parent-Teacher Meetings (PTMs) every month</li>
+                    <li>Class notes provided after every session</li>
+                    <li>Class recording available for review</li>
+                    <li>Flexible class schedule to accommodate your needs</li>
+                    <li>Extra classes offered during exam times</li>
+                    <li>
+                      24x7 doubt support available for continuous assistance
+                    </li>
+                    <li>
+                      Utilize AI-powered platforms to monitor and assess your
+                      progress effectively.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </Col>
           </Row>
@@ -110,24 +116,26 @@ const Pricing = () => {
               </div>
             </Col>
             <Col sm="10" md="10" xs="12">
-              <div className="box">
-                <ul>
-                  <li>1:1 highly interactive and personalized sessions</li>
-                  <li>Homework and assignments after every session</li>
-                  <li>Monthly quizzes and tests</li>
-                  <li>Parent-Teacher Meetings (PTMs) every month</li>
-                  <li>Class notes provided after every session</li>
-                  <li>Class recording available for review</li>
-                  <li>Flexible class schedule to accommodate your needs</li>
-                  <li>Extra classes offered during exam times</li>
-                  <li>
-                    24x7 doubt support available for continuous assistance
-                  </li>
-                  <li>
-                    Utilize AI-powered platforms to monitor and assess your
-                    progress effectively.
-                  </li>
-                </ul>
+              <div className="deets">
+                <div className="box">
+                  <ul>
+                    <li>1:1 highly interactive and personalized sessions</li>
+                    <li>Homework and assignments after every session</li>
+                    <li>Monthly quizzes and tests</li>
+                    <li>Parent-Teacher Meetings (PTMs) every month</li>
+                    <li>Class notes provided after every session</li>
+                    <li>Class recording available for review</li>
+                    <li>Flexible class schedule to accommodate your needs</li>
+                    <li>Extra classes offered during exam times</li>
+                    <li>
+                      24x7 doubt support available for continuous assistance
+                    </li>
+                    <li>
+                      Utilize AI-powered platforms to monitor and assess your
+                      progress effectively.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </Col>
           </Row>
@@ -149,24 +157,26 @@ const Pricing = () => {
               </div>
             </Col>
             <Col sm="10" md="10" xs="12">
-              <div className="box">
-                <ul>
-                  <li>1:1 highly interactive and personalized sessions</li>
-                  <li>Homework and assignments after every session</li>
-                  <li>Monthly quizzes and tests</li>
-                  <li>Parent-Teacher Meetings (PTMs) every month</li>
-                  <li>Class notes provided after every session</li>
-                  <li>Class recording available for review</li>
-                  <li>Flexible class schedule to accommodate your needs</li>
-                  <li>Extra classes offered during exam times</li>
-                  <li>
-                    24x7 doubt support available for continuous assistance
-                  </li>
-                  <li>
-                    Utilize AI-powered platforms to monitor and assess your
-                    progress effectively.
-                  </li>
-                </ul>
+              <div className="deets">
+                <div className="box">
+                  <ul>
+                    <li>1:1 highly interactive and personalized sessions</li>
+                    <li>Homework and assignments after every session</li>
+                    <li>Monthly quizzes and tests</li>
+                    <li>Parent-Teacher Meetings (PTMs) every month</li>
+                    <li>Class notes provided after every session</li>
+                    <li>Class recording available for review</li>
+                    <li>Flexible class schedule to accommodate your needs</li>
+                    <li>Extra classes offered during exam times</li>
+                    <li>
+                      24x7 doubt support available for continuous assistance
+                    </li>
+                    <li>
+                      Utilize AI-powered platforms to monitor and assess your
+                      progress effectively.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </Col>
           </Row>
@@ -178,7 +188,7 @@ const Pricing = () => {
         </Container>
       </div>
       <Footer />
-    </div>
+    </div >
   );
 };
 export default Pricing;

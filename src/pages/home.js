@@ -22,7 +22,7 @@ import slider2 from "../assets/img/slider2.jpg";
 import slider3 from "../assets/img/slider3.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from "../components/navbar";
+
 import Footer from "../components/footer";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Courses from "./courses.js";
@@ -36,7 +36,6 @@ import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
 import Box from "../components/Box";
-import Mobile_Navbar from "../components/mobile_navbar";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -61,7 +60,7 @@ function Index() {
   const A_benefit = (props) => {
     const labelling = props.label.split(" ");
     return (
-      <div data-aos="zoom-in" class="benefit">
+      <div data-aos="zoom-in" className="benefit">
         <img src={props.image} />
         <p>
           {labelling[0]}
@@ -75,19 +74,16 @@ function Index() {
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
-      {/* <Navsbar /> */}
-      {/* {<Whatsapp_icon />}
-      {<Mobile_Navbar />} */}
       <div className="Slideshow">
         <Slider {...settings}>
           <div className="f-template" style={myInlineStyle}>
+            <img src={slider3} alt="first Template" />
+          </div>
+          <div className="f-template">
             <img src={slider1} alt="first Template" />
           </div>
           <div className="f-template">
             <img src={slider2} alt="first Template" />
-          </div>
-          <div className="f-template">
-            <img src={slider3} alt="first Template" />
           </div>
           <div className="f-template">
             <img src={slider1} alt="first Template" />
@@ -97,6 +93,7 @@ function Index() {
           </div>
         </Slider>
       </div>
+      <br /><br />
       <div className="find-live">
         <div>
           <a href="#">
@@ -109,21 +106,25 @@ function Index() {
         <div className="width-line-space">
           <div className="yellowBtn">&nbsp;</div>
         </div>
+        <br />
+        <div className="midBanner">
+          <h4 >Our Programs For 2-12</h4>
+        </div>
       </div>
-      <div class="boxes">
-        <Box
+      <div className="boxes">
+        <Box className="info"
           content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
           subject="MATH"
         />
-        <Box
+        <Box className="info"
           content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
           subject="SCIENCE"
         />
-        <Box
+        <Box className="info"
           content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
           subject="CODING"
         />
-        <Box
+        <Box className="info"
           content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
           subject="TEST-PREP"
         />
@@ -194,9 +195,9 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
-      <div class="benefits-container">
+      <div className="benefits-container">
         <h1>Our Benefits</h1>
-        <div class="benefits">
+        <div className="benefits">
           <A_benefit image={ExpertInstructors} label="Expert Instructors" />
           <A_benefit image={Per_learning} label="Personalized Learning" />
           <A_benefit image={Comp_Programs} label="Comprehensive Programs" />
@@ -207,11 +208,12 @@ function Index() {
           <A_benefit image={Lifelong_Skills} label="Lifelong Skills" />
         </div>
       </div>
+      <br /><br /><br />
       <div className="parents-love">
         <CommentsSlide />
       </div>
       <Footer />
-    </div>
+    </div >
   );
 }
 export default Index;

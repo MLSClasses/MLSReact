@@ -33,7 +33,6 @@ nav {
 nav div img {
   width: 15vw;
 }
-
 nav ul {
   text-decoration: none;
   list-style: none;
@@ -494,7 +493,6 @@ nav ul li {
   margin-top: 50px;
 }
 .brand-moto h1 {
-  color: #007bff;
   font-size: 3rem;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -524,7 +522,7 @@ nav ul li {
   border-radius: 20px;
   align-items: center;
   justify-content: start;
-  box-shadow: 20px 10px 20px 10px black;
+  box-shadow: 5px 2px 25px 5px black;
   /* border: 1px solid black; */
   height: fit-content;
 }
@@ -734,7 +732,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  overflow-x: scroll;
+  overflow-x:auto;
 }
 .course {
   display: flex;
@@ -788,7 +786,13 @@ hr {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 6%;
+}
+.midBanner{
+  margin-top: 10px;
+  font-size: larger;
+  transform: rotate(90deg);
+  font-family: 'Acme', sans-serif;
 }
 .box {
   text-align: center;
@@ -825,7 +829,7 @@ hr {
   overflow: visible;
 }
 .benefit {
-  flex: 0 0 calc(25% - 10px);
+  flex: 0 0 calc(15% - 10px);
   text-align: center;
 }
 .benefit p {
