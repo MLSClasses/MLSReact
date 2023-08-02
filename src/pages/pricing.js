@@ -13,6 +13,7 @@ import b3 from "../assets/img/b3.png";
 import gr from "../assets/img/gr.png";
 import pos from "../assets/img/ppostion.png";
 import Whatsapp_icon from "../components/whatsapp_icon";
+import Mobile_Navbar from "../components/mobile_navbar";
 const Pricing = () => {
   AOS.init({
     offset: 200,
@@ -20,8 +21,8 @@ const Pricing = () => {
   });
   return (
     <div>
-      <Whatsapp_icon />
-      <Navbar />
+      {/* {<Mobile_Navbar />}
+      <Whatsapp_icon /> */}
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />
       </div>
@@ -96,7 +97,8 @@ const Pricing = () => {
               <h3>Book 1 Week Free Trial</h3>
             </div>
           </div>
-          <br /><br />
+          <br />
+          <br />
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
@@ -134,7 +136,8 @@ const Pricing = () => {
               <h3>Book 1 Week Free Trial</h3>
             </div>
           </div>
-          <br /><br />
+          <br />
+          <br />
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">

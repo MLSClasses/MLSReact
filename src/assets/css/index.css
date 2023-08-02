@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 
+.body {
+  overflow: hidden;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  /* background-color: red; */
+}
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
-.find-live>.width-line-space {
+.find-live > .width-line-space {
   text-align: center;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-left: 30%;
   max-height: 5px;
 }
@@ -70,8 +77,7 @@ nav ul li {
 }
 
 .f-template {
-  width: 100%;
-  padding: 1vw;
+  width: 100vw;
 }
 
 .f-template img {
@@ -104,7 +110,6 @@ nav ul li {
   font-size: 1.2vw;
   border-radius: 0.5vw;
 }
-
 
 .width-line {
   width: 45vw;
@@ -352,6 +357,9 @@ nav ul li {
 .benefits-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .benefits-container div {
@@ -372,7 +380,6 @@ nav ul li {
   width: 10vw;
   text-align: center;
   font-weight: 600;
-  font-size: 1vw;
 }
 
 .review {
@@ -711,10 +718,12 @@ nav ul li {
 }
 #whatsapp_icon {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   width: 4rem;
   aspect-ratio: 1;
+  background-blend-mode: multiply;
+  z-index: 1000;
 }
 
 #whatsapp_icon:hover {
@@ -760,16 +769,178 @@ iframe {
   width: 40%;
   aspect-ratio: 1;
 }
-hr{
+hr {
   height: 2px;
-color: black;
-background-color: black;
-opacity: 1;
+  color: black;
+  background-color: black;
+  opacity: 1;
 }
 
-hr{
+hr {
   height: 2px;
-color: black;
-background-color: black;
-opacity: 1;
+  color: black;
+  background-color: black;
+  opacity: 1;
+}
+.boxes {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.box {
+  text-align: center;
+  background: rgba(0, 158, 255, 0.21);
+  padding: 5px 5px;
+  border-radius: 20px;
+  min-width: 250px;
+  max-width: 300px;
+  flex: 1;
+}
+.box p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.box h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.benefits {
+  display: flex;
+  flex-direction: row;
+  /* gap: 20px; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit img {
+  width: 12vw;
+  border: 1px solid #007bff;
+  border-radius: 50%;
+  padding: 2vw;
+  text-align: center;
+  overflow: visible;
+}
+.benefit {
+  flex: 0 0 calc(25% - 10px);
+  text-align: center;
+}
+.benefit p {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navbar.css */
+
+/* Navbar styles */
+.navbar {
+  /* background-color: #333; */
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-items a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 1.8rem;
+}
+
+/* Hamburger icon styles */
+.hamburger-icon {
+  display: none; /* Hide the hamburger icon on larger screens */
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.hamburger-icon.open .line {
+  background-color: #333; /* Change color of lines when menu is open */
+}
+
+/* Mobile view - show the hamburger icon and hide the regular navbar items */
+@media (max-width: 768px) {
+  .navbar {
+    background-color: rgb(26, 25, 25);
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: start;
+    position: fixed;
+    top: 0;
+    left: -50%; /* Start the menu off-screen */
+    width: 50%;
+    transition: left 0.3s ease-in-out;
+    z-index: 10000;
+    height: 100%;
+  }
+
+  .navbar.active {
+    left: 0; /* Slide in the menu */
+  }
+  .navbar.active .menu-items {
+    flex-direction: column;
+  }
+  .navbar .menu-items {
+    flex-direction: column;
+  }
+  .menu-items a {
+    color: white;
+    margin: 5px 0;
+  }
+  .logo a img {
+    /* width:px; */
+    width: 50%;
+    height: auto;
+  }
+  .hamburger-icon {
+    display: block;
+    position: fixed;
+    /* position: fixed; Show the hamburger icon on mobile */
+    top: 20px;
+    right: 20px;
+  }
+  .line {
+    width: 40px;
+    height: 5px;
+    background-color: black;
+  }
+  .hamburger-icon.open .line {
+    background-color: blue;
+  }
+  /* .hamburger-icon.open {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+  } */
+}
+
+.fa-brands,
+.fab {
+  width: 1.2em;
+  line-height: 1em;
+  font-weight: 400;
+}
+.slick-slider button {
+  display: none;
 }
