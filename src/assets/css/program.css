@@ -99,6 +99,11 @@ top: 310px;
 right: 503px;
 
 }
+@media (max-width: 668px) {
+.col-8{
+    width:55%;
+}
+}
 /* h4{
     background-color: #FF8A00;
 border-radius: 20px;

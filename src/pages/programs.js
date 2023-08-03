@@ -47,7 +47,7 @@ const Programs = () => {
         <div style={{ marginTop: "5%" }}>
           <>
             <Row>
-              <Col md={7} sm={7} xs={8}>
+              <Col md={8} sm={8} xs={8}>
                 <Accordion defaultActiveKey="0">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header style={{ background: "white" }}>
@@ -334,7 +334,7 @@ const Programs = () => {
                 </Accordion>
               </Col>
 
-              <Col md={5} sm={5} xs={4}>
+              <Col md={4} sm={4} xs={4}>
                 <Accordion defaultActiveKey="4">
                   <Accordion.Item eventKey="4">
                     <Accordion.Header>
@@ -348,7 +348,7 @@ const Programs = () => {
                             style={{ marginTop: "-20px" }}
                             width="40"
                           />
-                        </span>{" "}
+                        {" "}
                         Elementary
                         {
                           <img
@@ -357,6 +357,7 @@ const Programs = () => {
                             className="arrow_down"
                           />
                         }
+                        </span>
                       </h3>
                     </Accordion.Header>
                     <Accordion.Body>
