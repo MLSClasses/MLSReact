@@ -207,7 +207,7 @@ const ContactComponent = (props) => {
           </div>
         </div>
       </div>
-
+      <br /><br /><br />
       <FooterComponent />
     </div>
   );

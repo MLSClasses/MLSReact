@@ -212,6 +212,7 @@ function Index() {
       <div className="parents-love">
         <CommentsSlide />
       </div>
+      <br /><br /><br />
       <Footer />
     </div >
   );

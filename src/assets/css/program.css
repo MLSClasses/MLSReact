@@ -84,13 +84,11 @@ container-desc{
     padding-top: 20px;
 }
 .Flex-learn{
-    text-align: center; 
-    font-size: 16px; 
-    line-height: 19.36px;
+    text-align: center;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 16px;
-    line-height: 19.36px;
+    font-size: 18px;
+    line-height: 17px;
     white-space: break-spaces;
 }
 .pos{

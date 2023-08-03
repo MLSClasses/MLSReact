@@ -7,21 +7,22 @@ import Navbar from "../components/navbar";
 import { Container, Row, Col } from "react-bootstrap";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Mobile_Navbar from "../components/mobile_navbar";
+import '../assets/css/studentJob.css';
 const stars = (num) => {
   const stars_arr = [];
   for (let i = 0; i < num; i++) {
-    stars_arr.push(<span class="star">&#9733;</span>);
+    stars_arr.push(<span className="star">&#9733;</span>);
   }
   return stars_arr;
 };
 const comment = (comment, name, stars_arr) => {
   return (
-    <div class="comment-box">
-      <div class="comment-header">
-        <span class="commenter-name">{name}</span>
-        <div class="star-rating">{stars(stars_arr)}</div>
+    <div className="comment-box">
+      <div className="comment-header">
+        <span className="commenter-name">{name}</span>
+        <div className="star-rating">{stars(stars_arr)}</div>
       </div>
-      <div class="comment-content">
+      <div className="comment-content">
         <p>{comment}</p>
       </div>
     </div>
@@ -34,7 +35,7 @@ const StudentJob = () => {
   });
   return (
     <div>
-      <div class="f-template-contact">
+      <div className="f-template-contact">
         <img src={first_img} alt="first Template" />
       </div>
       <div data-aos="flip-up">
@@ -74,7 +75,7 @@ const StudentJob = () => {
       </div>
       <Container>
         <Row className="rows">
-          <div>
+          <div className="exp">
             <Col md="12" xs="12" sm="12">
               <h3
                 style={{
@@ -95,7 +96,7 @@ const StudentJob = () => {
       <Container></Container>
       <Row className="rows"></Row>
       <Row className="rows"></Row>
-      <div class="contact-btn">
+      <div className="contact-btn">
         <button>Book 1 Week Free Demo</button>
       </div>
       <Footer />

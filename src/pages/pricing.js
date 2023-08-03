@@ -187,6 +187,7 @@ const Pricing = () => {
           </div>
         </Container>
       </div>
+      <br /><br /><br />
       <Footer />
     </div >
   );
