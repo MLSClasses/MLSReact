@@ -3,9 +3,9 @@ import { Carousel } from "react-bootstrap";
 import "../assets/css/index.css";
 const comment = (comment, name) => {
   return (
-    <div class="comment-body">
-      <div class="comment-content">{comment}</div>
-      <span class="commenter">-{name}</span>
+    <div className="comment-body">
+      <div className="comment-content">{comment}</div>
+      <span className="commenter">-{name}</span>
     </div>
   );
 };

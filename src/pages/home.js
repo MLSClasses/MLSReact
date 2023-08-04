@@ -47,9 +47,11 @@ function Index() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,         // Add this line to enable autoplay
+    autoplaySpeed: 4000,
   };
   useEffect(() => {
     AOS.init({
