@@ -40,9 +40,10 @@ const Programs = () => {
             whiteSpace: "nowrap",
             lineHeight: "0.80",
             marginLeft: "43%",
+            marginTop: "2%"
           }}
         >
-          2 - 12
+          <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
         <div style={{ marginTop: "5%" }}>
           <>
@@ -348,15 +349,15 @@ const Programs = () => {
                             style={{ marginTop: "-20px" }}
                             width="40"
                           />
-                        {" "}
-                        Elementary
-                        {
-                          <img
-                            src={arrow_img}
-                            alt="img"
-                            className="arrow_down"
-                          />
-                        }
+                          {" "}
+                          Elementary
+                          {
+                            <img
+                              src={arrow_img}
+                              alt="img"
+                              className="arrow_down"
+                            />
+                          }
                         </span>
                       </h3>
                     </Accordion.Header>

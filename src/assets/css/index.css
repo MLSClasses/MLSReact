@@ -179,6 +179,7 @@ nav ul li {
 }
 
 .features-h {
+  margin-bottom:-3% ;
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 2vw;
@@ -499,7 +500,7 @@ nav ul li {
 }
 .brand-moto p {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   font-family: "Inter", sans-serif;
   margin-bottom: 100px;
