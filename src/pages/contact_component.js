@@ -13,7 +13,9 @@ const ContactComponent = (props) => {
     timezone: "",
     message: "",
   });
-
+  const btnStyle = {
+    marginTop: '1%'
+  }
   let name, value;
   const postUserData = (event) => {
     name = event.target.name;
@@ -202,14 +204,14 @@ const ContactComponent = (props) => {
             </div>
           </div>
 
-          <div onClick={submitData} class="contact-btn">
+          <div onClick={submitData} class="contact-btn" style={btnStyle}>
             <button>Submit</button>
           </div>
         </div>
       </div>
-      <br /><br /><br />
+      <br /><br />
       <FooterComponent />
-    </div>
+    </div >
   );
 };
 export default ContactComponent;
