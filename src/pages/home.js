@@ -42,6 +42,10 @@ function Index() {
     size: "100px",
     // Add more CSS properties as needed
   };
+  const BenefitsStyle = {
+    marginTop: "400px",
+    fontSize: "1px",
+  }
   const settings = {
     dots: true,
     infinite: true,
@@ -198,14 +202,14 @@ function Index() {
       <div className="benefits-container">
         <h1>Our Benefits</h1>
         <div className="benefits">
-          <A_benefit image={ExpertInstructors} label="Expert Instructors" />
-          <A_benefit image={Per_learning} label="Personalized Learning" />
-          <A_benefit image={Comp_Programs} label="Comprehensive Programs" />
-          <A_benefit image={Proven_results} label="Proven Results" />
-          <A_benefit image={Flexible} label="Flexible Scheduling" />
-          <A_benefit image={ChallengingEnv} label="Challenging Enviornment" />
-          <A_benefit image={Confidence_Building} label="Confidence Building" />
-          <A_benefit image={Lifelong_Skills} label="Lifelong Skills" />
+          <A_benefit style={{ BenefitsStyle }} image={ExpertInstructors} label="Expert Instructors" />
+          <A_benefit style={{ BenefitsStyle }} image={Per_learning} label="Personalized Learning" />
+          <A_benefit style={{ BenefitsStyle }} image={Comp_Programs} label="Comprehensive Programs" />
+          <A_benefit style={{ BenefitsStyle }} image={Proven_results} label="Proven Results" />
+          <A_benefit style={{ BenefitsStyle }} image={Flexible} label="Flexible Scheduling" />
+          <A_benefit style={{ BenefitsStyle }} image={ChallengingEnv} label="Challenging Enviornment" />
+          <A_benefit style={{ BenefitsStyle }} image={Confidence_Building} label="Confidence Building" />
+          <A_benefit style={{ BenefitsStyle }} image={Lifelong_Skills} label="Lifelong Skills" />
         </div>
       </div>
       <br /><br /><br />

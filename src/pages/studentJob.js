@@ -77,15 +77,7 @@ const StudentJob = () => {
         <Row className="rows">
           <div className="exp">
             <Col md="12" xs="12" sm="12">
-              <h3
-                style={{
-                  textAlign: "center",
-                  color: "#007BFF",
-                  fontSize: "48px",
-                  lineHeight: "56.63px",
-                  fontFamily: "Abhaya Libre, serif",
-                }}
-              >
+              <h3>
                 "Experience the Joy of Learning: Join Countless Happy Students
                 and Parents"
               </h3>

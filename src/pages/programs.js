@@ -43,7 +43,7 @@ const Programs = () => {
             marginTop: "2%"
           }}
         >
-          <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
+          <p1 className="yel2But" style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
         <div style={{ marginTop: "5%" }}>
           <>
@@ -294,7 +294,7 @@ const Programs = () => {
                             style={{ marginTop: "-20px" }}
                           />
                         </span>{" "}
-                        Collage
+                        College
                         {
                           <img
                             src={arrow_img}
@@ -505,7 +505,7 @@ const Programs = () => {
                     mt="5"
                     style={{ marginTop: "10vh" }}
                   >
-                    <div>
+                    <div classname="choices">
                       <img
                         src={b1}
                         className="img-fluid"

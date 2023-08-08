@@ -17,7 +17,6 @@ const NavBarComponent = (props) => {
     let path = location.pathname?.split("/");
     path[1] && setActive(path[1])
   }, []);
-
   const handleClear = () => {
     sessionStorage.clear();
     setCheckUser(false);
