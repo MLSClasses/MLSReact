@@ -1,24 +1,7 @@
 .contact-btn{
     margin-top: -13%;
 }
-.rows>.exp h3{
-    text-align: center;
-    color:#007BFF;
-    font-size: 48px;
-    line-height: 56.63px;
-    font-family: Abhaya Libre, serif;
-}
 .exp{
     padding-left: 10%;
     padding-right: 10%;
-}
-@media (max-width: 768px){
-    .contact-btn{
-        margin-top: -55%;
-    }
-    .rows>.exp h3{
-        margin-top: -20%;
-        font-size: 30px;
-        line-height: 27px;
-    }
 }
