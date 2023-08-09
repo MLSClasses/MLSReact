@@ -918,6 +918,12 @@ hr {
   .navbar .menu-items {
     flex-direction: column;
   }
+  .find-live>.brfdesc{
+    margin-top: 20%;
+  }
+  .boxes> Box{
+    background-color: blue;
+  }
   .benefits>.bnfts{
     margin: 40px;
     font-size: 1px;

@@ -1,5 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
-import first_img from "../assets/img/temp4.png";
+import first_img from "../assets/img/contactusheader.svg";
 import FooterComponent from "../components/footer";
 import moment from "moment-timezone";
 import Whatsapp_icon from "../components/whatsapp_icon";

@@ -99,7 +99,7 @@ function Index() {
       </div>
       <br /><br />
       <div className="find-live">
-        <div>
+        <div className="brfdesc">
           <a href="#">
             MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
             SSAT, STAAR, and AMC for students in grades 2-12. These programs are
