@@ -35,7 +35,6 @@ const NavBarComponent = (props) => {
             </a>
           </Col>
           <Col sm="9" xs="9" md="9">
-            {active}
             <nav>
               <ul>
                 <li  onClick={() => {handleNavBarClick('home')}}><Link to="/home" className={active === "" ? 'active' : ''} >Home</Link></li>
