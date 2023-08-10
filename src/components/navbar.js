@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import { Link, useLocation } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import logo from '../assets/img/mlslogo.png';
 const NavBarComponent = (props) => {
   const location = useLocation();
@@ -45,17 +44,13 @@ const NavBarComponent = (props) => {
                 <li>
                   {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div>}
                   {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}
-
                 </li>
               </ul>
             </nav>
           </Col>
         </Row>
       </Container>
-
-
     </React.Fragment>
   );
 };
-
 export default NavBarComponent;

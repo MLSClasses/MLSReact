@@ -1,8 +1,8 @@
 import React from "react";
-
+import '../assets/css/box.css';
 const Box = (props) => {
   return (
-    <div class="box">
+    <div className="box">
       <h1>{props.subject}</h1>
       <p>{props.content}</p>
     </div>
