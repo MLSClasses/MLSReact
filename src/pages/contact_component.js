@@ -106,18 +106,44 @@ const ContactComponent = (props) => {
               {
                 'email': 'ritik@mlsclasses.com',
                 'name': 'Ritik Mittal Learning '
-              },
-              {
-                'email': 'musaibkm@gmail.com',
-                'name': 'Mohammed Musaib '
               }
             ],
+            "subject":"You got a new query from MLS CLASSES!",
+            "htmlContent":`
+            <h3 align="center">User Details</h3>
+            <table border="1" width="100%" cellpadding="5" cellspacing="5">
+                <tr>
+                    <td width="30%">FirstName</td>
+                    <td width="70%">${firstname}</td>
+                </tr>
+                <tr>
+                <td width="30%">LastName</td>
+                <td width="70%">${lastname}</td>
+            </tr>
+                <tr>
+                    <td width="30%">Email</td>
+                    <td width="70%">${email}</td>
+                </tr>
+                <tr>
+                    <td width="30%">Phone</td>
+                    <td width="70%">${phone}</td>
+                </tr>
+                <tr>
+                <td width="30%">Program</td>
+                <td width="70%">${program}</td>
+            </tr>
+            <tr>
+                <td width="30%">TimeZone</td>
+                <td width="70%">${timezone}</td>
+            </tr>
+               
+                <tr>
+                    <td width="30%">message</td>
+                    <td width="70%">${message}</td>
+                </tr>
+            </table>`,
             // 'templateId': 1,
-            'params': data,
-            'headers': {
-              'X-Mailin-custom': 'custom_header_1:custom_value_1|custom_header_2:custom_value_2|custom_header_3:custom_value_3',
-              'charset': 'iso-8859-1'
-            }
+            // 'params': data,
           })
         });
 
