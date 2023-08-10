@@ -1,7 +1,6 @@
 import React, { Component, useState, useEffect } from "react";
-import first_img from "../assets/img/temp4.png";
+import first_img from "../assets/img/contactusheader.svg";
 import FooterComponent from "../components/footer";
-import NavBarComponent from "../components/navbar";
 import moment from "moment-timezone";
 import Whatsapp_icon from "../components/whatsapp_icon";
 const ContactComponent = (props) => {
@@ -14,7 +13,9 @@ const ContactComponent = (props) => {
     timezone: "",
     message: "",
   });
-
+  const btnStyle = {
+    marginTop: '1%'
+  }
   let name, value;
   const postUserData = (event) => {
     name = event.target.name;
@@ -93,7 +94,6 @@ const ContactComponent = (props) => {
   return (
     <div className="flex-wrapper">
       <Whatsapp_icon />
-      <NavBarComponent />
       <div class="f-template-contact">
         <img src={first_img} alt="first Template" />
       </div>
@@ -204,14 +204,14 @@ const ContactComponent = (props) => {
             </div>
           </div>
 
-          <div onClick={submitData} class="contact-btn">
+          <div onClick={submitData} class="contact-btn" style={btnStyle}>
             <button>Submit</button>
           </div>
         </div>
       </div>
-
+      <br /><br />
       <FooterComponent />
-    </div>
+    </div >
   );
 };
 export default ContactComponent;

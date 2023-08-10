@@ -1,21 +1,24 @@
 //Dependencies
-import './App.css';
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //components
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 //pages
-import Home from './pages/home';
-import Contact from './pages/contact_component';
-import Pricing from './pages/pricing';
-import Programs from './pages/programs';
-import StudentJob from './pages/studentJob';
-import Login from './pages/loginpage';
-import Signup from './pages/Signuppage';
+import Home from "./pages/home";
+import Contact from "./pages/contact_component";
+import Pricing from "./pages/pricing";
+import Programs from "./pages/programs";
+import StudentJob from "./pages/studentJob";
+import Login from "./pages/loginpage";
+import Signup from "./pages/Signuppage";
+import Whatsapp_icon from "./components/whatsapp_icon";
 function App() {
   return (
-    <div>
+    <div class="body">
+      <Whatsapp_icon />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

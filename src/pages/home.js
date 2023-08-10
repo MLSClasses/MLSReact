@@ -1,45 +1,59 @@
 import React, { useEffect, useState } from "react";
 import "../assets/css/index.css";
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import bg from "../assets/img/bg.jpg";
 import image1 from "../assets/img/icon1.png";
 import image2 from "../assets/img/icon2.png";
 import image3 from "../assets/img/icon3.png";
 import image4 from "../assets/img/icon4.png";
 import image5 from "../assets/img/icon5.png";
-import image6 from "../assets/img/icon6 (1).png";
 import image7 from "../assets/img/icon6.png";
-import image8 from "../assets/img/icon7 (1).png";
 import image9 from "../assets/img/icon7.png";
 import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
 import image14 from "../assets/img/temp3.png";
 import temp4 from "../assets/img/temp4.png";
-import slider1 from '../assets/img/slider1.jpg'
-import slider2 from '../assets/img/slider2.jpg'
-import slider3 from '../assets/img/slider3.png'
+import slider1 from "../assets/img/slider1.jpg";
+import slider2 from "../assets/img/slider2.jpg";
+import slider3 from "../assets/img/slider3.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from "../components/navbar";
+
 import Footer from "../components/footer";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Courses from "./courses.js";
+import ChallengingEnv from "../assets/img/ChallengingEnvironment.png";
+import Comp_Programs from "../assets/img/Comprehensive_Programs.png";
+import Confidence_Building from "../assets/img/Confidence_Building.png";
+import ExpertInstructors from "../assets/img/ExpertInstructors.png";
+import Flexible from "../assets/img/Flexible_Scheduling.png";
+import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
+import Per_learning from "../assets/img/PeronsonilzedLearning.png";
+import Proven_results from "../assets/img/Proven_Results.png";
+import CommentsSlide from "../components/comments_slide";
+import Box from "../components/Box";
 function Index() {
   const myInlineStyle = {
-    fontSize: '16px',
-    color: 'blue',
-    fontWeight: 'bold',
-    size: '100px'
+    fontSize: "16px",
+    color: "blue",
+    fontWeight: "bold",
+    size: "100px",
     // Add more CSS properties as needed
   };
+  const BenefitsStyle = {
+    marginTop: "400px",
+    fontSize: "1px",
+  }
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,         // Add this line to enable autoplay
+    autoplaySpeed: 4000,
   };
   useEffect(() => {
     AOS.init({
@@ -47,33 +61,45 @@ function Index() {
       duration: 600,
     });
   }, []);
+  const A_benefit = (props) => {
+    const labelling = props.label.split(" ");
+    return (
+      <div data-aos="zoom-in" className="benefit">
+        <img src={props.image} />
+        <p>
+          {labelling[0]}
+          <br />
+          {labelling[1]}
+        </p>
+      </div>
+    );
+  };
   const [youtubeID] = useState("XpScgwRKpgs");
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
-      <Whatsapp_icon />
-      <Navbar />
       <div className="Slideshow">
         <Slider {...settings}>
-          <div class="f-template" style={myInlineStyle}>
-            <img src={slider1} alt="first Template" />
-          </div>
-          <div class="f-template">
-            <img src={slider2} alt="first Template" />
-          </div>
-          <div class="f-template">
+          <div className="f-template" style={myInlineStyle}>
             <img src={slider3} alt="first Template" />
           </div>
-          <div class="f-template">
+          <div className="f-template">
             <img src={slider1} alt="first Template" />
           </div>
-          <div class="f-template">
+          <div className="f-template">
+            <img src={slider2} alt="first Template" />
+          </div>
+          <div className="f-template">
+            <img src={slider1} alt="first Template" />
+          </div>
+          <div className="f-template">
             <img src={slider2} alt="first Template" />
           </div>
         </Slider>
       </div>
-      <div class="find-live">
-        <div>
+      <br /><br />
+      <div className="find-live">
+        <div className="brfdesc">
           <a href="#">
             MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
             SSAT, STAAR, and AMC for students in grades 2-12. These programs are
@@ -81,98 +107,63 @@ function Index() {
             programs , GUARANTEED.
           </a>
         </div>
-        <div class="width-line-space">
-          <div class="width-line">&nbsp;</div>
+        <div className="width-line-space">
+          <div className="yellowBtn">&nbsp;</div>
+        </div>
+        <br />
+        <div className="midBanner">
+          <h4 >Our Programs For 2-12</h4>
         </div>
       </div>
-      <div class="our-programs">
-        <div class="our-programs-h">Our Programs For 2-12 </div>
-
-        <div class="our-programs-div">
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">MATH</div>
-              <div class="our-programs-subtext">
-                We provide unique learning experiences that go above and beyond
-                standard math instruction, fostering a deeper understanding of
-                mathematical concepts and encouraging critical thinking.
-              </div>
-            </div>
-          </div>
-
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">SCIENCE</div>
-              <div class="our-programs-subtext">
-                Our science programs empower children to explore various
-                scientific disciplines, develop problem-solving skills, and
-                deepen their understanding of scientific concepts, setting them
-                on a path of scientific excellence.
-              </div>
-            </div>
-          </div>
-
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">CODING</div>
-              <div class="our-programs-subtext">
-                Through our interactive curriculum, students gain hands-on
-                experience with coding languages, algorithmic thinking, and
-                problem-solving techniques, setting them on a path to becoming
-                skilled and creative coders.
-              </div>
-            </div>
-          </div>
-
-          <div class="our-programs-sub-div" data-aos="flip-up">
-            <div class="our-programs-round"></div>
-            <div class="our-programs-text">
-              <div class="our-programs-text-h">TEST - PREP</div>
-              <div class="our-programs-subtext">
-                Through our interactive curriculum, students gain hands-on
-                experience with coding languages, algorithmic thinking, and
-                problem-solving techniques, setting them on a path to becoming
-                skilled and creative coders.
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="boxes">
+        <Box className="info"
+          content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
+          subject="MATH"
+        />
+        <Box className="info"
+          content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
+          subject="SCIENCE"
+        />
+        <Box className="info"
+          content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
+          subject="CODING"
+        />
+        <Box className="info"
+          content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
+          subject="TEST-PREP"
+        />
       </div>
+      <div className="features">
+        <div className="features-h">Main Features</div>
 
-      <div class="features">
-        <div class="features-h">Main Features</div>
-
-        <div class="features-sub">
-          <div class="features-img" data-aos="fade-right">
+        <div className="features-sub">
+          <div className="features-img" data-aos="fade-right">
             <img src={image13} alt="features img" />
           </div>
-          <div class="features-content">
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+          <div className="features-content">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image1} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">1:1 Dedicated Classes</a>
               </div>
             </div>
 
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image2} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">Lowest Class $ per cost</a>
               </div>
             </div>
 
-            <div class="features-content-2" data-aos="fade-left">
-              <div class="features-content-img">
+            <div className="features-content-2" data-aos="fade-left">
+              <div className="features-content-img">
                 <img src={image3} alt="img" />
               </div>
-              <div class="features-content-text">
+              <div className="features-content-text">
                 <a href="#">Master Teachers </a>
               </div>
             </div>
@@ -180,31 +171,24 @@ function Index() {
         </div>
       </div>
 
-      <div class="popular">
-        <div class="popular-head">
-          <div class="popular-h">Popular Courses</div>
-          {/* <div class="popular-btn">
-            <div>
-              <a href="#" class="popular-btn-active">
-                All
-              </a>
-            </div>
-            <div>
-              <a href="#">Popularity</a>
-            </div>
-            <div>
-              <a href="#">Trending</a>
-            </div>
-            <div>
-              <a href="#">Feature</a>
-            </div>
-          </div> */}
+      <div className="popular">
+        <div className="popular-head">
+          <div className="popular-h">Popular Courses</div>
         </div>
         <Courses />
       </div>
 
       <div className="brand-moto">
-        <h1>OUR BRAND</h1>
+        <div className="brand-moto-message">
+          <h1>Why the MLS Classes?</h1>
+          <p>
+            MLS Classes: Where Personalized Learning Meets Excellence! Our
+            highly qualified teachers use expertly crafted curricula tailored to
+            individual students, ensuring a perfect fit for their needs. With
+            flexible online programs, your child will flourish academically and
+            carry that success beyond the classroom.
+          </p>
+        </div>
         <iframe
           poster={image11}
           src={`https://www.youtube.com/embed/${youtubeID}`}
@@ -215,53 +199,26 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
-      <div class="benefits">
-        <div class="benefits-h">OUR BENEFITS</div>
-
-        <div class="benefits-container">
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Personalized Attention</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Quickened Learning Trajectory</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Improved Academic Performance</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Confidence Boost</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Clearing Doubts</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Advanced Learning</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Exam Preparation</div>
-          </div>
-
-          <div data-aos="zoom-in">
-            <img src={image4} alt="img" />
-            <div>Subject Specialization</div>
-          </div>
+      <div className="benefits-container">
+        <h1>Our Benefits</h1>
+        <div className="benefits">
+          <A_benefit style={{ BenefitsStyle }} image={ExpertInstructors} label="Expert Instructors" />
+          <A_benefit style={{ BenefitsStyle }} image={Per_learning} label="Personalized Learning" />
+          <A_benefit style={{ BenefitsStyle }} image={Comp_Programs} label="Comprehensive Programs" />
+          <A_benefit style={{ BenefitsStyle }} image={Proven_results} label="Proven Results" />
+          <A_benefit style={{ BenefitsStyle }} image={Flexible} label="Flexible Scheduling" />
+          <A_benefit style={{ BenefitsStyle }} image={ChallengingEnv} label="Challenging Enviornment" />
+          <A_benefit style={{ BenefitsStyle }} image={Confidence_Building} label="Confidence Building" />
+          <A_benefit style={{ BenefitsStyle }} image={Lifelong_Skills} label="Lifelong Skills" />
         </div>
       </div>
+      <br /><br /><br />
+      <div className="parents-love">
+        <CommentsSlide />
+      </div>
+      <br /><br /><br />
       <Footer />
-    </div>
+    </div >
   );
 }
 export default Index;
