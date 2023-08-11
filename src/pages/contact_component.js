@@ -73,6 +73,81 @@ const ContactComponent = (props) => {
           timezone: "",
           message: "",
         });
+
+        //sending email logic
+        let data = {
+          "firstname": firstname,
+          "lastname": lastname,
+          "email": email,
+          "phone": phone,
+          "program": program,
+          "timezone": timezone,
+          "message": message,
+        }
+        console.log('test', data);
+        fetch('https://api.brevo.com/v3/smtp/email', {
+          method: 'POST',
+          headers: {
+            'accept': 'application/json',
+            "api-key": "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",
+            'content-type': 'application/json'
+          },
+          // body: '{  \n   "to":[  \n      {  \n         "email":"testmail@example.com",\n         "name":"John Doe"\n      }\n   ],\n   "templateId":8,\n   "params":{  \n      "name":"John",\n      "surname":"Doe"\n   },\n   "headers":{  \n      "X-Mailin-custom":"custom_header_1:custom_value_1|custom_header_2:custom_value_2|custom_header_3:custom_value_3",\n      "charset":"iso-8859-1"\n   }\n}',
+          body: JSON.stringify({
+            "sender": {
+              "name": "MLS Classes",
+              "email": "mls.classes.firebase@gmail.com"
+            },
+            'to': [
+              {
+                'email': 'james@mlsclasses.com',
+                'name': 'James'
+              },
+              {
+                'email': 'ritik@mlsclasses.com',
+                'name': 'Ritik Mittal Learning '
+              }
+            ],
+            "subject":"You got a new query from MLS CLASSES!",
+            "htmlContent":`
+            <h3 align="center">User Details</h3>
+            <table border="1" width="100%" cellpadding="5" cellspacing="5">
+                <tr>
+                    <td width="30%">FirstName</td>
+                    <td width="70%">${firstname}</td>
+                </tr>
+                <tr>
+                <td width="30%">LastName</td>
+                <td width="70%">${lastname}</td>
+            </tr>
+                <tr>
+                    <td width="30%">Email</td>
+                    <td width="70%">${email}</td>
+                </tr>
+                <tr>
+                    <td width="30%">Phone</td>
+                    <td width="70%">${phone}</td>
+                </tr>
+                <tr>
+                <td width="30%">Program</td>
+                <td width="70%">${program}</td>
+            </tr>
+            <tr>
+                <td width="30%">TimeZone</td>
+                <td width="70%">${timezone}</td>
+            </tr>
+               
+                <tr>
+                    <td width="30%">message</td>
+                    <td width="70%">${message}</td>
+                </tr>
+            </table>`,
+            // 'templateId': 1,
+            // 'params': data,
+          })
+        });
+
+
         alert(
           "Your Feedback/Query would be shortly addressed by our team, keep an eye on your mail"
         );
@@ -82,7 +157,10 @@ const ContactComponent = (props) => {
     } else {
       alert("Please fill the data properly");
     }
+
   };
+
+
   useEffect(() => {
     // Fetch the list of time zones and update the userData with the first time zone from the list
     setUserData((prevUserData) => ({
@@ -90,6 +168,7 @@ const ContactComponent = (props) => {
       timezone: allTimeZones[0], // Set the first time zone as the default selected value
     }));
   }, []);
+
 
   return (
     <div className="flex-wrapper">

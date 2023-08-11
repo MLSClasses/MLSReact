@@ -347,13 +347,11 @@ nav ul li {
 .benefits {
   font-family: "Inter", sans-serif;
   margin-left: 3%;
-  
 }
 
 .benefits-h {
   font-weight: 900;
   text-align: center;
-  
 }
 
 .benefits-container {
@@ -651,12 +649,7 @@ nav ul li {
   nav .nav-login-btn a {
     font-size: 1.6vw;
   }
-  .benefits-container div div{
-    margin-left: 5%;
-  }
-  .benefits-container div p{
-    font-size: 11px;
-  }
+
   .features-content-2 {
     margin-bottom: 2vw;
   }
@@ -795,9 +788,6 @@ hr {
   justify-content: center;
   flex-wrap: wrap;
   gap: 6%;
-}
-.boxes>.info{
-  margin-bottom: 100px;
 }
 .midBanner{
   margin-top: 10px;
