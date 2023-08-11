@@ -111,7 +111,7 @@ const Pricing = () => {
                 <h4>
                   $1350/100hrs
                   <br />
-                  $.13.5/hr
+                  $13.5/hr
                 </h4>
               </div>
             </Col>
@@ -152,7 +152,7 @@ const Pricing = () => {
                 <h4>
                   $2500/200hrs
                   <br />
-                  $.12.5/hr
+                  $12.5/hr
                 </h4>
               </div>
             </Col>

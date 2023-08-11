@@ -5,3 +5,9 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+@media (max-width: 768px) {
+    .contact-btn{
+        margin-top: -45%;
+        
+    }
+}
