@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import AOS from "aos";
 import { Container, Row, Col } from "react-bootstrap";
-//images
+import { useNavigate } from "react-router-dom";
 import img1 from "../assets/img/temp5.png";
 import logo from "../assets/img/mlslogo.png";
 import b1 from "../assets/img/b1.png";
@@ -19,6 +19,17 @@ const Pricing = () => {
     offset: 200,
     duration: 600,
   });
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/contact");
+  };
+  const FreeClassButton = () => {
+    return (
+      <div class="free_class">
+        <button onClick={handleClick}>Book 1 Week Free Class</button>
+      </div>
+    );
+  };
   return (
     <div>
       {/* {<Mobile_Navbar />}
@@ -27,9 +38,11 @@ const Pricing = () => {
         <img src={img1} alt="first Template" className="img-fluid" />
       </div>
       <div className="bookFree">
-        <h1>Book free Trial Now</h1>
+        <h1 onClick={handleClick}>Book free Trial Now</h1>
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <div className="white">
         <Container fluid>
           <Row>
@@ -45,19 +58,19 @@ const Pricing = () => {
                 </div>
                 <br />
                 <div className="boxx1">
-                  <div className="width-line-space">
-                    <h3>Book 1 Week Free Trial</h3>
-                  </div>
+                  <FreeClassButton />
+
                   <br />
                 </div>
               </div>
               <div>
                 <h3 className="container-desc">
                   Unlock the Power of Comprehensive Learning with a Single
-                  Subscription – Including Test Preparation!
+                  Subscription - Including Test Preparation!
                 </h3>
               </div>
-              <br /><br />
+              <br />
+              <br />
             </Col>
           </Row>
         </Container>
@@ -99,9 +112,7 @@ const Pricing = () => {
             </Col>
           </Row>
           <div className="boxx">
-            <div className="width-line-space">
-              <h3>Book 1 Week Free Trial</h3>
-            </div>
+            <FreeClassButton />
           </div>
           <br />
           <br />
@@ -140,9 +151,7 @@ const Pricing = () => {
             </Col>
           </Row>
           <div className="boxx">
-            <div className="width-line-space">
-              <h3>Book 1 Week Free Trial</h3>
-            </div>
+            <FreeClassButton />
           </div>
           <br />
           <br />
@@ -181,15 +190,15 @@ const Pricing = () => {
             </Col>
           </Row>
           <div className="boxx">
-            <div className="width-line-space">
-              <h3>Book 1 Week Free Trial</h3>
-            </div>
+            <FreeClassButton />
           </div>
         </Container>
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <Footer />
-    </div >
+    </div>
   );
 };
 export default Pricing;

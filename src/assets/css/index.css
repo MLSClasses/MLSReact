@@ -179,7 +179,7 @@ nav ul li {
 }
 
 .features-h {
-  margin-bottom:-3% ;
+  margin-bottom: -3%;
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 2vw;
@@ -733,7 +733,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 .course {
   display: flex;
@@ -789,11 +789,11 @@ hr {
   flex-wrap: wrap;
   gap: 6%;
 }
-.midBanner{
+.midBanner {
   margin-top: 10px;
   font-size: larger;
   transform: rotate(90deg);
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 .box {
   text-align: center;
@@ -908,18 +908,18 @@ hr {
   .navbar .menu-items {
     flex-direction: column;
   }
-  .find-live>.brfdesc{
+  .find-live > .brfdesc {
     margin-top: 5%;
     font-size: 15px;
     line-height: 15px;
   }
-  .benefits-container{
+  .benefits-container {
     margin-right: 10%;
   }
-  .benefits{
+  .benefits {
     padding: 20px;
   }
-  .benefit p{
+  .benefit p {
     font-size: 10px;
   }
   .menu-items a {
@@ -962,4 +962,16 @@ hr {
 }
 .slick-slider button {
   display: none;
+}
+.free_class {
+  color: black;
+  font-size: 1.7rem;
+  width: max-content;
+  text-align: center;
+}
+.free_class button {
+  background-color: #ff8a00;
+  border-radius: 20px;
+  padding: 20px 20px;
+  border: none;
 }

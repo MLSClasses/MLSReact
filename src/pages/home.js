@@ -34,6 +34,7 @@ import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
 import Box from "../components/Box";
+import { redirect, useNavigate } from "react-router-dom";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -69,6 +70,21 @@ function Index() {
         </p>
       </div>
     );
+  };
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/contact");
+  };
+  const FreeClassButton = () => {
+    return (
+      <div class="free_class">
+        <button onClick={handleClick}>Book 1 Week Free Class</button>
+      </div>
+    );
+  };
+  const myStyle = {
+    display: "flex",
+    justifyContent: "center",
   };
   const [youtubeID] = useState("XpScgwRKpgs");
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
@@ -111,6 +127,9 @@ function Index() {
         <div className="midBanner">
           <h4>Our Programs For 2-12</h4>
         </div>
+      </div>
+      <div style={myStyle}>
+        <FreeClassButton />
       </div>
       <div className="boxes">
         <Box
@@ -183,7 +202,9 @@ function Index() {
         </div>
         <Courses />
       </div>
-
+      <div style={myStyle}>
+        <FreeClassButton />
+      </div>
       <div className="brand-moto">
         <div className="brand-moto-message">
           <h1>Why the MLS Classes?</h1>
@@ -259,6 +280,9 @@ function Index() {
       <br />
       <br />
       <br />
+      <div style={myStyle}>
+        <FreeClassButton />
+      </div>
       <Footer />
     </div>
   );
