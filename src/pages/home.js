@@ -48,7 +48,7 @@ function Index() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,         // Add this line to enable autoplay
+    autoplay: true, // Add this line to enable autoplay
     autoplaySpeed: 4000,
   };
   useEffect(() => {
@@ -93,14 +93,15 @@ function Index() {
           </div>
         </Slider>
       </div>
-      <br /><br />
+      <br />
+      <br />
       <div className="find-live">
         <div className="brfdesc">
           <a href="#">
-            MLS Classes offers Live, Online Math, Science, Coding, SAT, ACT, AP,
-            SSAT, STAAR, and AMC for students in grades 2-12. These programs are
-            specifically designed to accelerate your child's academic progress,
-            programs , GUARANTEED.
+            MLS Classes offers Live, Online Math, AMC, Science, Coding, SAT,
+            ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12.
+            These programs are specifically designed to accelerate your child's
+            academic progress, programs , GUARANTEED.
           </a>
         </div>
         <div className="width-line-space">
@@ -108,23 +109,32 @@ function Index() {
         </div>
         <br />
         <div className="midBanner">
-          <h4 >Our Programs For 2-12</h4>
+          <h4>Our Programs For 2-12</h4>
         </div>
       </div>
       <div className="boxes">
-        <Box className="info"
+        <Box
+          className="info"
           content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
           subject="MATH"
         />
-        <Box className="info"
+        <Box
+          className="info"
           content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
           subject="SCIENCE"
         />
-        <Box className="info"
+        <Box
+          className="info"
+          content="Boost ELA skills with expert instructors, immersive lessons, and engaging activities. Our curriculum fosters confidence in reading, writing, grammar, and literature analysis. Excel in language with us!"
+          subject="ENGLISH(ELA)"
+        />
+        <Box
+          className="info"
           content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
           subject="CODING"
         />
-        <Box className="info"
+        <Box
+          className="info"
           content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
           subject="TEST-PREP"
         />
@@ -198,23 +208,59 @@ function Index() {
       <div className="benefits-container">
         <h1>Our Benefits</h1>
         <div className="benefits">
-          <A_benefit className="bnfts" image={ExpertInstructors} label="Expert Instructors" />
-          <A_benefit className="bnfts" image={Per_learning} label="Personalized Learning" />
-          <A_benefit className="bnfts" image={Comp_Programs} label="Comprehensive Programs" />
-          <A_benefit className="bnfts" image={Proven_results} label="Proven Results" />
-          <A_benefit className="bnfts" image={Flexible} label="Flexible Scheduling" />
-          <A_benefit className="bnfts" image={ChallengingEnv} label="Challenging Enviornment" />
-          <A_benefit className="bnfts" image={Confidence_Building} label="Confidence Building" />
-          <A_benefit className="bnfts" image={Lifelong_Skills} label="Lifelong Skills" />
+          <A_benefit
+            className="bnfts"
+            image={ExpertInstructors}
+            label="Expert Instructors"
+          />
+          <A_benefit
+            className="bnfts"
+            image={Per_learning}
+            label="Personalized Learning"
+          />
+          <A_benefit
+            className="bnfts"
+            image={Comp_Programs}
+            label="Comprehensive Programs"
+          />
+          <A_benefit
+            className="bnfts"
+            image={Proven_results}
+            label="Proven Results"
+          />
+          <A_benefit
+            className="bnfts"
+            image={Flexible}
+            label="Flexible Scheduling"
+          />
+          <A_benefit
+            className="bnfts"
+            image={ChallengingEnv}
+            label="Challenging Enviornment"
+          />
+          <A_benefit
+            className="bnfts"
+            image={Confidence_Building}
+            label="Confidence Building"
+          />
+          <A_benefit
+            className="bnfts"
+            image={Lifelong_Skills}
+            label="Lifelong Skills"
+          />
         </div>
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <div className="parents-love">
         <CommentsSlide />
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <Footer />
-    </div >
+    </div>
   );
 }
 export default Index;
