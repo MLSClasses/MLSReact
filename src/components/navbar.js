@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import logo from '../assets/img/mlslogo.png';
+import '../assets/css/box.css';
 const NavBarComponent = (props) => {
   const location = useLocation();
   const [active, setActive] = useState('');
@@ -16,12 +17,11 @@ const NavBarComponent = (props) => {
     let path = location.pathname?.split("/");
     path[1] && setActive(path[1])
   }, []);
-
   const handleClear = () => {
     sessionStorage.clear();
     setCheckUser(false);
   }
-  const handleNavBarClick=(params)=>{
+  const handleNavBarClick = (params) => {
     setActive(params);
   }
   return (
@@ -30,17 +30,17 @@ const NavBarComponent = (props) => {
         <Row>
           <Col sm="3" xs="3" md="3">
             <a href="/home">
-              <img href="/home" src={logo} alt="mls logo" />
+              <img href="/home" className="logoStyle" src={logo} alt="mls logo" />
             </a>
           </Col>
           <Col sm="9" xs="9" md="9">
             <nav>
               <ul>
-                <li  onClick={() => {handleNavBarClick('home')}}><Link to="/home" className={active === "" ? 'active' : ''} >Home</Link></li>
-                <li onClick={() => {handleNavBarClick('programs')}}><Link to="/programs" className={active === "programs" ? "active " : ""} >Programs</Link></li>
-                <li onClick={() => {handleNavBarClick('pricing')}}><Link to="/pricing" className={active === "pricing" ? "active" : ""} >Pricing</Link></li>
-                <li onClick={() => {handleNavBarClick('studentjob')}}><Link to="/studentjob" className={active === "studentjob" ? "active" : ""} >Student Corner</Link></li>
-                <li onClick={() => {handleNavBarClick('contact')}}><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
+                <li onClick={() => { handleNavBarClick('home') }}><Link to="/home" className={active === "" ? 'active' : ''} >Home</Link></li>
+                <li onClick={() => { handleNavBarClick('programs') }}><Link to="/programs" className={active === "programs" ? "active " : ""} >Programs</Link></li>
+                <li onClick={() => { handleNavBarClick('pricing') }}><Link to="/pricing" className={active === "pricing" ? "active" : ""} >Pricing</Link></li>
+                <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active === "studentjob" ? "active" : ""} >Student Corner</Link></li>
+                <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
                   {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div>}
                   {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}

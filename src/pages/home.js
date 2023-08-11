@@ -198,14 +198,14 @@ function Index() {
       <div className="benefits-container">
         <h1>Our Benefits</h1>
         <div className="benefits">
-          <A_benefit image={ExpertInstructors} label="Expert Instructors" />
-          <A_benefit image={Per_learning} label="Personalized Learning" />
-          <A_benefit image={Comp_Programs} label="Comprehensive Programs" />
-          <A_benefit image={Proven_results} label="Proven Results" />
-          <A_benefit image={Flexible} label="Flexible Scheduling" />
-          <A_benefit image={ChallengingEnv} label="Challenging Enviornment" />
-          <A_benefit image={Confidence_Building} label="Confidence Building" />
-          <A_benefit image={Lifelong_Skills} label="Lifelong Skills" />
+          <A_benefit className="bnfts" image={ExpertInstructors} label="Expert Instructors" />
+          <A_benefit className="bnfts" image={Per_learning} label="Personalized Learning" />
+          <A_benefit className="bnfts" image={Comp_Programs} label="Comprehensive Programs" />
+          <A_benefit className="bnfts" image={Proven_results} label="Proven Results" />
+          <A_benefit className="bnfts" image={Flexible} label="Flexible Scheduling" />
+          <A_benefit className="bnfts" image={ChallengingEnv} label="Challenging Enviornment" />
+          <A_benefit className="bnfts" image={Confidence_Building} label="Confidence Building" />
+          <A_benefit className="bnfts" image={Lifelong_Skills} label="Lifelong Skills" />
         </div>
       </div>
       <br /><br /><br />

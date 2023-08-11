@@ -39,6 +39,7 @@
   line-height: 48px;
   margin-left: 15%;
   min-width: 80%;
+  box-shadow: 2px 2px 15px 2px black;
 }
 .box>ul{
   margin-left: 10%;
@@ -562,10 +563,6 @@
   font-size: 1.2vw;
 }
 @media (max-width: 768px) {
-  .random1{
-    max-height: 10px;
-    max-width: 10px;
-  }
   nav .nav-login-btn {
     margin-top: 0.1vw;
   }
@@ -575,7 +572,7 @@
   }
   .boxx1 > .width-line-space {
     margin-left: -10%;
-    min-width: 110%;
+    min-width: 120%;
   }
   .joinMLS {
     font-size: 10px;
@@ -587,7 +584,27 @@
   nav .nav-login-btn a {
     font-size: 1.6vw;
   }
-
+  .joinMLS a{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .container-desc{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .random1{
+    border-radius: 10px;
+    max-height: 20px;
+    max-width: 100px;
+    margin-top:-30%;
+    margin-left: 38%;
+    margin-right: 40%;
+    margin-bottom: -35%;
+    transform: rotate(90deg);
+  }
+  .deets>.box{
+    margin-left: 10%;
+  }
   .features-content-2 {
     margin-bottom: 2vw;
   }

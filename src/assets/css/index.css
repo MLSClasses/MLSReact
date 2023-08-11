@@ -909,14 +909,18 @@ hr {
     flex-direction: column;
   }
   .find-live>.brfdesc{
-    margin-top: 20%;
+    margin-top: 5%;
+    font-size: 15px;
+    line-height: 15px;
   }
-  .boxes> Box{
-    background-color: blue;
+  .benefits-container{
+    margin-right: 10%;
   }
-  .benefits>.bnfts{
-    margin: 40px;
-    font-size: 1px;
+  .benefits{
+    padding: 20px;
+  }
+  .benefit p{
+    font-size: 10px;
   }
   .menu-items a {
     color: white;
