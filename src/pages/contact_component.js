@@ -1,5 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
-import first_img from "../assets/img/contactusheader.svg";
+import first_img from "../assets/img/10.jpg";
 import FooterComponent from "../components/footer";
 import moment from "moment-timezone";
 import Whatsapp_icon from "../components/whatsapp_icon";
@@ -108,8 +108,8 @@ const ContactComponent = (props) => {
                 'name': 'Ritik Mittal Learning '
               }
             ],
-            "subject":"You got a new query from MLS CLASSES!",
-            "htmlContent":`
+            "subject": "You got a new query from MLS CLASSES!",
+            "htmlContent": `
             <h3 align="center">User Details</h3>
             <table border="1" width="100%" cellpadding="5" cellspacing="5">
                 <tr>
