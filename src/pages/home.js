@@ -13,11 +13,13 @@ import image7 from "../assets/img/icon6.png";
 import image9 from "../assets/img/icon7.png";
 import image11 from "../assets/img/mlslogo.png";
 import image13 from "../assets/img/temp2.png";
-import image14 from "../assets/img/temp3.png";
 import temp4 from "../assets/img/temp4.png";
-import slider1 from "../assets/img/slider1.jpg";
-import slider2 from "../assets/img/slider2.jpg";
-import slider3 from "../assets/img/slider3.png";
+import slider1 from "../assets/img/1.jpg";
+import slider2 from "../assets/img/4.jpg";
+import slider3 from "../assets/img/11.jpg";
+import slider4 from "../assets/img/12.jpg";
+import slider5 from "../assets/img/14.jpg";
+import slider6 from "../assets/img/15.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -33,7 +35,6 @@ import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
 import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
-import Box from "../components/Box";
 import { redirect, useNavigate } from "react-router-dom";
 function Index() {
   const myInlineStyle = {
@@ -93,19 +94,22 @@ function Index() {
       <div className="Slideshow">
         <Slider {...settings}>
           <div className="f-template" style={myInlineStyle}>
+            <img src={slider1} alt="first Template" />
+          </div>
+          <div className="f-template">
+            <img src={slider2} alt="first Template" />
+          </div>
+          <div className="f-template">
             <img src={slider3} alt="first Template" />
           </div>
           <div className="f-template">
-            <img src={slider1} alt="first Template" />
+            <img src={slider4} alt="first Template" />
           </div>
           <div className="f-template">
-            <img src={slider2} alt="first Template" />
+            <img src={slider5} alt="first Template" />
           </div>
           <div className="f-template">
-            <img src={slider1} alt="first Template" />
-          </div>
-          <div className="f-template">
-            <img src={slider2} alt="first Template" />
+            <img src={slider6} alt="first Template" />
           </div>
         </Slider>
       </div>
@@ -132,31 +136,38 @@ function Index() {
         <FreeClassButton />
       </div>
       <div className="boxes">
-        <Box
-          className="info"
-          content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
-          subject="MATH"
-        />
-        <Box
-          className="info"
-          content="We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking."
-          subject="SCIENCE"
-        />
-        <Box
-          className="info"
-          content="Boost ELA skills with expert instructors, immersive lessons, and engaging activities. Our curriculum fosters confidence in reading, writing, grammar, and literature analysis. Excel in language with us!"
-          subject="ENGLISH(ELA)"
-        />
-        <Box
-          className="info"
-          content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
-          subject="CODING"
-        />
-        <Box
-          className="info"
-          content="Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders."
-          subject="TEST-PREP"
-        />
+        <div className="box">
+          <h1>MATH</h1>
+          <p>We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
+        </div>
+        <div className="box">
+          <h1>SCIENCE</h1>
+          <p>We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
+        </div>
+        <div className="box">
+          <h1>ENGLISH(ELA)</h1>
+          <p>Boost ELA skills with expert instructors, immersive lessons, and engaging activities. Our curriculum fosters confidence in reading, writing, grammar, and literature analysis. Excel in language with us!</p>
+        </div>
+        <div className="box">
+          <h1>CODING</h1>
+          <p>Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders.</p>
+        </div>
+        <div className="box">
+          <h1>SAT</h1>
+          <p>1500+ Score Mastery: Transform Math, ELA Skills through Our SAT Classes! Join us to elevate your SAT experience and embrace a new level of learning.</p>
+        </div>
+        <div className="box">
+          <h1>ACT</h1>
+          <p>Elevate your ACT preparation with a unique approach that goes beyond the surface, 35+Score Mastery. Join us to experience ACT preparation that transforms how you learn and conquer challenges.</p>
+        </div>
+        <div className="box">
+          <h1>AP</h1>
+          <p>Unlock a 5/5 score with our exceptional AP preparation. . Join us to elevate your AP journey and secure a 5/5 score that sets you apart.</p>
+        </div>
+        <div className="box">
+          <h1>AMC</h1>
+          <p>Achieve a perfect AMC score with our unparalleled preparation.  Join us to elevate your AMC journey and secure a score that opens doors to mathematical excellence.</p>
+        </div>
       </div>
       <div className="features">
         <div className="features-h">Main Features</div>
