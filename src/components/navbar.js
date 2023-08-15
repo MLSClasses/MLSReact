@@ -5,14 +5,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import logo from '../assets/img/mlslogo.png';
 import '../assets/css/box.css';
+import { useNavigate } from "react-router-dom";
 const NavBarComponent = (props) => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [active, setActive] = useState('');
   const [checkUser, setCheckUser] = useState(false);
+  const [signedUser,setSignedUser]= useState('');
   useEffect(() => {
-    let user = sessionStorage.getItem("email");
+    console.log('test');
+    let user = JSON.parse(sessionStorage.getItem("user"));
     if (user) {
       setCheckUser(true);
+      setSignedUser(user);
     }
     let path = location.pathname?.split("/");
     path[1] && setActive(path[1])
@@ -20,6 +25,8 @@ const NavBarComponent = (props) => {
   const handleClear = () => {
     sessionStorage.clear();
     setCheckUser(false);
+    navigate("/");
+    
   }
   const handleNavBarClick = (params) => {
     setActive(params);
@@ -42,7 +49,7 @@ const NavBarComponent = (props) => {
                 <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active === "studentjob" ? "active" : ""} >Student Corner</Link></li>
                 <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
-                  {checkUser && <div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div>}
+                  {checkUser && <><div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div></>}
                   {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}
                 </li>
               </ul>

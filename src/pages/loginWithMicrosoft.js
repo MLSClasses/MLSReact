@@ -3,6 +3,8 @@ import firebase from 'firebase/compat/app';
 import microsoft_logo from "../assets/img/microsoft.png";
 import "../assets/css/Login.css";
 import 'firebase/compat/auth';
+import { useNavigate } from "react-router-dom";
+
 
 
 // Initialize Firebase with your configuration
@@ -20,6 +22,7 @@ firebase.initializeApp(firebaseConfig);
 
 const MicrosoftLogin = () => {
   const [user, setUser] = useState(null);
+  const navigate = useNavigate();
 
   const handleMicrosoftLogin = async () => {
     const provider = new firebase.auth.OAuthProvider('microsoft.com');
@@ -27,7 +30,9 @@ const MicrosoftLogin = () => {
     try {
       const result = await firebase.auth().signInWithPopup(provider);
       setUser(result.user);
-      sessionStorage.setItem("user", result.user);
+      console.log(JSON.stringify(result.user))
+      sessionStorage.setItem("user", JSON.stringify(result.user));
+      navigate("/portal");
     } catch (error) {
       console.error('Microsoft login error:', error);
     }

@@ -12,6 +12,7 @@ import Programs from "./pages/programs";
 import StudentJob from "./pages/studentJob";
 import Login from "./pages/loginpage";
 import Signup from "./pages/Signuppage";
+import Portal from "./pages/student/portal";
 import Whatsapp_icon from "./components/whatsapp_icon";
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />}></Route>
           <Route path="/studentjob" element={<StudentJob />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/portal" element={<Portal />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

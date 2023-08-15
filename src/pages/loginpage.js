@@ -66,8 +66,8 @@ function Loginpage() {
       <Whatsapp_icon />
       <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-2xl p-5">
         <div className="sm:w-1/2 px-16">
-          <h2 className="text-[#002D74] font-bold text-2xl">Login</h2>
-          <p className="text-[#002D74] text-sm mt-4">
+          <h2 className="text-[#002D74] font-bold text-2xl">Student Portal Login </h2>
+          {/* <p className="text-[#002D74] text-sm mt-4">
             If you already a member, Log in!
           </p>
 
@@ -112,13 +112,13 @@ function Loginpage() {
             >
               Login
             </button>
-          </form>
+          </form> */}
 
-          <div className="mt-10 grid grid-cols-3 items-center text-gray-500">
+          {/* <div className="mt-10 grid grid-cols-3 items-center text-gray-500">
             <hr className="border-gray-500"></hr>
             <p className="text-center text-sm">OR</p>
             <hr className="border-gray-500"></hr>
-          </div>
+          </div> */}
           <MicrosoftLogin/>
           {/* <button
             onClick={handleClick}
