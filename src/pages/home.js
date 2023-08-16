@@ -118,7 +118,7 @@ function Index() {
       <div className="find-live">
         <div className="brfdesc">
           <a href="#">
-            MLS Classes offers Live, Online Math, AMC, Science, Coding, SAT,
+            MLS Classes offers Live, Online Math, English, Science, Coding, SAT,
             ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12.
             These programs are specifically designed to accelerate your child's
             academic progress, programs , GUARANTEED.

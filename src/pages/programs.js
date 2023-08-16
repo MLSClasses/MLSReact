@@ -294,7 +294,7 @@ const Programs = () => {
                             style={{ marginTop: "-20px" }}
                           />
                         </span>{" "}
-                        Collage
+                        College
                         {
                           <img
                             src={arrow_img}
