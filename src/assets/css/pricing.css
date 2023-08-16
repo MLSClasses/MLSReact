@@ -11,12 +11,11 @@
   font-family: "Inder", sans-serif;
 }
 .boxx {
-  margin-left: 30%;
+  margin-left: 40%;
+  margin-top: 3%;
 }
-.boxx1 > .width-line-space {
-  margin-left: 30%;
-  padding: 0.5% 20%;
-  max-width: 30%;
+.boxx1>.free_class{
+  margin-left: -57%;
 }
 .container-desc {
   text-align: center;
@@ -568,11 +567,12 @@
   }
   .boxx {
     min-width: 160%;
-    margin-left: 12%;
+    margin-left: 8%;
   }
-  .boxx1 > .width-line-space {
-    margin-left: -10%;
+  .boxx1 > {
+    margin-left: -1%;
     min-width: 120%;
+    background-color: blue;
   }
   .joinMLS {
     font-size: 10px;

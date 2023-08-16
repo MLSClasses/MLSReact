@@ -59,7 +59,6 @@ const Pricing = () => {
                 <br />
                 <div className="boxx1">
                   <FreeClassButton />
-
                   <br />
                 </div>
               </div>
