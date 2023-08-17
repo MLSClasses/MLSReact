@@ -138,35 +138,35 @@ function Index() {
       <div className="boxes">
         <div className="box">
           <h1>MATH</h1>
-          <p>We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
+          <p>MLS Classes provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
         </div>
         <div className="box">
           <h1>SCIENCE</h1>
-          <p>We provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
+          <p>MLS Classes provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
         </div>
         <div className="box">
           <h1>ENGLISH(ELA)</h1>
-          <p>Boost ELA skills with expert instructors, immersive lessons, and engaging activities. Our curriculum fosters confidence in reading, writing, grammar, and literature analysis. Excel in language with us!</p>
+          <p>Boost ELA skills with expert instructors, immersive lessons, and engaging activities. MLS Classes curriculum fosters confidence in reading, writing, grammar, and literature analysis. Excel in language with us!</p>
         </div>
         <div className="box">
           <h1>CODING</h1>
-          <p>Through our interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders.</p>
+          <p>Through MLS Classes interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders.</p>
         </div>
         <div className="box">
           <h1>SAT</h1>
-          <p>1500+ Score Mastery: Transform Math, ELA Skills through Our SAT Classes! Join us to elevate your SAT experience and embrace a new level of learning.</p>
+          <p>1500+ Score Mastery: Transform Math, ELA Skills through Our SAT Classes! Join MLS Classes to elevate your SAT experience and embrace a new level of learning.</p>
         </div>
         <div className="box">
           <h1>ACT</h1>
-          <p>Elevate your ACT preparation with a unique approach that goes beyond the surface, 35+Score Mastery. Join us to experience ACT preparation that transforms how you learn and conquer challenges.</p>
+          <p>Elevate your ACT preparation with a unique approach that goes beyond the surface, 35+Score Mastery. Join MLS Classes to experience ACT preparation that transforms how you learn and conquer challenges.</p>
         </div>
         <div className="box">
           <h1>AP</h1>
-          <p>Unlock a 5/5 score with our exceptional AP preparation. . Join us to elevate your AP journey and secure a 5/5 score that sets you apart.</p>
+          <p>Unlock a 5/5 score with our exceptional AP preparation. . Join MLS Classes to elevate your AP journey and secure a 5/5 score that sets you apart.</p>
         </div>
         <div className="box">
           <h1>AMC</h1>
-          <p>Achieve a perfect AMC score with our unparalleled preparation.  Join us to elevate your AMC journey and secure a score that opens doors to mathematical excellence.</p>
+          <p>Achieve a perfect AMC score with our unparalleled preparation.  Join MLS Classes to elevate your AMC journey and secure a score that opens doors to mathematical excellence.</p>
         </div>
       </div>
       <div className="features">
