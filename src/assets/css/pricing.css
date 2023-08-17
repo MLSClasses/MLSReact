@@ -15,7 +15,7 @@
   margin-top: 3%;
 }
 .boxx1>.free_class{
-  margin-left: -57%;
+  margin-left: -5%;
 }
 .container-desc {
   text-align: center;
@@ -569,10 +569,9 @@
     min-width: 160%;
     margin-left: 8%;
   }
-  .boxx1 > {
-    margin-left: -1%;
+  .boxx1>.free_class {
+    margin-left: -57%;
     min-width: 120%;
-    background-color: blue;
   }
   .joinMLS {
     font-size: 10px;

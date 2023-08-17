@@ -28,21 +28,7 @@ const Programs = () => {
         {/* <h1 class="our-program-h">Our Program</h1> */}
       </div>
       <div className="main-prg">
-        <div
-          className="mt-10 nav-login-btn"
-          style={{
-            textDecoration: "none",
-            backgroundColor: "orange",
-            color: "black",
-            padding: "0.4vw 2vw",
-            borderRadius: "0.5vw",
-            width: "17%",
-            whiteSpace: "nowrap",
-            lineHeight: "0.80",
-            marginLeft: "43%",
-            marginTop: "2%"
-          }}
-        >
+        <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
         <div style={{ marginTop: "5%" }}>

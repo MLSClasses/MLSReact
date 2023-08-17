@@ -1,8 +1,7 @@
 .width-line-space {
     margin-top: 50px;
     white-space: nowrap;
-margin-left: 6vw;
-
+    margin-left: 6vw;
 }
 .main-prg{
     margin: 0;
@@ -91,15 +90,39 @@ container-desc{
     line-height: 17px;
     white-space: break-spaces;
 }
+.main-prg>.mt-10-nav-login-btn{
+    text-decoration: none;
+  background-color: orange;
+  color: black;
+  padding: 0.4vw 2vw;
+  border-radius: 0.5vw;
+  width: 17%;
+  white-space: nowrap;
+  line-height: 0.80;
+  margin-left: 43%;
+  margin-top: 2%;
+}
 .pos{
     position: absolute;
 top: 310px;
 right: 503px;
 
 }
-@media (max-width: 668px) {
+@media (max-width: 768px) {
 .col-8{
     width:55%;
+}
+.main-prg>.mt-10-nav-login-btn{
+    text-decoration: none;
+  background-color: orange;
+  color: black;
+  padding: 0.4vw 2vw;
+  border-radius: 0.5vw;
+  width: 33%;
+  white-space: nowrap;
+  line-height: 0.80;
+  margin-left: 33%;
+  margin-top: 2%;
 }
 }
 /* h4{
