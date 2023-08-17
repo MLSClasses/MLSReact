@@ -229,6 +229,7 @@ function Index() {
         </div>
         <iframe
           poster={image11}
+          className="YoutubeBox"
           src={`https://www.youtube.com/embed/${youtubeID}`}
           title="YouTube video player"
           frameBorder="0"

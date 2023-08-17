@@ -3,6 +3,9 @@
     white-space: nowrap;
     margin-left: 6vw;
 }
+.work{
+    margin-left: 50%;
+}
 .main-prg{
     margin: 0;
     font-weight: 800;
