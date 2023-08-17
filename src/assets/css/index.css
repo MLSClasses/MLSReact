@@ -926,9 +926,12 @@ hr {
   .benefit p {
     font-size: 10px;
   }
+  .YoutubeBox{
+    min-width: 90%;
+  }
   .box{
     margin-bottom:5% ;
-}
+  }
 .logoStyle{
     width: 85px;
 }
