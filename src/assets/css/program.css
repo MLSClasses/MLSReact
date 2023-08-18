@@ -7,12 +7,22 @@
     margin-left: 50%;
 }
 .main-prg{
-    margin: 0;
     font-weight: 800;
     font-size: 48px;
     line-height: 56.03px;
     font-family: 'Abhaya Libre', serif;
     /* white-space: nowrap; */
+}
+.main-prg>.btn{
+    background-color: blue;
+    margin-left: 9%;
+    margin-top: 1%;
+    width: 80%;
+    border-radius: 40px;
+}
+.main-prg>.btn p1{
+    font-size: 35px;
+    margin-right: 2%;
 }
 .accordion-button:not(.collapsed){
     background-color: white !important;
@@ -47,9 +57,10 @@ container-desc{
 
 .rowsDesc{
     font-weight: 800; 
-    font-size: 36px; 
-    line-height: 56.03px; 
+    font-size: 26px; 
+    line-height: 56px; 
     font-family: 'Abhaya Libre', serif;
+    width: 100%;
 }
 .rowsDesc1{
     font-weight: 800; 
@@ -57,10 +68,8 @@ container-desc{
     line-height: 56.03px; 
     font-family: 'Abhaya Libre', serif;
 }
-.Desc{
-    text-decoration: none; 
-    list-style: none; 
-    font-size: 22px; 
+.Desc{ 
+    font-size: 18px; 
     line-height: 38.03px; 
     font-weight: 400;
     margin-top: 20px;

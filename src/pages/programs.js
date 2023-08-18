@@ -28,6 +28,13 @@ const Programs = () => {
         {/* <h1 class="our-program-h">Our Program</h1> */}
       </div>
       <div className="main-prg">
+        <div className="btn">
+          <a src="#High"><p1 >High School/ Middle School</p1></a>
+          <a><p1>Elementary</p1></a>
+          <a><p1>IT</p1></a>
+          <a><p1>Test Prep</p1></a>
+          <a><p1>College</p1></a>
+        </div>
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
@@ -38,7 +45,7 @@ const Programs = () => {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
                     {" "}
-                    <h3 className="rowsDesc">
+                    <h3 className="rowsDesc" id="High">
                       <span>
                         <Image
                           src={hgs}
