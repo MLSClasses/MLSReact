@@ -8,6 +8,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Mobile_Navbar from "../components/mobile_navbar";
 import '../assets/css/studentJob.css';
+import { Helmet } from 'react-helmet';
+
 const stars = (num) => {
   const stars_arr = [];
   for (let i = 0; i < num; i++) {
@@ -17,6 +19,17 @@ const stars = (num) => {
 };
 const comment = (comment, name, stars_arr) => {
   return (
+    <>
+    <Helmet>
+  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+  <meta name="title" content="Success stories of MLS Classes Students & happy Parents Feedback | MLS Classes"/>
+  <meta name="description" content="MLS Classes students are consistently attaining remarkable achievements in highly coveted national and international examinations | MLS Classes
+"/>
+  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+"/>
+  <meta name="robots" content="index, follow"/>
+  <title>Success stories of MLS Classes Students & happy Parents Feedback | MLS Classes</title>
+      </Helmet>
     <div className="comment-box">
       <div className="comment-header">
         <span className="commenter-name">{name}</span>
@@ -26,6 +39,7 @@ const comment = (comment, name, stars_arr) => {
         <p>{comment}</p>
       </div>
     </div>
+    </>
   );
 };
 const StudentJob = () => {

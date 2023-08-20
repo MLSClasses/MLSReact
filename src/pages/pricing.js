@@ -14,6 +14,8 @@ import gr from "../assets/img/gr.png";
 import pos from "../assets/img/ppostion.png";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import Mobile_Navbar from "../components/mobile_navbar";
+import { Helmet } from 'react-helmet';
+
 const Pricing = () => {
   AOS.init({
     offset: 200,
@@ -34,11 +36,22 @@ const Pricing = () => {
     <div>
       {/* {<Mobile_Navbar />}
       <Whatsapp_icon /> */}
+      <Helmet>
+  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+  <meta name="title" content="MLS Classes Online tutoring price of Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR & AMC Classes | MLS Classes"/>
+  <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED | MLS Classes
+"/>
+  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+"/>
+  <meta name="robots" content="index, follow"/>
+  <title>MLS Classes Online tutoring price of Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR & AMC Classes | MLS Classes
+</title>
+      </Helmet>
       <div className="f-template">
         <img src={img1} alt="first Template" className="img-fluid" />
       </div>
       <div className="bookFree">
-        <h1 onClick={handleClick}>Book free Trial Now</h1>
+        <h1 onClick={handleClick}>Book free Trial Now | MLS Classes</h1>
       </div>
       <br />
       <br />

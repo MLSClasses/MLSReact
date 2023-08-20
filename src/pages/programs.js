@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import "../assets/css/program.css";
+import { Helmet } from 'react-helmet';
+
 import { Container, Row, Col, Accordion, Image } from "react-bootstrap";
 
 //images
@@ -23,17 +25,27 @@ import Mobile_Navbar from "../components/mobile_navbar";
 const Programs = () => {
   return (
     <div>
+      <Helmet>
+  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+  <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes"/>
+  <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+!"/>
+  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+"/>
+  <meta name="robots" content="index, follow"/>
+  <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+      </Helmet>
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
         {/* <h1 class="our-program-h">Our Program</h1> */}
       </div>
       <div className="main-prg">
         <div className="btn">
-          <a src="#High"><p1 >High School/ Middle School</p1></a>
-          <a><p1>Elementary</p1></a>
-          <a><p1>IT</p1></a>
-          <a><p1>Test Prep</p1></a>
-          <a><p1>College</p1></a>
+          <a src="#High"><h1 >High School/ Middle School</h1></a>
+          <a><h1>Elementary</h1></a>
+          <a><h1>IT</h1></a>
+          <a><h1>Test Prep</h1></a>
+          <a><h1>College</h1></a>
         </div>
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
