@@ -226,6 +226,10 @@ function Index() {
             flexible online programs, your child will flourish academically and
             carry that success beyond the classroom.
           </p>
+         
+        <div  className="brand-moto">
+        <h3>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h3>
+        </div>
         </div>
         <iframe
           poster={image11}

@@ -988,3 +988,9 @@ hr {
   padding: 20px 20px;
   border: none;
 }
+.brand-moto h3 {
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
