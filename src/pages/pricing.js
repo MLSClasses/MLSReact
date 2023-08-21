@@ -51,7 +51,7 @@ const Pricing = () => {
         <img src={img1} alt="first Template" className="img-fluid" />
       </div>
       <div className="bookFree">
-        <h1 onClick={handleClick}>Book free Trial Now | MLS Classes</h1>
+        <h1 onClick={handleClick}>Book a free Demo Now | MLS Classes</h1>
       </div>
       <br />
       <br />

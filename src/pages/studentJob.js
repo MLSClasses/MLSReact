@@ -91,7 +91,7 @@ const StudentJob = () => {
         <Row className="rows">
           <div className="exp">
             <Col md="12" xs="12" sm="12">
-              <h3
+              <h1
                 style={{
                   textAlign: "center",
                   color: "#007BFF",
@@ -102,7 +102,7 @@ const StudentJob = () => {
               >
                 "Experience the Joy of Learning: Join Countless Happy Students
                 and Parents"
-              </h3>
+              </h1>
             </Col>
           </div>
         </Row>

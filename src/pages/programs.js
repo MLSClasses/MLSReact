@@ -37,15 +37,15 @@ const Programs = () => {
       </Helmet>
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
-        {/* <h1 class="our-program-h">Our Program</h1> */}
+        {/* <h2 class="our-program-h">Our Program</h2> */}
       </div>
       <div className="main-prg">
         <div className="btn">
-          <a src="#High"><h1 >High School/ Middle School</h1></a>
-          <a><h1>Elementary</h1></a>
-          <a><h1>IT</h1></a>
-          <a><h1>Test Prep</h1></a>
-          <a><h1>College</h1></a>
+          <a src="#High"><h2 >High School/ Middle School</h2></a>
+          <a><h2>Elementary</h2></a>
+          <a><h2>IT</h2></a>
+          <a><h2>Test Prep</h2></a>
+          <a><h2>College</h2></a>
         </div>
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
@@ -57,7 +57,7 @@ const Programs = () => {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
                     {" "}
-                    <h3 className="rowsDesc" id="High">
+                    <h1 className="rowsDesc" id="High">
                       <span>
                         <Image
                           src={hgs}
@@ -77,7 +77,7 @@ const Programs = () => {
                           fluid
                         />
                       }
-                    </h3>
+                    </h1>
                   </Accordion.Header>
                   <Accordion.Body>
                     <Row>
