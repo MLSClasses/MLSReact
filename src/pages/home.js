@@ -36,6 +36,7 @@ import Per_learning from "../assets/img/PeronsonilzedLearning.png";
 import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
 import { redirect, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -91,6 +92,13 @@ function Index() {
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
+      <Helmet>
+      <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+  <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes"/>
+  <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!"/>
+  <meta name="keywords" content="MLS Classes, MLS, MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. These programs are specifically designed to accelerate your child's academic progress, programs, GUARANTEED."/>
+  <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+      </Helmet>
       <div className="Slideshow">
         <Slider {...settings}>
           <div className="f-template" style={myInlineStyle}>
@@ -137,35 +145,35 @@ function Index() {
       </div>
       <div className="boxes">
         <div className="box">
-          <h1>MATH</h1>
+          <h2>MATH</h2>
           <p>MLS Classes provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
         </div>
         <div className="box">
-          <h1>SCIENCE</h1>
+          <h2>SCIENCE</h2>
           <p>MLS Classes provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
         </div>
         <div className="box">
-          <h1>ENGLISH(ELA)</h1>
+          <h2>ENGLISH(ELA)</h2>
           <p>Boost ELA skills with expert instructors, immersive lessons, and engaging activities. MLS Classes curriculum fosters confidence in reading, writing, grammar, and literature analysis. Excel in language with us!</p>
         </div>
         <div className="box">
-          <h1>CODING</h1>
+          <h2>CODING</h2>
           <p>Through MLS Classes interactive curriculum, students gain hands-on experience with coding languages, algorithmic thinking, and problem-solving techniques, setting them on a path to becoming skilled and creative coders.</p>
         </div>
         <div className="box">
-          <h1>SAT</h1>
+          <h2>SAT</h2>
           <p>1500+ Score Mastery: Transform Math, ELA Skills through Our SAT Classes! Join MLS Classes to elevate your SAT experience and embrace a new level of learning.</p>
         </div>
         <div className="box">
-          <h1>ACT</h1>
+          <h2>ACT</h2>
           <p>Elevate your ACT preparation with a unique approach that goes beyond the surface, 35+Score Mastery. Join MLS Classes to experience ACT preparation that transforms how you learn and conquer challenges.</p>
         </div>
         <div className="box">
-          <h1>AP</h1>
+          <h2>AP</h2>
           <p>Unlock a 5/5 score with our exceptional AP preparation. . Join MLS Classes to elevate your AP journey and secure a 5/5 score that sets you apart.</p>
         </div>
         <div className="box">
-          <h1>AMC</h1>
+          <h2>AMC</h2>
           <p>Achieve a perfect AMC score with our unparalleled preparation.  Join MLS Classes to elevate your AMC journey and secure a score that opens doors to mathematical excellence.</p>
         </div>
       </div>
@@ -218,7 +226,7 @@ function Index() {
       </div>
       <div className="brand-moto">
         <div className="brand-moto-message">
-          <h1>Why the MLS Classes?</h1>
+          <h2>Why the MLS Classes?</h2>
           <p>
             MLS Classes: Where Personalized Learning Meets Excellence! Our
             highly qualified teachers use expertly crafted curricula tailored to
@@ -239,7 +247,13 @@ function Index() {
         ></iframe>
       </div>
       <div className="benefits-container">
-        <h1>Our Benefits</h1>
+        <h1 style={{"textAlign":"center"}}>Our Benefits
+        <span style = {{"display": "block"}}><h2>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h2></span>
+        </h1>
+        
+        
+        
+        
         <div className="benefits">
           <A_benefit
             className="bnfts"

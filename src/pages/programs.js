@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import "../assets/css/program.css";
+import { Helmet } from 'react-helmet';
+
 import { Container, Row, Col, Accordion, Image } from "react-bootstrap";
 
 //images
@@ -23,17 +25,27 @@ import Mobile_Navbar from "../components/mobile_navbar";
 const Programs = () => {
   return (
     <div>
+      <Helmet>
+  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+  <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes"/>
+  <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+!"/>
+  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+"/>
+  <meta name="robots" content="index, follow"/>
+  <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+      </Helmet>
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
-        {/* <h1 class="our-program-h">Our Program</h1> */}
+        {/* <h2 class="our-program-h">Our Program</h2> */}
       </div>
       <div className="main-prg">
         <div className="btn">
-          <a src="#High"><p1 >High School/ Middle School</p1></a>
-          <a><p1>Elementary</p1></a>
-          <a><p1>IT</p1></a>
-          <a><p1>Test Prep</p1></a>
-          <a><p1>College</p1></a>
+          <a src="#High"><h2 >High School/ Middle School</h2></a>
+          <a><h2>Elementary</h2></a>
+          <a><h2>IT</h2></a>
+          <a><h2>Test Prep</h2></a>
+          <a><h2>College</h2></a>
         </div>
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
@@ -45,7 +57,7 @@ const Programs = () => {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
                     {" "}
-                    <h3 className="rowsDesc" id="High">
+                    <h1 className="rowsDesc" id="High">
                       <span>
                         <Image
                           src={hgs}
@@ -65,7 +77,7 @@ const Programs = () => {
                           fluid
                         />
                       }
-                    </h3>
+                    </h1>
                   </Accordion.Header>
                   <Accordion.Body>
                     <Row>

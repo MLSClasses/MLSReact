@@ -19,6 +19,8 @@
     margin-top: 1%;
     width: 80%;
     border-radius: 40px;
+    display: flex;
+    justify-content: center;
 }
 .main-prg>.btn p1{
     font-size: 35px;

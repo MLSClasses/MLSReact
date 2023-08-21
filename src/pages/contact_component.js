@@ -3,6 +3,8 @@ import first_img from "../assets/img/10.jpg";
 import FooterComponent from "../components/footer";
 import moment from "moment-timezone";
 import Whatsapp_icon from "../components/whatsapp_icon";
+import { Helmet } from 'react-helmet';
+
 const ContactComponent = (props) => {
   const [userData, setUserData] = useState({
     firstname: "",
@@ -172,6 +174,16 @@ const ContactComponent = (props) => {
 
   return (
     <div className="flex-wrapper">
+      
+      <Helmet>
+  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+  <meta name="title" content="Contact us for a Free Demo & more details | MLS Classes"/>
+  <meta name="description" content="Contact with MLS Classes expert team & get every course details | MLS Classes"/>
+  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+"/>
+  <meta name="robots" content="index, follow"/>
+  <title>Contact us for a Free Demo & more details | MLS Classes</title>
+      </Helmet>
       <Whatsapp_icon />
       <div class="f-template-contact">
         <img src={first_img} alt="first Template" />
@@ -179,7 +191,7 @@ const ContactComponent = (props) => {
 
       <div class="contact">
         <div class="contact-sub" method="POST">
-          <div class="contact-h">We're here to help you!</div>
+          <h1 class="contact-h">We're here to help you!</h1>
           <div class="contact-sub-h">
             Please share the required details below related to your inquiry.
           </div>
