@@ -37,6 +37,7 @@ import Proven_results from "../assets/img/Proven_Results.png";
 import CommentsSlide from "../components/comments_slide";
 import { redirect, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import Navbar from "../components/navbar";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -92,12 +93,13 @@ function Index() {
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
+      <Navbar />
       <Helmet>
-      <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
-  <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes"/>
-  <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!"/>
-  <meta name="keywords" content="MLS Classes, MLS, MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. These programs are specifically designed to accelerate your child's academic progress, programs, GUARANTEED."/>
-  <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+        <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+        <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes" />
+        <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!" />
+        <meta name="keywords" content="MLS Classes, MLS, MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. These programs are specifically designed to accelerate your child's academic progress, programs, GUARANTEED." />
+        <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
       </Helmet>
       <div className="Slideshow">
         <Slider {...settings}>
@@ -247,13 +249,13 @@ function Index() {
         ></iframe>
       </div>
       <div className="benefits-container">
-        <h1 style={{"textAlign":"center"}}>Our Benefits
-        <span style = {{"display": "block"}}><h2>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h2></span>
+        <h1 style={{ "textAlign": "center" }}>Our Benefits
+          <span style={{ "display": "block" }}><h2>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h2></span>
         </h1>
-        
-        
-        
-        
+
+
+
+
         <div className="benefits">
           <A_benefit
             className="bnfts"

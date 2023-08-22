@@ -19,7 +19,6 @@ function App() {
     <div class="body">
       <Whatsapp_icon />
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
