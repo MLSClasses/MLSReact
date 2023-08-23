@@ -14,7 +14,7 @@
     /* white-space: nowrap; */
 }
 .main-prg>.btn{
-    background-color: blue;
+    background-color: #FF9500;
     margin-left: 9%;
     margin-top: 1%;
     width: 80%;
@@ -76,6 +76,12 @@ container-desc{
     font-weight: 400;
     margin-top: 20px;
 }
+.Desc1{ 
+    font-size: 18px; 
+    line-height: 38.03px; 
+    font-weight: 400;
+    margin-top: 10%;
+}
 .subDesc{
     color: blue; 
     font-weight: bold;
@@ -103,6 +109,9 @@ container-desc{
     font-size: 18px;
     line-height: 17px;
     white-space: break-spaces;
+}
+.bottomSection img{
+    margin-left: 20vh;
 }
 .main-prg>.mt-10-nav-login-btn{
     text-decoration: none;
@@ -133,8 +142,8 @@ container-desc{
     width:55%;
 }
 .main-prg>.btn{
-    margin-left: 2%;
-    width: 100%;
+    margin-left: 3%;
+    width: 95%;
     height: 20%;
     background-color: orange;
 }
@@ -156,7 +165,6 @@ container-desc{
 .mainsection{
     margin-left: -70%;
     width: 300%;
-    background-color: blue;
 }
 .prefChoice{
     margin-left: -10%;
@@ -168,6 +176,22 @@ container-desc{
 }
 .prefChoice h3{
     font-size: 18px;
+}
+.bottomSection img{
+    width: 100px;
+    margin-left: 40%;
+    margin-top: -3%;
+}
+.Ind-learn{
+    margin-left: -10%;
+}
+.Flex-learn{
+    width: 28%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+.Desc1{
+    margin-top: -5%;
 }
 }
 /* h4{
