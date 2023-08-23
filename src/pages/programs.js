@@ -87,7 +87,6 @@ const Programs = () => {
                           <li>Pre-Algebra</li>
                           <li>Algebra 1</li>
                           <li>Algebra 2</li>
-                          <li>Algebra 2 & Trigonometry</li>
                           <li>Trigonometry</li>
                           <li>Geometry</li>
                           <li>Precalculus</li>
@@ -95,11 +94,12 @@ const Programs = () => {
                           <li>Statistics</li>
                           <li>Integrated Math 1</li>
                           <li>Integrated Math 2</li>
+                          <li>Integrated Math 3</li>
                         </ul>
                       </Col>
+                      <br />
                       <Col md={6}>
-                        <ul className="Desc">
-                          <li>Integrated Math 3</li>
+                        <ul className="Desc1">
                           <li>Biology</li>
                           <li>Chemistry</li>
                           <li>Earth Science</li>
@@ -159,46 +159,133 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              <br />
-              <Accordion className="work" defaultActiveKey="0">
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header style={{ background: "white" }}>
-                    {" "}
+              {/* 2nd */}
+              <Accordion className="work" defaultActiveKey="1">
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>
                     <h3 className="rowsDesc">
                       <span>
-                        <Image
-                          src={it_img}
+                        <img
+                          src={b2}
                           alt="img"
                           className="img-fluid"
                           width="40"
                           style={{ marginTop: "-20px" }}
-                          fluid
                         />
                       </span>{" "}
-                      IT
+                      Test Prep
                       {
-                        <Image
+                        <img
                           src={arrow_img}
                           alt="img"
                           className="arrow_down"
-                          fluid
                         />
                       }
                     </h3>
                   </Accordion.Header>
                   <Accordion.Body>
                     <Row>
-                      <Col md={12}>
-                        <ul className="Desc">
-                          <li>C# Programming</li>
-                          <li>C++ Programming</li>
-                          <li>HTML and Web</li>
-                          <li>Development</li>
-                          <li>Java</li>
-                          <li>Python</li>
-                          <li>Scratch</li>
-                          <li>Robotics</li>
-                        </ul>
+                      <Col md={6}>
+                        <Accordion defaultActiveKey="1">
+                          <Accordion.Item eventKey="1"></Accordion.Item>
+                          <Accordion.Header>
+                            <p className="rowsDesc">
+                              SAT{" "}
+                              <img
+                                alt=""
+                                src={arrow_img}
+                                className="arrow_down"
+                              />
+                            </p>{" "}
+                          </Accordion.Header>
+                          <Accordion.Body>
+                            <ul className="Desc">
+                              <li>SAT Math</li>
+                              <li>SAT Reading & Writing</li>
+                            </ul>
+                          </Accordion.Body>
+                        </Accordion>
+
+                        <Accordion defaultActiveKey="1">
+                          <Accordion.Item eventKey="1"></Accordion.Item>
+                          <Accordion.Header>
+                            <p className="rowsDesc">
+                              PSAT{" "}
+                              <img
+                                alt=""
+                                src={arrow_img}
+                                className="arrow_down"
+                              />
+                            </p>{" "}
+                          </Accordion.Header>
+                          <Accordion.Body>
+                            <ul className="Desc">
+                              <li>PSAT Math 8/9</li>
+                              <li>PSAT 10</li>
+                              <li>PSAT/NMSQT</li>
+                            </ul>
+                          </Accordion.Body>
+                        </Accordion>
+                      </Col>
+                      <Col md={6}>
+                        <Accordion defaultActiveKey="1">
+                          <Accordion.Item eventKey="1"></Accordion.Item>
+                          <Accordion.Header>
+                            <p className="rowsDesc">
+                              ACT{" "}
+                              <img
+                                alt=""
+                                src={arrow_img}
+                                className="arrow_down"
+                              />
+                            </p>{" "}
+                          </Accordion.Header>
+                          <Accordion.Body>
+                            <ul className="Desc">
+                              <li>ACT Math</li>
+                              <li>ACT English</li>
+                              <li>ACT Science</li>
+                              <li>ACT Reading and Writing</li>
+                            </ul>
+                          </Accordion.Body>
+                        </Accordion>
+                      </Col>
+                      <Col md={6}>
+                        <Accordion defaultActiveKey="1">
+                          <Accordion.Item eventKey="1"></Accordion.Item>
+                          <Accordion.Header>
+                            <p className="rowsDesc">
+                              AP{" "}
+                              <img
+                                alt=""
+                                src={arrow_img}
+                                className="arrow_down"
+                              />
+                            </p>{" "}
+                          </Accordion.Header>
+                          <Accordion.Body>
+                            <ul className="Desc">
+                              <li>AP Macroeconomics</li>
+                              <li>AP English Literature</li>
+                              <li>and Composition</li>
+                              <li>AP Precalculus</li>
+                              <li>AP Calculus AB</li>
+                              <li>AP Calculus BC</li>
+                              <li>AP Statistics</li>
+                              <li>AP Biology</li>
+                              <li>AP Chemistry</li>
+                              <li>AP Physics 1 & 2</li>
+                              <li>AP Physics C: Electricity</li>
+                              <li>and Magnetism</li>
+                              <li>AP Physics C: Mechanics</li>
+                              <li>AP Environmental Science</li>
+                              <li>AP English & Composition</li>
+                              <li>AP Computer Science A</li>
+                              <li>AP Spanish</li>
+                              <li>IBMYP</li>
+                            </ul>
+                          </Accordion.Body>
+                        </Accordion>
                       </Col>
                       <hr />
                     </Row>
@@ -255,163 +342,44 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              {/* 2nd */}
-              <Accordion className="work" defaultActiveKey="1">
-                <Accordion.Item eventKey="1">
-                  <Accordion.Header>
-                    <h3 className="rowsDesc">
-                      <span>
-                        <img
-                          src={b2}
-                          alt="img"
-                          className="img-fluid"
-                          width="40"
-                          style={{ marginTop: "-20px" }}
-                        />
-                      </span>{" "}
-                      Test Prep
-                      {
-                        <img
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                        />
-                      }
-                    </h3>
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    <Row>
-                      <Col md={6}>
-                        <Accordion defaultActiveKey="1">
-                          <Accordion.Item eventKey="1"></Accordion.Item>
-                          <Accordion.Header>
-                            <p className="rowsDesc">
-                              SAT{" "}
-                              <img
-                                alt=""
-                                src={arrow_img}
-                                className="arrow_down"
-                              />
-                            </p>{" "}
-                          </Accordion.Header>
-                          <Accordion.Body>
-                            <ul className="Desc">
-                              <li>SAT</li>
-                              <li>SAT Math</li>
-                              <li>SAT Reading & Writing</li>
-                            </ul>
-                          </Accordion.Body>
-                        </Accordion>
-
-                        <Accordion defaultActiveKey="1">
-                          <Accordion.Item eventKey="1"></Accordion.Item>
-                          <Accordion.Header>
-                            <p className="rowsDesc">
-                              PSAT{" "}
-                              <img
-                                alt=""
-                                src={arrow_img}
-                                className="arrow_down"
-                              />
-                            </p>{" "}
-                          </Accordion.Header>
-                          <Accordion.Body>
-                            <ul className="Desc">
-                              <li>PSAT/NMSQT</li>
-                              <li>PSAT Math</li>
-                              <li>PSAT Evidence-Based</li>
-                              <li>Reading & Writing</li>
-                            </ul>
-                          </Accordion.Body>
-                        </Accordion>
-                      </Col>
-                      <Col md={6}>
-                        <Accordion defaultActiveKey="1">
-                          <Accordion.Item eventKey="1"></Accordion.Item>
-                          <Accordion.Header>
-                            <p className="rowsDesc">
-                              ACT{" "}
-                              <img
-                                alt=""
-                                src={arrow_img}
-                                className="arrow_down"
-                              />
-                            </p>{" "}
-                          </Accordion.Header>
-                          <Accordion.Body>
-                            <ul className="Desc">
-                              <li>ACT Complete</li>
-                              <li>ACT Math</li>
-                              <li>ACT English</li>
-                              <li>ACT Science</li>
-                            </ul>
-                          </Accordion.Body>
-                        </Accordion>
-                      </Col>
-                      <hr />
-                    </Row>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-
-              {/* 3rd  */}
-              <Accordion className="work" defaultActiveKey="2">
-                <Accordion.Item eventKey="2">
-                  <Accordion.Header>
+              <Accordion className="work" defaultActiveKey="0">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header style={{ background: "white" }}>
                     {" "}
                     <h3 className="rowsDesc">
                       <span>
-                        <img
-                          src={ab}
+                        <Image
+                          src={it_img}
                           alt="img"
                           className="img-fluid"
                           width="40"
                           style={{ marginTop: "-20px" }}
+                          fluid
                         />
                       </span>{" "}
-                      AP/IB
+                      IT
                       {
-                        <img
+                        <Image
                           src={arrow_img}
                           alt="img"
                           className="arrow_down"
+                          fluid
                         />
                       }
                     </h3>
                   </Accordion.Header>
                   <Accordion.Body>
                     <Row>
-                      <Col md={6}>
+                      <Col md={12}>
                         <ul className="Desc">
-                          <li>Pre-Algebra</li>
-                          <li>AP Macroeconomics</li>
-                          <li>AP English Literature</li>
-                          <li>and Composition</li>
-                          <li>AP Precalculus</li>
-                          <li>AP Calculus AB</li>
-                          <li>AP Calculus BC</li>
-                          <li>AP Statistics</li>
-                          <li>AP Biology</li>
-                          <li>AP Chemistry</li>
-                          <li>AP Physics 1 & 2</li>
-                          <li>AP Physics C: Electricity</li>
-                          <li>and Magnetism</li>
-                          <li>AP Physics C: Mechanics</li>
-                          <li>AP Environmental Science</li>
-                          <li>AP English & Composition</li>
-                          <li>AP Computer Science A</li>
-                          <li>AP Spanish</li>
-                          <li>IBMYP</li>
-                        </ul>
-                      </Col>
-                      <Col md={6}>
-                        <ul className="Desc">
-                          <li>IB Math HL & SL</li>
-                          <li>IB Biology HL & SL</li>
-                          <li>IB Chemistry HL & SL</li>
-                          <li>IB Physics HL & SL</li>
-                          <li>IB English HL & SL</li>
-                          <li>IBMYP</li>
+                          <li>C# Programming</li>
+                          <li>C++ Programming</li>
+                          <li>HTML and Web</li>
+                          <li>Development</li>
+                          <li>Java</li>
+                          <li>Python</li>
+                          <li>Scratch</li>
+                          <li>Robotics</li>
                         </ul>
                       </Col>
                       <hr />
@@ -419,7 +387,6 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-
               {/* 4rd  */}
               <Accordion className="work" defaultActiveKey="3">
                 <Accordion.Item eventKey="3">
@@ -500,11 +467,10 @@ const Programs = () => {
                   mt="5"
                   style={{ marginTop: "10vh" }}
                 >
-                  <div>
+                  <div className="bottomSection">
                     <img
                       src={b1}
                       className="img-fluid"
-                      style={{ marginLeft: "9vw" }}
                     />
                     <h3 className="Ind-learn">Individualized Learning</h3>
                     <p className="Flex-learn">
@@ -516,11 +482,10 @@ const Programs = () => {
                   </div>
                 </Col>
                 <Col md="4" sm="11" xs="11" style={{ marginTop: "10vh" }}>
-                  <div>
+                  <div className="bottomSection">
                     <img
                       src={b2}
                       className="img-fluid"
-                      style={{ marginLeft: "9vw" }}
                     />
                     <h3 className="Ind-learn">Reliable Resources</h3>
                     <p className="Flex-learn">
@@ -538,11 +503,10 @@ const Programs = () => {
                   </div>
                 </Col>
                 <Col md="4" sm="11" xs="11" style={{ marginTop: "10vh" }}>
-                  <div>
+                  <div className="bottomSection">
                     <img
                       src={b3}
                       className="img-fluid"
-                      style={{ marginLeft: "9vw" }}
                     />
                     <h3 className="Ind-learn">Empowering Educators</h3>
                     <p className="Flex-learn">
