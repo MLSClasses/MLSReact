@@ -118,25 +118,56 @@ container-desc{
 }
 .pos{
     position: absolute;
-top: 310px;
-right: 503px;
-
+    top: 310px;
+    right: 503px;
+}
+.prefChoice{
+    text-align: center;
+    color: #007BFF;
+    font-size: 48px;
+    line-height: 56.63px;
+    font-family: Abhaya Libre, serif;
 }
 @media (max-width: 768px) {
 .col-8{
     width:55%;
 }
+.main-prg>.btn{
+    margin-left: 2%;
+    width: 100%;
+    height: 20%;
+    background-color: orange;
+}
+.main-prg>.btn h2{
+    font-size: 12px;
+    margin-left: 1%;
+}
 .main-prg>.mt-10-nav-login-btn{
     text-decoration: none;
-  background-color: orange;
-  color: black;
-  padding: 0.4vw 2vw;
-  border-radius: 0.5vw;
-  width: 33%;
-  white-space: nowrap;
-  line-height: 0.80;
-  margin-left: 33%;
-  margin-top: 2%;
+    border-radius: 100px;
+    background-color: orange;
+    padding: 0.4vw 2vw;
+    width: 38%;
+    white-space: nowrap;
+    line-height: 0.80;
+    margin-left: 33%;
+    margin-top: 2%;
+  }
+.mainsection{
+    margin-left: -70%;
+    width: 300%;
+    background-color: blue;
+}
+.prefChoice{
+    margin-left: -10%;
+    text-align: center;
+    color: #007BFF;
+    font-size: 28px;
+    line-height: 56.63px;
+    font-family: Abhaya Libre, serif;
+}
+.prefChoice h3{
+    font-size: 18px;
 }
 }
 /* h4{

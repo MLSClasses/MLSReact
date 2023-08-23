@@ -25,15 +25,16 @@ import Mobile_Navbar from "../components/mobile_navbar";
 const Programs = () => {
   return (
     <div>
+      <Navbar />
       <Helmet>
-  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
-  <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes"/>
-  <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+        <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+        <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes" />
+        <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 !"/>
-  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+        <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 "/>
-  <meta name="robots" content="index, follow"/>
-  <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+        <meta name="robots" content="index, follow" />
+        <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
       </Helmet>
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
@@ -50,7 +51,7 @@ const Programs = () => {
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
-        <div style={{ marginTop: "5%" }}>
+        <div className="mainsection" style={{ marginTop: "5%" }}>
           <Row>
             <Col md={8} sm={8} xs={8}>
               <Accordion className="work" defaultActiveKey="0">
@@ -481,17 +482,9 @@ const Programs = () => {
           <div className="white">
             <Container>
               <Row className="rows">
-                <div>
+                <div className="prefChoice">
                   <Col md="12" xs="12" sm="12">
-                    <h3
-                      style={{
-                        textAlign: "center",
-                        color: "#007BFF",
-                        fontSize: "48px",
-                        lineHeight: "56.63px",
-                        fontFamily: "Abhaya Libre, serif",
-                      }}
-                    >
+                    <h3>
                       Why is MLS Classes the preferred choice
                       <br />
                       for effective learning and academic success?

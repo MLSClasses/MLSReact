@@ -20,25 +20,25 @@ const stars = (num) => {
 const comment = (comment, name, stars_arr) => {
   return (
     <>
-    <Helmet>
-  <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
-  <meta name="title" content="Success stories of MLS Classes Students & happy Parents Feedback | MLS Classes"/>
-  <meta name="description" content="MLS Classes students are consistently attaining remarkable achievements in highly coveted national and international examinations | MLS Classes
+      <Helmet>
+        <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
+        <meta name="title" content="Success stories of MLS Classes Students & happy Parents Feedback | MLS Classes" />
+        <meta name="description" content="MLS Classes students are consistently attaining remarkable achievements in highly coveted national and international examinations | MLS Classes
 "/>
-  <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
+        <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 "/>
-  <meta name="robots" content="index, follow"/>
-  <title>Success stories of MLS Classes Students & happy Parents Feedback | MLS Classes</title>
+        <meta name="robots" content="index, follow" />
+        <title>Success stories of MLS Classes Students & happy Parents Feedback | MLS Classes</title>
       </Helmet>
-    <div className="comment-box">
-      <div className="comment-header">
-        <span className="commenter-name">{name}</span>
-        <div className="star-rating">{stars(stars_arr)}</div>
+      <div className="comment-box">
+        <div className="comment-header">
+          <span className="commenter-name">{name}</span>
+          <div className="star-rating">{stars(stars_arr)}</div>
+        </div>
+        <div className="comment-content">
+          <p>{comment}</p>
+        </div>
       </div>
-      <div className="comment-content">
-        <p>{comment}</p>
-      </div>
-    </div>
     </>
   );
 };
@@ -49,6 +49,7 @@ const StudentJob = () => {
   });
   return (
     <div>
+      <Navbar />
       <div className="f-template-contact">
         <img src={first_img} alt="first Template" />
       </div>
