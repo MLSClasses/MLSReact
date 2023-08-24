@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import "../assets/css/program.css";
 import { Helmet } from 'react-helmet';
+import { Link } from "react-scroll";
 
 import { Container, Row, Col, Accordion, Image } from "react-bootstrap";
 
@@ -42,11 +43,29 @@ const Programs = () => {
       </div>
       <div className="main-prg">
         <div className="btn">
-          <a src="#High"><h2 >High School/ Middle School</h2></a>
-          <a><h2>Elementary</h2></a>
-          <a><h2>IT</h2></a>
-          <a><h2>Test Prep</h2></a>
-          <a><h2>College</h2></a>
+          <Link to="high" smooth={true} duration={500} className="yo">
+            <h3>High School/ Middle School </h3>
+          </Link>
+        </div>
+        <div className="btn">
+          <Link to="elementary" smooth={true} duration={500} className="yo">
+            <h3>Elementary </h3>
+          </Link>
+        </div>
+        <div className="btn">
+          <Link to="it" smooth={true} duration={500} className="yo">
+            <h3>IT </h3>
+          </Link>
+        </div>
+        <div className="btn">
+          <Link to="test" smooth={true} duration={500} className="yo">
+            <h3>Test Prep </h3>
+          </Link>
+        </div>
+        <div className="btn">
+          <Link to="college" smooth={true} duration={500} className="yo">
+            <h3>College </h3>
+          </Link>
         </div>
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
@@ -54,11 +73,11 @@ const Programs = () => {
         <div className="mainsection" style={{ marginTop: "5%" }}>
           <Row>
             <Col md={8} sm={8} xs={8}>
-              <Accordion className="work" defaultActiveKey="0">
+              <Accordion className="work" defaultActiveKey="0" id="high">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
                     {" "}
-                    <h1 className="rowsDesc" id="High">
+                    <h1 className="rowsDesc">
                       <span>
                         <Image
                           src={hgs}
@@ -100,12 +119,12 @@ const Programs = () => {
                       <br />
                       <Col md={6}>
                         <ul className="Desc1">
-                          <li>Biology</li>
-                          <li>Chemistry</li>
-                          <li>Earth Science</li>
-                          <li>Life Science</li>
                           <li>Physics </li>
+                          <li>Chemistry</li>
+                          <li>Biology</li>
                           <li>Science</li>
+                          <li>Life Science</li>
+                          <li>Earth Science</li>
                           <li>Creative Writing</li>
                           <li>Reading Comprehension</li>
                           <li>Grammar</li>
@@ -118,7 +137,7 @@ const Programs = () => {
                 </Accordion.Item>
               </Accordion>
 
-              <Accordion className="work" defaultActiveKey="0">
+              <Accordion className="work" defaultActiveKey="0" id="elementary">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
                     {" "}
@@ -160,7 +179,7 @@ const Programs = () => {
                 </Accordion.Item>
               </Accordion>
               {/* 2nd */}
-              <Accordion className="work" defaultActiveKey="1">
+              <Accordion className="work" defaultActiveKey="1" id="test">
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <h3 className="rowsDesc">
@@ -220,7 +239,7 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
-                              <li>PSAT Math 8/9</li>
+                              <li>PSAT 8/9</li>
                               <li>PSAT 10</li>
                               <li>PSAT/NMSQT</li>
                             </ul>
@@ -265,24 +284,20 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
-                              <li>AP Macroeconomics</li>
-                              <li>AP English Literature</li>
-                              <li>and Composition</li>
                               <li>AP Precalculus</li>
                               <li>AP Calculus AB</li>
                               <li>AP Calculus BC</li>
                               <li>AP Statistics</li>
-                              <li>AP Biology</li>
-                              <li>AP Chemistry</li>
                               <li>AP Physics 1 & 2</li>
-                              <li>AP Physics C: Electricity</li>
-                              <li>and Magnetism</li>
+                              <li>AP Physics C: Electricity and Magnetism</li>
                               <li>AP Physics C: Mechanics</li>
+                              <li>AP Chemistry</li>
+                              <li>AP Biology</li>
                               <li>AP Environmental Science</li>
-                              <li>AP English & Composition</li>
                               <li>AP Computer Science A</li>
-                              <li>AP Spanish</li>
-                              <li>IBMYP</li>
+                              <li>AP English Literature and Composition</li>
+                              <li>AP Microeconomics</li>
+                              <li>AP Macroeconomics</li>
                             </ul>
                           </Accordion.Body>
                         </Accordion>
@@ -322,19 +337,12 @@ const Programs = () => {
                     <Row>
                       <Col md={12}>
                         <ul className="Desc">
-                          <li>AMC 10</li>
                           <li>AMC 8</li>
-                          <li>CAASPP</li>
-                          <li>FSA</li>
-                          <li>HSPT</li>
-                          <li>MATHCOUNTS</li>
-                          <li>MCAT</li>
-                          <li>PARCC</li>
-                          <li>Regents</li>
+                          <li>AMC 10</li>
                           <li>SSAT</li>
                           <li>STAAR</li>
+                          <li>MATHCOUNTS</li>
                           <li>TERRANOVA</li>
-                          <li>TOEFL</li>
                         </ul>
                       </Col>
                       <hr />
@@ -342,7 +350,7 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              <Accordion className="work" defaultActiveKey="0">
+              <Accordion className="work" defaultActiveKey="0" id="it">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
                     {" "}
@@ -372,14 +380,13 @@ const Programs = () => {
                     <Row>
                       <Col md={12}>
                         <ul className="Desc">
-                          <li>C# Programming</li>
-                          <li>C++ Programming</li>
-                          <li>HTML and Web</li>
-                          <li>Development</li>
                           <li>Java</li>
                           <li>Python</li>
                           <li>Scratch</li>
                           <li>Robotics</li>
+                          <li>C++ Programming</li>
+                          <li>C Programming</li>
+                          <li>HTML and Web Development</li>
                         </ul>
                       </Col>
                       <hr />
@@ -388,7 +395,7 @@ const Programs = () => {
                 </Accordion.Item>
               </Accordion>
               {/* 4rd  */}
-              <Accordion className="work" defaultActiveKey="3">
+              <Accordion className="work" defaultActiveKey="3" id="college">
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
                     {" "}
@@ -416,23 +423,23 @@ const Programs = () => {
                     <Row>
                       <Col md={6}>
                         <ul className="Desc">
-                          <li>College Math</li>
-                          <li>Differential Equations</li>
-                          <li>Discrete Math</li>
-                          <li>College Statistics</li>
-                          <li>Multivariable Calculus</li>
                           <li>Linear Algebra</li>
-                          <li>College Biology</li>
+                          <li>Multivariable Calculus</li>
+                          <li>Discrete Math</li>
+                          <li>Differential Equations</li>
+                          <li>College Math</li>
+                          <li>College Statistics</li>
+                          <li>College Physics</li>
                         </ul>
                       </Col>
                       <Col md={6}>
-                        <ul className="Desc">
+                        <ul className="Desc1">
+                          <li>College Chemistry</li>
+                          <li>Organic Chemistry</li>
+                          <li>College Biology</li>
                           <li>Molecular Biology</li>
                           <li>College Genetics</li>
                           <li>Anatomy and Physiology</li>
-                          <li>College Chemistry</li>
-                          <li>Organic Chemistry</li>
-                          <li>College Physics</li>
                           <li>College English</li>
                         </ul>
                       </Col>
