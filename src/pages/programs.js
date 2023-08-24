@@ -28,13 +28,12 @@ const Programs = () => {
       <Navbar />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
-        <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes" />
-        <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
-!"/>
+        <meta name="title" content="	Live 1:1 Online Classes for Kids(Grade 2-12) & Adults in USA | MLS Classes" />
+        <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12 & for adults in USA. The programs of MLyour cheld's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!ress, programs, GUARANTEED. Book a FREE TRIAL now!"/>
         <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 "/>
         <meta name="robots" content="index, follow" />
-        <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+        <title>	Live 1:1 Online Classes for Kids(Grade 2-12) & Adults in USA | MLS Classes</title>
       </Helmet>
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />
