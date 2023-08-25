@@ -92,7 +92,7 @@ const FooterComponent = () => {
             <a href="#">Initial Setup</a>
           </div>
           <div >
-            <a href="#">FAQs</a>
+            <a href="/faq">FAQs</a>
           </div>
         </div>
 
