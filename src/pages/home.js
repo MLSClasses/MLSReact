@@ -250,9 +250,9 @@ function Index() {
         ></iframe>
       </div>
       <div className="benefits-container">
-        <h1 style={{ "textAlign": "center" }}>Our Benefits
-          <span style={{ "display": "block" }}><h2>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h2></span>
-        </h1>
+        <h1 style={{ "textAlign": "center" }}>Our Benefits</h1>
+        <span style={{ "display": "block" }}><h3>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h3></span>
+
 
 
 
@@ -313,74 +313,81 @@ function Index() {
         <FreeClassButton />
       </div>
       <h2 className="acc-section">Commonly Asked <span>Questions</span></h2>
-      <Container id="accord-home" fluid={false} style={{"marginTop":"5%"}}>
-        
-      <Row>
-        <Col md={12} sm={12}>
-        <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header className="acc-header">Does MLS Classes offer tutoring for Test-Prep exams like SAT, ACT & AP required by colleges in USA?</Accordion.Header>
-        <Accordion.Body>
-        Yes, MLS Classes provides comprehensive tutoring services for various admission tests required by colleges in the USA. They offer expert guidance and support for exams such as the SAT, ACT, and AP exams. Whether you're aiming to excel in the Scholastic Assessment Test (SAT), the American College Testing (ACT), or seeking preparation for Advanced Placement (AP) exams, MLS Classes has tailored tutoring programs to help you succeed and improve your chances of gaining admission to your desired colleges and universities
-        .
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header className="acc-header"> Does MLS Classes provide tutoring services for school students of USA?</Accordion.Header>
-        <Accordion.Body>
-        MLS Classes offers tutoring services for students in grades 2-12, covering academic subjects like Science, Math, English, Coding & Test-Preps like SAT,PSAT, ACT,AP,AMC. With a team of experienced educators, MLS Classes provides personalized and customised ONE on ONE lessons, including mock exams and hands-on practical sessions. If you're interested, you can take advantage of a 7-day trial period to experience firsthand how our dedicated teachers cater to each student's needs effectively.
-        </Accordion.Body>
-      </Accordion.Item>
+      <Container id="accord-home" fluid={false} style={{ "marginTop": "5%" }}>
 
-      <Accordion.Item eventKey="3">
-        <Accordion.Header className="acc-header" >Could you provide us with the contact information to get course details of MLS Classes?</Accordion.Header>
-        <Accordion.Body>
-       <span>Please contact us for more details :
-Phone number +91 9649549754
-Whatsapp number +91 9649549754
-Whatsapp chat <a href="https://wa.me/message/XMS5KMWBGQZLG1">whatsapp</a>
-Contact us Form<br/>
- <a href="https://mlsclasses.com/contact">Contact US</a>
-Email id  <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a><br/>
-<a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a></span> 
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="4">
-        <Accordion.Header className="acc-header">How does the online class system offered by MLS Classes work?</Accordion.Header>
-        <Accordion.Body>
-       Absolutely! Prepare for an incredible MLS Classes learning journey. Our courses, designed for grades 2 to 12, offer a range of options. From SAT, ACT, and AP test-prep classes that enhance skills, to captivating courses in math, ELA, science, and coding. Get ready to be captivated by MLS Classes education!
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="5">
-        <Accordion.Header className="acc-header">What are the class timings?</Accordion.Header>
-        <Accordion.Body>
-        During weekdays, our class schedule is designed to accommodate you from 4 pm to 11 pm EST, while on weekends, we're available from 8 am to 11 pm EST. We understand your busy schedule, and our flexible timings ensure learning fits seamlessly into your routine.
-        </Accordion.Body>
-        <Accordion.Item eventKey="6">
-        <Accordion.Header className="acc-header">What's the weekly schedule like?</Accordion.Header>
-        <Accordion.Body>
-        We understand that every student's availability is unique. That's why we tailor the schedule to suit your preferences. Let us know the days that work best for your child, and we'll create a personalized timetable that aligns perfectly with their routine.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="7">
-        <Accordion.Header className="acc-header">Do you offer test-prep classes?</Accordion.Header>
-        <Accordion.Body>
-        Absolutely! Get ready for an incredible journey of learning. Our courses, thoughtfully crafted for students from grades 2 to 12, include an exciting range of options. From SAT, ACT, and AP test-prep classes that take your test-taking skills to the next level, to captivating courses in math, ELA, science, and coding. Prepare to be captivated by education like never before!
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="8">
-        <Accordion.Header className="acc-header">Can my child enroll in multiple subjects with one subscription?</Accordion.Header>
-        <Accordion.Body>
-        Absolutely! Our all-inclusive subscription offers an exceptional opportunity. With just one subscription, your child gains access to a multitude of subjects. But wait, there's more – this fantastic package is shareable among siblings too! It's the ultimate solution that combines convenience and value, all in a single, exciting package.
-        </Accordion.Body>
-      </Accordion.Item>
-      </Accordion.Item>
-    </Accordion>
-        </Col>
-      </Row>
-      
+        <Row>
+          <Col md={12} sm={12}>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header className="acc-header">Does MLS Classes offer tutoring for Test-Prep exams like SAT, ACT & AP required by colleges in USA?</Accordion.Header>
+                <Accordion.Body>
+                  Yes, MLS Classes provides comprehensive tutoring services for various admission tests required by colleges in the USA. They offer expert guidance and support for exams such as the SAT, ACT, and AP exams. Whether you're aiming to excel in the Scholastic Assessment Test (SAT), the American College Testing (ACT), or seeking preparation for Advanced Placement (AP) exams, MLS Classes has tailored tutoring programs to help you succeed and improve your chances of gaining admission to your desired colleges and universities
+                  .
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header className="acc-header"> Does MLS Classes provide tutoring services for school students of USA?</Accordion.Header>
+                <Accordion.Body>
+                  MLS Classes offers tutoring services for students in grades 2-12, covering academic subjects like Science, Math, English, Coding & Test-Preps like SAT,PSAT, ACT,AP,AMC. With a team of experienced educators, MLS Classes provides personalized and customised ONE on ONE lessons, including mock exams and hands-on practical sessions. If you're interested, you can take advantage of a 7-day trial period to experience firsthand how our dedicated teachers cater to each student's needs effectively.
+                </Accordion.Body>
+              </Accordion.Item>
+
+              <Accordion.Item eventKey="3">
+                <Accordion.Header className="acc-header" >Could you provide us with the contact information to get course details of MLS Classes?</Accordion.Header>
+                <Accordion.Body>
+                  Please contact us for more details :
+                  Phone number +91 9649549754
+                  Whatsapp number +91 9649549754
+                  Whatsapp chat https://wa.me/message/XMS5KMWBGQZLG1
+                  Contact us Form https://mlsclasses.com/contact
+                  Email id admission@mlsclasses.com
+                  support@mlsclasses.com
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header className="acc-header">How does the online class system offered by MLS Classes work?</Accordion.Header>
+                <Accordion.Body>
+                  Embark on a transformative learning journey with MLS Classes:
+                  Identifying Skill Gaps: Pinpoint areas of weakness in math, English, science, and coding.
+                  Mastering Skill Gaps: Receive personalized guidance to establish a strong foundation.
+                  Monitoring Progress: Benefit from continuous tracking for optimal advancement.
+                  In-depth Conceptual Classes: Focus on developing a profound understanding for enhanced confidence.
+                  Real-Time Assessments and Tests: Engage in evaluations that provide valuable insights.
+                  Engagement Through Parent-Teacher Meetings: Stay actively involved in your child's growth.
+                  Catch-up Sessions Available: Ensure no learning opportunities are missed.
+                  Discover the empowering MLS Classes experience, designed to propel your child towards academic excellence and a promising future.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header className="acc-header">What are the class timings?</Accordion.Header>
+                <Accordion.Body>
+                  During weekdays, our class schedule is designed to accommodate you from 4 pm to 11 pm EST, while on weekends, we're available from 8 am to 11 pm EST. We understand your busy schedule, and our flexible timings ensure learning fits seamlessly into your routine.
+                </Accordion.Body>
+                <Accordion.Item eventKey="6">
+                  <Accordion.Header className="acc-header">What's the weekly schedule like?</Accordion.Header>
+                  <Accordion.Body>
+                    We understand that every student's availability is unique. That's why we tailor the schedule to suit your preferences. Let us know the days that work best for your child, and we'll create a personalized timetable that aligns perfectly with their routine.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="7">
+                  <Accordion.Header className="acc-header">Do you offer test-prep classes?</Accordion.Header>
+                  <Accordion.Body>
+                    Absolutely! Get ready for an incredible journey of learning. Our courses, thoughtfully crafted for students from grades 2 to 12, include an exciting range of options. From SAT, ACT, and AP test-prep classes that take your test-taking skills to the next level, to captivating courses in math, ELA, science, and coding. Prepare to be captivated by education like never before!
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="8">
+                  <Accordion.Header className="acc-header">Can my child enroll in multiple subjects with one subscription?</Accordion.Header>
+                  <Accordion.Body>
+                    Absolutely! Our all-inclusive subscription offers an exceptional opportunity. With just one subscription, your child gains access to a multitude of subjects. But wait, there's more – this fantastic package is shareable among siblings too! It's the ultimate solution that combines convenience and value, all in a single, exciting package.
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion.Item>
+            </Accordion>
+          </Col>
+        </Row>
+
       </Container>
-      
+
       <Footer />
     </div>
   );
