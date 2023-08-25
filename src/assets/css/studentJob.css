@@ -1,13 +1,18 @@
-.contact-btn{
-    /* margin-top: -13%; */
-}
-.exp{
+
+.exp h1{
     padding-left: 10%;
     padding-right: 10%;
+    text-align: center;
+    color: #007BFF;
+    font-size: 48px;
+    line-height: 56.63px;
+    font-family: Abhaya Libre, serif;
 }
 @media (max-width: 768px) {
     .contact-btn{
-        margin-top: -45%;
-        
+        margin-left: -2%;
+    }
+    .exp h1{
+        font-size: 38px;
     }
 }

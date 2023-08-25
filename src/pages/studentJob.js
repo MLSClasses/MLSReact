@@ -92,15 +92,7 @@ const StudentJob = () => {
         <Row className="rows">
           <div className="exp">
             <Col md="12" xs="12" sm="12">
-              <h1
-                style={{
-                  textAlign: "center",
-                  color: "#007BFF",
-                  fontSize: "48px",
-                  lineHeight: "56.63px",
-                  fontFamily: "Abhaya Libre, serif",
-                }}
-              >
+              <h1>
                 "Experience the Joy of Learning: Join Countless Happy Students
                 and Parents"
               </h1>
@@ -108,9 +100,6 @@ const StudentJob = () => {
           </div>
         </Row>
       </Container>
-      <Container></Container>
-      <Row className="rows"></Row>
-      <Row className="rows"></Row>
       <div className="contact-btn">
         <button>Book 1 Week Free Demo</button>
       </div>
