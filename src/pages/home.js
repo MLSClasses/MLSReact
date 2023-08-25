@@ -335,27 +335,20 @@ function Index() {
       <Accordion.Item eventKey="3">
         <Accordion.Header className="acc-header" >Could you provide us with the contact information to get course details of MLS Classes?</Accordion.Header>
         <Accordion.Body>
-        Please contact us for more details :
+       <span>Please contact us for more details :
 Phone number +91 9649549754
 Whatsapp number +91 9649549754
-Whatsapp chat https://wa.me/message/XMS5KMWBGQZLG1
-Contact us Form https://mlsclasses.com/contact
-Email id admission@mlsclasses.com
-support@mlsclasses.com
+Whatsapp chat <a href="https://wa.me/message/XMS5KMWBGQZLG1">whatsapp</a>
+Contact us Form<br/>
+ <a href="https://mlsclasses.com/contact">Contact US</a>
+Email id  <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a><br/>
+<a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a></span> 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
         <Accordion.Header className="acc-header">How does the online class system offered by MLS Classes work?</Accordion.Header>
         <Accordion.Body>
-        Embark on a transformative learning journey with MLS Classes:
-Identifying Skill Gaps: Pinpoint areas of weakness in math, English, science, and coding.
-Mastering Skill Gaps: Receive personalized guidance to establish a strong foundation.
-Monitoring Progress: Benefit from continuous tracking for optimal advancement.
-In-depth Conceptual Classes: Focus on developing a profound understanding for enhanced confidence.
-Real-Time Assessments and Tests: Engage in evaluations that provide valuable insights.
-Engagement Through Parent-Teacher Meetings: Stay actively involved in your child's growth.
-Catch-up Sessions Available: Ensure no learning opportunities are missed.
-Discover the empowering MLS Classes experience, designed to propel your child towards academic excellence and a promising future.
+       Absolutely! Prepare for an incredible MLS Classes learning journey. Our courses, designed for grades 2 to 12, offer a range of options. From SAT, ACT, and AP test-prep classes that enhance skills, to captivating courses in math, ELA, science, and coding. Get ready to be captivated by MLS Classes education!
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
