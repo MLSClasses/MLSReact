@@ -89,12 +89,7 @@ const Programs = () => {
                       </span>{" "}
                       High School/Middle School
                       {
-                        <Image
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                          fluid
-                        />
+
                       }
                     </h1>
                   </Accordion.Header>
@@ -153,12 +148,7 @@ const Programs = () => {
                       </span>{" "}
                       Elementary
                       {
-                        <Image
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                          fluid
-                        />
+
                       }
                     </h3>
                   </Accordion.Header>
@@ -210,7 +200,7 @@ const Programs = () => {
                             <p className="rowsDesc">
                               SAT{" "}
                               <img
-                                alt=""
+                                alt="SAT"
                                 src={arrow_img}
                                 className="arrow_down"
                               />
@@ -230,7 +220,7 @@ const Programs = () => {
                             <p className="rowsDesc">
                               PSAT{" "}
                               <img
-                                alt=""
+                                alt="PSAT"
                                 src={arrow_img}
                                 className="arrow_down"
                               />
@@ -252,7 +242,7 @@ const Programs = () => {
                             <p className="rowsDesc">
                               ACT{" "}
                               <img
-                                alt=""
+                                alt="ACT"
                                 src={arrow_img}
                                 className="arrow_down"
                               />
@@ -275,7 +265,7 @@ const Programs = () => {
                             <p className="rowsDesc">
                               AP{" "}
                               <img
-                                alt=""
+                                alt="AP"
                                 src={arrow_img}
                                 className="arrow_down"
                               />
@@ -323,12 +313,7 @@ const Programs = () => {
                       </span>{" "}
                       Other Test Prep
                       {
-                        <Image
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                          fluid
-                        />
+
                       }
                     </h3>
                   </Accordion.Header>
@@ -366,12 +351,7 @@ const Programs = () => {
                       </span>{" "}
                       IT
                       {
-                        <Image
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                          fluid
-                        />
+
                       }
                     </h3>
                   </Accordion.Header>
@@ -477,6 +457,7 @@ const Programs = () => {
                     <img
                       src={b1}
                       className="img-fluid"
+                      alt="course"
                     />
                     <h3 className="Ind-learn">Individualized Learning</h3>
                     <p className="Flex-learn">
@@ -492,6 +473,7 @@ const Programs = () => {
                     <img
                       src={b2}
                       className="img-fluid"
+                      alt="course"
                     />
                     <h3 className="Ind-learn">Reliable Resources</h3>
                     <p className="Flex-learn">
@@ -513,6 +495,7 @@ const Programs = () => {
                     <img
                       src={b3}
                       className="img-fluid"
+                      alt="empower"
                     />
                     <h3 className="Ind-learn">Empowering Educators</h3>
                     <p className="Flex-learn">

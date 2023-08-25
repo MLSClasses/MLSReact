@@ -38,6 +38,7 @@ import CommentsSlide from "../components/comments_slide";
 import { redirect, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/navbar";
+import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -311,6 +312,42 @@ function Index() {
       <div style={myStyle}>
         <FreeClassButton />
       </div>
+      {/* <h2>Commonly Asked <span>Questions</span></h2>
+      <Container fluid={false} style={{"marginTop":"5%"}}>
+        
+      <Row>
+        <Col md={12} sm={12}>
+        <Accordion>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+        </Col>
+      </Row>
+      
+      </Container> */}
+      
       <Footer />
     </div>
   );
