@@ -252,7 +252,6 @@ nav ul li {
 
 .popular-h {
   font-family: "Inter", sans-serif;
-  font-size: 2vw;
   font-weight: 800;
 }
 
@@ -713,7 +712,18 @@ nav ul li {
   flex-direction: column;
   justify-content: space-between;
 }
-
+.course {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
 .main-content {
   display: flex;
   width: 100%;
@@ -732,13 +742,13 @@ nav ul li {
   cursor: pointer;
   width: 5rem;
 }
-.courses {
+.course {
   display: flex;
   flex-direction: row;
   width: 100%;
   overflow-x: auto;
 }
-.course {
+.courses {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -918,7 +928,12 @@ hr {
     line-height: 15px;
   }
   .benefits-container {
-    margin-right: 10%;
+    margin-right: 7%;
+  }
+  .benefits-container h3{
+    font-size: 20px;
+    margin-left: 5%;
+    text-align: center;
   }
   .benefits {
     padding: 20px;
@@ -931,6 +946,15 @@ hr {
   }
   .box{
     margin-bottom:5% ;
+  }
+  .midBanner {
+    font-size: 30px;
+    width: 420px;
+  }
+  .popular-h {
+    margin-left: 25%;
+    font-size: 20px;
+    font-style: italic;
   }
 .logoStyle{
     width: 85px;
