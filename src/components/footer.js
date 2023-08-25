@@ -92,7 +92,7 @@ const FooterComponent = () => {
             <a href="#">Initial Setup</a>
           </div>
           <div >
-            <a href="/faq">FAQs</a>
+            <a href="#accord-home">FAQs</a>
           </div>
         </div>
 
