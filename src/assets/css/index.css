@@ -994,3 +994,18 @@ hr {
   text-align: center;
   font-family: "Inter", sans-serif;
 }
+.acc-header{
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+    color: #007bff;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.acc-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
