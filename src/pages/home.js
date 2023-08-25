@@ -65,7 +65,7 @@ function Index() {
     const labelling = props.label.split(" ");
     return (
       <div data-aos="zoom-in" className="benefit">
-        <img src={props.image} />
+        <img src={props.image} alt="Zoom" />
         <p>
           {labelling[0]}
           <br />
