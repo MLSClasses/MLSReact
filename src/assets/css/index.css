@@ -759,7 +759,7 @@ nav ul li {
 .slide-wrapper {
   display: flex;
   gap:5px;
-  width: 150%; /* Width will expand based on the number of slides */
+  /* Width will expand based on the number of slides */
   
 }
 
