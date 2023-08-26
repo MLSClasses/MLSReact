@@ -699,7 +699,7 @@ nav ul li {
 .brand-moto h2 {
   color: #007bff;
   /* font-size: 4rem; */
-  text-align: justify;
+  text-align: center;
   font-family: "Inter", sans-serif;
 }
 
@@ -747,7 +747,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
 .courses {
   display: flex;
@@ -758,12 +758,15 @@ nav ul li {
 }
 .slide-wrapper {
   display: flex;
+  gap:5px;
   width: 150%; /* Width will expand based on the number of slides */
+  
 }
 
 .slide {
   flex: 0 0 20%; /* For 5 slides, use 20%; for 4 slides, use 25%, etc. */
   margin-right: 10px; /* Adjust the spacing between slides */
+  overflow-x: auto;
 }
 
 .course img {
@@ -826,6 +829,7 @@ hr {
 }
 .box h2 {
   font-size: 2.5rem;
+  text-align: center;
   font-weight: bold;
 }
 .benefits {

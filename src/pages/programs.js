@@ -52,15 +52,16 @@ const Programs = () => {
           </Link>
         </div>
         <div className="btn">
-          <Link to="it" smooth={true} duration={500} className="yo">
-            <h3>IT </h3>
-          </Link>
-        </div>
-        <div className="btn">
           <Link to="test" smooth={true} duration={500} className="yo">
             <h3>Test Prep </h3>
           </Link>
         </div>
+        <div className="btn">
+          <Link to="it" smooth={true} duration={500} className="yo">
+            <h3>IT </h3>
+          </Link>
+        </div>
+        
         <div className="btn">
           <Link to="college" smooth={true} duration={500} className="yo">
             <h3>College </h3>
@@ -71,7 +72,7 @@ const Programs = () => {
         </div>
         <div className="mainsection" style={{ marginTop: "5%" }}>
           <Row>
-            <Col md={8} sm={8} xs={8}>
+            <Col md={12} sm={12} xs={12}>
               <Accordion className="work" defaultActiveKey="0" id="high">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>

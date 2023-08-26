@@ -153,7 +153,7 @@ function Index() {
         </div>
         <div className="box">
           <h2>SCIENCE</h2>
-          <p>MLS Classes provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
+          <p>MLS Classes offer exceptional science learning, going beyond regular instruction to deepen understanding of scientific concepts and promote critical thinking.</p>
         </div>
         <div className="box">
           <h2>ENGLISH(ELA)</h2>
@@ -250,7 +250,7 @@ function Index() {
         ></iframe>
       </div>
       <div className="benefits-container">
-      <div className="brand-moto-message">
+      <div className="brand-moto">
           <h2>Our Benefits</h2>
           <p>
           Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes
