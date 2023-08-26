@@ -103,7 +103,7 @@ const Pricing = () => {
             <Col md="10" xs="12" sm="10">
               <div className="deets">
                 <div className="box">
-                  <ul>
+                  {/* <ul> */}
                     <li>1:1 highly interactive and personalized sessions</li>
                     <li>Homework and assignments after every session</li>
                     <li>Monthly quizzes and tests</li>
@@ -119,7 +119,7 @@ const Pricing = () => {
                       Utilize AI-powered platforms to monitor and assess your
                       progress effectively.
                     </li>
-                  </ul>
+                  {/* </ul> */}
                 </div>
               </div>
             </Col>
@@ -142,7 +142,7 @@ const Pricing = () => {
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                  <ul>
+                  {/* <ul> */}
                     <li>1:1 highly interactive and personalized sessions</li>
                     <li>Homework and assignments after every session</li>
                     <li>Monthly quizzes and tests</li>
@@ -158,7 +158,7 @@ const Pricing = () => {
                       Utilize AI-powered platforms to monitor and assess your
                       progress effectively.
                     </li>
-                  </ul>
+                  {/* </ul> */}
                 </div>
               </div>
             </Col>
@@ -181,7 +181,7 @@ const Pricing = () => {
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                  <ul>
+                  {/* <ul> */}
                     <li>1:1 highly interactive and personalized sessions</li>
                     <li>Homework and assignments after every session</li>
                     <li>Monthly quizzes and tests</li>
@@ -197,7 +197,7 @@ const Pricing = () => {
                       Utilize AI-powered platforms to monitor and assess your
                       progress effectively.
                     </li>
-                  </ul>
+                  {/* </ul> */}
                 </div>
               </div>
             </Col>

@@ -35,6 +35,7 @@
 .deets > .box {
   /* margin-left: 120px;  */
   font-size: 21px;
+  text-align: initial;
   line-height: 48px;
   margin-left: 15%;
   min-width: 80%;

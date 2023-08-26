@@ -21,7 +21,7 @@ function render(name, poster, link) {
   return (
     <div class={className}>
       <img src={image} alt={className} href={link}></img>
-      <a href={link}>{name}</a>
+      {/* <a href={link}>{name}</a> */}
     </div>
   );
 }
