@@ -183,11 +183,7 @@ const Programs = () => {
                       </span>{" "}
                       Test Prep
                       {
-                        <img
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                        />
+                        
                       }
                     </h3>
                   </Accordion.Header>
@@ -199,11 +195,11 @@ const Programs = () => {
                           <Accordion.Header>
                             <p className="rowsDesc">
                               SAT{" "}
-                              <img
+                              {/* <img
                                 alt="SAT"
                                 src={arrow_img}
                                 className="arrow_down"
-                              />
+                              /> */}
                             </p>{" "}
                           </Accordion.Header>
                           <Accordion.Body>
@@ -219,11 +215,6 @@ const Programs = () => {
                           <Accordion.Header>
                             <p className="rowsDesc">
                               PSAT{" "}
-                              <img
-                                alt="PSAT"
-                                src={arrow_img}
-                                className="arrow_down"
-                              />
                             </p>{" "}
                           </Accordion.Header>
                           <Accordion.Body>
@@ -241,11 +232,6 @@ const Programs = () => {
                           <Accordion.Header>
                             <p className="rowsDesc">
                               ACT{" "}
-                              <img
-                                alt="ACT"
-                                src={arrow_img}
-                                className="arrow_down"
-                              />
                             </p>{" "}
                           </Accordion.Header>
                           <Accordion.Body>
@@ -264,11 +250,11 @@ const Programs = () => {
                           <Accordion.Header>
                             <p className="rowsDesc">
                               AP{" "}
-                              <img
+                              {/* <img
                                 alt="AP"
                                 src={arrow_img}
                                 className="arrow_down"
-                              />
+                              /> */}
                             </p>{" "}
                           </Accordion.Header>
                           <Accordion.Body>
@@ -390,11 +376,7 @@ const Programs = () => {
                       </span>{" "}
                       College
                       {
-                        <img
-                          src={arrow_img}
-                          alt="img"
-                          className="arrow_down"
-                        />
+                        
                       }
                     </h3>
                   </Accordion.Header>
@@ -437,11 +419,17 @@ const Programs = () => {
               <Row className="rows">
                 <div className="prefChoice">
                   <Col md="12" xs="12" sm="12">
-                    <h3>
+                    {/* <h3>
                       Why is MLS Classes the preferred choice
                       <br />
                       for effective learning and academic success?
-                    </h3>
+                    </h3> */}
+                    <div >
+          <h3>Why is MLS Classes the preferred choice
+          {/* <p> */}
+          for effective learning and academic success?
+          </h3>
+        </div>
                   </Col>
                 </div>
 
