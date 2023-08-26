@@ -344,7 +344,7 @@ function Index() {
                 <Accordion.Body>
                  You can contact MLS Classes by 
                  
-                 <li>phone at <a href="+91 9649549754">+91 9649549754</a> or via WhatsApp at the same number.</li> 
+                 <li>phone at <a href="#">+91 9649549754</a> or via WhatsApp at the same number.</li> 
                   <li>Initiate a WhatsApp chat through this link: <a href="https://wa.me/message/XMS5KMWBGQZLG1">WhatsApp</a></li>
                  <li>If you prefer, you can also use the Contact Us form on the MLS Classes website: <a href="https://mlsclasses.com/contact">contact MLS Classes</a></li> 
                  <li>Additionally, you can reach out to us through email at <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a> or <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a> </li> 
@@ -358,18 +358,18 @@ function Index() {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="5">
-                <Accordion.Header className="acc-header">What are the class timings?</Accordion.Header>
+                <Accordion.Header className="acc-header">What are the class timing for MLS Classes</Accordion.Header>
                 <Accordion.Body>
                 At MLS Classes, we prioritize your convenience. During weekdays, our MLS Classes schedule is designed to accommodate you from 4 pm to 11 pm EST, while on weekends, MLS Classes are available from 8 am to 11 pm EST. We understand your busy schedule, and our MLS Classes flexible timings ensure learning fits seamlessly into your routine.
                 </Accordion.Body>
                 <Accordion.Item eventKey="6">
-                  <Accordion.Header className="acc-header">What's the weekly schedule like?</Accordion.Header>
+                  <Accordion.Header className="acc-header">How are the weekly classes scheduled at MLS classes?</Accordion.Header>
                   <Accordion.Body>
                   At MLS Classes, we understand that every student's availability is unique. That's why MLS Classes tailor the schedule to suit your preferences. Let MLS Classes know the days that work best for your child, and MLS Classes will create a personalized timetable that aligns perfectly with their routine.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="7">
-                  <Accordion.Header className="acc-header">Do you offer test-prep classes?</Accordion.Header>
+                  <Accordion.Header className="acc-header">Do MLS classes provide classes for test preparation?</Accordion.Header>
                   <Accordion.Body>
                   Absolutely! Prepare for an incredible MLS Classes learning journey. Our courses, designed for grades 2 to 12, offer a range of options. From SAT, ACT, and AP test-prep classes that enhance skills, to captivating courses in math, ELA, science, and coding. Get ready to be captivated by MLS Classes education!
                   </Accordion.Body>
