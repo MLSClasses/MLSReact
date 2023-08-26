@@ -318,7 +318,8 @@ function Index() {
       <div style={myStyle}>
         <FreeClassButton />
       </div>
-      <h2 className="acc-section">Commonly Asked <span> &nbsp;Questions</span></h2>
+      <h2 className="acc-section">
+        Common Faqs </h2>
       <Container id="accord-home" fluid={false} style={{ "marginTop": "5%" }}>
 
         <Row>
