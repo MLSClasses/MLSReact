@@ -416,23 +416,13 @@ const Programs = () => {
           <div style={{ marginTop: "5%" }}></div>
 
           <div className="white">
-            <Container>
-              <Row className="rows">
-                <div className="prefChoice">
+            <Container fluid={true}>
+              <Row >
+                {/* <div className="prefChoice"> */}
                   <Col md="12" xs="12" sm="12">
-                    {/* <h3>
-                      Why is MLS Classes the preferred choice
-                      <br />
-                      for effective learning and academic success?
-                    </h3> */}
-                    <div >
-          <h3>Why is MLS Classes the preferred choice
-          {/* <p> */}
-          for effective learning and academic success?
-          </h3>
-        </div>
+                  <h3 className="program_div">Why is MLS Classes the preferred choice for effective learning and academic success?</h3>
                   </Col>
-                </div>
+                {/* </div> */}
 
                 <Col
                   md="4"
@@ -440,7 +430,7 @@ const Programs = () => {
                   xs="11"
                   text-center
                   mt="5"
-                  style={{ marginTop: "10vh" }}
+                  style={{ marginTop: "10%" }}
                 >
                   <div className="bottomSection">
                     <img

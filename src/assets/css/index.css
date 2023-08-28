@@ -119,6 +119,13 @@ nav ul li {
 .our-programs {
   margin-top: 3.5vw;
 }
+.program_div{
+  display: flex;
+  font-size: 1.3rem;
+  /* width: 75vw; */
+  justify-content: center ;
+  text-align: center;
+}
 
 .our-programs-h {
   text-align: center;
@@ -486,6 +493,21 @@ nav ul li {
   outline: none;
   background-color: #d9d9d9;
   font-size: 1.1vw;
+}
+.bottomSection img{
+  margin-left: 45%;
+}
+.Flex-learn{
+  /* left: 40%; */
+  margin: 10px;
+  padding: 10px;
+  line-height: 1;
+  display: flex;
+  position: relative;
+  font-size: 20px;
+  text-align: justify;
+  justify-content: center;
+
 }
 .brand-moto {
   display: flex;

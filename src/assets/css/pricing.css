@@ -90,6 +90,9 @@
 .find-live div a {
   text-decoration: none;
   color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .find-live-btn a {
@@ -142,7 +145,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 7vw;
+  width: 10vw;
   height: 7vw;
   border-radius: 50%;
   background-color: #009eff;
@@ -249,6 +252,7 @@
   font-size: 2.5rem;
   font-weight: 800;
  white-space: nowrap;
+ margin-left: -5px;
 }
 
 .popular-btn {
@@ -592,6 +596,9 @@
   .container-desc {
     font-size: 30px;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   .random1 {
     border-radius: 10px;

@@ -111,17 +111,17 @@ container-desc{
     font-weight: 800; 
     padding-top: 20px;
 }
-.Flex-learn{
+/* .Flex-learn{
     text-align: center;
     text-align: justify;
     text-justify: inter-word;
     font-size: 18px;
     line-height: 17px;
     white-space: break-spaces;
-}
-.bottomSection img{
-    margin-left: 20vh;
-}
+} */
+/* .bottomSection img{
+    margin-left: 50%;
+} */
 .main-prg>.mt-10-nav-login-btn{
     text-decoration: none;
   background-color: orange;
@@ -190,21 +190,29 @@ container-desc{
     width: 100%;
     font-size: 2rem;
 }
+.program_div{
+    display: flex;
+    font-size: 1.3rem;
+    /* width: 75vw; */
+    justify-content: center;
+    text-align: center;
+}
 .bottomSection img{
     width: 100px;
-    margin-left: 40%;
-    margin-top: -3%;
+    /* margin-left: 40%;
+    margin-top: -3%; */
 }
 .Ind-learn{
-    margin-left: -10%;
+    margin-left: 10%;
 }
 .Flex-learn{
-   
+    line-height: 1;
+    display: flex;
+    position: relative;
+    font-size: 20px;
     text-align: justify;
-    /* font-size: 1.2rem; */
-    text-align: justify;
-    /* font-family: "Inter", sans-serif; */
-    /* margin-bottom: 100px;
+    justify-content: center;
+
 }
 .Desc1{
     margin-top: -5%;
