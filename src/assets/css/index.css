@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .body {
@@ -830,6 +831,7 @@ hr {
 }
 .midBanner {
   margin-top: 10px;
+  background-color: transparent;
   font-size: larger;
   transform: rotate(90deg);
   font-family: "Acme", sans-serif;

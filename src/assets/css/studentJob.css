@@ -1,12 +1,15 @@
 
 .exp h1{
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
+    width: 100%;
+    /* padding-right: 10%; */
+    text-align: justify;
     color: #007BFF;
-    font-size: 48px;
-    line-height: 56.63px;
+    /* font-size: 48px; */
+    line-height: 25px;
     font-family: Abhaya Libre, serif;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 2; */
+    -webkit-box-orient: vertical;
 }
 @media (max-width: 768px) {
     .contact-btn{
