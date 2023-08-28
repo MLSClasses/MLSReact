@@ -62,14 +62,22 @@ const Pricing = () => {
           <Row>
             <Col md="12" sm="12" xs="12">
               <div className="find-live">
-                <div className="joinMLS">
+                {/* <div className="joinMLS">
                   <a href="#">
                     Join us at MLS Classes and unlock your child's true
                     potential. <br />
                     Enroll today and witness their academic journey soar to new
                     heights.
                   </a>
-                </div>
+                </div> */}
+                <div>
+                <h3 className="container-desc">
+                    Join us at MLS Classes and unlock your child's true
+                    potential
+                    Enroll today and witness their academic journey soar to new
+                    heights.
+                </h3>
+              </div>
                 <br />
                 <div className="boxx1">
                   <FreeClassButton />
@@ -104,7 +112,7 @@ const Pricing = () => {
               <div className="deets">
                 <div className="box">
                   <ul>
-                  1. 🌟 1-on-1 Expert Classes<br/>
+1. 🌟 1-on-1 Expert Classes<br/>
 2. 🎥 Recorded Sessions<br/>
 3. 📝 Comprehensive Class Notes<br/>
 4. 🤝 Parent-Teacher Conferences<br/>
@@ -137,23 +145,18 @@ const Pricing = () => {
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                  {/* <ul> */}
-                    <li>1:1 highly interactive and personalized sessions</li>
-                    <li>Homework and assignments after every session</li>
-                    <li>Monthly quizzes and tests</li>
-                    <li>Parent-Teacher Meetings (PTMs) every month</li>
-                    <li>Class notes provided after every session</li>
-                    <li>Class recording available for review</li>
-                    <li>Flexible class schedule to accommodate your needs</li>
-                    <li>Extra classes offered during exam times</li>
-                    <li>
-                      24x7 doubt support available for continuous assistance
-                    </li>
-                    <li>
-                      Utilize AI-powered platforms to monitor and assess your
-                      progress effectively.
-                    </li>
-                  {/* </ul> */}
+                <ul>
+1. 🌟 1-on-1 Expert Classes<br/>
+2. 🎥 Recorded Sessions<br/>
+3. 📝 Comprehensive Class Notes<br/>
+4. 🤝 Parent-Teacher Conferences<br/>
+5. 📚 School Topic Assistance<br/>
+6. 🧪 Regular Tests for Progress<br/>
+7. 📱 On-Demand Classes Available<br/>
+8. 📚 Extra Classes During Exams<br/>
+9. 🤖 AI-Powered Homework Platform<br/>
+10. 🕒 Flexible Class Schedule<br/> 
+                  </ul>
                 </div>
               </div>
             </Col>
@@ -176,23 +179,18 @@ const Pricing = () => {
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                  {/* <ul> */}
-                    <li>1:1 highly interactive and personalized sessions</li>
-                    <li>Homework and assignments after every session</li>
-                    <li>Monthly quizzes and tests</li>
-                    <li>Parent-Teacher Meetings (PTMs) every month</li>
-                    <li>Class notes provided after every session</li>
-                    <li>Class recording available for review</li>
-                    <li>Flexible class schedule to accommodate your needs</li>
-                    <li>Extra classes offered during exam times</li>
-                    <li>
-                      24x7 doubt support available for continuous assistance
-                    </li>
-                    <li>
-                      Utilize AI-powered platforms to monitor and assess your
-                      progress effectively.
-                    </li>
-                  {/* </ul> */}
+                <ul>
+1. 🌟 1-on-1 Expert Classes<br/>
+2. 🎥 Recorded Sessions<br/>
+3. 📝 Comprehensive Class Notes<br/>
+4. 🤝 Parent-Teacher Conferences<br/>
+5. 📚 School Topic Assistance<br/>
+6. 🧪 Regular Tests for Progress<br/>
+7. 📱 On-Demand Classes Available<br/>
+8. 📚 Extra Classes During Exams<br/>
+9. 🤖 AI-Powered Homework Platform<br/>
+10. 🕒 Flexible Class Schedule<br/> 
+                  </ul>
                 </div>
               </div>
             </Col>

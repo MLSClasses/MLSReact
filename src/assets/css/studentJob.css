@@ -13,6 +13,13 @@
         margin-left: -2%;
     }
     .exp h1{
-        font-size: 38px;
+        /* font-size: 38px; */
+    }
+    .student_p{
+        font-size: 1.9rem;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
     }
 }
+
