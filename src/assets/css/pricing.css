@@ -35,6 +35,7 @@
 .deets > .box {
   /* margin-left: 120px;  */
   font-size: 21px;
+  text-align: initial;
   line-height: 48px;
   margin-left: 15%;
   min-width: 80%;
@@ -89,6 +90,9 @@
 .find-live div a {
   text-decoration: none;
   color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .find-live-btn a {
@@ -247,6 +251,8 @@
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
+ white-space: nowrap;
+ margin-left: -5px;
 }
 
 .popular-btn {
@@ -567,7 +573,7 @@
   }
   .boxx {
     min-width: 160%;
-    margin-left: 8%;
+    margin-left: 0%;
   }
   .boxx1>.free_class {
     margin-left: -57%;
@@ -588,14 +594,16 @@
     line-height: 20px;
   }
   .container-desc {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
   }
   .random1 {
     border-radius: 10px;
     max-height: 20px;
     max-width: 100px;
-    margin-top: -30%;
+    margin-top: -50%;
     margin-left: 38%;
     margin-right: 40%;
     margin-bottom: -35%;

@@ -153,7 +153,7 @@ function Index() {
         </div>
         <div className="box">
           <h2>SCIENCE</h2>
-          <p>MLS Classes provide unique learning experiences that go above and beyond standard math instruction, fostering a deeper understanding of mathematical concepts and encouraging critical thinking.</p>
+          <p>MLS Classes offer exceptional science learning, going beyond regular instruction to deepen understanding of scientific concepts and promote critical thinking.</p>
         </div>
         <div className="box">
           <h2>ENGLISH(ELA)</h2>
@@ -250,8 +250,14 @@ function Index() {
         ></iframe>
       </div>
       <div className="benefits-container">
-        <h1 style={{ "textAlign": "center" }}>Our Benefits</h1>
-        <span style={{ "display": "block" }}><h3>Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes</h3></span>
+      <div className="brand-moto">
+          <h2>Our Benefits</h2>
+          <p>
+          Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes
+          </p>
+        </div>
+        {/* <h1 style={{ "textAlign": "center" }}></h1>
+        <span style={{ "display": "block" }}><h3></h3></span> */}
 
 
 
@@ -312,7 +318,8 @@ function Index() {
       <div style={myStyle}>
         <FreeClassButton />
       </div>
-      <h2 className="acc-section">Commonly Asked <span>Questions</span></h2>
+      <h2 className="acc-section">
+        Common Faqs </h2>
       <Container id="accord-home" fluid={false} style={{ "marginTop": "5%" }}>
 
         <Row>
@@ -335,50 +342,42 @@ function Index() {
               <Accordion.Item eventKey="3">
                 <Accordion.Header className="acc-header" >Could you provide us with the contact information to get course details of MLS Classes?</Accordion.Header>
                 <Accordion.Body>
-                  Please contact us for more details :
-                  Phone number +91 9649549754
-                  Whatsapp number +91 9649549754
-                  Whatsapp chat https://wa.me/message/XMS5KMWBGQZLG1
-                  Contact us Form https://mlsclasses.com/contact
-                  Email id admission@mlsclasses.com
-                  support@mlsclasses.com
+                 You can contact MLS Classes by 
+                 
+                 <li>phone at <a href="#">+91 9649549754</a> or via WhatsApp at the same number.</li> 
+                  <li>Initiate a WhatsApp chat through this link: <a href="https://wa.me/message/XMS5KMWBGQZLG1">WhatsApp</a></li>
+                 <li>If you prefer, you can also use the Contact Us form on the MLS Classes website: <a href="https://mlsclasses.com/contact">contact MLS Classes</a></li> 
+                 <li>Additionally, you can reach out to us through email at <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a> or <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a> </li> 
+                 We're here to assist you!
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="4">
                 <Accordion.Header className="acc-header">How does the online class system offered by MLS Classes work?</Accordion.Header>
                 <Accordion.Body>
-                  Embark on a transformative learning journey with MLS Classes:
-                  Identifying Skill Gaps: Pinpoint areas of weakness in math, English, science, and coding.
-                  Mastering Skill Gaps: Receive personalized guidance to establish a strong foundation.
-                  Monitoring Progress: Benefit from continuous tracking for optimal advancement.
-                  In-depth Conceptual Classes: Focus on developing a profound understanding for enhanced confidence.
-                  Real-Time Assessments and Tests: Engage in evaluations that provide valuable insights.
-                  Engagement Through Parent-Teacher Meetings: Stay actively involved in your child's growth.
-                  Catch-up Sessions Available: Ensure no learning opportunities are missed.
-                  Discover the empowering MLS Classes experience, designed to propel your child towards academic excellence and a promising future.
+                At MLS Classes, embark on an educational journey that focuses on your growth. MLS Classes offers a range of opportunities, from identifying skill gaps to mastering subjects. With MLS Classes, monitoring progress becomes seamless, thanks to their effective tracking system. Dive into MLS Classes' in-depth conceptual sessions that foster a strong understanding. Through real-time assessments, MLS Classes ensures accurate evaluations. Stay engaged with your child's development through MLS Classes' parent-teacher meetings. MLS Classes even provides catch-up sessions, guaranteeing no learning moment is lost. Choose MLS Classes today for a brighter educational path.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="5">
-                <Accordion.Header className="acc-header">What are the class timings?</Accordion.Header>
+                <Accordion.Header className="acc-header">What are the class timing for MLS Classes</Accordion.Header>
                 <Accordion.Body>
-                  During weekdays, our class schedule is designed to accommodate you from 4 pm to 11 pm EST, while on weekends, we're available from 8 am to 11 pm EST. We understand your busy schedule, and our flexible timings ensure learning fits seamlessly into your routine.
+                At MLS Classes, we prioritize your convenience. During weekdays, our MLS Classes schedule is designed to accommodate you from 4 pm to 11 pm EST, while on weekends, MLS Classes are available from 8 am to 11 pm EST. We understand your busy schedule, and our MLS Classes flexible timings ensure learning fits seamlessly into your routine.
                 </Accordion.Body>
                 <Accordion.Item eventKey="6">
-                  <Accordion.Header className="acc-header">What's the weekly schedule like?</Accordion.Header>
+                  <Accordion.Header className="acc-header">How are the weekly classes scheduled at MLS classes?</Accordion.Header>
                   <Accordion.Body>
-                    We understand that every student's availability is unique. That's why we tailor the schedule to suit your preferences. Let us know the days that work best for your child, and we'll create a personalized timetable that aligns perfectly with their routine.
+                  At MLS Classes, we understand that every student's availability is unique. That's why MLS Classes tailor the schedule to suit your preferences. Let MLS Classes know the days that work best for your child, and MLS Classes will create a personalized timetable that aligns perfectly with their routine.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="7">
-                  <Accordion.Header className="acc-header">Do you offer test-prep classes?</Accordion.Header>
+                  <Accordion.Header className="acc-header">Do MLS classes provide classes for test preparation?</Accordion.Header>
                   <Accordion.Body>
-                    Absolutely! Get ready for an incredible journey of learning. Our courses, thoughtfully crafted for students from grades 2 to 12, include an exciting range of options. From SAT, ACT, and AP test-prep classes that take your test-taking skills to the next level, to captivating courses in math, ELA, science, and coding. Prepare to be captivated by education like never before!
+                  Absolutely! Prepare for an incredible MLS Classes learning journey. Our courses, designed for grades 2 to 12, offer a range of options. From SAT, ACT, and AP test-prep classes that enhance skills, to captivating courses in math, ELA, science, and coding. Get ready to be captivated by MLS Classes education!
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="8">
                   <Accordion.Header className="acc-header">Can my child enroll in multiple subjects with one subscription?</Accordion.Header>
                   <Accordion.Body>
-                    Absolutely! Our all-inclusive subscription offers an exceptional opportunity. With just one subscription, your child gains access to a multitude of subjects. But wait, there's more – this fantastic package is shareable among siblings too! It's the ultimate solution that combines convenience and value, all in a single, exciting package.
+                  Absolutely! Our MLS Classes subscription offers an exceptional opportunity. With just one MLS Classes subscription, your child gains access to a multitude of subjects. But wait, there's more – this fantastic MLS Classes package is shareable among siblings too! It's the ultimate solution that combines convenience and MLS Classes value, all in a single, exciting package.Absolutely! Our MLS Classes subscription offers an exceptional opportunity. With just one MLS Classes subscription, your child gains access to a multitude of subjects. But wait, there's more – this fantastic MLS Classes package is shareable among siblings too! It's the ultimate solution that combines convenience and MLS Classes value, all in a single, exciting package.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion.Item>
