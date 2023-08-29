@@ -1,7 +1,9 @@
 .main-portal{
     background-color: #2a91ff;
+    position: relative;
+    left: 8%;
 }
-button{
+.btn-portal{
     color: white!important;
     background-color: #0b5ed7!important;
     border-color: #0b5ed7;
@@ -21,8 +23,8 @@ button{
     font-weight: bolder;
 }
 .container {
-    display: flex;
-    width: 100%;
+    /* display: flex;
+    width: 100%; */
   }    
   .blank-column {
       margin-left: -33%;

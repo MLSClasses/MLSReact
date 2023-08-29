@@ -106,7 +106,7 @@ const StudentDashboard = () => {
                     // style={{ marginTodiv: "-20divx" }}
                     fluid
                   />&nbsp;{po.teacher_details}</Card.Text>
-                  <Button variant="primary" size="sm">Enroll Now</Button>
+                  <Button className="btn-portal" variant="primary" size="sm">Enroll Now</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -118,7 +118,7 @@ const StudentDashboard = () => {
   }
   return (
     <div className="main-portal">
-      <Container fluid={true}>
+      <Container fluid={false}>
         <Row>
         <Col md={12} sm={12} xs={12}>
         <Card>

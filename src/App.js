@@ -32,7 +32,7 @@ function App() {
           <Route path="/studentjob" element={<StudentJob />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/portal" element={<Portal />}></Route>
-          <Route path="/student_portal" element={<StudentDashboard/>}></Route>
+          {/* <Route path="/student_portal" element={<StudentDashboard/>}></Route> */}
          {/* 👇️ only match this when no other routes match */}
          <Route path="*" element={<PageNotFound />} />
 
