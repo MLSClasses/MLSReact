@@ -14,7 +14,7 @@ import Login from "./pages/loginpage";
 import Signup from "./pages/Signuppage";
 import Portal from "./pages/student/portal";
 import Whatsapp_icon from "./components/whatsapp_icon";
-import Faq from "./pages/Faq";
+import StudentDashboard from "./pages/student/student_dashboard";
 function App() {
   
 
@@ -32,7 +32,7 @@ function App() {
           <Route path="/studentjob" element={<StudentJob />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/portal" element={<Portal />}></Route>
-          {/* <Route path="/faq" element={<Faq />}></Route> */}
+          <Route path="/student_portal" element={<StudentDashboard/>}></Route>
          {/* 👇️ only match this when no other routes match */}
          <Route path="*" element={<PageNotFound />} />
 

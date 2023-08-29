@@ -1,10 +1,10 @@
-.navbar {
+.navbars {
     position: fixed;
     top: 0;
     left: 0;
     width: 230px; /* Adjust the width as needed */
     height: 100vh; /* Full height of the viewport */
-    background-color: #333;
+    background-color: rgb(1, 1, 92);
     padding: 20px;
     box-sizing: border-box;
   }
@@ -20,11 +20,20 @@
     color: white;
     cursor: pointer;
   }
-  
   .nav-item:hover {
     text-decoration: underline;
   }
 .logo{
-    margin-top: -200%;
+    margin-top: 0%;
+    margin-bottom: 40%;
+}
+.logos{
+  width:40px;
+  margin-bottom: 8%;
+}
+.navItems p{
+  margin-left: 25%;
+  margin-top: -20%;
+  font-size: 15px;
 }
   

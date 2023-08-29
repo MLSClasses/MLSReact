@@ -1,27 +1,55 @@
 import React from 'react';
 import '../assets/css/studentNavbar.css';
 import logoImg from '../assets/img/mlslogo.png'
-const StudentNavbar = () => {
-    const renderComponents=(param)=>{
-        switch(param){
-            case 1:
 
-                break;
-            case 2:
-                break;
-            
-        }
-    }
+
+import Chat from '../assets/img/student/chat.png';
+import Dollar from '../assets/img/student/dollar.png';
+import Home from '../assets/img/student/home.png';
+import Like from '../assets/img/student/like.png';
+import User from '../assets/img/student/user.png';
+const StudentNavbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbars">
             <ul className="nav-list">
                 <img className="logo" src={logoImg} />
-                <li className="nav-item" onClick={renderComponents(1)}>Home</li>
-                <li className="nav-item" onClick={renderComponents(2)}>Students</li>
-                <li className="nav-item" onClick={renderComponents(3)}>Parent</li>
-                <li className="nav-item" onClick={renderComponents(4)}>Chat</li>
-                <li className="nav-item" onClick={renderComponents(5)}>Refer Us</li>
-                <li className="nav-item" onClick={renderComponents(6)}>Billing</li>
+
+                <li className="nav-item">
+                    <div className="navItems">
+                        <img className="logos" src={Home} />
+                        <p>Home</p>
+                    </div>
+                </li>
+                <li className="nav-item">
+                    <div className="navItems">
+                        <img className="logos" src={User} />
+                        <p>Students</p>
+                    </div>
+                </li>
+                <li className="nav-item">
+                    <div className="navItems">
+                        <img className="logos" src={User} />
+                        <p>Parent</p>
+                    </div>
+                </li>
+                <li className="nav-item">
+                    <div className="navItems">
+                        <img className="logos" src={Chat} />
+                        <p>Chat</p>
+                    </div>
+                </li>
+                <li className="nav-item">
+                    <div className="navItems">
+                        <img className="logos" src={Like} />
+                        <p>Refer Us</p>
+                    </div>
+                </li>
+                <li className="nav-item">
+                    <div className="navItems">
+                        <img className="logos" src={Dollar} />
+                        <p>Billing</p>
+                    </div>
+                </li>
             </ul>
         </div>
     );

@@ -48,12 +48,12 @@ const StudentDashboard = () => {
 
   const ProgramOffer = () => {
     return (
-      <Row style={{ gap: "15px" }}>
+      <Row style={{ gap: "5px",justifyContent:"center" }}>
 
         {programList.map(function (po) {
           return (
 
-            <Col md={4} sm={4} xs={4}>
+            <Col md={3} sm={3} xs={12}>
               <Card border="light" style={{}}>
                 <div className="top-img">
                   <Image
@@ -117,8 +117,8 @@ const StudentDashboard = () => {
     );
   }
   return (
-    <div>
-      <Container fluid={false}>
+    <div className="main-portal">
+      <Container fluid={true}>
         <Row>
         <Col md={12} sm={12} xs={12}>
         <Card>
