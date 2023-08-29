@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    width: 100%;
+  }    
+  .blank-column {
+      margin-left: -33%;
+      flex: 1; /* Blank column takes up remaining space */
+}
+  .content {
+    flex: 2; /* Content column takes twice the space as the blank column */
+
+  }
