@@ -5,10 +5,11 @@ import StudentDashboard from "./student_dashboard";
 const Portal = () => {
     return (
         <div className="main-portal">
-            {/* <Navbar />
+            <Navbar />
             <AccountNavbar />
-            <p>Student Dashboard Page</p> */}
-            <StudentDashboard/>
+            <p>Student Dashboard Page</p>
+            
+            {/* <StudentDashboard/> */}
         </div>
     );
 }

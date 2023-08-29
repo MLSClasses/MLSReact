@@ -1,3 +1,22 @@
 .main-portal{
     background-color: #2a91ff;
 }
+button{
+    color: white!important;
+    background-color: #0b5ed7!important;
+    border-color: #0b5ed7;
+    float: right;
+
+}
+.top-img{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    padding: 5px;
+}
+.top-img span{
+    font-size: 12px;
+}
+.prg-title{
+    font-weight: bolder;
+}
