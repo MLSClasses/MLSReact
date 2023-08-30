@@ -5,31 +5,37 @@ import { Col } from 'react-bootstrap';
 import logo from '../../assets/img/mlslogo.png';
 const sidebarNavItems = [
     {
-        display: 'Dashboard',
+        display: 'Home',
         icon: <i className='bx bx-home'></i>,
         to: '/portal',
         section: 'portal'
     },
     {
-        display: 'Getting Started',
-        icon: <i className='bx bx-star'></i>,
+        display: 'Students',
+        icon: <i className='bx bx-user'></i>,
         to: '/student_portal',
         section: 'student_portal'
     },
     {
-        display: 'Calendar',
-        icon: <i className='bx bx-calendar'></i>,
+        display: 'Parents',
+        icon: <i className='bx bx-user'></i>,
+        to: '/student_portal',
+        section: 'parent_portal'
+    },
+    {
+        display: 'Chat',
+        icon: <i className='bx bx-chat'></i>,
         to: '/contact',
         section: 'contact'
     },
     {
-        display: 'User',
-        icon: <i className='bx bx-user'></i>,
+        display: 'Refer Us',
+        icon: <i className='bx bx-star'></i>,
         to: '/programs',
         section: 'programs'
     },
     {
-        display: 'Orders',
+        display: 'Billing',
         icon: <i className='bx bx-receipt'></i>,
         to: '/pricing',
         section: 'pricing'

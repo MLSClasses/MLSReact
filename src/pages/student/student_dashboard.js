@@ -49,11 +49,10 @@ const StudentDashboard = () => {
 
   const ProgramOffer = () => {
     return (
-      <Row style={{ gap: "5px",justifyContent:"center" }}>
+      <Row style={{ gap: "5px", justifyContent: "center" }}>
 
         {programList.map(function (po) {
           return (
-
             <Col md={3} sm={3} xs={12}>
               <Card border="light" style={{}}>
                 <div className="top-img">
@@ -62,51 +61,45 @@ const StudentDashboard = () => {
                     alt="video call"
                     className="img-fluid"
                     width="25"
-                    // style={{ marginTop: "-20px" }}
                     fluid
                   />
-                  
                   <Image
                     src={heart}
                     alt="video call"
                     className="img-fluid"
                     width="25"
-                    // style={{ marginTodiv: "-20divx" }}
                     fluid
                   />
                 </div>
                 <div className="top-img">
-                <span>Learn More</span>
-                <span>Rate Us</span>
+                  <span>Learn More</span>
+                  <span>Rate Us</span>
                 </div>
                 <Card.Body key={po.program_name}>
                   <Card.Title className="prg-title">{po.program_name}</Card.Title><br />
-                <Card.Text>  <Image
+                  <Card.Text>  <Image
                     src={calendar}
                     alt="video call"
                     className="img-fluid"
                     width="25"
-                    // style={{ marginTodiv: "-20divx" }}
                     fluid
                   /> &nbsp;{po.week}</Card.Text>
                   <Card.Text>
-                  <Image
-                    src={clock}
-                    alt="video call"
-                    className="img-fluid"
-                    width="25"
-                    // style={{ marginTodiv: "-20divx" }}
-                    fluid
-                  />&nbsp;{po.time}</Card.Text>
+                    <Image
+                      src={clock}
+                      alt="video call"
+                      className="img-fluid"
+                      width="25"
+                      fluid
+                    />&nbsp;{po.time}</Card.Text>
                   <Card.Text>
-                  <Image
-                    src={profile}
-                    alt="video call"
-                    className="img-fluid"
-                    width="25"
-                    // style={{ marginTodiv: "-20divx" }}
-                    fluid
-                  />&nbsp;{po.teacher_details}</Card.Text>
+                    <Image
+                      src={profile}
+                      alt="video call"
+                      className="img-fluid"
+                      width="25"
+                      fluid
+                    />&nbsp;{po.teacher_details}</Card.Text>
                   <Button className="btn-portal" variant="primary" size="sm">Enroll Now</Button>
                 </Card.Body>
               </Card>
@@ -119,31 +112,31 @@ const StudentDashboard = () => {
   }
   return (
     <>
-      <AppLayout/>
-    <div className="main-portal">
-      <Container fluid={false}>
-        <Row>
-        <Col md={12} sm={12} xs={12}>
-        <Card>
-        <Card.Img variant="top" src={slider1} />
-        <Card.Body>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <AppLayout />
+      <div className="main-portal">
+        <Container fluid={false}>
+          <Row>
+            <Col md={12} sm={12} xs={12}>
+              <Card>
+                <Card.Img variant="top" src={slider1} />
+                <Card.Body>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
 
-        </Col>
-        </Row>
-        <Row>
-          <Col md={12} sm={12} xs={12}>
-            <h3>Our Programs</h3><br /><br />
-            <ProgramOffer />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12} sm={12} xs={12}>
+              <h3>Our Programs</h3><br /><br />
+              <ProgramOffer />
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }
