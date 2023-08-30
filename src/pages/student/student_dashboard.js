@@ -8,6 +8,7 @@ import calendar from "../../assets/img/calendar.png";
 import clock from "../../assets/img/clock.png";
 import profile from "../../assets/img/profile.png";
 import slider1 from "../../assets/img/slider1.jpg";
+import AppLayout from "../../components/layout/AppLayout";
 const StudentDashboard = () => {
   const programList = [{
     program_name: "MATH",
@@ -117,6 +118,8 @@ const StudentDashboard = () => {
     );
   }
   return (
+    <>
+      <AppLayout/>
     <div className="main-portal">
       <Container fluid={false}>
         <Row>
@@ -141,6 +144,7 @@ const StudentDashboard = () => {
         </Row>
       </Container>
     </div>
+    </>
   );
 }
 

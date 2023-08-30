@@ -1,12 +1,16 @@
 .navbar {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
     color: #17a2ff;
     width:1260px;
-    margin-left: 7.8%;
+    margin-left: 7.8%; */
+    background-color: white;
+    color: #17a2ff;
+    margin-left: 320px;
+
   }
   
   .navbar-left {
