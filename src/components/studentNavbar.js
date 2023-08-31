@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/css/studentNavbar.css';
-import logoImg from '../assets/img/mlslogo.png'
-
+import logoImg from '../assets/img/mlslogo.png';
 
 import Chat from '../assets/img/student/chat.png';
 import Dollar from '../assets/img/student/dollar.png';
