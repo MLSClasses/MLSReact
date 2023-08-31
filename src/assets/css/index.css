@@ -748,6 +748,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  overflow-x: auto;
 }
 .main-content {
   display: flex;

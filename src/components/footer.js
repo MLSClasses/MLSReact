@@ -73,12 +73,12 @@ const FooterComponent = () => {
         </div>
         <div className="footer2-sub-h">
           <div className="footer2-h">Reach us</div>
-          <div>
+          <div className="footer-mail">
             <img src={img_mail} alt="email" width="10%" className="MailImg" /> &nbsp;
             <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a>
 
           </div>
-          <div >
+          <div className="footer-mail" >
             <img src={img_mail} alt="email" width="10%" className="MailImg" /> &nbsp;
             <a href="mailto:support@mlsclasses.com" >support@mlsclasses.com</a>
           </div>
