@@ -10,7 +10,8 @@
     background-color: white;
     color: #17a2ff;
     margin-left: 320px;
-
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
   }
   
   .navbar-left {

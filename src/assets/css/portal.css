@@ -1,5 +1,8 @@
+.blanksSpace{
+    height: 10px;
+}
 .main-portal{
-    background-color: #2a91ff;
+    background-color: #4594D0;
     position: relative;
     /* left: 8%; */
     margin-left: 320px;
@@ -18,27 +21,37 @@
     float: right;
 
 }
-.top-img{
-    display: flex;
-    justify-content: end;
-    gap: 25px;
-    padding: 5px;
+.first-card{
+    width:90%;
+    margin-left: 5%;
+    margin-top:1%;
 }
-.top-img span{
-    font-size: 12px;
+.first-card-body{
+    width:740px;
 }
-.prg-title{
-    font-weight: bolder;
+.second-card{
+    width:300px;
+    margin-left: 5%;
+    margin-top: 3%;
 }
-.container {
-    /* display: flex;
-    width: 100%; */
-  }    
-  .blank-column {
+.second-card-body{
+    margin-bottom: -5%;
+    margin-top: -2%;
+}
+.second-card-body p{
+    font-size: 10px;
+}
+.YoutubeBox{
+    margin-left: 35%;
+    margin-top: -35%;
+    width:700px;
+    height:400px;
+}
+.blank-column {
       margin-left: -33%;
       flex: 1; /* Blank column takes up remaining space */
 }
   .content {
     flex: 2; /* Content column takes twice the space as the blank column */
 
-  }
+}
