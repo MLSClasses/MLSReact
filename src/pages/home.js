@@ -238,7 +238,9 @@ function Index() {
             carry that success beyond the classroom.
           </p>
         </div>
-        <iframe
+
+        <div>
+      <iframe
           poster={image11}
           className="YoutubeBox"
           src={`https://www.youtube.com/embed/${youtubeID}`}
@@ -249,6 +251,8 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
+      </div>
+      
       <div className="benefits-container">
       <div className="brand-moto">
         <div className="brand-moto-message" style={{width:"65%"}}>

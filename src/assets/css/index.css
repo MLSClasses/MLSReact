@@ -976,6 +976,9 @@ hr {
   }
   .YoutubeBox{
     min-width: 90%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
   }
   .box{
     margin-bottom:5% ;
