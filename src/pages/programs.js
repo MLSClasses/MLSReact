@@ -425,12 +425,10 @@ const Programs = () => {
                 {/* </div> */}
 
                 <Col
-                  md="4"
-                  sm="11"
-                  xs="11"
+                  md="4" sm="11" xs="11"
                   text-center
                   mt="5"
-                  style={{ marginTop: "10%" }}
+                  style={{ marginTop: "10vh" }}
                 >
                   <div className="bottomSection">
                     <img

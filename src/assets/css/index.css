@@ -748,6 +748,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  overflow-x: auto;
 }
 .main-content {
   display: flex;
@@ -975,6 +976,9 @@ hr {
   }
   .YoutubeBox{
     min-width: 90%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
   }
   .box{
     margin-bottom:5% ;

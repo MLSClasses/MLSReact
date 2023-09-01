@@ -238,7 +238,9 @@ function Index() {
             carry that success beyond the classroom.
           </p>
         </div>
-        <iframe
+
+        <div>
+      <iframe
           poster={image11}
           className="YoutubeBox"
           src={`https://www.youtube.com/embed/${youtubeID}`}
@@ -249,19 +251,19 @@ function Index() {
           crossOrigin="anonymous"
         ></iframe>
       </div>
+      </div>
+      
       <div className="benefits-container">
       <div className="brand-moto">
+        <div className="brand-moto-message" style={{width:"65%"}}>
           <h2>Our Benefits</h2>
           <p>
-          Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes
+          Benefits of MLS Classes Online Training for Grades(2-12) | MLS Classes.
           </p>
         </div>
-        {/* <h1 style={{ "textAlign": "center" }}></h1>
-        <span style={{ "display": "block" }}><h3></h3></span> */}
-
-
-
-
+          
+        </div>
+      
 
         <div className="benefits">
           <A_benefit

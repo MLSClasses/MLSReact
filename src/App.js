@@ -36,7 +36,7 @@ function App() {
           <Route path="/portal" element={<Portal />}></Route>
           <Route path="/student_portal" element={<StudentDashboard/>}></Route>
          {/* 👇️ only match this when no other routes match */}
-         <Route path="*" element={<PageNotFound />} />
+         {/* <Route path="*" element={<PageNotFound />} /> */}
 
         </Routes>
       </BrowserRouter>
