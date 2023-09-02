@@ -36,4 +36,10 @@
   margin-top: -20%;
   font-size: 15px;
 }
+
+@media (max-width: 768px) {
+  .navbars{
+    width: 110px; 
+  }
+}
   

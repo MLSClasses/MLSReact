@@ -56,3 +56,12 @@
     flex: 2; /* Content column takes twice the space as the blank column */
 
 }
+@media (max-width: 768px) {
+    .main-portal{
+        background-color: #4594D0;
+        position: relative;
+        /* left: 8%; */
+        margin-left: 110px;
+        
+    }   
+}

@@ -6,7 +6,7 @@ import icon2 from '../assets/img/student/customer-support.png';
 import icon1 from '../assets/img/student/bell.png';
 const NavBarComponent = (props) => {
     return (
-        <nav className="navbar">
+        <nav className="navbar-portal">
             <div className="navbar-left">
                 <span className="navbar-name">Joe John</span>
                 <span className="dash">Dashboard</span>
