@@ -3,13 +3,13 @@ import Sidebar from "../sidebar/Sidebar";
 import NavBarComponent from "../accountNavbar";
 
 const AppLayout = () => {
-    return <div style={{
-        // padding: '50px 0px 0px 370px'
-    }}>
+    return (
+    <div>
         <Sidebar />
         <NavBarComponent/>
         <Outlet />
-    </div>;
-};
+    </div>
+    );
+}
 
 export default AppLayout;

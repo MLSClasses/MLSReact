@@ -2,19 +2,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 230px; /* Adjust the width as needed */
+    width: 210px; /* Adjust the width as needed */
     height: 100vh; /* Full height of the viewport */
     background-color: #001E3D;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
+  } 
   .nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
   .nav-item {
     margin-bottom: 10px;
     color: white;
