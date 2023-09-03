@@ -9,6 +9,7 @@ import clock from "../../assets/img/clock.png";
 import profile from "../../assets/img/profile.png";
 import slider1 from "../../assets/img/slider1.jpg";
 import AppLayout from "../../components/layout/AppLayout";
+import image11 from "../../assets/img/mlslogo.png";
 const StudentDashboard = () => {
   const programList = [{
     program_name: "MATH",
@@ -53,7 +54,9 @@ const StudentDashboard = () => {
 
         {programList.map(function (po) {
           return (
-            <Col md={3} sm={3} xs={12}>
+            <Col md={4} sm={6} xs={12}>
+
+              
               <Card border="light" style={{}}>
                 <div className="top-img">
                   <Image
@@ -106,6 +109,53 @@ const StudentDashboard = () => {
             </Col>
           )
         })}
+
+        <Col md={4} sm={4} xs={12}>
+        <Card className="second-card">
+                    <Card.Header>Schedule</Card.Header>
+                    <Card.Body className="second-card-body">
+                        <Card.Title>Algebra Class I</Card.Title>
+                        <Card.Text>
+                            <p>We do not store any details in our systems, instead we...</p>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="second-card-body">
+                        <Card.Title>Algebra Class II</Card.Title>
+                        <Card.Text>
+                            <p>We do not store any details in our systems, instead we...</p>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="second-card-body">
+                        <Card.Title>Algebra Class III</Card.Title>
+                        <Card.Text>
+                            <p>We do not store any details in our systems, instead we...</p>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="second-card-body">
+                        <Card.Title>Statistics Class I</Card.Title>
+                        <Card.Text>
+                            <p>We do not store any details in our systems, instead we...</p>
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="second-card-body">
+                        <Card.Title>Statistics Class II</Card.Title>
+                        <Card.Text>
+                            <p>We do not store any details in our systems, instead we...</p>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                </Col>
+                <Col md={6} sm={4} xs={12}>
+                <iframe
+                    poster={image11}
+                    className="YoutubeBox"
+                    src={`https://www.youtube.com/embed/XpScgwRKpgs`}
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    crossOrigin="anonymous"
+                ></iframe>
+        </Col>
 
       </Row>
     );
