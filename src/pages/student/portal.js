@@ -105,7 +105,7 @@ const Portal = () => {
                         <h5>August, 2023</h5>
                         <p>Events/Classes</p>
                     </Card.Header>
-                    <Card.Body className="third-card-body">
+                    <Card.Body className="calendar-portal-body">
                         {['sm', 'md', 'lg', 'xl', 'xxl'].map((breakpoint) => (
                             <ListGroup key={breakpoint} horizontal={breakpoint} className="my-2">
                                 <ListGroup.Item className="calList-portal-dp">
@@ -122,10 +122,10 @@ const Portal = () => {
                                 <ListGroup.Item className="calList-portal-cal">
                                     <img src={calendar} />
                                 </ListGroup.Item>
-                                <ListGroup.Item className="calList-portal">
+                                <ListGroup.Item className="calList-portal-primary">
                                     <Button variant="danger">Primary</Button>{' '}
                                 </ListGroup.Item>
-                                <ListGroup.Item className="calList-portal">
+                                <ListGroup.Item className="calList-portal-join">
                                     <Button variant="primary">Join</Button>{' '}
                                 </ListGroup.Item>
                                 <ListGroup.Item className="calList-portal-star">

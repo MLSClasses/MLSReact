@@ -55,6 +55,12 @@
     }
     .navbar-right {
       margin-top: 10px;
+      margin-left: -20%;
+    }
+    .navbar-left{
+      position: absolute;
+      margin-left: -48%;
+      margin-top: -2%;
     }
   }
   
