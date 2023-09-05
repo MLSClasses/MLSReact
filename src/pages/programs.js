@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import "../assets/css/program.css";
 import { Helmet } from 'react-helmet';
 import { Link } from "react-scroll";
+// import { Link, useLocation } from 'react-router-dom';
 
 import { Container, Row, Col, Accordion, Image } from "react-bootstrap";
 
@@ -240,7 +241,7 @@ const Programs = () => {
                               <li>ACT Math</li>
                               <li>ACT English</li>
                               <li>ACT Science</li>
-                              <li>ACT Reading and Writing</li>
+                              <a href="/act_reading_writing"><li>ACT Reading and Writing</li></a>
                             </ul>
                           </Accordion.Body>
                         </Accordion>
