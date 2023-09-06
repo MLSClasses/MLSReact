@@ -4,7 +4,6 @@ import Navbar from "../components/navbar";
 import "../assets/css/program.css";
 import { Helmet } from 'react-helmet';
 import { Row, Col, Accordion } from "react-bootstrap";
-import img1 from "../assets/img/program.PNG";
 const ACT_READING_WRITING = (props) => {
   return (
     <div>
@@ -19,7 +18,7 @@ const ACT_READING_WRITING = (props) => {
         <title>	Live 1:1 Online Classes for Kids(Grade 2-12) & Adults in USA | MLS Classes</title>
       </Helmet>
       <div class="f-template-contact">
-        <img src={img1} alt="first Template" />
+        <img src={props.banner_img} alt="first Template" />
         {/* <h2 class="our-program-h">Our Program</h2> */}
       </div>
       <div>
@@ -58,6 +57,31 @@ const ACT_READING_WRITING = (props) => {
           <h3 style={{textAlign:"center"}}>Conclusion:<br/>
           {props.conclusion}</h3>
            </div>
+
+           {props.feedback && <div style={{ marginTop: "5%" }}> 
+
+          <h3 style={{textAlign:"center"}}>Student Feedback:<br/>
+Testimonials from Happy Students of MLS Classes' SAT Test Prep Tutoring
+
+Student 1 - Emma:
+""I can't thank MLS Classes enough for their incredible SAT Test Prep tutoring. The tutors were not only knowledgeable but also patient in explaining complex concepts. The personalized study plan helped me focus on my weak areas, and the practice tests were spot-on for simulating the real exam experience. Thanks to MLS Classes, I achieved a score I previously thought was out of reach!""
+
+Student 2 - Alex:
+""Enrolling in MLS Classes' SAT Test Prep program was a game-changer for me. The tutors were exceptional in breaking down each section, providing tips and strategies that truly worked. The practice materials were extensive, and the detailed feedback I received after each practice test was invaluable. I felt confident and well-prepared on test day, all thanks to MLS Classes.""
+
+Student 3 - Maya:
+""I was initially overwhelmed by the thought of preparing for the SAT, but MLS Classes made the journey incredibly smooth. Their tutors had a knack for simplifying complex topics, making them easy to understand. The emphasis on time management during the test was particularly helpful. I not only improved my SAT score but also gained valuable skills that will serve me well in college.""
+
+Student 4 - Ethan:
+""MLS Classes' SAT Test Prep tutoring exceeded my expectations. The tutors went beyond teaching content – they shared insightful strategies that boosted my confidence and efficiency during the exam. The practice tests accurately reflected the real SAT, and the progress tracking kept me motivated. Thanks to MLS Classes, I was able to achieve my desired score and secure admission to my dream college.""
+
+Student 5 - Ava:
+""I can't thank MLS Classes' tutors enough for their dedication and support. The SAT Test Prep program was well-structured, covering all aspects of the exam. The tutors were approachable and always ready to address my doubts. The mock tests were a true reflection of the actual exam, and the feedback helped me fine-tune my approach. I'm grateful to MLS Classes for making my SAT preparation journey a success.""
+
+Conclusion:
+The testimonials from these satisfied students highlight the effectiveness of MLS Classes' SAT Test Prep tutoring. The program's personalized approach, expert tutors, comprehensive study materials, and focus on practical strategies have consistently led to improved scores and heightened confidence among students. With MLS Classes' guidance, students have not only conquered the SAT but also gained valuable skills for their academic journey ahead.
+          </h3>
+           </div>}
       </div>
       <Footer />
     </div>

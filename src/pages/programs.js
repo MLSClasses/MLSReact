@@ -206,8 +206,8 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
-                              <li>SAT Math</li>
-                              <li>SAT Reading & Writing</li>
+                              <a href="sat_math"><li>SAT Math</li></a>
+                              <a href="sat_reading_writing"><li>SAT Reading & Writing</li></a>
                             </ul>
                           </Accordion.Body>
                         </Accordion>
@@ -238,9 +238,9 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
-                              <li>ACT Math</li>
-                              <li>ACT English</li>
-                              <li>ACT Science</li>
+                            <a href="/act_math"><li>ACT Math</li></a>
+                              <a href="/act_english"><li>ACT English</li></a>
+                              <a href="/act_science"><li>ACT Science</li></a>
                               <a href="/act_reading_writing"><li>ACT Reading and Writing</li></a>
                             </ul>
                           </Accordion.Body>
