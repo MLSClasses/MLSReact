@@ -77,7 +77,7 @@ function Index() {
   };
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/contact");
+    navigate("/contactus");
   };
   const FreeClassButton = () => {
     return (
@@ -105,22 +105,22 @@ function Index() {
       <div className="Slideshow">
         <Slider {...settings}>
           <div className="f-template" style={myInlineStyle}>
-            <img src={slider1} alt="first Template" />
+            <img src={slider1} alt="MLS Classes - Math, English, Science & Coding - United States" title="MLS Classes - Math, English, Science & Coding - United States" />
           </div>
           <div className="f-template">
-            <img src={slider2} alt="first Template" />
+            <img src={slider2} alt="MLS Classes - US Curriculum - United States"  title="MLS Classes - US Curriculum - United States"/>
           </div>
           <div className="f-template">
-            <img src={slider3} alt="first Template" />
+            <img src={slider3} alt="MLS Classes - United States" title="MLS Classes - United States" />
           </div>
           <div className="f-template">
-            <img src={slider4} alt="first Template" />
+            <img src={slider4} alt="MLS Classes - SAT, PSAT, ACT Exam - United States" title="MLS Classes - SAT, PSAT, ACT Exam - United States"/>
           </div>
           <div className="f-template">
-            <img src={slider5} alt="first Template" />
+            <img src={slider5} alt="MLS Classes - Pre Algebra, Geometry, Algebra 1 & 2, Pre Calculus, Calculus, ELA, Science - United States" title="MLS Classes - Pre Algebra, Geometry, Algebra 1 & 2, Pre Calculus, Calculus, ELA, Science - United States"/>
           </div>
           <div className="f-template">
-            <img src={slider6} alt="first Template" />
+            <img src={slider6} alt="MLS Classes - Physics, Pre Calculus, Economics, Statistics, Psychology, Computer Science, Chemistry - United States" title="MLS Classes - Physics, Pre Calculus, Economics, Statistics, Psychology, Computer Science, Chemistry - United States" />
           </div>
         </Slider>
       </div>
@@ -348,7 +348,7 @@ function Index() {
                  
                  <li>phone at <a href="#">+91 9649549754</a> or via WhatsApp at the same number.</li> 
                   <li>Initiate a WhatsApp chat through this link: <a href="https://wa.me/message/XMS5KMWBGQZLG1">WhatsApp</a></li>
-                 <li>If you prefer, you can also use the Contact Us form on the MLS Classes website: <a href="https://mlsclasses.com/contact">contact MLS Classes</a></li> 
+                 <li>If you prefer, you can also use the Contact Us form on the MLS Classes website: <a href="https://mlsclasses.com/contactus">contact MLS Classes</a></li> 
                  <li>Additionally, you can reach out to us through email at <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a> or <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a> </li> 
                  We're here to assist you!
                 </Accordion.Body>

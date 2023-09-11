@@ -18,12 +18,12 @@ import Whatsapp_icon from "./components/whatsapp_icon";
 import StudentDashboard from "./pages/student/student_dashboard";
 import ACT_READING_WRITING from './blogs/act_reading_writing';
 import banner from  "./assets/img/banner_img.jpeg"
-import act_math from  "./assets/img/act_math.jpeg"
+import act_math_img from  "./assets/img/act_math.jpeg"
 import act_science_img from  "./assets/img/act_science.jpeg"
 import sat_math from  "./assets/img/sat_math.jpeg"
 import sat_r_w from  "./assets/img/sat_r_w.jpeg"
 
-import { act_english, act_english_conclusion, act_english_heading, act_reading_writing, act_reading_writing_conculsion, act_reading_writing_heading, act_science, act_science_conclusion, act_science_heading, sat_reading_writing, sat_reading_writing_conclusion, sat_reading_writing_heading } from './pages/mls_constants';
+import { act_english, act_english_conclusion, act_english_heading,act_math, act_math_conclusion, act_math_heading, act_reading_writing, act_reading_writing_conculsion, act_reading_writing_heading, act_science, act_science_conclusion, act_science_heading, sat_reading_writing, sat_reading_writing_conclusion, sat_reading_writing_heading } from './pages/mls_constants';
 function App() {
   return (
     <div class="body">
@@ -37,14 +37,14 @@ function App() {
           <Route path="/programs" element={<Programs />}></Route>
           <Route path="/pricing" element={<Pricing />}></Route>
           <Route path="/studentjob" element={<StudentJob />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/contactus" element={<Contact />}></Route>
           <Route path="/portal" element={<Portal />}></Route>
           <Route path="/student_portal" element={<StudentDashboard />}></Route>
           <Route path="/act_reading_writing" element={<ACT_READING_WRITING banner_img={banner} headingText={act_reading_writing_heading} mainContent={act_reading_writing} conclusion={act_reading_writing_conculsion} />}></Route>
           <Route path="/act_science" element={<ACT_READING_WRITING banner_img={act_science_img} headingText={act_science_heading} mainContent={act_science} conclusion={act_science_conclusion} />}></Route>
-          <Route path="/act_english" element={<ACT_READING_WRITING banner_img={act_math} headingText={act_english_heading} mainContent={act_english} conclusion={act_english_conclusion} />}></Route>
-          <Route path="/act_math" element={<ACT_READING_WRITING banner_img={act_math} headingText={act_english_heading} mainContent={act_english} conclusion={act_english_conclusion} />}></Route>
-          <Route path="/sat_reading_writing" element={<ACT_READING_WRITING feedback={true} banner_img={sat_r_w} headingText={sat_reading_writing_heading} mainContent={sat_reading_writing} conclusion={sat_reading_writing_conclusion} />}></Route>
+          <Route path="/act_english" element={<ACT_READING_WRITING banner_img={act_math_img} headingText={act_english_heading} mainContent={act_english} conclusion={act_english_conclusion} />}></Route>
+          <Route path="/act_math" element={<ACT_READING_WRITING banner_img={act_math_img} headingText={act_math_heading} mainContent={act_math} conclusion={act_math_conclusion} />}></Route>
+          <Route path="/sat_reading_writing" element={<ACT_READING_WRITING feedback={false} banner_img={sat_r_w} headingText={sat_reading_writing_heading} mainContent={sat_reading_writing} conclusion={sat_reading_writing_conclusion} />}></Route>
           <Route path="/sat_math" element={<ACT_READING_WRITING feedback={true} banner_img={sat_math} headingText={sat_reading_writing_heading} mainContent={sat_reading_writing} conclusion={sat_reading_writing_conclusion} />}></Route>
           {/* 👇️ only match this when no other routes match */}
           {/* <Route path="*" element={<PageNotFound />} /> */}

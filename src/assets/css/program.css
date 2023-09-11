@@ -32,6 +32,19 @@
     font-style: none;
     font-size: 1rem;
 }
+
+.link-tag:visited{
+    color: #032864;
+    text-decoration:none;
+}
+.link-tag{
+    color: #337cf3;
+    text-decoration:none;
+}
+.link-tag:hover{
+    text-decoration: underline;
+}
+
 /* .work .accordion-button:not(.collapsed){
     background-color: white !important;
 }

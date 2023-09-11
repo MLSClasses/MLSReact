@@ -23,7 +23,7 @@ const Pricing = () => {
   });
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/contact");
+    navigate("/contactus");
   };
   const FreeClassButton = () => {
     return (
