@@ -177,7 +177,7 @@ return (
 Phone number +91 9649549754
 Whatsapp number +91 9649549754
 Whatsapp chat https://wa.me/message/XMS5KMWBGQZLG1
-Contact us Form https://mlsclasses.com/contact
+Contact us Form https://mlsclasses.com/contactus
 Email id admission@mlsclasses.com
 support@mlsclasses.com.</p>
           </div>

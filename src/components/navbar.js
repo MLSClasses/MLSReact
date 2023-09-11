@@ -47,7 +47,7 @@ const NavBarComponent = (props) => {
                 <li onClick={() => { handleNavBarClick('programs') }}><Link to="/programs" className={active === "programs" ? "active " : ""} >Programs</Link></li>
                 <li onClick={() => { handleNavBarClick('pricing') }}><Link to="/pricing" className={active === "pricing" ? "active" : ""} >Pricing</Link></li>
                 <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active === "studentjob" ? "active" : ""} >Student Corner</Link></li>
-                <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contact" className={active === "contact" ? 'active' : ''}>Contact Us</Link></li>
+                <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contactus" className={active === "contactus" ? 'active' : ''}>Contact Us</Link></li>
                 <li>
                   {checkUser && <><div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div></>}
                   {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}

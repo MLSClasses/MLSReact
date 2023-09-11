@@ -63,7 +63,7 @@ const Mobile_Navbar = () => {
           </Link>
         </a>
         <a>
-          <Link to="/contact" className={active === "contact" ? "active" : ""}>
+          <Link to="/contactus" className={active === "contactus" ? "active" : ""}>
             Contact Us
           </Link>
         </a>
