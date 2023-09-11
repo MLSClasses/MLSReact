@@ -20,6 +20,7 @@ import dp from '../../assets/img/student/user.png';
 import star from "../../assets/img/star.png";
 import arrow from "../../assets/img/images.png";
 import Calendar from 'react-calendar';
+import Lady from '../../assets/img/lady.jpeg';
 const Portal = () => {
     const programList = [];
     console.log(`https://youtube.com/embed/XpScgwRKpgs?autoplay=0`);
@@ -41,6 +42,7 @@ const Portal = () => {
                             embark on a path of endless possibilities.
                         </Card.Text>
                         <Button variant="warning">Learn More</Button>
+                        <img src={Lady} className="first-card-lady" />
                     </Card.Body>
                 </Card>
                 <Card className="second-card">

@@ -24,9 +24,16 @@
     width:90%;
     margin-left: 5%;
     margin-top:1%;
+    height:100%;
 }
 .first-card-body{
     width:740px;
+}
+.first-card-lady{
+    width:150px;
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 70%;
 }
 .arrow{
     width:25px;
@@ -173,5 +180,66 @@
     }
     .calList-portal-star img{
         margin-left: 35%;
+    }
+}
+
+/* Student Portal */
+.main-portal-student{
+    background-color: #4594D0;
+    position: relative;
+    /* left: 8%; */
+    margin-left: 300px;    
+}
+.prog_card{
+    margin-left: -1%;
+}
+.OurPrograms-student{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.second-card-student{
+    width:395px;
+    height:450px;    
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.second-card-body-student{
+    margin-bottom: -10%;
+    margin-top: -5%;
+    margin-left: 10%;
+}
+.second-card-body-student p{
+    font-size: 10px;
+}
+.YoutubeBox-StuDash{
+    position: absolute;
+    margin:1%;
+    width:600px;
+    height:400px;
+}
+@media (max-width: 768px){
+    .main-portal-student{
+        background-color: #4594D0;
+        position: relative;
+        margin-left: 100px;  
+        height:100%;  
+    }
+    .OurPrograms-student{
+        margin:20%;
+        margin-top: 7%;
+        margin-bottom: -5%;
+        margin-left: 25%;
+    }
+    .YoutubeBox-StuDash{
+        position: absolute;
+        margin:1%;
+    }
+    .second-card-student{
+        margin-left: -1%;
+        width:275px;
+        height:700px;
+    }
+    .second-card-student{
+        width: 290px;
     }
 }
