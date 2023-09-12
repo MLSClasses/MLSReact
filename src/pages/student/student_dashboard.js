@@ -111,7 +111,12 @@ const StudentDashboard = () => {
             </Col>
           )
         })}
-
+      </Row>
+    );
+  }
+  const Schedule_Calendar = () => {
+    return (
+      <Row>
         <Col md={4} sm={4} xs={12}>
           <Card className="second-card-student">
             <Card.Header>Schedule</Card.Header>
@@ -163,8 +168,44 @@ const StudentDashboard = () => {
             crossOrigin="anonymous"
           ></iframe>
         </Col>
-
       </Row>
+    );
+  }
+  const Score_Report = () => {
+    return (
+      <div>
+        <div className="Score">
+          <div className="leftScore">
+            <h5>What is Your previous Test Score?</h5>
+            <h6>Jeo John's Score</h6>
+            <p>Dont let your child miss out on the opportunity of taking this test.
+              Your child can also become a star student of MLS Classes. This will help
+              your child to be a placed at the right grade. Check out your score now!
+            </p>
+            <Button variant="primary">Take Re-Test</Button>
+          </div>
+          <div className="rightScore-Section">
+            <div className="rightScore">
+              <img src={Lady} className="Score-Lady" />
+              <div className="rightScore-Sub1">
+                <h3>Math</h3>
+                <div className="rightScore-Sub-num1">
+                  <p>4.3</p>
+                </div>
+              </div>
+              <div className="rightScore-Sub2">
+                <h3>English</h3>
+                <div className="rightScore-Sub-num2">
+                  <p>4.8</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ProgressReport">
+
+        </div>
+      </div>
     );
   }
   return (
@@ -193,6 +234,8 @@ const StudentDashboard = () => {
             <Col md={12} sm={12} xs={12}>
               <h3 className="OurPrograms-student">Our Programs</h3><br /><br />
               <ProgramOffer />
+              <Score_Report />
+              <Schedule_Calendar />
             </Col>
           </Row>
         </Container>

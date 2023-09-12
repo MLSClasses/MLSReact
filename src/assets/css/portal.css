@@ -217,6 +217,84 @@
     width:600px;
     height:400px;
 }
+.Score{
+    width:600px;
+    height:500px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+.leftScore{
+    position: absolute;
+    width:300px;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.leftScore h5{
+    font-size: 19px;
+}
+.leftScore h6{
+    font-size: 12px;
+    color: gray;
+}
+.leftScore p{
+    margin-top: 20%;
+    margin-bottom: 40%;
+    font-size: 16px;
+}
+.rightScore{
+    border-radius: 10px;
+    background-color: rgb(243, 238, 238);
+    position: absolute;
+    margin-left: 27%;
+    width:270px;
+    height:500px;
+}
+.Score-Lady{
+    width:200px;
+    margin-top: 20%;
+    margin-left: 13%;
+    border-radius: 100%;
+    border-style: dotted;
+    border-color: orange;
+}
+.rightScore-Sub1{
+    margin-top: 10%;
+margin-left: 12%;
+}
+.rightScore-Sub2{
+    margin-top: -45%;
+    margin-left: 55%;
+}
+.rightScore-Sub-num1 p{
+    color:rgb(68, 68, 254);
+    font-size: 30px;
+    margin: 17px;
+}
+.rightScore-Sub-num2 p{
+    color:rgb(239, 79, 79);
+    font-size: 30px;
+    margin: 17px;
+}
+.rightScore-Sub-num1{
+    background-color: #92beff;
+    width:80px;
+    height: 80px;
+    border-radius: 100%;
+    border-color: #0b5ed7;
+    border-style:solid;
+    border-width: 1.7px;
+}
+.rightScore-Sub-num2{
+    background-color: pink;
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    border-color: red;
+    border-style:solid;
+    border-width: 1.7px;
+
+}
 @media (max-width: 768px){
     .main-portal-student{
         background-color: #4594D0;
