@@ -1,5 +1,6 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "../../assets/css/portal.css";
+import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import video from "../../assets/img/video.png";
@@ -203,7 +204,84 @@ const StudentDashboard = () => {
           </div>
         </div>
         <div className="ProgressReport">
-
+          <div className="ProgressReport-desc">
+            <h1>Progress Report</h1>
+            <p>The following table stores progress reports from each program</p>
+          </div>
+          <div className="Table-Card">
+            <Table striped bordered hover size="sm" className="Table-Card-tbl">
+              <thead>
+                <tr className="Table-Card-Head">
+                  <th>Date</th>
+                  <th>Program</th>
+                  <th>Teacher</th>
+                  <th>Progress Report</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr >
+                  <td>Overall</td>
+                  <td>1.3</td>
+                  <td>1.3</td>
+                  <td>1.3</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+                <tr >
+                  <td>Grade 9</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>0%</td>
+                </tr>
+              </tbody>
+            </Table>
+          </div>
         </div>
       </div>
     );
