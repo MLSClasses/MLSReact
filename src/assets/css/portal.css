@@ -137,14 +137,21 @@
     .main-portal{
         background-color: #4594D0;
         position: relative;
+        width: 100%;
         /* left: 8%; */
-        margin-left: 110px;        
+        margin-left: 100px;        
     }   
     .first-card{
         width:275px;
     }
     .first-card-body{
         width:250px;
+    }
+    .first-card-lady{
+        margin: 0px;
+        width: 70px;
+        margin-left: 25%;
+        margin-top: -100%;
     }
     .second-card{
         width:275px;
@@ -155,18 +162,19 @@
     }
     .YoutubeBox-portal{
         margin-top: 10px;
-        margin-left: 0px;
+        margin-left: 1.5%;
         width:300px;
         height: 300px;
     }
     .cal-portal{
         margin-top: 350px;
-        width:90%;
+        width:73%;
+        margin-left: 1.5%;
     }
     .calendar-portal{
         margin-top: 30px;
-        margin-left: 0px;
-        width: 100%;
+        margin-left: 1.5%;
+        width: 73%;
         height:100%;
     }
     .calendar-portal-body{
@@ -358,5 +366,12 @@ margin-left: 12%;
     }
     .second-card-student{
         width: 290px;
+    }
+    .leftScore{
+        width:150px;
+    }
+    .rightScore{
+        margin-left: 50%;
+        width:200px;
     }
 }
