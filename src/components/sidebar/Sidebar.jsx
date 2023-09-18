@@ -26,8 +26,8 @@ const sidebarNavItems = [
     {
         display: 'Chat',
         icon: <i className='bx bx-chat'></i>,
-        to: '/contactus',
-        section: 'contact'
+        to: '/chat',
+        section: 'chat'
     },
     {
         display: 'Refer Us',
