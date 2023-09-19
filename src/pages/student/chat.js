@@ -13,6 +13,7 @@ import AppLayout from "../../components/layout/AppLayout";
 import image11 from "../../assets/img/mlslogo.png";
 import Lady from '../../assets/img/lady.jpeg';
 import arrow from "../../assets/img/images.png";
+import User from '../../assets/img/student/user.png';
 const StudentDashboard = () => {
     const programList = [{
         teachers_name: "James Gross",
@@ -63,15 +64,27 @@ const StudentDashboard = () => {
         teachers_roll: "Dedicated Counselor"
     }];
 
-    const Teachers = () => {
+    const chatList = [{
+        teachers_name: "James Gross",
+        teachers_chat: "Hi Joe",
+    },
+    {
+        teachers_name: "James Gross",
+        teachers_chat: "Hi Joe",
+    },
+    {
+        teachers_name: "James Gross",
+        teachers_chat: "Hi Joe",
+    },
+    ]
+    const Chatss = () => {
         return (
             <Row style={{ gap: "5px", justifyContent: "center" }}>
-
-                {programList.map(function (po) {
+                {chatList.map(function (po) {
                     return (
-                        <Col md={4} sm={6} xs={12} className="prog_card">
+                        <Col className="teachers_chat">
                             <Card border="light" >
-                                <div className="top-img">
+                                <div className="top-img-teacher-chat">
                                     <Image
                                         src={profile}
                                         alt="video call"
@@ -81,8 +94,50 @@ const StudentDashboard = () => {
                                     />
                                 </div>
                                 <Card.Body key={po.teachers_name}>
-                                    <Card.Title className="prg-title">{po.teachers_name}</Card.Title><br />
-                                    <Card.Subtitle className="prg-subtitle">{po.teachers_roll}</Card.Subtitle><br />
+                                    <Card.Title className="teacher-ChatTitle">{po.teachers_name}</Card.Title><br />
+                                    <Card.Subtitle className="teacher-ChatSubtitle">{po.teachers_chat}</Card.Subtitle><br />
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    )
+                })}
+            </Row>
+        );
+    }
+    const Conversations = () => {
+        return (
+            <div className="convo">
+                <div className="convo-header">
+                    <img src={User} />
+                    <h5>Start A New Conversation</h5>
+                    <p>Start a chat with the program teachers!</p>
+                </div>
+                <div className="convo-content">
+                    <Chatss />
+                </div>
+            </div>
+        );
+    }
+    const Teachers = () => {
+        return (
+            <Row style={{ gap: "5px", justifyContent: "center" }}>
+
+                {programList.map(function (po) {
+                    return (
+                        <Col md={4} sm={6} xs={12} className="teachers_card">
+                            <Card border="light" >
+                                <div className="top-img-teacher">
+                                    <Image
+                                        src={profile}
+                                        alt="video call"
+                                        className="img-fluid"
+                                        width="50"
+                                        fluid
+                                    />
+                                </div>
+                                <Card.Body key={po.teachers_name}>
+                                    <Card.Title className="teacher-title">{po.teachers_name}</Card.Title><br />
+                                    <Card.Subtitle className="teacher-subtitle">{po.teachers_roll}</Card.Subtitle><br />
                                     <Button className="btns" variant="secondary">Send Message</Button>{' '}
                                     <Button className="btns" variant="danger">Book Time Slot</Button>{' '}
                                 </Card.Body>
@@ -103,7 +158,10 @@ const StudentDashboard = () => {
                         Chat Room with Teachers
                     </h2>
                     <Row>
-                        <Col md={12} sm={12} xs={12}>
+                        <Col>
+                            <Conversations />
+                        </Col>
+                        <Col md={12} sm={12} xs={12} className="tchrs-cards">
                             <Teachers />
                         </Col>
                     </Row>
