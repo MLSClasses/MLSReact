@@ -61,7 +61,7 @@ const ACT_READING_WRITING = (props) => {
            {props.feedback && <div style={{ marginTop: "5%" }}> 
 
           <h3 style={{textAlign:"center"}}>Student Feedback:<br/>
-          Students who have benefited from SAT Math tutoring by MLS Classes have shared impressive score improvements. They emphasize the individualized support, expert coaching, and valuable strategies that have greatly enhanced their self-assurance and results. Numerous students value the clear direction provided by MLS Classes' tutoring, which has helped them excel in the SAT Math section.
+          {props.student_feedback?props.student_feedback:props.conclusion}
           </h3>
            </div>}
       </div>
