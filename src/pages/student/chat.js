@@ -65,16 +65,94 @@ const StudentDashboard = () => {
     }];
 
     const chatList = [{
-        teachers_name: "James Gross",
+        teachers_name: "Ritik",
         teachers_chat: "Hi Joe",
+        teachers_time: "5 mins"
     },
     {
-        teachers_name: "James Gross",
+        teachers_name: "Jameson",
         teachers_chat: "Hi Joe",
+        teachers_time: "6 mins"
     },
     {
-        teachers_name: "James Gross",
+        teachers_name: "Roy Sharma",
         teachers_chat: "Hi Joe",
+        teachers_time: "15 mins"
+    },
+    {
+        teachers_name: "Kavien",
+        teachers_chat: "Hi Joe",
+        teachers_time: "25 mins"
+    },
+    {
+        teachers_name: "Kavien,+3 more",
+        teachers_chat: "Hi Joe",
+        teachers_time: "33 mins"
+    },
+    {
+        teachers_name: "Hellicopter",
+        teachers_chat: "Hi Joe",
+        teachers_time: "45 mins"
+    },
+    {
+        teachers_name: "Maximus",
+        teachers_chat: "Hi Joe",
+        teachers_time: "50 mins"
+    },
+    {
+        teachers_name: "Marry",
+        teachers_chat: "Hi Joe",
+        teachers_time: "55 mins"
+    },
+    {
+        teachers_name: "Thompson",
+        teachers_chat: "Hi Joe",
+        teachers_time: "1 hrs"
+    },
+    {
+        teachers_name: "MV Rajputana",
+        teachers_chat: "Hi Joe",
+        teachers_time: "1 hrs"
+    },
+    {
+        teachers_name: "Kelly Goldie",
+        teachers_chat: "Hi Joe",
+        teachers_time: "2 hrs"
+    },
+    {
+        teachers_name: "Sophie Yepthomi",
+        teachers_chat: "Hi Joe",
+        teachers_time: "15 hrs"
+    },
+    {
+        teachers_name: "Alley Hawkins",
+        teachers_chat: "Hi Joe",
+        teachers_time: "1 day"
+    },
+    {
+        teachers_name: "Chris Ronaldo",
+        teachers_chat: "Hi Joe",
+        teachers_time: "1 day"
+    },
+    {
+        teachers_name: "Aditya",
+        teachers_chat: "Hi Joe",
+        teachers_time: "2 days"
+    },
+    {
+        teachers_name: "Musaib",
+        teachers_chat: "Hi Joe",
+        teachers_time: "2 days"
+    },
+    {
+        teachers_name: "Viraat Rajputana",
+        teachers_chat: "Hi Joe",
+        teachers_time: "2 days"
+    },
+    {
+        teachers_name: "Bhole Shankar",
+        teachers_chat: "Hi Joe",
+        teachers_time: "2 days",
     },
     ]
     const Chatss = () => {
@@ -96,6 +174,7 @@ const StudentDashboard = () => {
                                 <Card.Body key={po.teachers_name}>
                                     <Card.Title className="teacher-ChatTitle">{po.teachers_name}</Card.Title><br />
                                     <Card.Subtitle className="teacher-ChatSubtitle">{po.teachers_chat}</Card.Subtitle><br />
+                                    <Card.Subtitle className="teacher-ChatTime">{po.teachers_time}</Card.Subtitle><br />
                                 </Card.Body>
                             </Card>
                         </Col>
