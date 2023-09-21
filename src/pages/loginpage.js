@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import loginimg from "../assets/img/mlslogo.png";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth, provider } from "./firebase";
 import { useNavigate } from "react-router-dom";
@@ -8,6 +7,7 @@ import Whatsapp_icon from "../components/whatsapp_icon";
 import "../assets/css/Login.css";
 import Mobile_Navbar from "../components/mobile_navbar";
 import MicrosoftLogin from "./loginWithMicrosoft";
+import { logo } from "./mls_constants";
 function Loginpage() {
   const navigate = useNavigate();
   const [values, setValues] = useState({
@@ -152,7 +152,7 @@ function Loginpage() {
         </div>
 
         <div className="sm:block hidden w-1/2">
-          <img className="rounded-2xl" src={loginimg} />
+          <img className="rounded-2xl" src={logo} />
         </div>
       </div>
     </div>

@@ -3,16 +3,9 @@ import "../../assets/css/portal.css";
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import video from "../../assets/img/video.png";
-import heart from "../../assets/img/heart.png";
-import calendar from "../../assets/img/calendar.png";
-import clock from "../../assets/img/clock.png";
-import profile from "../../assets/img/profile.png";
-import slider1 from "../../assets/img/slider1.jpg";
 import AppLayout from "../../components/layout/AppLayout";
-import image11 from "../../assets/img/mlslogo.png";
-import Lady from '../../assets/img/lady.jpeg';
-import arrow from "../../assets/img/images.png";
+import { Lady, arrow, calendar, clock, heart, image12, profile, video } from "../mls_constants";
+
 const StudentDashboard = () => {
   const programList = [{
     program_name: "MATH",
@@ -160,7 +153,7 @@ const StudentDashboard = () => {
         </Col>
         <Col md={6} sm={4} xs={12}>
           <iframe
-            poster={image11}
+            poster={image12}
             className="YoutubeBox-StuDash"
             src={`https://www.youtube.com/embed/XpScgwRKpgs`}
             title="YouTube video player"

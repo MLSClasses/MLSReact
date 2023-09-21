@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './sidebar.scss';
 import { Col } from 'react-bootstrap';
-import logo from '../../assets/img/mlslogo.png';
+import { logo } from '../../pages/mls_constants';
 //import logo from '../../assets/img/MLSClasseslogo.png'; //(logo to be used)
 const sidebarNavItems = [
     {

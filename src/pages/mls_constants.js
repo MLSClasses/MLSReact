@@ -310,4 +310,71 @@ export const sat_math=[
 export const sat_math_conclusion="Students who have benefited from SAT Math tutoring by MLS Classes have shared impressive score improvements. They emphasize the individualized support, expert coaching, and valuable strategies that have greatly enhanced their self-assurance and results. Numerous students value the clear direction provided by MLS Classes' tutoring, which has helped them excel in the SAT Math section.";
 
 
+export const ChallengingEnv= "https://img1.imageride.net/images/2023/09/20/ChallengingEnvironment.png";
+export const Comp_Programs= "https://img.imageride.net/images/2023/09/20/Comprehensive_Programs.png";
+export const Confidence_Building= "https://img1.imageride.net/images/2023/09/20/Confidence_Building.png";
+export const ExpertInstructors= "https://img1.imageride.net/images/2023/09/20/ExpertInstructors.png";
+export const Flexible= "https://img1.imageride.net/images/2023/09/20/Flexible_Scheduling.png";
+export const Lifelong_Skills= "https://img.imageride.net/images/2023/09/20/Lifelong_Skills.png";
+export const  Proven_results ="https://img1.imageride.net/images/2023/09/20/Proven_Results.png";
+export const  image1= "https://img.imageride.net/images/2023/09/20/icon1.png";
+export const image2 ="https://img1.imageride.net/images/2023/09/20/icon2.png";
+export const image3 ="https://img1.imageride.net/images/2023/09/20/icon3.png";
+export const image11= "https://img.imageride.net/images/2023/09/20/mlslogo.png";
+export const image13= "https://img.imageride.net/images/2023/09/20/temp2.png";
+export const slider1= "https://img.imageride.net/images/2023/09/20/slider1.jpeg";
+export const slider2= "https://img1.imageride.net/images/2023/09/20/4.jpeg";
+export const slider3= "https://img1.imageride.net/images/2023/09/20/11.jpeg";
+export const slider4= "https://img1.imageride.net/images/2023/09/20/12.jpeg";
+export const slider5= "https://img.imageride.net/images/2023/09/20/14.jpeg";
+export const slider6= "https://img1.imageride.net/images/2023/09/20/15.jpeg";
+export const Per_learning = "https://www.imageride.net/image/dKNai";
 
+export const img1 = "https://img.imageride.net/images/2023/09/20/program.png";
+export const b1 = "https://img.imageride.net/images/2023/09/20/b1.png";
+export const b2 = "https://img1.imageride.net/images/2023/09/20/b2.png";
+export const b3 = "https://img.imageride.net/images/2023/09/20/b3.png";
+
+export const hgs = "https://img1.imageride.net/images/2023/09/20/edu3.jpeg";
+
+export const it_img = "https://img1.imageride.net/images/2023/09/20/edu5.jpeg";
+export const clgg = "https://img.imageride.net/images/2023/09/20/edu2.jpeg";
+
+
+
+export const banner = "https://img1.imageride.net/images/2023/09/20/banner_img.jpeg"
+export const act_math_img = "https://img.imageride.net/images/2023/09/20/act_math.jpeg"
+export const act_science_img = "https://img1.imageride.net/images/2023/09/20/act_science.jpeg"
+export const sat_math_img = "https://img.imageride.net/images/2023/09/20/sat_math.jpeg"
+export const sat_r_w = "https://img.imageride.net/images/2023/09/20/sat_r_w.jpeg"
+export const act_english_img = "https://img.imageride.net/images/2023/09/20/act_english.jpeg"
+
+export const whatsapp_icon = "https://img.imageride.net/images/2023/09/20/whatsapp_icon.jpeg";
+
+export const first_img1 = "https://img.imageride.net/images/2023/09/20/temp10.png";
+export const first_img = "https://img.imageride.net/images/2023/09/20/10.jpeg";
+export const pc1 = 'https://img1.imageride.net/images/2023/09/20/sat.jpeg';
+export const pc2 = 'https://img.imageride.net/images/2023/09/20/act.jpeg';
+export const pc3 = 'https://img1.imageride.net/images/2023/09/20/ap.jpeg';
+export const pc4 = 'https://img1.imageride.net/images/2023/09/20/amc.png';
+export const pc5 = 'https://img1.imageride.net/images/2023/09/20/math.jpeg';
+export const pc6 = 'https://img.imageride.net/images/2023/09/20/science.jpeg';
+export const pc7 = 'https://img.imageride.net/images/2023/09/20/ela.jpeg';
+
+export const java = "https://img1.imageride.net/images/2023/09/20/java.jpeg";
+export const img12 ="https://img1.imageride.net/images/2023/09/20/temp5.png";
+
+export const video = "https://img1.imageride.net/images/2023/09/20/video.png";
+export const heart = "https://img.imageride.net/images/2023/09/20/heart.png";
+export const calendar = "https://img.imageride.net/images/2023/09/20/calendar.png";
+export const clock = "https://img.imageride.net/images/2023/09/20/clock.png";
+export const profile = "https://img1.imageride.net/images/2023/09/20/profile.png";
+export const image12 = "https://img.imageride.net/images/2023/09/20/mlslogo.png";
+export const Lady = 'https://img.imageride.net/images/2023/09/20/lady.jpeg';
+export const arrow = "https://img1.imageride.net/images/2023/09/20/images.png";
+
+export const logo = "https://img.imageride.net/images/2023/09/20/mlslogo.png";
+export const microsoft_logo = "https://img1.imageride.net/images/2023/09/20/microsoft.png";
+
+
+export const star = "https://img1.imageride.net/images/2023/09/20/star.png";

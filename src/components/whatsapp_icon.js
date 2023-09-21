@@ -1,4 +1,5 @@
-import whatsapp_icon from "../assets/img/whatsapp_icon.png";
+import { whatsapp_icon } from "../pages/mls_constants";
+
 const ChatWithUs = () => {
   window.open("https://wa.me/message/XMS5KMWBGQZLG1", "_blank");
 };

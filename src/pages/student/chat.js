@@ -3,17 +3,18 @@ import "../../assets/css/chat.css";
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import video from "../../assets/img/video.png";
-import heart from "../../assets/img/heart.png";
-import calendar from "../../assets/img/calendar.png";
-import clock from "../../assets/img/clock.png";
-import profile from "../../assets/img/profile.png";
-import slider1 from "../../assets/img/slider1.jpg";
+// import video from "../../assets/img/video.png";
+// import heart from "../../assets/img/heart.png";
+// import calendar from "../../assets/img/calendar.png";
+// import clock from "../../assets/img/clock.png";
+// import profile from "../../assets/img/profile.png";
+// import slider1 from "../../assets/img/slider1.jpg";
 import AppLayout from "../../components/layout/AppLayout";
-import image11 from "../../assets/img/mlslogo.png";
-import Lady from '../../assets/img/lady.jpeg';
-import arrow from "../../assets/img/images.png";
+// import image11 from "../../assets/img/mlslogo.png";
+// import Lady from '../../assets/img/lady.jpeg';
+// import arrow from "../../assets/img/images.png";
 import User from '../../assets/img/student/user.png';
+import { profile } from "../mls_constants";
 const StudentDashboard = () => {
     const programList = [{
         teachers_name: "James Gross",

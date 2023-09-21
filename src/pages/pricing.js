@@ -5,16 +5,9 @@ import Navbar from "../components/navbar";
 import AOS from "aos";
 import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import img1 from "../assets/img/temp5.png";
-import logo from "../assets/img/mlslogo.png";
-import b1 from "../assets/img/b1.png";
-import b2 from "../assets/img/b2.png";
-import b3 from "../assets/img/b3.png";
-import gr from "../assets/img/gr.png";
-import pos from "../assets/img/ppostion.png";
-import Whatsapp_icon from "../components/whatsapp_icon";
-import Mobile_Navbar from "../components/mobile_navbar";
+
 import { Helmet } from 'react-helmet';
+import {  img12 } from "./mls_constants";
 
 const Pricing = () => {
   AOS.init({
@@ -49,7 +42,7 @@ const Pricing = () => {
         </title>
       </Helmet>
       <div className="f-template">
-        <img src={img1} alt="first Template" className="img-fluid" />
+        <img src={img12} alt="first Template" className="img-fluid" />
       </div>
       <div className="bookFree">
         <h3 onClick={handleClick}>Book a free Demo Now | MLS Classes</h3>

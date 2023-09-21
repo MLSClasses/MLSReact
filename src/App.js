@@ -12,20 +12,15 @@ import Pricing from "./pages/pricing";
 import Programs from "./pages/programs";
 import StudentJob from "./pages/studentJob";
 import Login from "./pages/loginpage";
-import Signup from "./pages/Signuppage";
+// import Signup from "./pages/Signuppage";
 import Portal from "./pages/student/portal";
 import Chat from './pages/student/chat';
 import Whatsapp_icon from "./components/whatsapp_icon";
 import StudentDashboard from "./pages/student/student_dashboard";
 import ACT_READING_WRITING from './blogs/act_reading_writing';
-import banner from "./assets/img/banner_img.jpeg"
-import act_math_img from "./assets/img/act_math.jpeg"
-import act_science_img from "./assets/img/act_science.jpeg"
-import sat_math_img from "./assets/img/sat_math.jpeg"
-import sat_r_w from "./assets/img/sat_r_w.jpeg"
-import act_english_img from "./assets/img/act_english.jpeg"
 
-import { act_english, act_english_conclusion, act_english_heading, act_math, act_math_conclusion, act_math_heading, act_reading_writing, act_reading_writing_conculsion, act_reading_writing_heading, act_science, act_science_conclusion, act_science_heading, sat_math, sat_math_conclusion, sat_math_heading, sat_reading_writing, sat_reading_writing_conclusion, sat_reading_writing_feedback, sat_reading_writing_heading } from './pages/mls_constants';
+
+import { act_english, act_english_conclusion, act_english_heading, act_english_img, act_math, act_math_conclusion, act_math_heading, act_math_img, act_reading_writing, act_reading_writing_conculsion, act_reading_writing_heading, act_science, act_science_conclusion, act_science_heading, act_science_img, banner, sat_math, sat_math_conclusion, sat_math_heading, sat_math_img, sat_r_w, sat_reading_writing, sat_reading_writing_conclusion, sat_reading_writing_feedback, sat_reading_writing_heading } from './pages/mls_constants';
 function App() {
   return (
     <div class="body">
@@ -34,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/signup" element={<Signup />} />
+          {/* <Route path="/signup" element={<Signup />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/programs" element={<Programs />}></Route>
           <Route path="/pricing" element={<Pricing />}></Route>
