@@ -53,17 +53,66 @@ const ACT_READING_WRITING = (props) => {
           </Row>
         </div>
           <div style={{ marginTop: "5%" }}> 
+          <Row>
+            <Col md={12} sm={12} xs={12}>
+              {props.conclusion && 
+              <Accordion className="work" defaultActiveKey="0" id="high">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header style={{ background: "white" }}>
+                    {" "}
+                    <h1 className="rowsDesc">
+                     Conclusion 
+                    </h1>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      <Col md={12}>
+                        {/* <ul className="Desc">
+                          <li>Pre-Algebra</li>
+                        </ul> */}
+                        <p> {props.conclusion}</p>
+                      </Col>
+                      <br />
+                      <hr />
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>}
+            </Col>
+          </Row>
 
-          <h3 style={{textAlign:"center"}}>Conclusion:<br/>
-          {props.conclusion}</h3>
+          <Row>
+          {props.feedback  && 
+            <Col md={12} sm={12} xs={12}>
+             
+              <Accordion className="work" defaultActiveKey="0" id="high">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header style={{ background: "white" }}>
+                    {" "}
+                    <h1 className="rowsDesc">
+                     Student Feedback 
+                    </h1>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      <Col md={12}>
+                        {/* <ul className="Desc">
+                          <li>Pre-Algebra</li>
+                        </ul> */}
+                        <p>  {props.student_feedback?props.student_feedback:props.conclusion}</p>
+                      </Col>
+                      <br />
+                      <hr />
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </Col>}
+          </Row>
+         
            </div>
 
-           {props.feedback && <div style={{ marginTop: "5%" }}> 
-
-          <h3 style={{textAlign:"center"}}>Student Feedback:<br/>
-          {props.student_feedback?props.student_feedback:props.conclusion}
-          </h3>
-           </div>}
+          
       </div>
       <Footer />
     </div>
