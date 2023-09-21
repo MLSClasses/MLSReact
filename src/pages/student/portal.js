@@ -94,7 +94,7 @@ const Portal = () => {
                     </Card.Body>
                 </Card>
                 <Card className="calendar-portal">
-                    <Card.Header>
+                    <Card.Header className="calendar-portal-heading">
                         <h5>August, 2023</h5>
                         <p>Events/Classes</p>
                     </Card.Header>
