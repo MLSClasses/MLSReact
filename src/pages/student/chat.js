@@ -71,12 +71,12 @@ const StudentDashboard = () => {
         teachers_time: "5 mins"
     },
     {
-        teachers_name: "Jameson",
+        teachers_name: "James",
         teachers_chat: "Hi Joe",
         teachers_time: "6 mins"
     },
     {
-        teachers_name: "Roy Sharma",
+        teachers_name: "Roy",
         teachers_chat: "Hi Joe",
         teachers_time: "15 mins"
     },
@@ -91,12 +91,12 @@ const StudentDashboard = () => {
         teachers_time: "33 mins"
     },
     {
-        teachers_name: "Hellicopter",
+        teachers_name: "Helli",
         teachers_chat: "Hi Joe",
         teachers_time: "45 mins"
     },
     {
-        teachers_name: "Maximus",
+        teachers_name: "Max",
         teachers_chat: "Hi Joe",
         teachers_time: "50 mins"
     },
@@ -111,27 +111,27 @@ const StudentDashboard = () => {
         teachers_time: "1 hrs"
     },
     {
-        teachers_name: "MV Rajputana",
+        teachers_name: "MV",
         teachers_chat: "Hi Joe",
         teachers_time: "1 hrs"
     },
     {
-        teachers_name: "Kelly Goldie",
+        teachers_name: "Kelly",
         teachers_chat: "Hi Joe",
         teachers_time: "2 hrs"
     },
     {
-        teachers_name: "Sophie Yepthomi",
+        teachers_name: "Sophie",
         teachers_chat: "Hi Joe",
         teachers_time: "15 hrs"
     },
     {
-        teachers_name: "Alley Hawkins",
+        teachers_name: "Alley",
         teachers_chat: "Hi Joe",
         teachers_time: "1 day"
     },
     {
-        teachers_name: "Chris Ronaldo",
+        teachers_name: "Chris",
         teachers_chat: "Hi Joe",
         teachers_time: "1 day"
     },
@@ -192,6 +192,7 @@ const StudentDashboard = () => {
                     <h5>Start A New Conversation</h5>
                     <p>Start a chat with the program teachers!</p>
                 </div>
+                <div className="divider-convo"></div>
                 <div className="convo-content">
                     <Chatss />
                 </div>
