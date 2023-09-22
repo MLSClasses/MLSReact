@@ -3,42 +3,21 @@ import "../assets/css/index.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from "../assets/img/bg.jpg";
-import image1 from "../assets/img/icon1.png";
-import image2 from "../assets/img/icon2.png";
-import image3 from "../assets/img/icon3.png";
-import image4 from "../assets/img/icon4.png";
-import image5 from "../assets/img/icon5.png";
-import image7 from "../assets/img/icon6.png";
-import image9 from "../assets/img/icon7.png";
-import image11 from "../assets/img/mlslogo.png";
-import image13 from "../assets/img/temp2.png";
-import temp4 from "../assets/img/temp4.png";
-import slider1 from "../assets/img/1.jpg";
-import slider2 from "../assets/img/4.jpg";
-import slider3 from "../assets/img/11.jpg";
-import slider4 from "../assets/img/12.jpg";
-import slider5 from "../assets/img/14.jpg";
-import slider6 from "../assets/img/15.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Footer from "../components/footer";
-import Whatsapp_icon from "../components/whatsapp_icon";
 import Courses from "./courses.js";
-import ChallengingEnv from "../assets/img/ChallengingEnvironment.png";
-import Comp_Programs from "../assets/img/Comprehensive_Programs.png";
-import Confidence_Building from "../assets/img/Confidence_Building.png";
-import ExpertInstructors from "../assets/img/ExpertInstructors.png";
-import Flexible from "../assets/img/Flexible_Scheduling.png";
-import Lifelong_Skills from "../assets/img/Lifelong_Skills.png";
-import Per_learning from "../assets/img/PeronsonilzedLearning.png";
-import Proven_results from "../assets/img/Proven_Results.png";
+
+
+
 import CommentsSlide from "../components/comments_slide";
 import { redirect, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/navbar";
 import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
+import { ChallengingEnv, Comp_Programs, Confidence_Building, ExpertInstructors, Flexible, Lifelong_Skills, Per_learning, Proven_results, image1, image11, image13, image2, image3, slider1, slider2, slider3, slider4, slider5, slider6 } from "./mls_constants";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",

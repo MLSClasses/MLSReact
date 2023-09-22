@@ -3,9 +3,10 @@ import Container from 'react-bootstrap/Container';
 import { Link, useLocation } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import logo from '../assets/img/mlslogo.png';
+
 import '../assets/css/box.css';
 import { useNavigate } from "react-router-dom";
+import { logo } from '../pages/mls_constants';
 const NavBarComponent = (props) => {
   const location = useLocation();
   const navigate = useNavigate();

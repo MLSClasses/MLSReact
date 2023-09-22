@@ -1,10 +1,11 @@
 import React, { Component, useState, useEffect } from "react";
-import first_img from "../assets/img/10.jpg";
+
 import FooterComponent from "../components/footer";
 import moment from "moment-timezone";
 import Whatsapp_icon from "../components/whatsapp_icon";
 import { Helmet } from 'react-helmet';
 import Navbar from "../components/navbar";
+import { first_img } from "./mls_constants";
 
 const ContactComponent = (props) => {
   const [userData, setUserData] = useState({

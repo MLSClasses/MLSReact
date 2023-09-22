@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import logo from "../assets/img/mlslogo.png";
 import img_mail from '../assets/img/em1.webp'
 import '../assets/css/footer.css'
+import { logo } from "../pages/mls_constants";
 const FooterComponent = () => {
   return (
     <div className="footer2">

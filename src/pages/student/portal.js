@@ -8,19 +8,10 @@ import "../../assets/css/portal.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import video from "../../assets/img/video.png";
-import heart from "../../assets/img/heart.png";
-import calendar from "../../assets/img/calendar.png";
-import clock from "../../assets/img/clock.png";
-import profile from "../../assets/img/profile.png";
-import slider1 from "../../assets/img/slider1.jpg";
 import AppLayout from "../../components/layout/AppLayout";
-import image11 from "../../assets/img/mlslogo.png";
 import dp from '../../assets/img/student/user.png';
-import star from "../../assets/img/star.png";
-import arrow from "../../assets/img/images.png";
 import Calendar from 'react-calendar';
-import Lady from '../../assets/img/lady.jpeg';
+import { Lady, arrow, calendar, logo, star } from "../mls_constants";
 const Portal = () => {
     const programList = [];
     console.log(`https://youtube.com/embed/XpScgwRKpgs?autoplay=0`);
@@ -85,7 +76,7 @@ const Portal = () => {
                 </Card>
                 <div className="ytBox">
                     <iframe
-                        poster={image11}
+                        poster={logo}
                         className="YoutubeBox-portal"
                         src={`https://www.youtube.com/embed/XpScgwRKpgs`}
                         title="YouTube video player"

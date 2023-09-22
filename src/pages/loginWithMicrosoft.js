@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import firebase from 'firebase/compat/app';
-import microsoft_logo from "../assets/img/microsoft.png";
+
 import "../assets/css/Login.css";
 import 'firebase/compat/auth';
 import { useNavigate } from "react-router-dom";
+import { microsoft_logo } from './mls_constants';
 
 
 

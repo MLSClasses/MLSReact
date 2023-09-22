@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import AOS from "aos";
-import first_img from "../assets/img/temp10.png";
-import star_img from "../assets/img/star.png";
+
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { Container, Row, Col } from "react-bootstrap";
@@ -9,6 +8,7 @@ import Whatsapp_icon from "../components/whatsapp_icon";
 import Mobile_Navbar from "../components/mobile_navbar";
 import '../assets/css/studentJob.css';
 import { Helmet } from 'react-helmet';
+import { first_img1 } from "./mls_constants";
 
 const stars = (num) => {
   const stars_arr = [];
@@ -51,7 +51,7 @@ const StudentJob = () => {
     <div>
       <Navbar />
       <div className="f-template-contact">
-        <img src={first_img} alt="first Template" />
+        <img src={first_img1} alt="first Template" />
       </div>
       <div data-aos="flip-up">
         {comment(

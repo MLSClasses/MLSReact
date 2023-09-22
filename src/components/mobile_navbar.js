@@ -1,10 +1,11 @@
 import "../assets/css/index.css"; // Import the CSS file where you define the styles
-import logo from "../assets/img/mlslogo.png";
+
 import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import { Link, useLocation } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { logo } from "../pages/mls_constants";
 const Mobile_Navbar = () => {
   const location = useLocation();
   const [active, setActive] = useState("");

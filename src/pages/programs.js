@@ -8,22 +8,7 @@ import { Link } from "react-scroll";
 
 import { Container, Row, Col, Accordion, Image } from "react-bootstrap";
 
-//images
-import img1 from "../assets/img/program.PNG";
-import b1 from "../assets/img/b1.png";
-import b2 from "../assets/img/b2.png";
-import b3 from "../assets/img/b3.png";
-import gr from "../assets/img/gr.png";
-import hgs from "../assets/img/edu3.jpeg";
-import ele from "../assets/img/edu4.jpeg";
-import it_img from "../assets/img/edu5.jpeg";
-import clgg from "../assets/img/edu2.jpeg";
-import ab from "../assets/img/edu7.jpeg";
-
-import arrow_img from "../assets/img/images.png";
-import pos from "../assets/img/ppostion.png";
-import Whatsapp_icon from "../components/whatsapp_icon";
-import Mobile_Navbar from "../components/mobile_navbar";
+import { b1, b2, b3, clgg, hgs, img1, it_img } from "./mls_constants";
 const Programs = () => {
   return (
     <div>
