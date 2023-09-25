@@ -58,7 +58,7 @@ const Programs = () => {
         </div>
         <div className="mainsection" style={{ marginTop: "5%" }}>
           <Row>
-            <Col md={12} sm={12} xs={12}>
+            <Col md={12} sm={12} xs={12} class="container">
               <Accordion className="work" defaultActiveKey="0" id="high">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>

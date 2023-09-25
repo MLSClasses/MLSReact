@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 import Footer from "../components/footer";
 import Courses from "./courses.js";
-
+import slider1 from '../assets/img/1.jpg';
 
 
 import CommentsSlide from "../components/comments_slide";
@@ -17,7 +17,7 @@ import { redirect, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/navbar";
 import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
-import { ChallengingEnv, Comp_Programs, Confidence_Building, ExpertInstructors, Flexible, Lifelong_Skills, Per_learning, Proven_results, image1, image11, image13, image2, image3, slider1, slider2, slider3, slider4, slider5, slider6 } from "./mls_constants";
+import { ChallengingEnv, Comp_Programs, Confidence_Building, ExpertInstructors, Flexible, Lifelong_Skills, Per_learning, Proven_results, image1, image11, image13, image2, image3, slider2, slider3, slider4, slider5, slider6 } from "./mls_constants";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
