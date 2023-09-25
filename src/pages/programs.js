@@ -56,7 +56,7 @@ const Programs = () => {
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
-        <div className="mainsection" style={{ marginTop: "5%" }}>
+        <div className="mainsection" style={{ marginTop: "5%", padding:"5%" }}>
           <Row>
             <Col md={12} sm={12} xs={12} class="container">
               <Accordion className="work" defaultActiveKey="0" id="high">
