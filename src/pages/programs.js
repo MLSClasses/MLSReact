@@ -43,6 +43,11 @@ const Programs = () => {
           </Link>
         </div>
         <div className="btn">
+          <Link to="elementary" smooth={true} duration={500} className="yo">
+            <h3>Study Abroad </h3>
+          </Link>
+        </div>
+        <div className="btn">
           <Link to="it" smooth={true} duration={500} className="yo">
             <h3>IT </h3>
           </Link>
@@ -269,6 +274,47 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
+              
+              <Accordion className="work" defaultActiveKey="0" id="elementary">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header style={{ background: "white" }}>
+                    {" "}
+                    <h3 className="rowsDesc">
+                      <span>
+                        <Image
+                          src={hgs}
+                          alt="img"
+                          className="img-fluid"
+                          width="40"
+                          style={{ marginTop: "-20px" }}
+                          fluid
+                        />
+                      </span>{" "}
+                      Study Abroad
+                      {
+
+                      }
+                    </h3>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      <Col md={6}>
+                        <ul className="Desc">
+                          <li>GMAT</li>
+                          <li>GRE</li>
+                          <li>ielts</li>
+                          <li>TOEFL</li>
+                          <li>Overseas consultant</li>
+                        </ul>
+                      </Col>
+                      <hr />
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+             
+
+
               <Accordion className="work" defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
