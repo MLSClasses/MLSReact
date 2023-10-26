@@ -68,7 +68,7 @@ const FooterComponent = () => {
             <a href="#">Terms &amp; Conditions</a>
           </div>
           <div >
-            <a href="#">Privacy Policy</a>
+            <a href="/privacy">Privacy Policy</a>
           </div>
         </div>
         <div className="footer2-sub-h">

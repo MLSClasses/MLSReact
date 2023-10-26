@@ -201,6 +201,7 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
+                            <a href="sat_landing_page" className="link-tag"><li>SAT</li></a>
                               <a href="sat_math" className="link-tag"><li>SAT Math</li></a>
                               <a href="sat_reading_writing" className="link-tag"><li>SAT Reading & Writing</li></a>
                             </ul>

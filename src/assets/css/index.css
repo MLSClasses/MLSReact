@@ -807,7 +807,8 @@ nav ul li {
 }
 iframe {
   border-radius: 30px;
-  width: 40%;
+  width: 100%;
+  overflow: hidden;
   aspect-ratio: 1;
 }
 hr {

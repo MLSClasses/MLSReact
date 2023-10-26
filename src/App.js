@@ -21,6 +21,8 @@ import ACT_READING_WRITING from './blogs/act_reading_writing';
 
 
 import { act_english, act_english_conclusion, act_english_heading, act_english_img, act_math, act_math_conclusion, act_math_heading, act_math_img, act_reading_writing, act_reading_writing_conculsion, act_reading_writing_heading, act_science, act_science_conclusion, act_science_heading, act_science_img, banner, sat_math, sat_math_conclusion, sat_math_heading, sat_math_img, sat_r_w, sat_reading_writing, sat_reading_writing_conclusion, sat_reading_writing_feedback, sat_reading_writing_heading } from './pages/mls_constants';
+import LandingPage from './pages/landing_page';
+import Privacy from './pages/privacy_page';
 function App() {
   return (
     <div class="body">
@@ -46,6 +48,8 @@ function App() {
           <Route path="/sat_math" element={<ACT_READING_WRITING feedback={true} banner_img={sat_math_img} headingText={sat_math_heading} mainContent={sat_math} conclusion={sat_math_conclusion} student_feedback={sat_math_conclusion}/>}></Route>
           {/* 👇️ only match this when no other routes match */}
           {/* <Route path="*" element={<PageNotFound />} /> */}
+          <Route path="/sat_landing_page" element={<LandingPage/>}></Route>
+          <Route path="/privacy" element={<Privacy/>}></Route>
 
         </Routes>
       </BrowserRouter>
