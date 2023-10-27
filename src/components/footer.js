@@ -65,10 +65,16 @@ const FooterComponent = () => {
             <a href="#">About</a>
           </div>
           <div >
-            <a href="#">Terms &amp; Conditions</a>
+            <a href="shipping">Shipping</a>
+          </div>
+          <div >
+            <a href="/terms">Terms &amp; Conditions</a>
           </div>
           <div >
             <a href="/privacy">Privacy Policy</a>
+          </div>
+          <div >
+            <a href="/cancellation_refund">Cancellation & Refund</a>
           </div>
         </div>
         <div className="footer2-sub-h">
@@ -81,6 +87,9 @@ const FooterComponent = () => {
           <div className="footer-mail" >
             <img src={img_mail} alt="email" width="10%" className="MailImg" /> &nbsp;
             <a href="mailto:support@mlsclasses.com" >support@mlsclasses.com</a>
+          </div>
+          <div style={{marginTop:"10px",marginLeft:"10px"}}>
+            <a href="/contact">Contact us</a>
           </div>
 
         </div>
