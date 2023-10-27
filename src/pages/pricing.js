@@ -94,10 +94,10 @@ const Pricing = () => {
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
-                <h4>
-                  $750/50hrs
+                <h4 style={{display: "flex", justifyContent: "center"}}>
+                  $750/50hrs (62500 INR/50hrs)
                   <br />
-                  $15/hr
+                  $15/hr (1250 INR/hrs)
                 </h4>
               </div>
             </Col>
@@ -128,10 +128,10 @@ const Pricing = () => {
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
-                <h4>
-                  $1350/100hrs
+                <h4 style={{display: "flex", justifyContent: "center"}}>
+                  $1350/100hrs (112500 INR/100hrs)
                   <br />
-                  $13.5/hr
+                  $13.5/hr (1125 INR/hrs)
                 </h4>
               </div>
             </Col>
@@ -162,10 +162,10 @@ const Pricing = () => {
           <Row>
             <Col sm="1" md="1" xs="12">
               <div className="random1">
-                <h4>
-                  $2500/200hrs
+                <h4 style={{display: "flex", justifyContent: "center"}}>
+                  $2500/200hrs (208000 INR/200hrs)
                   <br />
-                  $12.5/hr
+                  $12.5/hr (1050 INR/hrs)
                 </h4>
               </div>
             </Col>

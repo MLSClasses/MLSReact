@@ -810,6 +810,7 @@ iframe {
   width: 100%;
   overflow: hidden;
   aspect-ratio: 1;
+  height: 1000px;
 }
 hr {
   height: 2px;
