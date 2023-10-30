@@ -1,75 +1,54 @@
-import React from 'react';
+import React,{useState} from 'react';
 import FooterComponent from '../components/footer';
+
 // import "../assets/css/landing_page.css";
 import "../assets/css/footer.css";
-import profile from '../assets/img/profile.jpeg';
+import scanner from '../assets/img/scan.jpeg';
 
 import Navbar from "../components/navbar";
 
-import { Accordion, Col, Container, Nav, Row } from 'react-bootstrap';
+import { Accordion, Col, Container, Nav, Row,Button } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+        SAT MATH Live Masterclass
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        
+      <p>Pay us on UPI ID: <b>9079476942@ybl</b> &nbsp;
+        or 
+        You can scan and pay us on below scanner!
+      </p>
+        <br/>
+        <img src={scanner} width="auto" height="500"></img>
+        
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
 
 const LandingPage = ({ source }) => {
-     
+  const [modalShow, setModalShow] = useState(false);
+
     return (
         <>
         <Navbar/>
         <iframe src='https://landing-pg1.netlify.app/' ></iframe>
       
-        {/* <Container id="accord-home" fluid={true} >
-
-        <Row style={{width:"100%"}}>
-          <Col md={12} sm={12} >
-          <body>
-  <div id="__next" data-reactroot="">
-    <div class="jss1">
-    <Navbar />
-      <section class="jss18 jss2">
-        <div class="MuiContainer-root MuiContainer-maxWidthLg css-1qsxih2" style={{padding:"40px"}}>
-
-          <div class="wrapper">
-            <p class="MuiTypography-root MuiTypography-body1 jss19 css-1kgpy80" style={{marginBottom:"8px"}}>
-              Webinar Date : Saturday; 18th November, 2023, 6 pm - 9 pm IST</p>
-            <p class="MuiTypography-root MuiTypography-body1 jss20 css-1kgpy80"
-              style={{marginBottom:"16px",maxWidth:"580px"}}>The Complete Digital SAT MATH Live Masterclass
-            </p>
-            <p class="MuiTypography-root MuiTypography-body1 jss21 css-1kgpy80"
-              style={{marginBottom:"24px",lineHeight:"1.5"}}>Dominate the SAT: SAT Math Tips & Tricks, Proven strategies, elite
-              instruction,laser-focused practice, and unmatched results.</p>
-            <p class="MuiTypography-root MuiTypography-body1 jss22 instructors css-1kgpy80" style={{marginBottom:"32px"}}>
-              Instructors: <a href="#">Ritik Mittal IIT Delhi Alumni</a></p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="MuiContainer-root MuiContainer-maxWidthLg css-1qsxih2" style={{display:"flex",padding:"25px"}}>
-          <div class="wrapper">
-            <p class="MuiTypography-root MuiTypography-body1 jss26 css-1kgpy80">Instructors</p>
-            <div class="jss27">
-              <div style={{display:"flex"}}><img src={profile} class="profileImg" alt="instructor_profile_pic" />
-                <div class="profileInfo">
-                  <div class="studies">
-                    <p class="MuiTypography-root MuiTypography-body1 header css-1kgpy80">Ritik Mittal, IIT Delhi Alumni, Founder of MLS Classes</p>
-                    <p class="MuiTypography-root MuiTypography-body1 css-1kgpy80">BTech/Mtech</p>
-                    <p class="MuiTypography-root MuiTypography-body1 css-1kgpy80">IIT Delhi</p>
-                  </div>
-                  <p class="MuiTypography-root MuiTypography-body1 css-1kgpy80" style={{maxWidth:"210px"}}>4+ years of
-                    teaching experience.
-                    SAT Math Expert</p>
-                </div>
-              </div>
-             
-            </div>
-          </div>
-        </div>
-      </section>
-    
- 
-      </div>
-      </div>
-      </body>
-      </Col>
-      </Row>
-      </Container> */}
+       
     
             
                 <div className='col-md-12'>
@@ -145,10 +124,16 @@ const LandingPage = ({ source }) => {
             </div>
             </div>
             <div className='st-footer'>
+            <div style={{float:"left"}}>
             <p>
               299 INR + 18% GST = 352.82 INR 
             </p>
-            <div className='btn' style={{background:"white"}}>Pay Now</div>
+            <Button variant="light" onClick={() => setModalShow(true)}>Pay Now</Button>
+            </div>
+            <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
             </div>
             <FooterComponent></FooterComponent>
         </>
