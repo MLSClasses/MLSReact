@@ -4,10 +4,14 @@ import FooterComponent from '../components/footer';
 // import "../assets/css/landing_page.css";
 import "../assets/css/footer.css";
 import scanner from '../assets/img/scan.jpeg';
+import proud1 from '../assets/img/proud1.jpeg';
+import proud2 from '../assets/img/proud2.jpeg';
+
+
 
 import Navbar from "../components/navbar";
 
-import { Accordion, Col, Container, Nav, Row,Button } from 'react-bootstrap';
+import { Accordion, Col, Container, Nav, Row,Button, Image } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 
 function MyVerticallyCenteredModal(props) {
@@ -49,8 +53,56 @@ const LandingPage = ({ source }) => {
         <Navbar/>
         <iframe src='https://landing-pg1.netlify.app/' ></iframe>
       
-       
-    
+      <Container fluid={false}>
+        <Row>
+          <Col md={12} sm={12}>
+          <Accordion className="work" defaultActiveKey="0" id="it">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header style={{ background: "white" }}>
+                    {" "}
+                    <h3 className="rowsDesc">
+                      <span>
+                        
+                      </span>{" "}
+                      Our Star Students
+                      {
+
+                      }
+                    </h3>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      <Col md={6}>
+                      <img
+                          src={proud2}
+                          alt="img"
+                          className="img-fluid"
+                          // width="40"
+                         
+                        />
+                        <p class="Flex-learn">
+                      As a proud alumni of IIT Delhi and a member of the Mittal Learning Stars family, I am overjoyed to announce the remarkable SAT results of our student, scoring in the exceptional range of 1590-1600. This achievement not only reflects their diligence and intelligence but also reaffirms Mittal Learning Stars' commitment to nurturing brilliance. It is moments like these that make us believe in the limitless potential of our students and the bright future they are destined for.</p>
+                      </Col>
+                      <Col md={6}>
+                      <img
+                          src={proud1}
+                          alt="img"
+                          className="img-fluid"
+                          // width="40"
+                         
+                        />
+                        <p class="Flex-learn">
+                     In a moment of immense pride, Mittal Learning Stars celebrates our student's outstanding SAT achievement, scoring within the remarkable range of 1460-1600. Their exceptional math score of 780 not only showcases their mastery of the subject but also underscores the dedication and excellence that define our learning community. We stand in awe of their accomplishment and look forward to witnessing their future successes.</p>
+                      </Col>
+                      <hr />
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+              
+              </Col>
+              </Row>
+              </Container>
             
                 <div className='col-md-12'>
                 <h2 className="acc-section">
