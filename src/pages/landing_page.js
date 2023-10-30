@@ -102,7 +102,7 @@ const LandingPage = ({ source }) => {
               <Accordion.Item eventKey="4">
                 <Accordion.Header className="acc-header">How much is the registration fee for the SAT Math Online Masterclass?</Accordion.Header>
                 <Accordion.Body>
-                The registration fee for the masterclass is just 199 INR.
+                The registration fee for the masterclass is just 299 INR.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="5">
