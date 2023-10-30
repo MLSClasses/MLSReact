@@ -1,7 +1,7 @@
 import React from 'react';
 import FooterComponent from '../components/footer';
 // import "../assets/css/landing_page.css";
-// import "../assets/css/lp.css";
+import "../assets/css/footer.css";
 import profile from '../assets/img/profile.jpeg';
 
 import Navbar from "../components/navbar";
@@ -70,7 +70,7 @@ const LandingPage = ({ source }) => {
       </Col>
       </Row>
       </Container> */}
-  
+    
             
                 <div className='col-md-12'>
                 <h2 className="acc-section">
@@ -143,6 +143,12 @@ const LandingPage = ({ source }) => {
                 <p className='text-center'>You can get a free consultation with our dedicated SAT Counsellor - Give a call on +91 9649549754</p>
             </div>
             </div>
+            </div>
+            <div className='st-footer'>
+            <p>
+              299 INR + 18% GST = 352.82 INR 
+            </p>
+            <div className='btn' style={{background:"white"}}>Pay Now</div>
             </div>
             <FooterComponent></FooterComponent>
         </>
