@@ -30,6 +30,7 @@ function MyVerticallyCenteredModal(props) {
         You can scan and pay us on below scanner!
       </p>
         <br/>
+        <b>Only 299 INR + 18% GST = 352.82 INR </b>
         <img src={scanner} width="auto" height="500"></img>
         
       </Modal.Body>
@@ -125,9 +126,9 @@ const LandingPage = ({ source }) => {
             </div>
             <div className='st-footer'>
             <div style={{float:"left"}}>
-            <p>
-              299 INR + 18% GST = 352.82 INR 
-            </p>
+            
+             <b>Only 299 INR + 18% GST = 352.82 INR </b>
+            
             <Button variant="light" onClick={() => setModalShow(true)}>Pay Now</Button>
             </div>
             <MyVerticallyCenteredModal
