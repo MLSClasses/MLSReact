@@ -53,7 +53,7 @@ function App() {
           <Route path="/sat_math" element={<ACT_READING_WRITING feedback={true} banner_img={sat_math_img} headingText={sat_math_heading} mainContent={sat_math} conclusion={sat_math_conclusion} student_feedback={sat_math_conclusion}/>}></Route>
           {/* 👇️ only match this when no other routes match */}
           {/* <Route path="*" element={<PageNotFound />} /> */}
-          <Route path="/sat_landing_page" element={<LandingPage/>}></Route>
+          <Route path="/sat_workshop" element={<LandingPage/>}></Route>
           <Route path="/cancellation_refund" element={<CancellationPage/>}></Route>
           <Route path="/privacy" element={<Privacy/>}></Route>
           <Route path="/shipping" element={<Shipping/>}></Route>

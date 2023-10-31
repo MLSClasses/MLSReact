@@ -177,7 +177,7 @@ const LandingPage = ({ source }) => {
             </div>
             </div>
             <div className='st-footer'>
-            <div style={{float:"left"}}>
+            <div style={{float:"left",zIndex:"10000"}}>
             
              <b>Only 299 INR + 18% GST = 352.82 INR </b>
             
