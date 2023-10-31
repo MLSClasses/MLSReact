@@ -51,7 +51,7 @@ const LandingPage = ({ source }) => {
     return (
         <>
         <Navbar/>
-        <iframe src='https://landing-pg1.netlify.app/' ></iframe>
+        <iframe style={{height:"1200px"}} src='https://landing-pg1.netlify.app/' ></iframe>
       
       <Container fluid={false}>
         <Row>

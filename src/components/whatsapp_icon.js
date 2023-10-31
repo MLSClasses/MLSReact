@@ -18,6 +18,14 @@ const Whatsapp_icon = () => {
       setShow(false);
     }
   },[])
+  useEffect(()=>{
+    if (loc === '/sat_workshop'){
+      setShow(true);
+    }else{
+      setShow(false);
+    }
+
+  },[show])
   
   return (
  (!show && <div>
