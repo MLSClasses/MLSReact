@@ -1,35 +1,37 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+// import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 import '../assets/css/box.css';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { logo } from '../pages/mls_constants';
 const NavBarComponent = (props) => {
-  const location = useLocation();
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const navigate = useNavigate();
   const [active, setActive] = useState('');
-  const [checkUser, setCheckUser] = useState(false);
-  const [signedUser, setSignedUser] = useState('');
-  useEffect(() => {
-    console.log('test');
-    let user = JSON.parse(sessionStorage.getItem("user"));
-    if (user) {
-      setCheckUser(true);
-      setSignedUser(user);
-    }
-    let path = location.pathname?.split("/");
-    path[1] && setActive(path[1])
-  }, []);
-  const handleClear = () => {
-    sessionStorage.clear();
-    setCheckUser(false);
-    navigate("/");
+  // const [checkUser, setCheckUser] = useState(false);
+  // const [signedUser, setSignedUser] = useState('');
+  // useEffect(() => {
+  //   console.log('test');
+  //   let user = JSON.parse(sessionStorage.getItem("user"));
+  //   if (user) {
+  //     setCheckUser(true);
+  //     setSignedUser(user);
+  //   }
+  //   let path = location.pathname?.split("/");
+  //   path[1] && setActive(path[1])
+  // }, []);
+  // const handleClear = () => {
+  //   sessionStorage.clear();
+  //   setCheckUser(false);
+  //   navigate("/");
 
-  }
+  // }
   const handleNavBarClick = (params) => {
     setActive(params);
   }
