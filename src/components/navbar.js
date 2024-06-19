@@ -60,8 +60,8 @@ const NavBarComponent = (props) => {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
-                    <Dropdown.Item target="_blank" href="https://testprep.mlsclasses.com/">Live Classes</Dropdown.Item>
-                    <Dropdown.Item target="_blank" href="https://mlsclasses.onlineclass.site/signup/">Test Series</Dropdown.Item>
+                    <Dropdown.Item target="_blank" href="https://mlsclasses.onlineclass.site/signup/">Live Classes</Dropdown.Item>
+                    <Dropdown.Item target="_blank" href="https://testprep.mlsclasses.com/">Test Series</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
               </ul>
