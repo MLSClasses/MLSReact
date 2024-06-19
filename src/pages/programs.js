@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import "../assets/css/program.css";
@@ -16,7 +16,7 @@ const Programs = () => {
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
         <meta name="title" content="	Live 1:1 Online Classes for Kids(Grade 2-12) & Adults in USA | MLS Classes" />
-        <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12 & for adults in USA. The programs of MLyour cheld's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!ress, programs, GUARANTEED. Book a FREE TRIAL now!"/>
+        <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12 & for adults in USA. The programs of MLyour cheld's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!ress, programs, GUARANTEED. Book a FREE TRIAL now!" />
         <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 "/>
         <meta name="robots" content="index, follow" />
@@ -57,7 +57,7 @@ const Programs = () => {
             <h3>IT </h3>
           </Link>
         </div>
-        
+
         <div className="btn">
           <Link to="college" smooth={true} duration={500} className="yo">
             <h3>College </h3>
@@ -66,7 +66,7 @@ const Programs = () => {
         <div className="mt-10-nav-login-btn">
           <p1 style={{ marginLeft: "23%" }}>2 - 12</p1>
         </div>
-        <div className="mainsection" style={{ marginTop: "5%", padding:"5%" }}>
+        <div className="mainsection" style={{ marginTop: "5%", padding: "5%" }}>
           <Row>
             <Col md={12} sm={12} xs={12} class="container">
               <Accordion className="work" defaultActiveKey="0" id="high">
@@ -180,7 +180,7 @@ const Programs = () => {
                       </span>{" "}
                       Test Prep
                       {
-                        
+
                       }
                     </h3>
                   </Accordion.Header>
@@ -201,7 +201,7 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
-                            <a href="sat_workshop" className="link-tag"><li>SAT</li></a>
+                              <a href="sat_workshop" className="link-tag"><li>SAT</li></a>
                               <a href="sat_math" className="link-tag"><li>SAT Math</li></a>
                               <a href="sat_reading_writing" className="link-tag"><li>SAT Reading & Writing</li></a>
                             </ul>
@@ -234,7 +234,7 @@ const Programs = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <ul className="Desc">
-                            <a href="/act_math" className="link-tag"><li>ACT Math</li></a>
+                              <a href="/act_math" className="link-tag"><li>ACT Math</li></a>
                               <a href="/act_english" className="link-tag"> <li>ACT English</li></a>
                               <a href="/act_science" className="link-tag"><li>ACT Science</li></a>
                               <a href="/act_reading_writing" className="link-tag"><li>ACT Reading and Writing</li></a>
@@ -280,7 +280,7 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              
+
               <Accordion className="work" defaultActiveKey="0" id="hobby">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header style={{ background: "white" }}>
@@ -306,11 +306,11 @@ const Programs = () => {
                     <Row>
                       <Col md={6}>
                         <ul className="Desc">
-                        <li>Chess</li>
-                        <li>Music ( Guitar, Piano & Keyboard, Violin ) </li>
-                        <li>Dance</li>
-                        <li>Art & Craft</li>
-                        <li>Public Speaking</li>
+                          <li>Chess</li>
+                          <li>Music ( Guitar, Piano & Keyboard, Violin ) </li>
+                          <li>Dance</li>
+                          <li>Art & Craft</li>
+                          <li>Public Speaking</li>
                         </ul>
                       </Col>
                       <hr />
@@ -356,7 +356,7 @@ const Programs = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-             
+
 
 
               <Accordion className="work" defaultActiveKey="0">
@@ -453,7 +453,7 @@ const Programs = () => {
                       </span>{" "}
                       College
                       {
-                        
+
                       }
                     </h3>
                   </Accordion.Header>
@@ -495,9 +495,9 @@ const Programs = () => {
             <Container fluid={true}>
               <Row >
                 {/* <div className="prefChoice"> */}
-                  <Col md="12" xs="12" sm="12">
+                <Col md="12" xs="12" sm="12">
                   <h3 className="program_div">Why is MLS Classes the preferred choice for effective learning and academic success?</h3>
-                  </Col>
+                </Col>
                 {/* </div> */}
 
                 <Col

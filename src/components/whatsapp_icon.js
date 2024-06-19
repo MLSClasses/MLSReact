@@ -7,35 +7,35 @@ const ChatWithUs = () => {
   window.open("https://wa.me/message/XMS5KMWBGQZLG1", "_blank");
 };
 const Whatsapp_icon = () => {
-  const loc= window.location.pathname;
-  const [template,setTemplate]=useState();
-  const [show,setShow]= useState(false);
-  useEffect(()=>{
-    if (loc === '/sat_workshop'){
+  const loc = window.location.pathname;
+  const [template, setTemplate] = useState();
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    if (loc === '/sat_workshop') {
       setShow(true);
     }
-    return ()=>{
+    return () => {
       setShow(false);
     }
-  },[])
-  useEffect(()=>{
-    if (loc === '/sat_workshop'){
+  }, [])
+  useEffect(() => {
+    if (loc === '/sat_workshop') {
       setShow(true);
-    }else{
+    } else {
       setShow(false);
     }
 
-  },[show])
-  
+  }, [show])
+
   return (
- (!show && <div>
-  <img
-    src={whatsapp_icon}
-    id="whatsapp_icon"
-    alt="whatsapp icon"
-    onClick={ChatWithUs}
-  />
-</div> )
+    (!show && <div>
+      <img
+        src={whatsapp_icon}
+        id="whatsapp_icon"
+        alt="whatsapp icon"
+        onClick={ChatWithUs}
+      />
+    </div>)
   );
 };
 export default Whatsapp_icon;

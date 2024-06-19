@@ -1,69 +1,70 @@
-import React, { useState } from "react";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth, provider } from "./firebase";
-import { useNavigate } from "react-router-dom";
-import { signInWithPopup } from "firebase/auth";
-import Whatsapp_icon from "../components/whatsapp_icon";
+import React from "react";
+// import { useState } from "react";
+// import { signInWithEmailAndPassword } from "firebase/auth";
+// import { auth, provider } from "./firebase";
+// import { useNavigate } from "react-router-dom";
+// import { signInWithPopup } from "firebase/auth";
+import WhatsappIcon from "../components/whatsapp_icon";
 import "../assets/css/Login.css";
-import Mobile_Navbar from "../components/mobile_navbar";
+// import Mobile_Navbar from "../components/mobile_navbar";
 import MicrosoftLogin from "./loginWithMicrosoft";
 import { logo } from "./mls_constants";
 function Loginpage() {
-  const navigate = useNavigate();
-  const [values, setValues] = useState({
-    email: "",
-    pass: "",
-  });
-  const [errorMsg, setErrorMsg] = useState("");
-  const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
+  // const navigate = useNavigate();
+  // const [values, setValues] = useState({
+  //   email: "",
+  //   pass: "",
+  // });
+  // const [errorMsg, setErrorMsg] = useState("");
+  // const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
-  const [passwordType, setPasswordType] = useState("password");
-  const [passwordInput, setPasswordInput] = useState("");
-  const handlePasswordChange = (evnt) => {
-    setPasswordInput(evnt.target.value);
-  };
-  const togglePassword = () => {
-    if (passwordType === "password") {
-      setPasswordType("text");
-      return;
-    }
-    setPasswordType("password");
-  };
+  // const [passwordType, setPasswordType] = useState("password");
+  // const [passwordInput, setPasswordInput] = useState("");
+  // const handlePasswordChange = (evnt) => {
+  //   setPasswordInput(evnt.target.value);
+  // };
+  // const togglePassword = () => {
+  //   if (passwordType === "password") {
+  //     setPasswordType("text");
+  //     return;
+  //   }
+  //   setPasswordType("password");
+  // };
 
-  const handleSubmission = (e) => {
-    e.preventDefault();
-    if (!values.email || !values.pass) {
-      setErrorMsg("Fill all fields");
-      return;
-    }
-    setErrorMsg("");
-    setSubmitButtonDisabled(true);
-    signInWithEmailAndPassword(auth, values.email, values.pass)
-      .then(async (res) => {
-        setSubmitButtonDisabled(false);
-        sessionStorage.setItem("email", values.email);
-        navigate("/");
-      })
-      .catch((err) => {
-        setSubmitButtonDisabled(true);
-        setErrorMsg(err.message);
-        console.log("Error-", err);
-      });
-  };
-  const goto = () => {
-    navigate("/Signup");
-  };
-  const [num, setNum] = useState("");
-  const handleClick = () => {
-    signInWithPopup(auth, provider).then((data) => {
-      setNum(data.user.email);
-      sessionStorage.setItem("email", data.user.email);
-      navigate("/");
-    });
-  };
+  // const handleSubmission = (e) => {
+  //   e.preventDefault();
+  //   if (!values.email || !values.pass) {
+  //     setErrorMsg("Fill all fields");
+  //     return;
+  //   }
+  //   setErrorMsg("");
+  //   setSubmitButtonDisabled(true);
+  //   signInWithEmailAndPassword(auth, values.email, values.pass)
+  //     .then(async (res) => {
+  //       setSubmitButtonDisabled(false);
+  //       sessionStorage.setItem("email", values.email);
+  //       navigate("/");
+  //     })
+  //     .catch((err) => {
+  //       setSubmitButtonDisabled(true);
+  //       setErrorMsg(err.message);
+  //       console.log("Error-", err);
+  //     });
+  // };
+  // const goto = () => {
+  //   navigate("/Signup");
+  // };
+  // const [num, setNum] = useState("");
+  // const handleClick = () => {
+  //   signInWithPopup(auth, provider).then((data) => {
+  //     setNum(data.user.email);
+  //     sessionStorage.setItem("email", data.user.email);
+  //     navigate("/");
+  //   });
+  // };
   return (
     <div className="bg-gray-50 min-h-screen flex items-center justify-center">
-      <Whatsapp_icon />
+      <WhatsappIcon />
       <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-2xl p-5">
         <div className="sm:w-1/2 px-16">
           <h2 className="text-[#002D74] font-bold text-2xl">Student Portal Login </h2>
@@ -119,7 +120,7 @@ function Loginpage() {
             <p className="text-center text-sm">OR</p>
             <hr className="border-gray-500"></hr>
           </div> */}
-          <MicrosoftLogin/>
+          <MicrosoftLogin />
           {/* <button
             onClick={handleClick}
             className="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300"
@@ -152,7 +153,7 @@ function Loginpage() {
         </div>
 
         <div className="sm:block hidden w-1/2">
-          <img className="rounded-2xl" src={logo} />
+          <img className="rounded-2xl" alt="" src={logo} />
         </div>
       </div>
     </div>
