@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import { Link, useLocation } from "react-router-dom";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 import '../assets/css/box.css';
 import { useNavigate } from "react-router-dom";
@@ -12,7 +13,7 @@ const NavBarComponent = (props) => {
   const navigate = useNavigate();
   const [active, setActive] = useState('');
   const [checkUser, setCheckUser] = useState(false);
-  const [signedUser,setSignedUser]= useState('');
+  const [signedUser, setSignedUser] = useState('');
   useEffect(() => {
     console.log('test');
     let user = JSON.parse(sessionStorage.getItem("user"));
@@ -27,7 +28,7 @@ const NavBarComponent = (props) => {
     sessionStorage.clear();
     setCheckUser(false);
     navigate("/");
-    
+
   }
   const handleNavBarClick = (params) => {
     setActive(params);
@@ -49,10 +50,20 @@ const NavBarComponent = (props) => {
                 <li onClick={() => { handleNavBarClick('pricing') }}><Link to="/pricing" className={active === "pricing" ? "active" : ""} >Pricing</Link></li>
                 <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active === "studentjob" ? "active" : ""} >Student Corner</Link></li>
                 <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contactus" className={active === "contactus" ? 'active' : ''}>Contact Us</Link></li>
-                <li>
+                {/* <li>
                   {checkUser && <><div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div></>}
                   {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}
-                </li>
+                </li> */}
+                <Dropdown className="DrpDwn" style={{ marginLeft: "2%", marginTop: "1.5%" }}>
+                  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{ width: "175%" }}>
+                    Login
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item target="_blank" href="https://testprep.mlsclasses.com/">Live Classes</Dropdown.Item>
+                    <Dropdown.Item target="_blank" href="https://mlsclasses.onlineclass.site/signup/">Test Series</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </ul>
             </nav>
           </Col>

@@ -21,7 +21,7 @@ const FooterComponent = () => {
             </div>
             <div className="scl">
               <a
-                href="https://www.instagram.com/mlsclasses/?igshid=NjIwNzIyMDk2Mg%3D%3D"
+                href="https://www.instagram.com/mlsclasses_usa?igsh=djFpaHZhZm1zdHBl&utm_source=qr"
                 target="_blank"
               >
                 <i className="fa-brands fa-instagram"></i>
@@ -45,7 +45,7 @@ const FooterComponent = () => {
             </div>
             <div className="scl">
               <a
-                href="https://youtube.com/@mittallearningstars8293"
+                href="https://www.youtube.com/@mlsclasses8293?si=KBojcjPosvKjfwjH"
                 target="_blank"
               >
                 <i className="fa-brands fa-youtube"></i>
@@ -88,7 +88,7 @@ const FooterComponent = () => {
             <img src={img_mail} alt="email" width="10%" className="MailImg" /> &nbsp;
             <a href="mailto:support@mlsclasses.com" >support@mlsclasses.com</a>
           </div>
-          <div style={{marginTop:"10px",marginLeft:"10px"}}>
+          <div style={{ marginTop: "10px", marginLeft: "10px" }}>
             <a href="/contact">Contact us</a>
           </div>
 
