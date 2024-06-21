@@ -18,6 +18,10 @@ const Pricing = () => {
   const handleClick = () => {
     navigate("/contactus");
   };
+  const handleClick2 = () => {
+    // Simulate navigation using window.location.href
+    window.open("https://wa.me/message/XMS5KMWBGQZLG1", '_blank');
+  }
   const FreeClassButton = () => {
     return (
       <div class="free_class">
@@ -138,15 +142,17 @@ const Pricing = () => {
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                  <ul style={{ width: "80%" }}>
+                  <ul style={{ width: "80%" }} className="LowerBox">
 
-                    🌟 Class Pricing: Ranging from just $15 to $25 per hour, our rates vary depending on the course you choose.
+                    🌟 Class Pricing: Ranging from just <b>$15 to $25 per hour</b>, our rates vary depending on the course you choose.
 
                     For the best and most personalized pricing options, reach out to us directly.
-                    <br />📲 Contact Us on WhatsApp: Click the link below or message us at +91 9649549754 for more details and special offers
-
-
-                    Whatsapp -- <a href="https://wa.me/message/XMS5KMWBGQZLG1">https://wa.me/message/XMS5KMWBGQZLG1</a>
+                    <br />
+                    <br />
+                    📲 <b>Contact Us on WhatsApp</b >:
+                    {/* <a href="https://wa.me/message/XMS5KMWBGQZLG1"> Click here</a>Message us at <br />+91 9649549754 for more details and special offers */}
+                    For more details and special offers message us at 9649549754 or <b>Click on the button below</b>
+                    <br /><button type="button" className="btn btn-warning" onClick={handleClick2}>Whatsapp</button>
 
                   </ul>
 
