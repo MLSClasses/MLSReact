@@ -140,11 +140,16 @@ const Pricing = () => {
                 <div className="box">
                   <ul style={{ width: "80%" }}>
 
-                    🌟 Class Pricing: Ranging from just $15 to $20 per hour, our rates vary depending on the course you choose.
+                    🌟 Class Pricing: Ranging from just $15 to $25 per hour, our rates vary depending on the course you choose.
 
                     For the best and most personalized pricing options, reach out to us directly.
-                    <br />📲 Contact Us on WhatsApp: Click the link below or message us at +91 9609549754 for more details and special offers
+                    <br />📲 Contact Us on WhatsApp: Click the link below or message us at +91 9649549754 for more details and special offers
+
+
+                    Whatsapp -- <a href="https://wa.me/message/XMS5KMWBGQZLG1">https://wa.me/message/XMS5KMWBGQZLG1</a>
+
                   </ul>
+
                   {/* <ul>
                     1. 🌟 1-on-1 Expert Classes<br />
                     2. 🎥 Recorded Sessions<br />
