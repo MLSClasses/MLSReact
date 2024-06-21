@@ -93,13 +93,13 @@ const Pricing = () => {
         <Container>
           <Row>
             <Col sm="1" md="1" xs="12">
-              <div className="random1">
+              {/* <div className="random1">
                 <h4 style={{ display: "flex", justifyContent: "center" }}>
                   $750/50hrs (62500 INR/50hrs)
                   <br />
                   $15/hr (1250 INR/hrs)
                 </h4>
-              </div>
+              </div> */}
             </Col>
             <Col md="10" xs="12" sm="10">
               <div className="deets">
@@ -127,18 +127,25 @@ const Pricing = () => {
           <br />
           <Row>
             <Col sm="1" md="1" xs="12">
-              <div className="random1">
+              {/* <div className="random1">
                 <h4 style={{ display: "flex", justifyContent: "center" }}>
                   $1350/100hrs (112500 INR/100hrs)
                   <br />
                   $13.5/hr (1125 INR/hrs)
                 </h4>
-              </div>
+              </div> */}
             </Col>
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                  <ul>
+                  <ul style={{ width: "80%" }}>
+
+                    🌟 Class Pricing: Ranging from just $15 to $20 per hour, our rates vary depending on the course you choose.
+
+                    For the best and most personalized pricing options, reach out to us directly.
+                    <br />📲 Contact Us on WhatsApp: Click the link below or message us at +91 9609549754 for more details and special offers
+                  </ul>
+                  {/* <ul>
                     1. 🌟 1-on-1 Expert Classes<br />
                     2. 🎥 Recorded Sessions<br />
                     3. 📝 Comprehensive Class Notes<br />
@@ -149,55 +156,18 @@ const Pricing = () => {
                     8. 📚 Extra Classes During Exams<br />
                     9. 🤖 AI-Powered Homework Platform<br />
                     10. 🕒 Flexible Class Schedule<br />
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </Col>
           </Row>
-          <div className="boxx">
-            <FreeClassButton />
-          </div>
-          <br />
-          <br />
-          <Row>
-            <Col sm="1" md="1" xs="12">
-              <div className="random1">
-                <h4 style={{ display: "flex", justifyContent: "center" }}>
-                  $2500/200hrs (208000 INR/200hrs)
-                  <br />
-                  $12.5/hr (1050 INR/hrs)
-                </h4>
-              </div>
-            </Col>
-            <Col sm="10" md="10" xs="12">
-              <div className="deets">
-                <div className="box">
-                  <ul>
-                    1. 🌟 1-on-1 Expert Classes<br />
-                    2. 🎥 Recorded Sessions<br />
-                    3. 📝 Comprehensive Class Notes<br />
-                    4. 🤝 Parent-Teacher Conferences<br />
-                    5. 📚 School Topic Assistance<br />
-                    6. 🧪 Regular Tests for Progress<br />
-                    7. 📱 On-Demand Classes Available<br />
-                    8. 📚 Extra Classes During Exams<br />
-                    9. 🤖 AI-Powered Homework Platform<br />
-                    10. 🕒 Flexible Class Schedule<br />
-                  </ul>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <div className="boxx">
-            <FreeClassButton />
-          </div>
         </Container>
       </div>
       <br />
       <br />
       <br />
       <Footer />
-    </div>
+    </div >
   );
 };
 export default Pricing;
