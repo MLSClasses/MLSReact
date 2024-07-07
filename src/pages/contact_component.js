@@ -93,7 +93,7 @@ const ContactComponent = (props) => {
           method: 'POST',
           headers: {
             'accept': 'application/json',
-            "api-key": "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",
+            "api-key": "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",
             'content-type': 'application/json'
           },
           // body: '{  \n   "to":[  \n      {  \n         "email":"testmail@example.com",\n         "name":"John Doe"\n      }\n   ],\n   "templateId":8,\n   "params":{  \n      "name":"John",\n      "surname":"Doe"\n   },\n   "headers":{  \n      "X-Mailin-custom":"custom_header_1:custom_value_1|custom_header_2:custom_value_2|custom_header_3:custom_value_3",\n      "charset":"iso-8859-1"\n   }\n}',
