@@ -1,10 +1,10 @@
 import "../assets/css/index.css"; // Import the CSS file where you define the styles
 
 import React, { useEffect, useState } from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import { Link, useLocation } from "react-router-dom";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
 import { logo } from "../pages/mls_constants";
 const Mobile_Navbar = () => {
   const location = useLocation();
@@ -37,7 +37,7 @@ const Mobile_Navbar = () => {
         </a>
       </div>
       <div className="menu-items">
-        <a>
+        <a href="">
           <Link to="/home" className={active === "" ? "active" : ""}>
             Home
           </Link>

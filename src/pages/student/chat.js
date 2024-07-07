@@ -1,6 +1,6 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "../../assets/css/chat.css";
-import Table from 'react-bootstrap/Table';
+// import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 // import video from "../../assets/img/video.png";
@@ -188,7 +188,7 @@ const StudentDashboard = () => {
         return (
             <div className="convo">
                 <div className="convo-header">
-                    <img src={User} />
+                    <img src={User} alt="" />
                     <h5>Start A New Conversation</h5>
                     <p>Start a chat with the program teachers!</p>
                 </div>

@@ -108,42 +108,42 @@ const StudentDashboard = () => {
       </Row>
     );
   }
-  const Schedule_Calendar = () => {
+  const ScheduleCalendar = () => {
     return (
       <Row>
         <Col md={4} sm={4} xs={12}>
           <Card className="second-card-student">
             <Card.Header>Schedule</Card.Header>
             <Card.Body className="second-card-body-student">
-              <img src={arrow} className="arrow" />
+              <img alt="" src={arrow} className="arrow" />
               <Card.Title>Algebra Class I</Card.Title>
               <Card.Text>
                 <p>We do not store any details in our systems, instead we...</p>
               </Card.Text>
             </Card.Body>
             <Card.Body className="second-card-body-student">
-              <img src={arrow} className="arrow" />
+              <img alt="" src={arrow} className="arrow" />
               <Card.Title>Algebra Class II</Card.Title>
               <Card.Text>
                 <p>We do not store any details in our systems, instead we...</p>
               </Card.Text>
             </Card.Body>
             <Card.Body className="second-card-body-student">
-              <img src={arrow} className="arrow" />
+              <img alt="" src={arrow} className="arrow" />
               <Card.Title>Algebra Class III</Card.Title>
               <Card.Text>
                 <p>We do not store any details in our systems, instead we...</p>
               </Card.Text>
             </Card.Body>
             <Card.Body className="second-card-body-student">
-              <img src={arrow} className="arrow" />
+              <img alt="" src={arrow} className="arrow" />
               <Card.Title>Statistics Class I</Card.Title>
               <Card.Text>
                 <p>We do not store any details in our systems, instead we...</p>
               </Card.Text>
             </Card.Body>
             <Card.Body className="second-card-body-student">
-              <img src={arrow} className="arrow" />
+              <img alt="" src={arrow} className="arrow" />
               <Card.Title>Statistics Class II</Card.Title>
               <Card.Text>
                 <p>We do not store any details in our systems, instead we...</p>
@@ -165,7 +165,7 @@ const StudentDashboard = () => {
       </Row>
     );
   }
-  const Score_Report = () => {
+  const ScoreReport = () => {
     return (
       <div>
         <div className="Score">
@@ -180,7 +180,7 @@ const StudentDashboard = () => {
           </div>
           <div className="rightScore-Section">
             <div className="rightScore">
-              <img src={Lady} className="Score-Lady" />
+              <img alt="" src={Lady} className="Score-Lady" />
               <div className="rightScore-Sub1">
                 <h3>Math</h3>
                 <div className="rightScore-Sub-num1">
@@ -298,15 +298,15 @@ const StudentDashboard = () => {
                 embark on a path of endless possibilities.
               </Card.Text>
               <Button variant="warning">Learn More</Button>
-              <img src={Lady} className="first-card-lady" />
+              <img alt="" src={Lady} className="first-card-lady" />
             </Card.Body>
           </Card>
           <Row>
             <Col md={12} sm={12} xs={12}>
               <h3 className="OurPrograms-student">Our Programs</h3><br /><br />
               <ProgramOffer />
-              <Score_Report />
-              <Schedule_Calendar />
+              <ScoreReport />
+              <ScheduleCalendar />
             </Col>
           </Row>
         </Container>

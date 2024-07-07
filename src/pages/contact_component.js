@@ -1,8 +1,8 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import FooterComponent from "../components/footer";
-import moment from "moment-timezone";
-import Whatsapp_icon from "../components/whatsapp_icon";
+// import moment from "moment-timezone";
+import WhatsappIcon from "../components/whatsapp_icon";
 import { Helmet } from 'react-helmet';
 import Navbar from "../components/navbar";
 import { first_img } from "./mls_constants";
@@ -186,7 +186,7 @@ const ContactComponent = (props) => {
         <meta name="robots" content="index, follow" />
         <title>Contact us for a Free Demo & more details | MLS Classes</title>
       </Helmet>
-      <Whatsapp_icon />
+      <WhatsappIcon />
       <div class="f-template-contact">
         <img src={first_img} alt="first Template" />
       </div>

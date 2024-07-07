@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../assets/css/pricing.css";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 import { Helmet } from 'react-helmet';
-import {  img12 } from "./mls_constants";
+import { img12 } from "./mls_constants";
 
 const Pricing = () => {
   AOS.init({
@@ -18,6 +18,10 @@ const Pricing = () => {
   const handleClick = () => {
     navigate("/contactus");
   };
+  const handleClick2 = () => {
+    // Simulate navigation using window.location.href
+    window.open("https://wa.me/message/XMS5KMWBGQZLG1", '_blank');
+  }
   const FreeClassButton = () => {
     return (
       <div class="free_class">
@@ -64,13 +68,13 @@ const Pricing = () => {
                   </a>
                 </div> */}
                 <div>
-                <h3 className="container-desc">
+                  <h3 className="container-desc">
                     Join us at MLS Classes and unlock your child's true
                     potential
                     Enroll today and witness their academic journey soar to new
                     heights.
-                </h3>
-              </div>
+                  </h3>
+                </div>
                 <br />
                 <div className="boxx1">
                   <FreeClassButton />
@@ -93,28 +97,28 @@ const Pricing = () => {
         <Container>
           <Row>
             <Col sm="1" md="1" xs="12">
-              <div className="random1">
-                <h4 style={{display: "flex", justifyContent: "center"}}>
+              {/* <div className="random1">
+                <h4 style={{ display: "flex", justifyContent: "center" }}>
                   $750/50hrs (62500 INR/50hrs)
                   <br />
                   $15/hr (1250 INR/hrs)
                 </h4>
-              </div>
+              </div> */}
             </Col>
             <Col md="10" xs="12" sm="10">
               <div className="deets">
                 <div className="box">
                   <ul>
-1. 🌟 1-on-1 Expert Classes<br/>
-2. 🎥 Recorded Sessions<br/>
-3. 📝 Comprehensive Class Notes<br/>
-4. 🤝 Parent-Teacher Conferences<br/>
-5. 📚 School Topic Assistance<br/>
-6. 🧪 Regular Tests for Progress<br/>
-7. 📱 On-Demand Classes Available<br/>
-8. 📚 Extra Classes During Exams<br/>
-9. 🤖 AI-Powered Homework Platform<br/>
-10. 🕒 Flexible Class Schedule<br/> 
+                    1. 🌟 1-on-1 Expert Classes<br />
+                    2. 🎥 Recorded Sessions<br />
+                    3. 📝 Comprehensive Class Notes<br />
+                    4. 🤝 Parent-Teacher Conferences<br />
+                    5. 📚 School Topic Assistance<br />
+                    6. 🧪 Regular Tests for Progress<br />
+                    7. 📱 On-Demand Classes Available<br />
+                    8. 📚 Extra Classes During Exams<br />
+                    9. 🤖 AI-Powered Homework Platform<br />
+                    10. 🕒 Flexible Class Schedule<br />
                   </ul>
                 </div>
               </div>
@@ -127,77 +131,54 @@ const Pricing = () => {
           <br />
           <Row>
             <Col sm="1" md="1" xs="12">
-              <div className="random1">
-                <h4 style={{display: "flex", justifyContent: "center"}}>
+              {/* <div className="random1">
+                <h4 style={{ display: "flex", justifyContent: "center" }}>
                   $1350/100hrs (112500 INR/100hrs)
                   <br />
                   $13.5/hr (1125 INR/hrs)
                 </h4>
-              </div>
+              </div> */}
             </Col>
             <Col sm="10" md="10" xs="12">
               <div className="deets">
                 <div className="box">
-                <ul>
-1. 🌟 1-on-1 Expert Classes<br/>
-2. 🎥 Recorded Sessions<br/>
-3. 📝 Comprehensive Class Notes<br/>
-4. 🤝 Parent-Teacher Conferences<br/>
-5. 📚 School Topic Assistance<br/>
-6. 🧪 Regular Tests for Progress<br/>
-7. 📱 On-Demand Classes Available<br/>
-8. 📚 Extra Classes During Exams<br/>
-9. 🤖 AI-Powered Homework Platform<br/>
-10. 🕒 Flexible Class Schedule<br/> 
+                  <ul style={{ width: "80%" }} className="LowerBox">
+
+                    🌟 Class Pricing: Ranging from just <b>$15 to $25 per hour</b>, our rates vary depending on the course you choose.
+
+                    For the best and most personalized pricing options, reach out to us directly.
+                    <br />
+                    <br />
+                    📲 <b>Contact Us on WhatsApp</b >:
+                    {/* <a href="https://wa.me/message/XMS5KMWBGQZLG1"> Click here</a>Message us at <br />+91 9649549754 for more details and special offers */}
+                    For more details and special offers message us at 9649549754 or <b>Click on the button below</b>
+                    <br /><button type="button" className="btn btn-warning" onClick={handleClick2}>Whatsapp</button>
+
                   </ul>
+
+                  {/* <ul>
+                    1. 🌟 1-on-1 Expert Classes<br />
+                    2. 🎥 Recorded Sessions<br />
+                    3. 📝 Comprehensive Class Notes<br />
+                    4. 🤝 Parent-Teacher Conferences<br />
+                    5. 📚 School Topic Assistance<br />
+                    6. 🧪 Regular Tests for Progress<br />
+                    7. 📱 On-Demand Classes Available<br />
+                    8. 📚 Extra Classes During Exams<br />
+                    9. 🤖 AI-Powered Homework Platform<br />
+                    10. 🕒 Flexible Class Schedule<br />
+                  </ul> */}
                 </div>
               </div>
             </Col>
           </Row>
-          <div className="boxx">
-            <FreeClassButton />
-          </div>
-          <br />
-          <br />
-          <Row>
-            <Col sm="1" md="1" xs="12">
-              <div className="random1">
-                <h4 style={{display: "flex", justifyContent: "center"}}>
-                  $2500/200hrs (208000 INR/200hrs)
-                  <br />
-                  $12.5/hr (1050 INR/hrs)
-                </h4>
-              </div>
-            </Col>
-            <Col sm="10" md="10" xs="12">
-              <div className="deets">
-                <div className="box">
-                <ul>
-1. 🌟 1-on-1 Expert Classes<br/>
-2. 🎥 Recorded Sessions<br/>
-3. 📝 Comprehensive Class Notes<br/>
-4. 🤝 Parent-Teacher Conferences<br/>
-5. 📚 School Topic Assistance<br/>
-6. 🧪 Regular Tests for Progress<br/>
-7. 📱 On-Demand Classes Available<br/>
-8. 📚 Extra Classes During Exams<br/>
-9. 🤖 AI-Powered Homework Platform<br/>
-10. 🕒 Flexible Class Schedule<br/> 
-                  </ul>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <div className="boxx">
-            <FreeClassButton />
-          </div>
         </Container>
       </div>
       <br />
       <br />
       <br />
       <Footer />
-    </div>
+    </div >
   );
 };
 export default Pricing;

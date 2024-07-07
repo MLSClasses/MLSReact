@@ -450,7 +450,7 @@ nav ul li {
 
 .contact-input {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 5vw;
 }
@@ -549,7 +549,7 @@ nav ul li {
   padding: 50px 50px;
   border-radius: 20px;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   box-shadow: 5px 2px 25px 5px black;
   /* border: 1px solid black; */
   height: fit-content;
@@ -573,7 +573,7 @@ nav ul li {
 .comment-body {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   color: black;
   font-size: 1.5rem;
 }
@@ -937,7 +937,7 @@ hr {
     background-color: rgb(26, 25, 25);
     flex-direction: column;
     justify-content: stretch;
-    align-items: start;
+    align-items: flex-start;
     position: fixed;
     top: 0;
     left: -50%; /* Start the menu off-screen */

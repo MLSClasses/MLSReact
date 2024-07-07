@@ -441,7 +441,7 @@
 
 .contact-input {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 5vw;
 }
@@ -611,7 +611,11 @@
     transform: rotate(90deg);
   }
   .deets > .box {
-    margin-left: 10%;
+    margin-left: 8%;
+  }
+  .LowerBox{
+
+    line-height:150%;
   }
   .features-content-2 {
     margin-bottom: 2vw;

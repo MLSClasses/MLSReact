@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import AOS from "aos";
 
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { Container, Row, Col } from "react-bootstrap";
-import Whatsapp_icon from "../components/whatsapp_icon";
-import Mobile_Navbar from "../components/mobile_navbar";
+// import Whatsapp_icon from "../components/whatsapp_icon";
+// import Mobile_Navbar from "../components/mobile_navbar";
 import '../assets/css/studentJob.css';
 import { Helmet } from 'react-helmet';
 import { first_img1 } from "./mls_constants";

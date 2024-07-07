@@ -1,9 +1,10 @@
-import StudentDashboard from "./student_dashboard";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Blank from "../Blank";
-import NavBarComponent from "../../components/accountNavbar";
-import React, { useEffect, useState } from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+// import StudentDashboard from "./student_dashboard";
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import Blank from "../Blank";
+// import NavBarComponent from "../../components/accountNavbar";
+import React from "react";
+// import React, { useEffect, useState } from "react";
+// import { Col, Container, Image, Row } from "react-bootstrap";
 import "../../assets/css/portal.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -13,7 +14,7 @@ import dp from '../../assets/img/student/user.png';
 import Calendar from 'react-calendar';
 import { Lady, arrow, calendar, logo, star } from "../mls_constants";
 const Portal = () => {
-    const programList = [];
+    // const programList = [];
     console.log(`https://youtube.com/embed/XpScgwRKpgs?autoplay=0`);
     return (
         <div>
@@ -33,41 +34,41 @@ const Portal = () => {
                             embark on a path of endless possibilities.
                         </Card.Text>
                         <Button variant="warning">Learn More</Button>
-                        <img src={Lady} className="first-card-lady" />
+                        <img alt="" src={Lady} className="first-card-lady" />
                     </Card.Body>
                 </Card>
                 <Card className="second-card">
                     <Card.Header>Schedule</Card.Header>
                     <Card.Body className="second-card-body">
-                        <img src={arrow} className="arrow" />
+                        <img alt="" src={arrow} className="arrow" />
                         <Card.Title>Algebra Class I</Card.Title>
                         <Card.Text>
                             <p>We do not store any details in our systems, instead we...</p>
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="second-card-body">
-                        <img src={arrow} className="arrow" />
+                        <img alt="" src={arrow} className="arrow" />
                         <Card.Title>Algebra Class II</Card.Title>
                         <Card.Text>
                             <p>We do not store any details in our systems, instead we...</p>
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="second-card-body">
-                        <img src={arrow} className="arrow" />
+                        <img alt="" src={arrow} className="arrow" />
                         <Card.Title>Algebra Class III</Card.Title>
                         <Card.Text>
                             <p>We do not store any details in our systems, instead we...</p>
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="second-card-body">
-                        <img src={arrow} className="arrow" />
+                        <img alt="" src={arrow} className="arrow" />
                         <Card.Title>Statistics Class I</Card.Title>
                         <Card.Text>
                             <p>We do not store any details in our systems, instead we...</p>
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="second-card-body">
-                        <img src={arrow} className="arrow" />
+                        <img alt="" src={arrow} className="arrow" />
                         <Card.Title>Statistics Class II</Card.Title>
                         <Card.Text>
                             <p>We do not store any details in our systems, instead we...</p>
@@ -102,7 +103,7 @@ const Portal = () => {
                         {['sm', 'md', 'lg', 'xl', 'xxl'].map((breakpoint) => (
                             <ListGroup key={breakpoint} horizontal={breakpoint} className="my-2">
                                 <ListGroup.Item className="calList-portal-dp">
-                                    <img src={dp} />
+                                    <img alt="" src={dp} />
                                 </ListGroup.Item>
                                 <ListGroup.Item className="calList-portal">
                                     <h6>Math</h6>
@@ -113,7 +114,7 @@ const Portal = () => {
                                     <p>10:00 AM CST</p>
                                 </ListGroup.Item>
                                 <ListGroup.Item className="calList-portal-cal">
-                                    <img src={calendar} />
+                                    <img alt="" src={calendar} />
                                 </ListGroup.Item>
                                 <ListGroup.Item className="calList-portal-primary">
                                     <Button variant="danger">Primary</Button>{' '}
@@ -122,7 +123,7 @@ const Portal = () => {
                                     <Button variant="primary">Join</Button>{' '}
                                 </ListGroup.Item>
                                 <ListGroup.Item className="calList-portal-star">
-                                    <img src={star} />
+                                    <img alt="" src={star} />
                                 </ListGroup.Item>
                             </ListGroup>
                         ))}
