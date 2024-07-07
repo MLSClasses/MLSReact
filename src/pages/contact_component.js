@@ -8,6 +8,7 @@ import Navbar from "../components/navbar";
 import { first_img } from "./mls_constants";
 
 const ContactComponent = (props) => {
+const apiKey = process.env.REACT_APP_BREVO_API_KEY;
   const [userData, setUserData] = useState({
     firstname: "",
     lastname: "",
@@ -89,11 +90,13 @@ const ContactComponent = (props) => {
           "message": message,
         }
         console.log('test', data);
+        
+
         fetch('https://api.brevo.com/v3/smtp/email', {
           method: 'POST',
           headers: {
             'accept': 'application/json',
-            "api-key": "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",
+            "api-key": apiKey,
             'content-type': 'application/json'
 
           },
