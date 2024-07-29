@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
@@ -32,8 +32,12 @@ const NavBarComponent = (props) => {
   //   navigate("/");
 
   // }
+  useEffect(() => {
+    let str= window.location.href;
+    setActive(str.substring(str.lastIndexOf("/") + 1));
+}, []);
   const handleNavBarClick = (params) => {
-    setActive(params);
+    // setActive(params);
   }
   return (
     <React.Fragment>
@@ -47,11 +51,11 @@ const NavBarComponent = (props) => {
           <Col sm="9" xs="9" md="9">
             <nav>
               <ul>
-                <li onClick={() => { handleNavBarClick('home') }}><Link to="/home" className={active === "" ? 'active' : ''} >Home</Link></li>
-                <li onClick={() => { handleNavBarClick('programs') }}><Link to="/programs" className={active === "programs" ? "active " : ""} >Programs</Link></li>
-                <li onClick={() => { handleNavBarClick('pricing') }}><Link to="/pricing" className={active === "pricing" ? "active" : ""} >Pricing</Link></li>
-                <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active === "studentjob" ? "active" : ""} >Student Corner</Link></li>
-                <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contactus" className={active === "contactus" ? 'active' : ''}>Contact Us</Link></li>
+                <li onClick={() => { handleNavBarClick('home') }}><Link to="/home" className={active == "home" ? 'active' : ''} >Home</Link></li>
+                <li onClick={() => { handleNavBarClick('programs') }}><Link to="/programs" className={active == "programs" ? "active " : ""} >Programs</Link></li>
+                <li onClick={() => { handleNavBarClick('pricing') }}><Link to="/pricing" className={active == "pricing" ? "active" : ""} >Pricing</Link></li>
+                <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active == "studentjob" ? "active" : ""} >Student Corner</Link></li>
+                <li onClick={() => { handleNavBarClick('contact') }}><Link to="/contactus" className={active == "contactus" ? 'active' : ''}>Book a free trial</Link></li>
                 {/* <li>
                   {checkUser && <><div className="nav-login-btn"><a href="/" onClick={handleClear}>Logout</a></div></>}
                   {!checkUser && <div className="nav-login-btn"><a href="/login" target="_blank">Login</a></div>}
@@ -64,7 +68,7 @@ const NavBarComponent = (props) => {
                   <Dropdown.Menu>
                     <Dropdown.Item target="_blank" href="https://mlsclasses.onlineclass.site/login/">Live Classes</Dropdown.Item>
                     <Dropdown.Item target="_blank" href="https://testprep.mlsclasses.com/">Test Series</Dropdown.Item>
-                    <Dropdown.Item target="_blank" href="https://www.march2success.com/login/index/">Test M2S</Dropdown.Item>
+                    {/* <Dropdown.Item target="_blank" href="https://www.march2success.com/login/index/">Test M2S</Dropdown.Item> */}
                   </Dropdown.Menu>
                 </Dropdown>
               </ul>

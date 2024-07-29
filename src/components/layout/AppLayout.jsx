@@ -5,7 +5,7 @@ import NavBarComponent from "../accountNavbar";
 const AppLayout = () => {
     return (
     <div>
-        <Sidebar />
+        {/* <Sidebar /> */}
         <NavBarComponent/>
         <Outlet />
     </div>

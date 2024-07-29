@@ -1071,3 +1071,7 @@ hr {
   justify-content: center;
   margin-top: 10%;
 }
+
+.active{
+  color: blue !important;
+}
