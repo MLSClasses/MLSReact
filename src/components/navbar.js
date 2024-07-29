@@ -51,7 +51,7 @@ const NavBarComponent = (props) => {
           <Col sm="9" xs="9" md="9">
             <nav>
               <ul>
-                <li onClick={() => { handleNavBarClick('home') }}><Link to="/home" className={active == "home" ? 'active' : ''} >Home</Link></li>
+                <li onClick={() => { handleNavBarClick('home') }}><Link to="/home" className={active == "home" || active == "" ? 'active' : ''} >Home</Link></li>
                 <li onClick={() => { handleNavBarClick('programs') }}><Link to="/programs" className={active == "programs" ? "active " : ""} >Programs</Link></li>
                 <li onClick={() => { handleNavBarClick('pricing') }}><Link to="/pricing" className={active == "pricing" ? "active" : ""} >Pricing</Link></li>
                 <li onClick={() => { handleNavBarClick('studentjob') }}><Link to="/studentjob" className={active == "studentjob" ? "active" : ""} >Student Corner</Link></li>
