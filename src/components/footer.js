@@ -80,22 +80,22 @@ const FooterComponent = () => {
         <div className="footer2-sub-h">
           <div className="footer2-h">Reach us</div>
           <div className="footer-mail">
-            <img src={imgMail} alt="email" width="10%" className="MailImg" /> &nbsp;
+            {/* <img src={imgMail} alt="email" width="10%" className="MailImg" /> &nbsp; */}
             <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a>
 
           </div>
           <div className="footer-mail" >
-            <img src={imgMail} alt="email" width="10%" className="MailImg" /> &nbsp;
+            {/* <img src={imgMail} alt="email" width="10%" className="MailImg" /> &nbsp; */}
             <a href="mailto:support@mlsclasses.com" >support@mlsclasses.com</a>
           </div>
-          <div style={{ marginTop: "10px", marginLeft: "10px" }}>
+          <div style={{ marginTop: "10px", marginLeft: "1px" }}>
             <a href="/contact">Contact us</a>
           </div>
 
         </div>
 
 
-        <div className="footer2-sub-h">
+        {/* <div className="footer2-sub-h">
           <div className="footer2-h">Parent Resources</div>
           <div >
             <a href="#">Initial Setup</a>
@@ -116,7 +116,7 @@ const FooterComponent = () => {
           <div >
             <a href="#">Affiliates</a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-copyright">

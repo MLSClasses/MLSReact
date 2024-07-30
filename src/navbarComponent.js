@@ -47,12 +47,12 @@ const NavbarPage=()=>{
             <Link to="/studentjob" className={active == "studentjob" ? "active nav-link" : "nav-link"} >Student Corner</Link>
             </li>
             <li class="nav-item">
-            <Link to="/contactus" style={{"background":'#ff8a00',"padding":'5px'}} className={active == "contactus" ? 'active nav-link' : 'nav-link'}>Book a free trial</Link>
+            <Link to="/contactus" className={active == "contactus" ? 'active nav-link' : 'nav-link'}><button class="custom-btn btn-14">Book a free trial</button></Link>
             </li>
 
             <li className='nav-item'>
-            <Dropdown className="DrpDwn" style={{ marginLeft: "2%", marginTop: "1.5%" }}>
-                  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{ width: "175%" }}>
+            <Dropdown className="DrpDwn">
+                  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{ width: "auto" }}>
                     Login
                   </Dropdown.Toggle>
 

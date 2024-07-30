@@ -656,6 +656,8 @@ nav ul li {
 .footer-copyright {
   padding: 2vw 4vw;
   font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 325) {
   nav ul li {
@@ -1069,4 +1071,14 @@ hr {
 
 .active{
   color: blue !important;
+}
+
+@media (max-width: 768px) {
+  .footer-img {
+    width: 100px;
+  }
+  
+  .footer-img img {
+    width: 100px;
+  }
 }
