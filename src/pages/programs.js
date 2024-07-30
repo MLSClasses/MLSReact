@@ -9,10 +9,11 @@ import { Link } from "react-scroll";
 import { Container, Row, Col, Accordion, Image } from "react-bootstrap";
 
 import { b1, b2, b3, clgg, hgs, img1, it_img } from "./mls_constants";
+import NavbarPage from "../navbarComponent";
 const Programs = () => {
   return (
     <div>
-      <Navbar />
+      <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
         <meta name="title" content="	Live 1:1 Online Classes for Kids(Grade 2-12) & Adults in USA | MLS Classes" />

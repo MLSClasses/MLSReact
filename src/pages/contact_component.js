@@ -6,6 +6,7 @@ import WhatsappIcon from "../components/whatsapp_icon";
 import { Helmet } from 'react-helmet';
 import Navbar from "../components/navbar";
 import { first_img } from "./mls_constants";
+import NavbarPage from "../navbarComponent";
 
 const ContactComponent = (props) => {
 const apiKey = process.env.REACT_APP_BREVO_API_KEY;
@@ -180,7 +181,7 @@ const apiKey = process.env.REACT_APP_BREVO_API_KEY;
 
   return (
     <div className="flex-wrapper">
-      <Navbar />
+      <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
         <meta name="title" content="Contact us for a Free Demo & more details | MLS Classes" />

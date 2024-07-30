@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 import { Helmet } from 'react-helmet';
 import { img12 } from "./mls_constants";
+import NavbarPage from "../navbarComponent";
 
 const Pricing = () => {
   AOS.init({
@@ -33,7 +34,7 @@ const Pricing = () => {
     <div>
       {/* {<Mobile_Navbar />}
       <Whatsapp_icon /> */}
-      <Navbar />
+      <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
         <meta name="title" content="MLS Classes Online tutoring price of Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR & AMC Classes | MLS Classes" />

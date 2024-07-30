@@ -9,6 +9,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import '../assets/css/studentJob.css';
 import { Helmet } from 'react-helmet';
 import { first_img1 } from "./mls_constants";
+import NavbarPage from "../navbarComponent";
 
 const stars = (num) => {
   const stars_arr = [];
@@ -49,7 +50,7 @@ const StudentJob = () => {
   });
   return (
     <div>
-      <Navbar />
+      <NavbarPage />
       <div className="f-template-contact">
         <img src={first_img1} alt="first Template" />
       </div>

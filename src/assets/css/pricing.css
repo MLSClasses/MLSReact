@@ -520,7 +520,9 @@
 }
 
 .footer2-sub div {
-  width: 16vw;
+  /* width: 16vw; */
+  width: auto;
+  margin: 2px;
   /* border: 1px solid black; */
 }
 

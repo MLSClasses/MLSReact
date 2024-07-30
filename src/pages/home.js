@@ -18,6 +18,7 @@ import { Helmet } from "react-helmet";
 import Navbar from "../components/navbar";
 import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
 import { ChallengingEnv, Comp_Programs, Confidence_Building, ExpertInstructors, Flexible, Lifelong_Skills, Per_learning, Proven_results, image1, image11, image13, image2, image3, slider2, slider3, slider4, slider5, slider6 } from "./mls_constants";
+import NavbarPage from "../navbarComponent";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -73,7 +74,7 @@ function Index() {
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
-      <Navbar />
+      <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
         <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes" />

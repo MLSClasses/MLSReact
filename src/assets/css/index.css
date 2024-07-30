@@ -7,7 +7,7 @@
 
 .body {
   overflow: hidden;
-  width: 100vw;
+  width: auto;
   padding: 0;
   margin: 0;
   background-color: white;
@@ -890,14 +890,14 @@ hr {
 /* Navbar.css */
 
 /* Navbar styles */
-.navbar {
-  /* background-color: #333; */
+/* .navbar {
+  background-color: #333;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-}
+} */
 
 .logo {
   font-size: 1.5rem;
@@ -933,14 +933,14 @@ hr {
 
 /* Mobile view - show the hamburger icon and hide the regular navbar items */
 @media (max-width: 768px) {
-  .navbar {
+  /* .navbar {
     background-color: rgb(26, 25, 25);
     flex-direction: column;
     justify-content: stretch;
     align-items: flex-start;
     position: fixed;
     top: 0;
-    left: -50%; /* Start the menu off-screen */
+    left: -50%; 
     width: 50%;
     transition: left 0.3s ease-in-out;
     z-index: 10000;
@@ -948,14 +948,14 @@ hr {
   }
 
   .navbar.active {
-    left: 0; /* Slide in the menu */
+    left: 0; 
   }
   .navbar.active .menu-items {
     flex-direction: column;
   }
   .navbar .menu-items {
     flex-direction: column;
-  }
+  } */
   .find-live > .brfdesc {
     margin-top: 5%;
     font-size: 15px;
@@ -1009,7 +1009,7 @@ hr {
   .hamburger-icon {
     display: block;
     position: fixed;
-    /* position: fixed; Show the hamburger icon on mobile */
+
     top: 20px;
     right: 20px;
   }
@@ -1021,12 +1021,7 @@ hr {
   .hamburger-icon.open .line {
     background-color: blue;
   }
-  /* .hamburger-icon.open {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #333;
-  } */
+ 
 }
 
 .fa-brands,

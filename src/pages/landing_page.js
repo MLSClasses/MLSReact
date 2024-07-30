@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FooterComponent from '../components/footer';
+// import FooterComponent from '../components/footer';
 
 // import "../assets/css/landing_page.css";
 import "../assets/css/footer.css";
@@ -13,6 +13,7 @@ import Navbar from "../components/navbar";
 
 import { Accordion, Col, Container, Row, Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
+import FooterComponentPage from '../footerComponent';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -188,7 +189,7 @@ const LandingPage = ({ source }) => {
           onHide={() => setModalShow(false)}
         />
       </div>
-      <FooterComponent></FooterComponent>
+      <FooterComponentPage></FooterComponentPage>
     </>
   );
 };

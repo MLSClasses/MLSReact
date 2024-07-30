@@ -28,7 +28,14 @@
   font-size: 800px;
 }
 .MailImg{
-  margin-left: -20px;
+  /* margin-left: -20px; */
+  width: 21px;
+}
+@media (max-width: 767px) {
+  .MailImg{
+    /* margin-left: -20px; */
+    width: 15px;
+  } 
 }
   /* Responsive adjustments */
   @media (max-width: 767px) {
