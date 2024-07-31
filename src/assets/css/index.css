@@ -79,6 +79,7 @@ nav ul li {
 
 .f-template {
   width: 100vw;
+  margin-top: 65px;
 }
 
 .f-template img {
@@ -420,6 +421,7 @@ nav ul li {
 
 .f-template-contact {
   width: 100%;
+  margin-top: 65px;
 }
 
 .f-template-contact img {
@@ -1081,4 +1083,7 @@ hr {
   .footer-img img {
     width: 100px;
   }
+}
+.Slideshow{
+  margin-top: 65px;
 }
