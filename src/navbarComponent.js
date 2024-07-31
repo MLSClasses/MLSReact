@@ -54,11 +54,11 @@ const NavbarPage = () => {
                 <li>
                     <div class="dropdown">
                         {/* <li class="nav-item"> */}
-                            <div className='nav-link '><button class=" dropdownbtn custom-btn btn-14">Login</button></div>
+                            <div className='nav-link '><button class=" dropdownbtn custom-btn btn-14">Login &nbsp;<i style={{"marginTop":"5px"}} class="fa fa-angle-down" aria-hidden="true"></i></button></div>
                         {/* </li> */}
                         <div class="dropdown-content">
-                            <Dropdown.Item target="_blank" href="https://mlsclasses.onlineclass.site/login/">Live Classes</Dropdown.Item>
-                            <Dropdown.Item target="_blank" href="https://testprep.mlsclasses.com/">Test Series</Dropdown.Item>
+                            <a target="_blank" className='nav-link' href="https://mlsclasses.onlineclass.site/login/">Live Classes</a>
+                            <a target="_blank" className='nav-link' href="https://testprep.mlsclasses.com/">Test Series</a>
                         </div>
                     </div>
                 </li>

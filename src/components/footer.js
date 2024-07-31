@@ -2,6 +2,7 @@ import React from "react";
 import imgMail from '../assets/img/em1.webp'
 import '../assets/css/footer.css'
 import { logo } from "../pages/mls_constants";
+import { Col, Row } from "react-bootstrap";
 const FooterComponent = () => {
   return (
     <div className="footer2">
@@ -37,14 +38,6 @@ const FooterComponent = () => {
             </div>
             <div className="scl">
               <a
-                href="https://twitter.com/sat_act_ap?t=jv42tLOy1RdXU4hNZ5zOZA&s=08"
-                target="_blank" rel="noreferrer"
-              >
-                <i className="fa-brands fa-twitter"></i>
-              </a>
-            </div>
-            <div className="scl">
-              <a
                 href="https://www.youtube.com/@mlsclasses8293?si=KBojcjPosvKjfwjH"
                 target="_blank" rel="noreferrer"
               >
@@ -67,15 +60,7 @@ const FooterComponent = () => {
           <div >
             <a href="shipping">Shipping</a>
           </div>
-          <div >
-            <a href="/terms">Terms &amp; Conditions</a>
-          </div>
-          <div >
-            <a href="/privacy">Privacy Policy</a>
-          </div>
-          <div >
-            <a href="/cancellation_refund">Cancellation & Refund</a>
-          </div>
+          
         </div>
         <div className="footer2-sub-h">
           <div className="footer2-h">Reach us</div>
@@ -132,8 +117,23 @@ const FooterComponent = () => {
         </div> */}
       </div>
 
-      <div className="footer-copyright">
-        <div>Copyright 2023 By MLS Classes . All Rights</div>
+      <div className="footer-bottom">
+        <Row>
+          <Col xs={12} md={6} sm={12}>
+          <ul className="footer-menu">
+            <li>
+            <a href="/terms">Terms &amp; Conditions</a>
+            </li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/cancellation_refund">Cancellation & Refund</a></li>
+          </ul>
+          </Col>
+          <Col xs={12} md={6} sm={12}>
+          {/* <div className="footer-copyright">Copyright 2023 By MLS Classes . All Rights</div> */}
+          <div class="footer-copyright">© 2024 <a href="https://www.mlsclasses.com/" target="_blank">MLS Classes: Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</a>. All Rights Reserved.</div>
+          </Col>
+        </Row>
+        
       </div>
     </div>
   );

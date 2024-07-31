@@ -3,7 +3,7 @@ import AOS from "aos";
 
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 // import Whatsapp_icon from "../components/whatsapp_icon";
 // import Mobile_Navbar from "../components/mobile_navbar";
 import '../assets/css/studentJob.css';
@@ -54,6 +54,27 @@ const StudentJob = () => {
       <div className="f-template-contact">
         <img src={first_img1} alt="first Template" />
       </div>
+      <Container fluid>
+        <Row>
+        <Col md="12" xs="12" sm="12">
+              <h1 className="student_p">
+                Real Feedback, Real Results
+              </h1>
+      </Col>
+        </Row>
+      <Row>
+        <Col xs={6} md={4} ml={5}>
+        <Image src="https://ibb.co/vDP25rp" thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+        <Image src="holder.js/171x180" thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src="holder.js/171x180" thumbnail />
+        </Col>
+        
+      </Row>
+    </Container>
       <div data-aos="flip-up">
         {comment(
           "Anchal got Full marks in her Physics exam. So thanks for tutoring. Really made lot of impact.",
