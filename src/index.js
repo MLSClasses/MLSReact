@@ -1,19 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { hydrate, render } from "react-dom";
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css"; // You can customize this file for additional styles
+import "./custom.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from "./App";
+import { hydrate, render } from "react-dom";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
-  hydrate( <React.StrictMode><App /></React.StrictMode>, rootElement);
-  } else {
-    render( <React.StrictMode><App /></React.StrictMode>, rootElement);
-    }
-    
+  hydrate(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    rootElement
+  );
+} else {
+  render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    rootElement
+  );
+}
+
 //     root.render(
 //   <React.StrictMode>
 //     <App />
