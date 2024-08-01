@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 .body {
@@ -29,7 +28,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: "Abhaya Libre", serif;
 }
 
 nav div img {
@@ -91,7 +89,6 @@ nav ul li {
   font-size: 1.5vw;
   font-weight: 700;
   margin-top: 1vw;
-  font-family: "Abhaya Libre", serif;
 }
 
 .find-live div {
@@ -122,11 +119,11 @@ nav ul li {
 .our-programs {
   margin-top: 3.5vw;
 }
-.program_div{
+.program_div {
   display: flex;
   font-size: 1.3rem;
   /* width: 75vw; */
-  justify-content: center ;
+  justify-content: center;
   text-align: center;
 }
 
@@ -212,7 +209,7 @@ nav ul li {
   border-radius: 1.5vw;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.boxes>.info{
+.boxes > .info {
   margin-bottom: 10%;
   margin-top: 10%;
 }
@@ -498,10 +495,10 @@ nav ul li {
   background-color: #d9d9d9;
   font-size: 1.1vw;
 }
-.bottomSection img{
+.bottomSection img {
   margin-left: 45%;
 }
-.Flex-learn{
+.Flex-learn {
   /* left: 40%; */
   margin: 10px;
   padding: 10px;
@@ -511,7 +508,6 @@ nav ul li {
   font-size: 20px;
   text-align: justify;
   justify-content: center;
-
 }
 .brand-moto {
   display: flex;
@@ -528,11 +524,10 @@ nav ul li {
 }
 .brand-moto p {
   color: black;
-    text-align: justify;
-    font-size: 1.2rem;
-    text-align: justify;
-    font-family: "Inter", sans-serif;
-    
+  text-align: justify;
+  font-size: 1.2rem;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
 }
 .brand-moto-message {
   width: 85%;
@@ -787,9 +782,8 @@ nav ul li {
 }
 .slide-wrapper {
   display: flex;
-  gap:5px;
+  gap: 5px;
   /* Width will expand based on the number of slides */
-  
 }
 
 .slide {
@@ -806,7 +800,6 @@ nav ul li {
   aspect-ratio: 1;
 }
 .course a {
-  font-family: "Abhaya Libre", serif;
   font-size: 2rem;
 }
 iframe {
@@ -814,7 +807,6 @@ iframe {
   width: 100%;
   overflow: hidden;
   aspect-ratio: 1;
- 
 }
 hr {
   height: 2px;
@@ -969,7 +961,7 @@ hr {
   .benefits-container {
     margin-right: 7%;
   }
-  .benefits-container h3{
+  .benefits-container h3 {
     font-size: 20px;
     margin-left: 5%;
     text-align: center;
@@ -980,14 +972,14 @@ hr {
   .benefit p {
     font-size: 10px;
   }
-  .YoutubeBox{
+  .YoutubeBox {
     min-width: 90%;
     margin-top: 10%;
     display: flex;
     justify-content: center;
   }
-  .box{
-    margin-bottom:5% ;
+  .box {
+    margin-bottom: 5%;
   }
   .midBanner {
     font-size: 30px;
@@ -998,9 +990,9 @@ hr {
     font-size: 20px;
     font-style: italic;
   }
-.logoStyle{
+  .logoStyle {
     width: 85px;
-}
+  }
   .menu-items a {
     color: white;
     margin: 5px 0;
@@ -1025,7 +1017,6 @@ hr {
   .hamburger-icon.open .line {
     background-color: blue;
   }
- 
 }
 
 .fa-brands,
@@ -1055,23 +1046,23 @@ hr {
   text-align: center;
   font-family: "Inter", sans-serif;
 }
-.acc-header{
+.acc-header {
   color: black;
   font-size: 1rem;
   text-align: center;
   font-family: "Inter", sans-serif;
   text-decoration: none;
-    color: #007bff;
-    font-size: 1.5vw;
-    font-weight: 600;
+  color: #007bff;
+  font-size: 1.5vw;
+  font-weight: 600;
 }
-.acc-section{
+.acc-section {
   display: flex;
   justify-content: center;
   margin-top: 10%;
 }
 
-.active{
+.active {
   color: blue !important;
 }
 
@@ -1079,11 +1070,11 @@ hr {
   .footer-img {
     width: 100px;
   }
-  
+
   .footer-img img {
     width: 100px;
   }
 }
-.Slideshow{
+.Slideshow {
   margin-top: 65px;
 }
