@@ -77,10 +77,10 @@ function Index() {
       <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
-        <meta name="title" content="Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes" />
+        <meta name="title" content="Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE" />
         <meta name="description" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED. Book a FREE TRIAL now!" />
         <meta name="keywords" content="MLS Classes, MLS, MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. These programs are specifically designed to accelerate your child's academic progress, programs, GUARANTEED." />
-        <title>Live 1:1 Online Classes for Kids  (Grade 2-12) | MLS Classes</title>
+        <title>Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE</title>
       </Helmet>
       <div className="Slideshow">
         <Slider {...settings}>

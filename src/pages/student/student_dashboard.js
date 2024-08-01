@@ -173,7 +173,7 @@ const StudentDashboard = () => {
             <h5>What is Your previous Test Score?</h5>
             <h6>Jeo John's Score</h6>
             <p>Dont let your child miss out on the opportunity of taking this test.
-              Your child can also become a star student of MLS Classes. This will help
+              Your child can also become a star student ofInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE. This will help
               your child to be a placed at the right grade. Check out your score now!
             </p>
             <Button variant="primary">Take Re-Test</Button>

@@ -20,7 +20,7 @@ const ContactPage = () => {
 <p class= 'updated-date'>Last updated on Oct 27th 2023</p>
 <p class= 'content-text'>You may contact us using the information below:</p>
 <p class= 'content-text'>
-Merchant Legal entity name: MLS Classes<br />
+Merchant Legal entity name:Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE<br />
             Registered Address: first floor, 22, mahendra kirana store, dhakar colony
     Tonk
     RAJASTHAN

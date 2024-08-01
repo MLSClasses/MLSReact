@@ -21,7 +21,7 @@ const Programs = () => {
         <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 "/>
         <meta name="robots" content="index, follow" />
-        <title>	Live 1:1 Online Classes for Kids(Grade 2-12) & Adults in USA | MLS Classes</title>
+        <title>	Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE</title>
       </Helmet>
       <div class="f-template-contact">
         <img src={img1} alt="first Template" />

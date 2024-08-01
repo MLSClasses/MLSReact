@@ -122,7 +122,7 @@ const LandingPage = ({ source }) => {
                 <Accordion.Item eventKey="1">
                   <Accordion.Header className="acc-header"> Who is the instructor for the masterclass?</Accordion.Header>
                   <Accordion.Body>
-                    Ritik Mittal, an IIT Delhi Alumni from MLS Classes, will be conducting the SAT Math Online Masterclass.
+                    Ritik Mittal, an IIT Delhi Alumni fromInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE, will be conducting the SAT Math Online Masterclass.
                   </Accordion.Body>
                 </Accordion.Item>
 

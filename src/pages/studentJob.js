@@ -8,8 +8,9 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 // import Mobile_Navbar from "../components/mobile_navbar";
 import '../assets/css/studentJob.css';
 import { Helmet } from 'react-helmet';
-import { first_img1 } from "./mls_constants";
+import { first_img1, testimonial1, testimonial10, testimonial11, testimonial12, testimonial13, testimonial14, testimonial15, testimonial16, testimonial17, testimonial18, testimonial19, testimonial2, testimonial20, testimonial21, testimonial22, testimonial3, testimonial4, testimonial5, testimonial6, testimonial7, testimonial8 } from "./mls_constants";
 import NavbarPage from "../navbarComponent";
+
 
 const stars = (num) => {
   const stars_arr = [];
@@ -54,24 +55,88 @@ const StudentJob = () => {
       <div className="f-template-contact">
         <img src={first_img1} alt="first Template" />
       </div>
-      <Container fluid>
+      <Container >
         <Row>
-        <Col md="12" xs="12" sm="12">
+        {/* <Col md="12" xs="12" sm="12">
               <h1 className="student_p">
                 Real Feedback, Real Results
               </h1>
-      </Col>
+      </Col> */}
+      <div className="exp">
+            <Col md="12" xs="12" sm="12">
+              <h1 className="student_p">
+                Real Feedback, Real Results
+              </h1>
+            </Col>
+          </div>
         </Row>
-      <Row>
+      <Row style={{margin:'15px'}}>
         <Col xs={6} md={4} ml={5}>
-        <Image src="https://ibb.co/vDP25rp" thumbnail />
+        <Image src={testimonial1} thumbnail />
         </Col>
         <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" thumbnail />
+        <Image src={testimonial2} thumbnail />
         </Col>
         <Col xs={6} md={4}>
-          <Image src="holder.js/171x180" thumbnail />
+          <Image src={testimonial3} thumbnail />
         </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial4} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial5} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial6} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial7} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial8} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial19} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial10} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial11} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial12} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial13} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial14} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial15} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial16} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial17} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial18} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial19} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial20} thumbnail />
+        </Col>
+        {/* <Col xs={6} md={4}>
+          <Image src={testimonial21} thumbnail />
+        </Col>
+        <Col xs={6} md={4}>
+          <Image src={testimonial22} thumbnail />
+        </Col> */}
         
       </Row>
     </Container>

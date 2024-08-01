@@ -461,3 +461,26 @@ export const microsoft_logo = "https://img1.imageride.net/images/2023/09/20/micr
 
 
 export const star = "https://img1.imageride.net/images/2023/09/20/star.png";
+
+export const testimonial1 = 'https://www.imageride.net/image/testimonial9.x8EaS'
+export const testimonial2 = 'https://www.imageride.net/image/testimonial10.x8bWg'
+export const testimonial3 = 'https://www.imageride.net/image/testimonial11.x8sqb'
+export const testimonial4 = 'https://www.imageride.net/image/testimonial12.x85wz'
+export const testimonial5 = 'https://www.imageride.net/image/testimonial13.x8tB5'
+export const testimonial6 = 'https://www.imageride.net/image/testimonial14.x8FIi'
+export const testimonial7 = 'https://www.imageride.net/image/testimonial15.x8XxL'
+export const testimonial8 = 'https://www.imageride.net/image/testimonial16.x8Mir'
+export const testimonial10 = 'https://www.imageride.net/image/testimonial17.x83bf'
+export const testimonial11 = 'https://www.imageride.net/image/testimonial18.x8BBT'
+export const testimonial12 = 'https://www.imageride.net/image/testimonial20.x8AyJ'
+export const testimonial13 = 'https://www.imageride.net/image/testimonial22.x89qH'
+export const testimonial14 = 'https://www.imageride.net/image/testimonial.x8KOh'
+export const testimonial15 = 'https://www.imageride.net/image/testimonial1.x8dee'
+export const testimonial16 = 'https://www.imageride.net/image/testimonial2.x84jE'
+export const testimonial17 = 'https://www.imageride.net/image/testimonial6.x8igP'
+export const testimonial18 = 'https://www.imageride.net/image/testimonial5.x8N0q'
+export const testimonial19 = 'https://www.imageride.net/image/testimonial7.x8ubw'
+export const testimonial20 = 'https://www.imageride.net/image/testimonial8.x8SxC'
+export const testimonial21 = ''
+export const testimonial22 = ''
+

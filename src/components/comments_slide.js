@@ -35,7 +35,7 @@ const CommentCarousel = () => {
     {
       id: 4,
       comment: comment(
-        "I got my SAT scores today. I scored 1530. 750 in English and 780 in Math. Thank you so much MLS Classes.",
+        "I got my SAT scores today. I scored 1530. 750 in English and 780 in Math. Thank you so muchInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE.",
         "Shyam"
       ),
     },
