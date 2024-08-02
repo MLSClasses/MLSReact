@@ -1,6 +1,6 @@
 import React from "react";
-import imgMail from '../assets/img/em1.webp'
-import '../assets/css/footer.css'
+import imgMail from "../assets/img/em1.webp";
+import "../assets/css/footer.css";
 import { logo } from "../pages/mls_constants";
 import { Col, Row } from "react-bootstrap";
 const FooterComponent = () => {
@@ -8,22 +8,33 @@ const FooterComponent = () => {
     <div className="footer2">
       <div className="footer2-sub">
         <div>
-          <div className="">
-            <a href='/' ><img  className='logoStyle' src={logo} alt="mls logo" /></a>
+          <div className="footer-img">
+            <a href="/">
+              <img src={logo} alt="mls logo" />
+            </a>
           </div>
           <div className="footer-share">
             <div className="scl">
               <a
                 href="https://www.facebook.com/mlsclasses?mibextid=ZbWKwL"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
-                <i className="fa-brands fa-facebook-f" style={{ alignItems: "center", justifyContent: "center", minWidth: "1em" }}></i>
+                <i
+                  className="fa-brands fa-facebook-f"
+                  style={{
+                    alignItems: "center",
+                    justifyContent: "center",
+                    minWidth: "1em",
+                  }}
+                ></i>
               </a>
             </div>
             <div className="scl">
               <a
                 href="https://www.instagram.com/mlsclasses_usa?igsh=djFpaHZhZm1zdHBl&utm_source=qr"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-instagram"></i>
               </a>
@@ -31,7 +42,8 @@ const FooterComponent = () => {
             <div className="scl">
               <a
                 href="https://www.linkedin.com/company/online-tutor-usa/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
@@ -39,14 +51,26 @@ const FooterComponent = () => {
             <div className="scl">
               <a
                 href="https://www.youtube.com/@mlsclasses8293?si=KBojcjPosvKjfwjH"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-youtube"></i>
               </a>
             </div>
             <div className="scl">
-              <a href="https://wa.me/message/XMS5KMWBGQZLG1" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-whatsapp" style={{ alignItems: "center", justifyContent: "center", minWidth: "1em" }}></i>
+              <a
+                href="https://wa.me/message/XMS5KMWBGQZLG1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i
+                  className="fa-brands fa-whatsapp"
+                  style={{
+                    alignItems: "center",
+                    justifyContent: "center",
+                    minWidth: "1em",
+                  }}
+                ></i>
               </a>
             </div>
           </div>
@@ -54,29 +78,28 @@ const FooterComponent = () => {
 
         <div className="footer2-sub-h">
           <div className="footer2-h">Company</div>
-          <div >
+          <div>
             <a href="#">About</a>
           </div>
-          <div >
+          <div>
             <a href="shipping">Shipping</a>
           </div>
-          
         </div>
         <div className="footer2-sub-h">
           <div className="footer2-h">Reach us</div>
           <div className="footer-mail">
             {/* <img src={imgMail} alt="email" width="10%" className="MailImg" /> &nbsp; */}
-            <a href="mailto:admission@mlsclasses.com">admission@mlsclasses.com</a>
-
+            <a href="mailto:admission@mlsclasses.com">
+              admission@mlsclasses.com
+            </a>
           </div>
-          <div className="footer-mail" >
+          <div className="footer-mail">
             {/* <img src={imgMail} alt="email" width="10%" className="MailImg" /> &nbsp; */}
-            <a href="mailto:support@mlsclasses.com" >support@mlsclasses.com</a>
+            <a href="mailto:support@mlsclasses.com">support@mlsclasses.com</a>
           </div>
           <div style={{ marginTop: "10px", marginLeft: "1px" }}>
             <a href="/contact">Contact us</a>
           </div>
-
         </div>
         <div className="footer2-sub-h">
           <div className="footer2-h">Quick Links</div>
@@ -92,17 +115,16 @@ const FooterComponent = () => {
         </div>
         <div className="footer2-sub-h">
           <div className="footer2-h">Other Resources</div>
-          <div >
+          <div>
             <a href="#">Blogs</a>
           </div>
-          <div >
+          <div>
             <a href="#">Resources Center</a>
           </div>
-          <div >
+          <div>
             <a href="#">Affiliates</a>
           </div>
         </div>
-
 
         {/* <div className="footer2-sub-h">
           <div className="footer2-h">Parent Resources</div>
@@ -130,7 +152,7 @@ const FooterComponent = () => {
 
       <div className="footer-bottom">
         <Row>
-          <Col xs={12} md={4} sm={12}>
+          <Col xs={12} md={6} sm={12}>
           <ul className="footer-menu">
             <li>
             <a href="/terms">Terms &amp; Conditions</a>
@@ -145,7 +167,6 @@ const FooterComponent = () => {
           <br/> All Rights Reserved.</div>
           </Col>
         </Row>
-        
       </div>
     </div>
   );

@@ -133,6 +133,9 @@ gap: 2px;
 
   }
 }
+.footer-menu{
+  padding: 25px;
+}
 .footer2-sub-h a:hover{
   color: #482ff7;
 }

@@ -8,9 +8,9 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 // import Mobile_Navbar from "../components/mobile_navbar";
 import '../assets/css/studentJob.css';
 import { Helmet } from 'react-helmet';
-import { first_img1, testimonial1, testimonial10, testimonial11, testimonial12, testimonial13, testimonial14, testimonial15, testimonial16, testimonial17, testimonial18, testimonial19, testimonial2, testimonial20, testimonial21, testimonial22, testimonial3, testimonial4, testimonial5, testimonial6, testimonial7, testimonial8 } from "./mls_constants";
+import { first_img1,  testimonial1,testimonial10, testimonial11, testimonial12, testimonial13, testimonial14, testimonial15, testimonial16, testimonial17, testimonial18, testimonial19, testimonial2, testimonial20, testimonial21, testimonial22, testimonial3, testimonial4, testimonial5, testimonial6, testimonial7, testimonial8 } from "./mls_constants";
 import NavbarPage from "../navbarComponent";
-
+// import testimonial1 from "../assets/img/testimonials/testimonial.jpeg";
 
 const stars = (num) => {
   const stars_arr = [];

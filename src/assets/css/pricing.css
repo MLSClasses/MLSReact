@@ -16,14 +16,13 @@
   display: flex;
   justify-content: center;
 }
-.boxx1>.free_class{
+.boxx1 > .free_class {
   margin-left: -5%;
 }
 .container-desc {
   text-align: center;
   font-size: 48px;
   line-height: 56.63px;
-  font-family: "Abhaya Libre", serif;
 }
 .random1 {
   text-align: center;
@@ -81,7 +80,6 @@
   font-size: 1.5vw;
   font-weight: 700;
   margin-top: 1vw;
-  font-family: "Abhaya Libre", serif;
 }
 
 .find-live div {
@@ -254,8 +252,8 @@
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
- white-space: nowrap;
- margin-left: -5px;
+  white-space: nowrap;
+  margin-left: -5px;
 }
 
 .popular-btn {
@@ -583,7 +581,7 @@
     display: flex;
     justify-content: center;
   }
-  .boxx1>.free_class {
+  .boxx1 > .free_class {
     margin-left: -30%;
     min-width: 120%;
   }
@@ -620,9 +618,8 @@
   .deets > .box {
     margin-left: 8%;
   }
-  .LowerBox{
-
-    line-height:150%;
+  .LowerBox {
+    line-height: 150%;
   }
   .features-content-2 {
     margin-bottom: 2vw;
