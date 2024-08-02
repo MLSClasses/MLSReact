@@ -79,7 +79,7 @@ a {
   .nav-menu {
     position: absolute;
     z-index: 100;
-    left: -100%;
+    left: -106%;
     top: 6.5rem;
     flex-direction: column;
     background-color: #fff;
@@ -121,7 +121,7 @@ a {
   .nav-menu {
     position: absolute;
     z-index: 100;
-    left: -100%;
+    left: -106%;
     top: 6.5rem;
     flex-direction: column;
     background-color: #fff;
@@ -164,7 +164,7 @@ a {
   .nav-menu {
     position: absolute;
     z-index: 100;
-    left: -100%;
+    left: -106%;
     top: 6.5rem;
     flex-direction: column;
     background-color: #fff;
