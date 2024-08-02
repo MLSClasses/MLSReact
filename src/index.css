@@ -80,14 +80,10 @@ a:hover {
   color: var(--warning-color) !important;
 }
 
-.container {
-  padding: 20px;
-}
-
 header {
   background-color: var(--primary-color);
   color: var(--light-color);
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 
