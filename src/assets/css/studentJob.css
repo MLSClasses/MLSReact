@@ -23,3 +23,13 @@
     justify-content: center;
   }
 }
+.lightImg{
+  /* width: 500px; */
+  display: flex;
+    /* display: inline-flex; */
+    gap: 40px;
+    /* padding: 78px; */
+    overflow: scroll;
+    float: left;
+    justify-content: center;
+}

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import FixedHeaderStrip from "./components/headerStrip";
 
+
 const NavbarPage = () => {
   const [active, setActive] = useState("");
   useEffect(() => {

@@ -164,7 +164,7 @@ const FooterComponent = () => {
           <Col xs={12} md={6} sm={12}>
           {/* <div className="footer-copyright">Copyright 2023 By MLS Classes . All Rights</div> */}
           <div class="footer-copyright">© 2024 <a href="https://www.mlsclasses.com/" target="_blank">&nbsp;MLS Classes: Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE</a>
-          <br/> All Rights Reserved.</div>
+           All Rights Reserved.</div>
           </Col>
         </Row>
       </div>
