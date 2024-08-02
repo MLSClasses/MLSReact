@@ -15,10 +15,11 @@ import slider1 from '../assets/img/1.jpg';
 import CommentsSlide from "../components/comments_slide";
 import { redirect, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import Navbar from "../components/navbar";
+import Navbar from "../components/topbar";
 import { Accordion, Col, Container, Image, Row } from "react-bootstrap";
 import { ChallengingEnv, Comp_Programs, Confidence_Building, ExpertInstructors, Flexible, Lifelong_Skills, Per_learning, Proven_results, image1, image11, image13, image2, image3, slider2, slider3, slider4, slider5, slider6 } from "./mls_constants";
 import NavbarPage from "../navbarComponent";
+import TopBarComponent from "../components/topbar";
 function Index() {
   const myInlineStyle = {
     fontSize: "16px",
@@ -74,6 +75,7 @@ function Index() {
   console.log(`https://youtube.com/embed/${youtubeID}?autoplay=0`);
   return (
     <div>
+      <TopBarComponent/>
       <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />

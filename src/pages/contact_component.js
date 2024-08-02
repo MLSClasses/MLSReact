@@ -4,7 +4,7 @@ import FooterComponent from "../components/footer";
 // import moment from "moment-timezone";
 import WhatsappIcon from "../components/whatsapp_icon";
 import { Helmet } from 'react-helmet';
-import Navbar from "../components/navbar";
+import Navbar from "../components/topbar";
 import { first_img } from "./mls_constants";
 import NavbarPage from "../navbarComponent";
 
@@ -117,7 +117,7 @@ const apiKey = process.env.REACT_APP_BREVO_API_KEY;
                 'name': 'Ritik Mittal Learning '
               }
             ],
-            "subject": "You got a new query fromInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE!",
+            "subject": "You got a new query from MLS CLASSES!",
             "htmlContent": `
             <h3 align="center">User Details</h3>
             <table border="1" width="100%" cellpadding="5" cellspacing="5">
@@ -184,12 +184,12 @@ const apiKey = process.env.REACT_APP_BREVO_API_KEY;
       <NavbarPage />
       <Helmet>
         <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
-        <meta name="title" content="Contact us for a Free Demo & more details |Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE" />
-        <meta name="description" content="Contact withInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE expert team & get every course details |Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE" />
-        <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs ofInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.|Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE
+        <meta name="title" content="Contact us for a Free Demo & more details | MLS Classes" />
+        <meta name="description" content="Contact with MLS Classes expert team & get every course details | MLS Classes" />
+        <meta name="keywords" content="MLS Classes offers Live, Online Math, English, Science, Coding, SAT, ACT, AP, SSAT, STAAR, and AMC classes for students in grades 2-12. The programs of MLS Classes are specifically designed to accelerate your child's academic progress, programs, GUARANTEED.| MLS Classes
 "/>
         <meta name="robots" content="index, follow" />
-        <title>Contact us for a Free Demo & more details |Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE</title>
+        <title>Contact us for a Free Demo & more details | MLS Classes</title>
       </Helmet>
       <WhatsappIcon />
       <div class="f-template-contact">

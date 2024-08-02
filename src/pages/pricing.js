@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/pricing.css";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Navbar from "../components/topbar";
 import AOS from "aos";
 import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";

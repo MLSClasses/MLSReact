@@ -1,11 +1,11 @@
 import React from 'react';
 import "../assets/css/footer.css";
 import FooterComponent from '../components/footer';
-import Navbar from "../components/navbar";
+import NavbarPage from '../navbarComponent';
 const CancellationPage = () => {
     return(
     <>
-    <Navbar/>
+    <NavbarPage/>
     <div class= 'compalinace-page'>
             <div class= 'header-conatiner'>
                         <div class= 'merchant-logo'>

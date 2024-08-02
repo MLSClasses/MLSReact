@@ -548,7 +548,7 @@
 }
 
 .footer2-sub-h {
-  margin-top: 5vw;
+  margin-top: 3vw;
 }
 
 .footer-share a {
@@ -569,10 +569,10 @@
   line-height: 2vw;
 }
 
-.footer-copyright {
+/* .footer-copyright {
   padding: 2vw 4vw;
   font-size: 1.2vw;
-}
+} */
 @media (max-width: 768px) {
   nav .nav-login-btn {
     margin-top: 0.1vw;

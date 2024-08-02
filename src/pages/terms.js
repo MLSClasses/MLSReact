@@ -1,7 +1,7 @@
 import React from 'react';
 import "../assets/css/footer.css";
 import FooterComponent from '../components/footer';
-import Navbar from "../components/navbar";
+import Navbar from "../components/topbar";
 const Term = () => {
     return(
     <>
@@ -32,7 +32,7 @@ const Term = () => {
         Welcome to our website. If you continue to browse and use this website you
         are agreeing to comply with and be bound by the following terms and
         conditions of use, which together with our privacy policy govern
-       Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE''s relationship with you in
+        MLS Classes''s relationship with you in
         relation to this website.
     </p>
     <p class='content-text'>
@@ -103,7 +103,7 @@ const Term = () => {
         <li class='list-item'>
             <p class='content-text list-text'>
                 You may not create a link to this website from another website or
-                document withoutInteractive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE’s prior
+                document without MLS Classes’s prior
                 written consent.
             </p>
         </li>

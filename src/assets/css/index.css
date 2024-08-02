@@ -33,7 +33,8 @@ nav {
 }
 
 nav div img {
-  width: 15vw;
+  /* width: 15vw; */
+  width: 120px;
 }
 nav ul {
   text-decoration: none;
@@ -607,7 +608,7 @@ nav ul li {
   display: flex;
   justify-content: space-around;
   font-size: 1.2vw;
-  padding: 2vw;
+  /* padding: 2vw; */
 }
 
 .footer2-sub div {
@@ -634,7 +635,7 @@ nav ul li {
 }
 
 .footer2-sub-h {
-  margin-top: 5vw;
+  /* margin-top: 5vw; */
 }
 
 .footer-share a {
@@ -1086,4 +1087,24 @@ hr {
 }
 .Slideshow{
   margin-top: 65px;
+}
+.top-bar{
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.fa-phone:before {
+  content: "\f095"
+}
+
+@media (max-width: 768px) {
+  /* .top-bar{
+    display: ;
+  } */
 }

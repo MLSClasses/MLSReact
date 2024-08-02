@@ -2,7 +2,7 @@ import React from "react";
 import AOS from "aos";
 
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Navbar from "../components/topbar";
 import { Container, Row, Col, Image } from "react-bootstrap";
 // import Whatsapp_icon from "../components/whatsapp_icon";
 // import Mobile_Navbar from "../components/mobile_navbar";

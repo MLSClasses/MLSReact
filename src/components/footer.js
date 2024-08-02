@@ -8,8 +8,8 @@ const FooterComponent = () => {
     <div className="footer2">
       <div className="footer2-sub">
         <div>
-          <div className="footer-img">
-            <a href='/' ><img src={logo} alt="mls logo" /></a>
+          <div className="">
+            <a href='/' ><img  className='logoStyle' src={logo} alt="mls logo" /></a>
           </div>
           <div className="footer-share">
             <div className="scl">
@@ -78,7 +78,18 @@ const FooterComponent = () => {
           </div>
 
         </div>
-
+        <div className="footer2-sub-h">
+          <div className="footer2-h">Quick Links</div>
+          <div >
+            <a href="/program">Program</a>
+          </div>
+          <div >
+            <a href="/pricing">Pricing</a>
+          </div>
+          <div >
+            <a href="#">Affiliates</a>
+          </div>
+        </div>
         <div className="footer2-sub-h">
           <div className="footer2-h">Other Resources</div>
           <div >
@@ -119,7 +130,7 @@ const FooterComponent = () => {
 
       <div className="footer-bottom">
         <Row>
-          <Col xs={12} md={6} sm={12}>
+          <Col xs={12} md={4} sm={12}>
           <ul className="footer-menu">
             <li>
             <a href="/terms">Terms &amp; Conditions</a>
@@ -130,7 +141,8 @@ const FooterComponent = () => {
           </Col>
           <Col xs={12} md={6} sm={12}>
           {/* <div className="footer-copyright">Copyright 2023 By MLS Classes . All Rights</div> */}
-          <div class="footer-copyright">© 2024 <a href="https://www.mlsclasses.com/" target="_blank">MLS Classes: Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE</a>. All Rights Reserved.</div>
+          <div class="footer-copyright">© 2024 <a href="https://www.mlsclasses.com/" target="_blank">&nbsp;MLS Classes: Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE</a>
+          <br/> All Rights Reserved.</div>
           </Col>
         </Row>
         

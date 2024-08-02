@@ -1,15 +1,16 @@
 import React from "react";
 import "../assets/css/privacy.css";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+
 import { Helmet } from 'react-helmet';
+import NavbarPage from "../navbarComponent";
 
 const Privacy = () => {
 
 
     return (
         <div>
-            <Navbar />
+            <NavbarPage />
             <Helmet>
                 <meta name="google-site-verification" content="bhOOEzJ-8aaGF_FM3O7nKH4GgUpXIhIk0kr_tPC9FTY" />
                 <meta name="title" content="Interactive 1:1 Online Classes: SAT, ACT, AP, Common Core, IB & IGCSE" />
