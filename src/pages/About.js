@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.css";
 
 const HeaderSection = () => (
-  <Container fluid className="bg-primary text-white py-4">
+  <Container fluid className="bg-primary text-white py-4 golden">
     <Row className="justify-content-center">
       <Col xs={12} md={8} className="text-center">
         <h1>About MLS Classes</h1>
@@ -109,7 +109,9 @@ const ContactUsSection = () => (
 function About() {
   return (
     <>
-      <NavbarPage />
+      <div style={{ marginTop: "2rem" }}>
+        <NavbarPage />
+      </div>
       <Helmet>
         <meta
           name="google-site-verification"
@@ -131,7 +133,7 @@ function About() {
           Live 1:1 Online Classes for Kids (Grade 2-12) | MLS Classes
         </title>
       </Helmet>
-      <div>
+      <div style={{ marginTop: "15rem" }}>
         <HeaderSection />
         <MissionSection />
         <ProgramsSection />
