@@ -103,10 +103,10 @@ const FooterComponent = () => {
         </div>
 
         <div className="footer2-sub-h">
-          <div className="footer2-h">Other Resources</div>
-          <div>
+          {/* <div className="footer2-h">Other Resources</div> */}
+          {/* <div>
             <a href="#">Blogs</a>
-          </div>
+          </div> */}
           {/* <div>
             <a href="#">Resources Center</a>
           </div>
