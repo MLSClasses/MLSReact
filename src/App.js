@@ -1,6 +1,6 @@
 //Dependencies
-import './App.scss';
-import 'boxicons/css/boxicons.min.css';
+import "./App.scss";
+import "boxicons/css/boxicons.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 //components
@@ -16,19 +16,45 @@ import StudentJob from "./pages/studentJob";
 import Login from "./pages/loginpage";
 // import Signup from "./pages/Signuppage";
 import Portal from "./pages/student/portal";
-import Chat from './pages/student/chat';
+import Chat from "./pages/student/chat";
 import WhatsappIcon from "./components/whatsapp_icon";
 import StudentDashboard from "./pages/student/student_dashboard";
-import ACT_READING_WRITING from './blogs/act_reading_writing';
+import ACT_READING_WRITING from "./blogs/act_reading_writing";
 
-
-import { act_english, act_english_conclusion, act_english_heading, act_english_img, act_math, act_math_conclusion, act_math_heading, act_math_img, act_reading_writing, act_reading_writing_conculsion, act_reading_writing_heading, act_science, act_science_conclusion, act_science_heading, act_science_img, banner, sat_math, sat_math_conclusion, sat_math_heading, sat_math_img, sat_r_w, sat_reading_writing, sat_reading_writing_conclusion, sat_reading_writing_feedback, sat_reading_writing_heading } from './pages/mls_constants';
-import LandingPage from './pages/landing_page';
-import Privacy from './pages/privacy_page';
-import ContactPage from './pages/contact';
-import Shipping from './pages/shipping';
-import Term from './pages/terms';
-import CancellationPage from './pages/cancel_refund';
+import {
+  act_english,
+  act_english_conclusion,
+  act_english_heading,
+  act_english_img,
+  act_math,
+  act_math_conclusion,
+  act_math_heading,
+  act_math_img,
+  act_reading_writing,
+  act_reading_writing_conculsion,
+  act_reading_writing_heading,
+  act_science,
+  act_science_conclusion,
+  act_science_heading,
+  act_science_img,
+  banner,
+  sat_math,
+  sat_math_conclusion,
+  sat_math_heading,
+  sat_math_img,
+  sat_r_w,
+  sat_reading_writing,
+  sat_reading_writing_conclusion,
+  sat_reading_writing_feedback,
+  sat_reading_writing_heading,
+} from "./pages/mls_constants";
+import LandingPage from "./pages/landing_page";
+import Privacy from "./pages/privacy_page";
+import ContactPage from "./pages/contact";
+import Shipping from "./pages/shipping";
+import Term from "./pages/terms";
+import CancellationPage from "./pages/cancel_refund";
+import About from "./pages/About";
 function App() {
   return (
     <div class="body">
@@ -37,6 +63,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
           {/* <Route path="/signup" element={<Signup />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/programs" element={<Programs />}></Route>
@@ -46,27 +73,91 @@ function App() {
           <Route path="/portal" element={<Portal />}></Route>
           <Route path="/chat" element={<Chat />}></Route>
           <Route path="/student_portal" element={<StudentDashboard />}></Route>
-          <Route path="/act_reading_writing" element={<ACT_READING_WRITING banner_img={banner} headingText={act_reading_writing_heading} mainContent={act_reading_writing} conclusion={act_reading_writing_conculsion} />}></Route>
-          <Route path="/act_science" element={<ACT_READING_WRITING banner_img={act_science_img} headingText={act_science_heading} mainContent={act_science} conclusion={act_science_conclusion} />}></Route>
-          <Route path="/act_english" element={<ACT_READING_WRITING banner_img={act_english_img} headingText={act_english_heading} mainContent={act_english} conclusion={act_english_conclusion} />}></Route>
-          <Route path="/act_math" element={<ACT_READING_WRITING banner_img={act_math_img} headingText={act_math_heading} mainContent={act_math} conclusion={act_math_conclusion} />}></Route>
-          <Route path="/sat_reading_writing" element={<ACT_READING_WRITING feedback={false} banner_img={sat_r_w} headingText={sat_reading_writing_heading} mainContent={sat_reading_writing} conclusion={sat_reading_writing_conclusion} student_feedback={sat_reading_writing_feedback} />}></Route>
-          <Route path="/sat_math" element={<ACT_READING_WRITING feedback={true} banner_img={sat_math_img} headingText={sat_math_heading} mainContent={sat_math} conclusion={sat_math_conclusion} student_feedback={sat_math_conclusion} />}></Route>
+          <Route
+            path="/act_reading_writing"
+            element={
+              <ACT_READING_WRITING
+                banner_img={banner}
+                headingText={act_reading_writing_heading}
+                mainContent={act_reading_writing}
+                conclusion={act_reading_writing_conculsion}
+              />
+            }
+          ></Route>
+          <Route
+            path="/act_science"
+            element={
+              <ACT_READING_WRITING
+                banner_img={act_science_img}
+                headingText={act_science_heading}
+                mainContent={act_science}
+                conclusion={act_science_conclusion}
+              />
+            }
+          ></Route>
+          <Route
+            path="/act_english"
+            element={
+              <ACT_READING_WRITING
+                banner_img={act_english_img}
+                headingText={act_english_heading}
+                mainContent={act_english}
+                conclusion={act_english_conclusion}
+              />
+            }
+          ></Route>
+          <Route
+            path="/act_math"
+            element={
+              <ACT_READING_WRITING
+                banner_img={act_math_img}
+                headingText={act_math_heading}
+                mainContent={act_math}
+                conclusion={act_math_conclusion}
+              />
+            }
+          ></Route>
+          <Route
+            path="/sat_reading_writing"
+            element={
+              <ACT_READING_WRITING
+                feedback={false}
+                banner_img={sat_r_w}
+                headingText={sat_reading_writing_heading}
+                mainContent={sat_reading_writing}
+                conclusion={sat_reading_writing_conclusion}
+                student_feedback={sat_reading_writing_feedback}
+              />
+            }
+          ></Route>
+          <Route
+            path="/sat_math"
+            element={
+              <ACT_READING_WRITING
+                feedback={true}
+                banner_img={sat_math_img}
+                headingText={sat_math_heading}
+                mainContent={sat_math}
+                conclusion={sat_math_conclusion}
+                student_feedback={sat_math_conclusion}
+              />
+            }
+          ></Route>
           {/* 👇️ only match this when no other routes match */}
           {/* <Route path="*" element={<PageNotFound />} /> */}
           <Route path="/sat_workshop" element={<LandingPage />}></Route>
-          <Route path="/cancellation_refund" element={<CancellationPage />}></Route>
+          <Route
+            path="/cancellation_refund"
+            element={<CancellationPage />}
+          ></Route>
           <Route path="/privacy" element={<Privacy />}></Route>
           <Route path="/shipping" element={<Shipping />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
           <Route path="/terms" element={<Term />}></Route>
-
-
         </Routes>
       </BrowserRouter>
     </div>
   );
-
 }
 export default App;
 // function PageNotFound() {
@@ -77,4 +168,3 @@ export default App;
 //     </div>
 //   );
 // }
-
