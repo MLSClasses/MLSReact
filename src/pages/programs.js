@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../components/footer";
-import Navbar from "../components/topbar";
 import "../assets/css/program.css";
 import { Helmet } from 'react-helmet';
 import { Link } from "react-scroll";
