@@ -79,7 +79,7 @@ const FooterComponent = () => {
         <div className="footer2-sub-h">
           <div className="footer2-h">Company</div>
           <div>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </div>
           <div>
             <a href="shipping">Shipping</a>
@@ -114,16 +114,16 @@ const FooterComponent = () => {
           </div>
         </div>
         <div className="footer2-sub-h">
-          <div className="footer2-h">Other Resources</div>
-          <div>
+          {/* <div className="footer2-h">Other Resources</div> */}
+          {/* <div>
             <a href="#">Blogs</a>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <a href="#">Resources Center</a>
           </div>
           <div>
             <a href="#">Affiliates</a>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="footer2-sub-h">
