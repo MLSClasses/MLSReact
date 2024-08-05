@@ -41,8 +41,8 @@ a {
     /* justify-content: space-between; */
     /* align-items: center; */
     /* padding: 1rem 1.5rem; */
-    height: 110px;
-    /* height: auto; */
+    /* height: 110px; */
+    height: auto;
   } 
 }
 
